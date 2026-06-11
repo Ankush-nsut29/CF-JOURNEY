@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="view-header header-with-sprite">
+    <h1>SEARCH BY RATING</h1>
+    <img src="https://play.pokemonshowdown.com/sprites/gen5ani/torchic.gif" alt="Torchic" class="cute-sprite">
+</div>
+
+<form action="/sort" method="POST" class="add pokemon-box" style="margin-bottom: 24px;">
+    <label for="rating">ENTER RATING</label>
+    <input type="number" id="rating" name="rating" required placeholder="e.g. 1400" autocomplete="off" value="{{ rating if rating else '' }}">
+    <input type="submit" value="SEARCH" class="btn-submit">
+</form>
+
+{% if rating is not none %}
+    <div class="view-header">
+        <h2>Results for rating: {{ rating }}</h2>
+        {% if problems %}
+        <div class="view-meta">
+            <span class="badge">{{ problems | length }} solved</span>
+        </div>
+        {% endif %}
+    </div>
+
+    {% if problems %}
+    <div class="table-wrap">
+        <table class="problems-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Problem ID</th>
+                    <th>Title</th>
+                    <th>Rating</th>
+                    <th>Tags</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for p in problems %}
+                <tr>
+                    <td class="col-index">{{ loop.index }}</td>
+                    <td class="col-number"><code>{{ p.pid }}</code></td>
+                    <td class="col-title">{{ p.title }}</td>
+                    <td class="col-rating">
+                        <span class="rating-badge
+                            {% set r = p.rating | int %}
+                            {% if r < 1200 %}r-gray
+                            {% elif r < 1400 %}r-green
+                            {% elif r < 1600 %}r-cyan
+                            {% elif r < 1900 %}r-blue
+                            {% elif r < 2100 %}r-violet
+                            {% elif r < 2400 %}r-orange
+                            {% else %}r-red{% endif %}">
+                            {{ p.rating }}
+                        </span>
+                    </td>
+                    <td class="col-tags">{{ p.tags if p.tags else "—" }}</td>
+                    <td class="col-link">
+                        <a href="{{ p.link }}" target="_blank" class="open-btn">↗ Open</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+        <div class="empty-state">
+            <p>📭 No problems found with rating {{ rating }}.</p>
+        </div>
+    {% endif %}
+{% endif %}
+
+{% endblock %}

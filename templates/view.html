@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="view-header header-with-sprite">
+    <h1>RECENT SUBMISSIONS</h1>
+    <img src="https://play.pokemonshowdown.com/sprites/gen5ani/eevee.gif" alt="Eevee" class="cute-sprite">
+    <div class="view-meta">
+        <span class="badge">{{ problems | length }} solved</span>
+    </div>
+</div>
+
+{% if problems %}
+<div class="table-wrap">
+    <table class="problems-table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Problem ID</th>
+                <th>Title</th>
+                <th>Rating</th>
+                <th>Tags</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for p in problems %}
+            <tr>
+                <td class="col-index">{{ loop.index }}</td>
+                <td class="col-number"><code>{{ p.pid }}</code></td>
+                <td class="col-title">{{ p.title }}</td>
+                <td class="col-rating">
+                    {% if p.rating %}
+                    <span class="rating-badge
+                        {% set r = p.rating | int %}
+                        {% if r < 1200 %}r-gray
+                        {% elif r < 1400 %}r-green
+                        {% elif r < 1600 %}r-cyan
+                        {% elif r < 1900 %}r-blue
+                        {% elif r < 2100 %}r-violet
+                        {% elif r < 2400 %}r-orange
+                        {% else %}r-red{% endif %}">
+                        {{ p.rating }}
+                    </span>
+                    {% else %}
+                    <span class="rating-badge r-gray">Unrated</span>
+                    {% endif %}
+                </td>
+                <td class="col-tags">{{ p.tags if p.tags else "—" }}</td>
+                <td class="col-link">
+                    <a href="{{ p.link }}" target="_blank" class="open-btn">↗ Open</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% else %}
+<div class="empty-state">
+    <p>📭 Could not load problems. Check your CF handle or internet connection.</p>
+</div>
+{% endif %}
+
+{% endblock %}

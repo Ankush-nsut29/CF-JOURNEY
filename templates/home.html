@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="home-content">
+    <div class="header-with-sprite">
+        <h1>MY CODEFORCES TRACKER</h1>
+        <img src="https://play.pokemonshowdown.com/sprites/gen5ani/rayquaza.gif" alt="Rayquaza" class="floating-rayquaza">
+    </div>
+
+    <!-- Heatmap -->
+    <section class="heatmap-section">
+        <div class="header-with-sprite" style="margin-bottom: 8px;">
+            <h2 style="margin: 0;">Submission Heatmap — Last 52 Weeks</h2>
+            <img src="https://play.pokemonshowdown.com/sprites/gen5ani/mew.gif" alt="Mew" class="cute-sprite" style="width: 48px;">
+        </div>
+        <div class="heatmap-wrap">
+            <div class="heatmap">
+                {% for date_str, count in heatmap %}
+                <div class="heatmap-cell
+                    {% if count == 0 %}level-0
+                    {% elif count <= 2 %}level-1
+                    {% elif count <= 4 %}level-2
+                    {% elif count <= 7 %}level-3
+                    {% else %}level-4{% endif %}"
+                    title="{{ date_str }}: {{ count }} solved">
+                </div>
+                {% endfor %}
+            </div>
+            <div class="heatmap-legend">
+                <span>Less</span>
+                <div class="heatmap-cell level-0"></div>
+                <div class="heatmap-cell level-1"></div>
+                <div class="heatmap-cell level-2"></div>
+                <div class="heatmap-cell level-3"></div>
+                <div class="heatmap-cell level-4"></div>
+                <span>More</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rating distribution bar chart -->
+    <section class="chart-section">
+        <h2>Problems Solved by Rating</h2>
+        {% if rating_dist %}
+        <div class="chart-container">
+            <canvas id="ratingChart"></canvas>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+            const labels = {{ rating_dist.keys() | list | tojson }};
+            const data   = {{ rating_dist.values() | list | tojson }};
+
+            // Detect Dark Mode
+            const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+            // Retro Chart.js Settings
+            Chart.defaults.font.family = "'VT323', monospace";
+            Chart.defaults.font.size = 16;
+            Chart.defaults.color = isDarkMode ? "#ffffff" : "#2b2b2b";
+
+            // Color each bar by CF rating color convention
+            function ratingColor(r) {
+                if (r < 1200) return "#808080";        // gray
+                if (r < 1400) return "#008000";        // green
+                if (r < 1600) return "#03a89e";        // cyan
+                if (r < 1900) return "#0000ff";        // blue
+                if (r < 2100) return "#aa00aa";        // violet
+                if (r < 2400) return "#ff8c00";        // orange
+                return "#ff0000";                       // red
+            }
+
+            const colors = labels.map(r => ratingColor(Number(r)));
+
+            new Chart(document.getElementById("ratingChart"), {
+                type: "bar",
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: "Problems Solved",
+                        data: data,
+                        backgroundColor: colors,
+                        borderColor: colors,
+                        borderWidth: 1,
+                        borderRadius: 4,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                title: (items) => `Rating: ${items[0].label}`,
+                                label:  (item)  => ` ${item.raw} problems solved`
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: { display: true, text: "Problem Rating" },
+                            grid: { display: false }
+                        },
+                        y: {
+                            title: { display: true, text: "Problems Solved" },
+                            beginAtZero: true,
+                            ticks: { stepSize: 1 }
+                        }
+                    }
+                }
+            });
+        </script>
+        {% else %}
+        <p>No data yet — add some solved problems!</p>
+        {% endif %}
+    </section>
+</div>
+{% endblock %}

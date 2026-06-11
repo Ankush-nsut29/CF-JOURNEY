@@ -1,0 +1,17 @@
+{%extends "base.html"%}
+
+{%block content%}
+<h1>ADD A NEW PROBLEM</h1>
+<form action="/add" method="POST" class="add pokemon-box">
+    <label for="title">TITLE</label>
+    <input type="text" id="title" name="title" required autocomplete="off">
+
+    <label for="rating">RATING</label>
+    <input type="number" id="rating" name="rating" required autocomplete="off">
+
+    <label for="number">PROBLEM NUMBER</label>
+    <input type="text" id="number" name="number" required autocomplete="off">
+
+    <input type="submit" value="ADD" class="btn-submit">
+</form>
+{%endblock%}

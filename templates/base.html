@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+    <title>CP Tracker</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/view">View</a>
+            <a href="/sort">Sort</a>
+            <a href="/coach">Coach</a>
+        </nav>
+    </header>
+
+    <main>
+        {%block content%}
+        {%endblock%}
+    </main>
+
+    <aside>
+        <h2>TRAINER CARD</h2>
+        <div class="stat-item">
+            <span class="stat-label">Rating</span>
+            <span class="stat-value">{{ cf_stats.rating }}</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-label">Max Rating</span>
+            <span class="stat-value">{{ cf_stats.maxRating }}</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-label">Rank</span>
+            <span class="stat-value">{{ cf_stats.rank }}</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-label">Solved</span>
+            <span class="stat-value">{{ cf_stats.total_solved }}</span>
+        </div>
+    </aside>
+
+    <footer>
+        <a href="https://codeforces.com/profile/akcodesalot" target="_blank">MY CODEFORCES PROFILE</a>
+    </footer>
+</body>
+
+</html>

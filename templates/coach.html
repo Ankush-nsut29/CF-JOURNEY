@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="view-header">
+    <h1>PROF. BIRCH'S LAB</h1>
+</div>
+
+<div class="coach-container">
+    <div class="coach-scene">
+        <div class="coach-sprites">
+            <div class="coach-sprite">
+                <img src="/static/birch.png" alt="Professor Birch">
+            </div>
+            <div class="pokemon-sprite">
+                <img src="https://play.pokemonshowdown.com/sprites/gen5ani/mudkip.gif" alt="Mudkip">
+            </div>
+        </div>
+        <div class="coach-platform"></div>
+    </div>
+    <div class="coach-dialogue pokemon-box">
+        <div class="dialogue-text">
+            {{ advice | safe }}
+        </div>
+        <div class="dialogue-actions">
+            <a href="/coach?refresh=1" class="btn-submit">Ask for New Advice</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

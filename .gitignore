@@ -1,0 +1,16 @@
+# Environment variables (CRITICAL: Do not commit your API keys!)
+.env
+
+# Python compilation files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# IDE files
+.vscode/
+.idea/

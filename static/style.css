@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+:root {
+    --emerald-bg: #55c880;
+    --emerald-dark: #2d824d;
+    --box-border: #1a3c34;
+    --box-bg: #fdfbf7;
+    --box-inner-border: #498877;
+    --text-main: #2b2b2b;
+    --pokemon-red: #e74c3c;
+    --pokemon-blue: #3498db;
+    --highlight: #f0e6d2;
+    --bg-pattern-color: rgba(255, 255, 255, 0.3);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--emerald-bg);
+    background-image: radial-gradient(var(--bg-pattern-color) 2px, transparent 2px);
+    background-size: 24px 24px;
+    background-position: 0 0;
+    min-height: 100vh;
+    font-family: 'VT323', monospace;
+    font-size: 18px; /* VT323 needs to be a bit larger to be readable */
+    color: var(--text-main);
+    animation: scrollBg 40s linear infinite;
+}
+
+@keyframes scrollBg {
+    0% { background-position: 0 0; }
+    100% { background-position: 48px 48px; } /* Multiple of 12px for seamless loop */
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 90px 1fr 70px;
+    gap: 16px;
+    padding: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.4;
+}
+
+h1 { font-size: 1.2rem; text-shadow: 2px 2px 0px rgba(0,0,0,0.1); }
+h2 { font-size: 1rem; }
+
+/* ── Pokémon Dialog Box Style ── */
+.pokemon-box {
+    background-color: var(--box-bg);
+    border: 4px solid var(--box-border);
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: inset 0 0 0 2px var(--box-inner-border), 4px 4px 0px rgba(0,0,0,0.15);
+}
+
+/* ── Layout Areas ── */
+header {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    display: flex;
+    align-items: center;
+    background: var(--box-bg);
+    border: 4px solid var(--box-border);
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 4px var(--box-inner-border), 4px 4px 0px rgba(0,0,0,0.2);
+    padding: 0 20px;
+}
+
+main {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    overflow-y: auto;
+}
+
+aside {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+footer {
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--box-bg);
+    border: 4px solid var(--box-border);
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 4px var(--box-inner-border), 4px 4px 0px rgba(0,0,0,0.2);
+}
+
+/* ── Navigation (Game Menu) ── */
+nav {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+}
+
+nav a {
+    color: var(--text-main);
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.7rem;
+    padding: 10px 16px;
+    border: 2px solid var(--text-main);
+    border-radius: 4px;
+    background: white;
+    box-shadow: 2px 2px 0px var(--text-main);
+    transition: transform 0.1s;
+}
+
+nav a:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 0px 0px 0px var(--text-main);
+    background: var(--highlight);
+}
+
+nav a::before {
+    content: "▶ ";
+    opacity: 0;
+}
+nav a:hover::before {
+    opacity: 1;
+}
+
+footer a {
+    color: var(--text-main);
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.7rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* ── Trainer Card (Aside Stats) ── */
+aside h2 {
+    border-bottom: 4px solid var(--box-border);
+    padding-bottom: 12px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: white;
+    border: 2px solid var(--box-border);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.stat-label {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.55rem;
+    color: var(--emerald-dark);
+}
+
+.stat-value {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* ── Forms (Naming Screen) ── */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    filter: drop-shadow(0px 8px 32px rgba(0, 0, 0, 0.25));
+}
+
+.add {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.add label {
+    display: block;
+    margin-top: 16px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.7rem;
+}
+
+.add input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 2px solid var(--box-border);
+    border-radius: 4px;
+    font-family: 'VT323', monospace;
+    font-size: 1.4rem;
+    background: white;
+}
+
+.add input:focus {
+    outline: none;
+    border-color: var(--pokemon-blue);
+    background: #f0f8ff;
+}
+
+.btn-submit {
+    margin-top: 24px;
+    background: var(--pokemon-red);
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.8rem;
+    padding: 16px;
+    border: 4px solid var(--box-border);
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: inset -4px -4px 0px rgba(0,0,0,0.2);
+    width: 100%;
+}
+
+.btn-submit:active {
+    box-shadow: inset 4px 4px 0px rgba(0,0,0,0.2);
+}
+
+/* ── Tables (PC Box / Item Bag) ── */
+.view-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.view-meta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.badge {
+    background: var(--box-border);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.6rem;
+}
+
+.btn-add {
+    background: white;
+    color: var(--text-main);
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 2px solid var(--box-border);
+    border-radius: 4px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.6rem;
+    box-shadow: 2px 2px 0px var(--box-border);
+}
+
+.btn-add:active {
+    transform: translate(2px, 2px);
+    box-shadow: 0px 0px 0px var(--box-border);
+}
+
+.table-wrap {
+    overflow-x: auto;
+    margin-top: 16px;
+}
+
+.problems-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 4px solid var(--box-border);
+    background: white;
+    border-radius: 8px;
+}
+
+.problems-table thead tr {
+    background: var(--box-inner-border);
+    color: white;
+}
+
+.problems-table th {
+    padding: 12px 16px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.6rem;
+    text-align: left;
+    border-bottom: 4px solid var(--box-border);
+}
+
+.problems-table td {
+    padding: 12px 16px;
+    border-bottom: 2px solid var(--highlight);
+    font-size: 1.4rem;
+}
+
+.problems-table tbody tr:nth-child(even) {
+    background-color: #faf7f0;
+}
+
+.problems-table tbody tr:hover {
+    background-color: #e8f4f0;
+}
+
+.col-number code {
+    background: var(--highlight);
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--box-border);
+}
+
+.col-tags {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* CF-style rating badges (Retro adjusted) */
+.rating-badge {
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.6rem;
+    color: white;
+    border: 2px solid rgba(0,0,0,0.2);
+    display: inline-block;
+}
+.r-gray   { background: #888; }
+.r-green  { background: #4caf50; }
+.r-cyan   { background: #00bcd4; }
+.r-blue   { background: #2196f3; color: white; }
+.r-violet { background: #9c27b0; }
+.r-orange { background: #ff9800; }
+.r-red    { background: #f44336; }
+
+.open-btn {
+    color: var(--pokemon-blue);
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.6rem;
+}
+.open-btn:hover { text-decoration: underline; }
+
+.delete-btn {
+    font-size: 1.4rem;
+    text-decoration: none;
+    display: inline-block;
+    filter: grayscale(100%);
+}
+.delete-btn:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+/* Empty state */
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+}
+.empty-state p { font-size: 1.6rem; margin-bottom: 24px; }
+
+
+/* ── Heatmap ── */
+.heatmap-section {
+    margin-top: 24px;
+}
+
+.heatmap-section h2 {
+    margin-bottom: 16px;
+}
+
+.heatmap-wrap {
+    overflow-x: auto;
+    padding-bottom: 8px;
+}
+
+.heatmap {
+    display: inline-grid;
+    width: max-content;
+    grid-template-rows: repeat(7, 16px);
+    grid-auto-flow: column;
+    grid-auto-columns: 16px;
+    gap: 4px;
+    background: white;
+    padding: 12px;
+    border: 2px solid var(--box-border);
+    border-radius: 4px;
+}
+
+.heatmap-cell {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+/* Color levels (Retro Emerald adjusted) */
+.level-0 { background-color: #ebedf0; border-color: transparent; }
+.level-1 { background-color: #a7f3d0; }
+.level-2 { background-color: #34d399; }
+.level-3 { background-color: #10b981; }
+.level-4 { background-color: #047857; }
+
+.heatmap-legend {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.5rem;
+}
+
+.heatmap-legend .heatmap-cell {
+    width: 12px;
+    height: 12px;
+}
+
+/* Rating chart */
+.chart-section {
+    margin-top: 40px;
+}
+
+.chart-section h2 {
+    margin-bottom: 16px;
+}
+
+.chart-container {
+    background: white;
+    border: 4px solid var(--box-border);
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+/* Professor Birch Coach Page */
+.coach-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.coach-scene {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coach-sprites {
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+    z-index: 2;
+}
+
+.coach-platform {
+    width: 280px;
+    height: 64px;
+    background: #609670;
+    border: 4px solid #3c6549;
+    border-radius: 50%;
+    margin-top: -30px;
+    z-index: 1;
+    box-shadow: inset 0px -8px 0px rgba(0,0,0,0.15);
+}
+
+.coach-sprite img {
+    image-rendering: pixelated;
+    width: 128px;
+    height: 128px;
+    filter: drop-shadow(4px 4px 0px rgba(0,0,0,0.2));
+    animation: breathe 3s ease-in-out infinite;
+}
+
+.pokemon-sprite img {
+    image-rendering: pixelated;
+    width: 64px;
+    height: auto;
+    filter: drop-shadow(2px 2px 0px rgba(0,0,0,0.2));
+}
+
+@keyframes breathe {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+}
+
+.header-with-sprite {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.floating-rayquaza {
+    width: 96px;
+    image-rendering: pixelated;
+    animation: float 4s ease-in-out infinite;
+}
+
+.cute-sprite {
+    width: 56px;
+    image-rendering: pixelated;
+    filter: drop-shadow(2px 2px 0px rgba(0,0,0,0.2));
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.coach-dialogue {
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+    padding-bottom: 60px; /* Space for button */
+}
+
+.dialogue-text {
+    line-height: 1.6;
+    font-size: 1.2rem;
+}
+
+.dialogue-text p {
+    margin-bottom: 16px;
+}
+
+.dialogue-text strong {
+    color: var(--pokemon-red);
+}
+
+.dialogue-actions {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+::-webkit-scrollbar-track {
+    background: var(--box-bg);
+    border-left: 2px solid var(--box-border);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--box-inner-border);
+    border: 2px solid var(--box-bg);
+    border-radius: 6px;
+}
+
+/* ── Dark Mode (Night Time / Cave Theme) ── */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --emerald-bg: #14281e;          /* Dark forest green background */
+        --emerald-dark: #87e0a5;        /* Light green for accents like stat labels */
+        --box-border: #609c80;          /* Lighter greenish border */
+        --box-bg: #1a2521;              /* Very dark teal for dialog boxes */
+        --box-inner-border: #2b4a3c;    /* Inner border shadow */
+        --text-main: #ffffff;           /* Pure white text */
+        --highlight: #22382f;           /* Darker highlight for table rows and nav */
+        --bg-pattern-color: rgba(255, 255, 255, 0.05); /* Very faint dots for cave theme */
+    }
+
+    /* Force specific elements to use box background and text colors */
+    nav a, .stat-item, .add input, .btn-add, .problems-table, .heatmap, .chart-container {
+        background-color: var(--box-bg);
+        color: var(--text-main);
+    }
+
+    /* Input focus */
+    .add input:focus {
+        background-color: #21352b;
+    }
+
+    /* Table alternating rows & hover */
+    .problems-table tbody tr:nth-child(even) {
+        background-color: #1b2a25;
+    }
+    .problems-table tbody tr:hover {
+        background-color: var(--highlight);
+    }
+
+    /* Dark mode heatmap colors (White heat) */
+    .level-0 { background-color: #22352b; }
+    .level-1 { background-color: rgba(255, 255, 255, 0.3); }
+    .level-2 { background-color: rgba(255, 255, 255, 0.6); }
+    .level-3 { background-color: rgba(255, 255, 255, 0.85); }
+    .level-4 { background-color: #ffffff; box-shadow: 0 0 4px #ffffff; }
+}
