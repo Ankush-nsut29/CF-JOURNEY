@@ -431,6 +431,10 @@ def get_elm_advice(solved_dict, code=None, action="recommend"):
     solved_list = list(solved_dict.keys())
     solved_str = ", ".join(solved_list) if solved_list else "None"
     
+    recent_list = get_lc_recent()
+    recent_titles = [r.get("title") for r in recent_list[:5]] if recent_list else []
+    recent_str = ", ".join(recent_titles) if recent_titles else "None"
+    
     if action == "recommend":
         prompt = f"""
         You are Professor Elm from Pokemon, but as an expert LeetCode coach.
@@ -439,6 +443,9 @@ def get_elm_advice(solved_dict, code=None, action="recommend"):
         
         They have manually marked the following problems as completed from the NeetCode 150 list:
         {solved_str}
+        
+        Their most recently solved problems on LeetCode are:
+        {recent_str}
         
         Based on their stats and the standard NeetCode 150 topic progression (Arrays -> Two Pointers -> Sliding Window -> Stack -> Binary Search -> Linked List -> Trees etc.),
         Recommend the NEXT 3 specific problems they should tackle. 
