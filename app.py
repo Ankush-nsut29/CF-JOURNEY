@@ -460,7 +460,7 @@ def get_elm_advice(solved_dict, code=None, action="recommend"):
         
     try:
         response = client.models.generate_content(
-            model='gemini-2.5-pro',
+            model='gemini-2.5-flash',
             contents=prompt,
         )
         return markdown.markdown(response.text)
