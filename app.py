@@ -355,13 +355,21 @@ def get_birch_advice(force_refresh=False):
             model='gemini-2.5-flash',
             contents=prompt,
         )
-        # Convert markdown to html and cache it
-        html_advice = markdown.markdown(response.text)
-        _cf_cache["advice"] = html_advice
-        return html_advice
     except Exception as e:
-        print(f"Gemini API Error: {e}")
-        return "<p>Oh no, a wild Error appeared! The Gemini API failed to respond. Check your API key and try again.</p>"
+        print(f"Flash model failed ({e}), falling back to Pro model...")
+        try:
+            response = client.models.generate_content(
+                model='gemini-2.5-pro',
+                contents=prompt,
+            )
+        except Exception as fallback_e:
+            print(f"Gemini API Error: {fallback_e}")
+            return "<p>Oh no, a wild Error appeared! Both Gemini models failed to respond. Check your API key and try again.</p>"
+
+    # Convert markdown to html and cache it
+    html_advice = markdown.markdown(response.text)
+    _cf_cache["advice"] = html_advice
+    return html_advice
 
 
 @app.route("/")
@@ -470,10 +478,18 @@ def get_elm_advice(solved_dict, code=None, action="recommend"):
             model='gemini-2.5-flash',
             contents=prompt,
         )
-        return markdown.markdown(response.text)
     except Exception as e:
-        print(f"Gemini error: {e}")
-        return f"<p>Oops, my Pokedex (Gemini API) is malfunctioning: {e}</p>"
+        print(f"Flash model failed ({e}), falling back to Pro model...")
+        try:
+            response = client.models.generate_content(
+                model='gemini-2.5-pro',
+                contents=prompt,
+            )
+        except Exception as fallback_e:
+            print(f"Gemini error: {fallback_e}")
+            return f"<p>Oops, my Pokedex (Gemini API) is malfunctioning. Both models failed: {fallback_e}</p>"
+            
+    return markdown.markdown(response.text)
 
 @app.route("/lc/coach", methods=["GET", "POST"])
 def lc_coach():
