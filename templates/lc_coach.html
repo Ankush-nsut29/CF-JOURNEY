@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="view-header">
+    <h1>PROF. ELM'S LAB</h1>
+</div>
+
+<div class="coach-container">
+    <div class="coach-scene">
+        <div class="coach-sprites">
+            <div class="coach-sprite">
+                <img src="https://play.pokemonshowdown.com/sprites/trainers/elm.png" alt="Professor Elm">
+            </div>
+            <div class="pokemon-sprite">
+                <img src="https://play.pokemonshowdown.com/sprites/gen5ani/torchic.gif" alt="Torchic" style="transform: scaleX(-1);">
+            </div>
+        </div>
+        <div class="coach-platform"></div>
+    </div>
+    
+    <div class="coach-dialogue pokemon-box" style="width: 100%; max-width: 800px;">
+        <div class="dialogue-text" style="margin-bottom: 20px;">
+            <p><strong>Professor Elm:</strong> Welcome! I see you are tackling the LeetCode journey. What can I help you with?</p>
+        </div>
+
+        <div class="coach-actions">
+            <form method="POST" action="/lc/coach" id="coach-form">
+                <input type="hidden" name="solved_problems" id="solved_problems_input">
+                
+                <div class="form-group">
+                    <label for="action_type">What do you want to do?</label>
+                    <select name="action_type" id="action_type">
+                        <option value="recommend">What should I solve next?</option>
+                        <option value="review">Review my solution</option>
+                    </select>
+                </div>
+
+                <div class="form-group" id="code_group" style="display: none;">
+                    <label for="code">Paste your Python solution here:</label>
+                    <textarea name="code" id="code" rows="10" placeholder="def twoSum(self, nums, target):..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Ask Professor Elm</button>
+            </form>
+        </div>
+    </div>
+
+    {% if advice %}
+    <div class="coach-response pokemon-box" style="width: 100%; max-width: 800px; margin-top: 20px;">
+        <h3>Professor Elm says:</h3>
+        <div class="advice-content">
+            {{ advice | safe }}
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<style>
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+select, textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid var(--box-border);
+    color: #000;
+    border-radius: 4px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.7rem;
+}
+.btn-submit {
+    background-color: var(--pokemon-blue);
+    color: white;
+    border: 2px solid white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.8rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px var(--box-border);
+    transition: transform 0.1s;
+}
+.btn-submit:active {
+    transform: translate(2px, 2px);
+    box-shadow: 0px 0px 0px var(--box-border);
+}
+.btn-submit:hover {
+    filter: brightness(1.2);
+}
+.advice-content {
+    margin-top: 15px;
+    line-height: 1.6;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const actionType = document.getElementById('action_type');
+    const codeGroup = document.getElementById('code_group');
+    const solvedInput = document.getElementById('solved_problems_input');
+    
+    // Pass local storage progress into the hidden input
+    const progress = localStorage.getItem('lcProgress') || '{}';
+    solvedInput.value = progress;
+
+    actionType.addEventListener('change', (e) => {
+        if (e.target.value === 'review') {
+            codeGroup.style.display = 'block';
+        } else {
+            codeGroup.style.display = 'none';
+        }
+    });
+});
+</script>
+{% endblock %}

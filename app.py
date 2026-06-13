@@ -3,7 +3,11 @@ import requests as req
 from datetime import datetime, timedelta, date
 import random
 import os
+import json
 import markdown
+from dotenv import load_dotenv
+from google import genai
+from neetcode150 import NEETCODE_150, ROADMAP_LEVELS
 from dotenv import load_dotenv
 from google import genai
 
@@ -14,11 +18,14 @@ app = Flask(__name__)
 CF_HANDLE = "akcodesalot"
 _cf_cache = {"stats": None, "time": None, "advice": None}
 
+LC_HANDLE = os.environ.get("LC_USERNAME", "isaidduh")
+_lc_cache = {"stats": None, "time": None, "advice": None, "recent": None, "recent_time": None, "heatmap": None, "heatmap_time": None}
+
 
 def get_cf_stats():
     """Fetch CF user stats with 5-minute caching."""
     now = datetime.now()
-    if _cf_cache["stats"] and _cf_cache["time"] and (now - _cf_cache["time"]).seconds < 300:
+    if _cf_cache.get("stats") and _cf_cache.get("stats_time") and (now - _cf_cache.get("stats_time")).seconds < 3600:
         return _cf_cache["stats"]
 
     stats = {"rating": "N/A", "maxRating": "N/A", "rank": "N/A", "total_solved": 0, "rating_dist": {}}
@@ -59,12 +66,16 @@ def get_cf_stats():
         print(f"CF user.status error: {e}")
 
     _cf_cache["stats"] = stats
-    _cf_cache["time"] = now
+    _cf_cache["stats_time"] = now
     return stats
 
 
 def get_heatmap():
     """Fetch last 52 weeks of AC submission counts per day, starting on a Sunday."""
+    now = datetime.now()
+    if _cf_cache.get("heatmap") and _cf_cache.get("heatmap_time") and (now - _cf_cache.get("heatmap_time")).seconds < 3600:
+        return _cf_cache["heatmap"]
+
     today = date.today()
     start = today - timedelta(weeks=52)
     # Shift start back to the nearest Sunday (weekday() is 0 for Mon, 6 for Sun)
@@ -94,7 +105,10 @@ def get_heatmap():
     except Exception as e:
         print(f"CF heatmap error: {e}")
 
-    return sorted(day_counts.items())  # list of (date_str, count)
+    result = sorted(day_counts.items())
+    _cf_cache["heatmap"] = result
+    _cf_cache["heatmap_time"] = now
+    return result
 
 
 @app.context_processor
@@ -102,9 +116,139 @@ def inject_cf_stats():
     """Make cf_stats available in every template (for aside)."""
     return {"cf_stats": get_cf_stats()}
 
+def get_lc_stats():
+    now = datetime.now()
+    if _lc_cache.get("stats") and _lc_cache.get("stats_time") and (now - _lc_cache.get("stats_time")).seconds < 3600:
+        return _lc_cache["stats"]
+    
+    url = 'https://leetcode.com/graphql'
+    query = '''
+    query userSessionProgress($username: String!) {
+      matchedUser(username: $username) {
+        submitStats {
+          acSubmissionNum {
+            difficulty
+            count
+          }
+        }
+      }
+    }
+    '''
+    stats = {"All": 0, "Easy": 0, "Medium": 0, "Hard": 0}
+    try:
+        r = req.post(url, json={'query': query, 'variables': {'username': LC_HANDLE}}, timeout=5)
+        d = r.json()
+        ac_num = d.get("data", {}).get("matchedUser", {}).get("submitStats", {}).get("acSubmissionNum", [])
+        for item in ac_num:
+            diff = item.get("difficulty")
+            if diff in stats:
+                stats[diff] = item.get("count")
+    except Exception as e:
+        print(f"LC stats error: {e}")
+
+    _lc_cache["stats"] = stats
+    _lc_cache["stats_time"] = now
+    return stats
+
+def get_lc_recent():
+    now = datetime.now()
+    if _lc_cache.get("recent") and _lc_cache.get("recent_time") and (now - _lc_cache.get("recent_time")).seconds < 3600:
+        return _lc_cache["recent"]
+
+    url = 'https://leetcode.com/graphql'
+    query = '''
+    query recentAcSubmissions($username: String!) {
+      recentAcSubmissionList(username: $username, limit: 20) {
+        title
+        titleSlug
+        timestamp
+      }
+    }
+    '''
+    recent = []
+    try:
+        r = req.post(url, json={'query': query, 'variables': {'username': LC_HANDLE}}, timeout=5)
+        d = r.json()
+        recent = d.get("data", {}).get("recentAcSubmissionList", [])
+        
+        # Batch fetch difficulty
+        if recent:
+            diff_query = "query { " + " ".join([f'q{i}: question(titleSlug: "{item.get("titleSlug")}") {{ difficulty }}' for i, item in enumerate(recent)]) + " }"
+            diff_r = req.post(url, json={'query': diff_query}, timeout=5)
+            diff_d = diff_r.json().get("data", {})
+            for i, item in enumerate(recent):
+                item["link"] = f"https://leetcode.com/problems/{item.get('titleSlug')}/"
+                item["difficulty"] = diff_d.get(f"q{i}", {}).get("difficulty", "Unknown")
+                
+    except Exception as e:
+        print(f"LC recent error: {e}")
+        
+    _lc_cache["recent"] = recent
+    _lc_cache["recent_time"] = now
+    return recent
+
+def get_lc_heatmap():
+    now = datetime.now()
+    if _lc_cache.get("heatmap") and _lc_cache.get("heatmap_time") and (now - _lc_cache.get("heatmap_time")).seconds < 3600:
+        return _lc_cache["heatmap"]
+
+    url = 'https://leetcode.com/graphql'
+    query = '''
+    query userProfileCalendar($username: String!, $year: Int) {
+      matchedUser(username: $username) {
+        userCalendar(year: $year) {
+          submissionCalendar
+        }
+      }
+    }
+    '''
+    today = date.today()
+    start = today - timedelta(weeks=52)
+    days_to_sunday = (start.weekday() + 1) % 7
+    start = start - timedelta(days=days_to_sunday)
+
+    day_counts = {}
+    cur = start
+    while cur <= today:
+        day_counts[cur.strftime("%Y-%m-%d")] = 0
+        cur += timedelta(days=1)
+
+    try:
+        r = req.post(url, json={'query': query, 'variables': {'username': LC_HANDLE}}, timeout=5)
+        d = r.json()
+        cal_str = d.get("data", {}).get("matchedUser", {}).get("userCalendar", {}).get("submissionCalendar", "{}")
+        if cal_str:
+            cal_data = json.loads(cal_str)
+            for ts_str, count in cal_data.items():
+                ts = int(ts_str)
+                sub_date = datetime.fromtimestamp(ts).date()
+                date_str = sub_date.strftime("%Y-%m-%d")
+                if date_str in day_counts:
+                    day_counts[date_str] += count
+    except Exception as e:
+        print(f"LC heatmap error: {e}")
+
+    result = sorted(day_counts.items())
+    _lc_cache["heatmap"] = result
+    _lc_cache["heatmap_time"] = now
+    return result
+
+@app.context_processor
+def inject_lc_stats():
+    """Make lc_stats available in every template (for aside)."""
+    return {"lc_stats": get_lc_stats()}
+
+@app.template_filter('datetimeformat')
+def datetimeformat(value, format='%Y-%m-%d %H:%M'):
+    return datetime.fromtimestamp(value).strftime(format)
+
 
 def get_cf_solved_problems():
     """Fetch all unique accepted problems from CF API, sorted by rating."""
+    now = datetime.now()
+    if _cf_cache.get("solved") and _cf_cache.get("solved_time") and (now - _cf_cache.get("solved_time")).seconds < 3600:
+        return _cf_cache["solved"]
+        
     problems = []
     seen = set()
     try:
@@ -134,6 +278,8 @@ def get_cf_solved_problems():
 
     # Sort: rated problems by rating, unrated at the end
     problems.sort(key=lambda p: (p["rating"] is None, p["rating"] or 0))
+    _cf_cache["solved"] = problems
+    _cf_cache["solved_time"] = now
     return problems
 
 
@@ -179,7 +325,7 @@ def get_birch_advice(force_refresh=False):
     load_dotenv(override=True)
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key or api_key == "your_api_key_here":
-        return "<p>Ah! I seem to have misplaced my <b>Gemini API Key</b>! Please add it to your <code>.env</code> file so we can begin your training!</p>"
+        return "<p>Ah! I seem to have misplaced my <b>Gemini API Key</b>! Please add it to your <code>.env</code> file (or host environment variables) so we can begin your training!</p>"
     
     stats = get_cf_stats()
     urating = stats.get("rating")
@@ -256,6 +402,92 @@ def coach():
     advice_html = get_birch_advice(force_refresh=force)
     return render_template("coach.html", advice=advice_html)
 
+
+@app.route("/lc")
+def lc_home():
+    heatmap = get_lc_heatmap()
+    stats = get_lc_stats()
+    rating_dist = {
+        "Easy": stats.get("Easy", 0),
+        "Medium": stats.get("Medium", 0),
+        "Hard": stats.get("Hard", 0)
+    }
+    return render_template("lc_home.html", heatmap=heatmap, rating_dist=rating_dist)
+
+@app.route("/lc/view")
+def lc_view():
+    problems = get_lc_recent()
+    return render_template("lc_view.html", problems=problems)
+
+def get_elm_advice(solved_dict, code=None, action="recommend"):
+    load_dotenv(override=True)
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key or api_key == "your_api_key_here":
+        return "<p>Ah! I seem to have misplaced my <b>Gemini API Key</b>! Please add it to your <code>.env</code> file (or host environment variables) so we can begin your training!</p>"
+        
+    client = genai.Client(api_key=api_key)
+    stats = get_lc_stats()
+    
+    solved_list = list(solved_dict.keys())
+    solved_str = ", ".join(solved_list) if solved_list else "None"
+    
+    if action == "recommend":
+        prompt = f"""
+        You are Professor Elm from Pokemon, but as an expert LeetCode coach.
+        The user's LeetCode stats are:
+        Easy: {stats.get('Easy', 0)}, Medium: {stats.get('Medium', 0)}, Hard: {stats.get('Hard', 0)}
+        
+        They have manually marked the following problems as completed from the NeetCode 150 list:
+        {solved_str}
+        
+        Based on their stats and the standard NeetCode 150 topic progression (Arrays -> Two Pointers -> Sliding Window -> Stack -> Binary Search -> Linked List -> Trees etc.),
+        Recommend the NEXT 3 specific problems they should tackle. 
+        Format your response nicely with markdown, using a friendly Professor Elm tone.
+        """
+    else:
+        prompt = f"""
+        You are Professor Elm from Pokemon, but as an expert LeetCode coach.
+        Please review the following Python solution the user submitted for a LeetCode problem.
+        
+        Code:
+        ```python
+        {code}
+        ```
+        
+        Give a brief review on its Time & Space complexity, any edge cases missed, and how it could be written more 'Pythonically'.
+        Format your response in markdown. Be encouraging!
+        """
+        
+    try:
+        response = client.models.generate_content(
+            model='gemini-2.5-pro',
+            contents=prompt,
+        )
+        return markdown.markdown(response.text)
+    except Exception as e:
+        print(f"Gemini error: {e}")
+        return f"<p>Oops, my Pokedex (Gemini API) is malfunctioning: {e}</p>"
+
+@app.route("/lc/coach", methods=["GET", "POST"])
+def lc_coach():
+    advice_html = None
+    if request.method == "POST":
+        action = request.form.get("action_type")
+        code = request.form.get("code")
+        solved_str = request.form.get("solved_problems", "{}")
+        try:
+            solved_dict = json.loads(solved_str)
+        except:
+            solved_dict = {}
+            
+        advice_html = get_elm_advice(solved_dict, code=code, action=action)
+        
+    return render_template("lc_coach.html", advice=advice_html)
+
+
+@app.route("/lc/roadmap")
+def lc_roadmap():
+    return render_template("lc_roadmap.html", levels=ROADMAP_LEVELS, neetcode=NEETCODE_150)
 
 if __name__ == "__main__":
     app.run(debug=True)

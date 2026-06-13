@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="home-content">
+    <div class="header-with-sprite">
+        <h1>MY LEETCODE TRACKER</h1>
+        <img src="https://play.pokemonshowdown.com/sprites/gen5ani/groudon.gif" alt="Groudon" class="floating-rayquaza" style="animation: none;">
+    </div>
+
+    <!-- Heatmap -->
+    <section class="heatmap-section">
+        <div class="header-with-sprite" style="margin-bottom: 8px;">
+            <h2 style="margin: 0;">Submission Heatmap — Last 52 Weeks</h2>
+            <img src="https://play.pokemonshowdown.com/sprites/gen5ani/pichu.gif" alt="Pichu" class="cute-sprite" style="width: 48px;">
+        </div>
+        <div class="heatmap-wrap">
+            <div class="heatmap">
+                {% for date_str, count in heatmap %}
+                <div class="heatmap-cell
+                    {% if count == 0 %}level-0
+                    {% elif count <= 2 %}level-1
+                    {% elif count <= 4 %}level-2
+                    {% elif count <= 7 %}level-3
+                    {% else %}level-4{% endif %}"
+                    title="{{ date_str }}: {{ count }} submissions">
+                </div>
+                {% endfor %}
+            </div>
+            <div class="heatmap-legend">
+                <span>Less</span>
+                <div class="heatmap-cell level-0"></div>
+                <div class="heatmap-cell level-1"></div>
+                <div class="heatmap-cell level-2"></div>
+                <div class="heatmap-cell level-3"></div>
+                <div class="heatmap-cell level-4"></div>
+                <span>More</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rating distribution bar chart -->
+    <section class="chart-section">
+        <h2>Problems Solved by Difficulty</h2>
+        {% if rating_dist %}
+        <div class="chart-container">
+            <canvas id="ratingChart"></canvas>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+            const labels = {{ rating_dist.keys() | list | tojson }};
+            const data   = {{ rating_dist.values() | list | tojson }};
+
+            // Detect Dark Mode
+            const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+            // Retro Chart.js Settings
+            Chart.defaults.font.family = "'VT323', monospace";
+            Chart.defaults.font.size = 16;
+            Chart.defaults.color = "#ffffff";
+
+            // Color each bar by difficulty
+            function difficultyColor(label) {
+                if (label === "Easy") return "#4caf50";
+                if (label === "Medium") return "#ff9800";
+                if (label === "Hard") return "#f44336";
+                return "#888";
+            }
+
+            const colors = labels.map(l => difficultyColor(l));
+
+            new Chart(document.getElementById("ratingChart"), {
+                type: "bar",
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: "Problems Solved",
+                        data: data,
+                        backgroundColor: colors,
+                        borderColor: colors,
+                        borderWidth: 1,
+                        borderRadius: 4,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                title: (items) => `Difficulty: ${items[0].label}`,
+                                label:  (item)  => ` ${item.raw} problems solved`
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: { display: true, text: "Difficulty" },
+                            grid: { display: false }
+                        },
+                        y: {
+                            title: { display: true, text: "Problems Solved" },
+                            beginAtZero: true,
+                            ticks: { stepSize: 10 }
+                        }
+                    }
+                }
+            });
+        </script>
+        {% else %}
+        <p>No data yet — add some solved problems!</p>
+        {% endif %}
+    </section>
+</div>
+{% endblock %}

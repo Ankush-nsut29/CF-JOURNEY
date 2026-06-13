@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="view-header header-with-sprite">
+    <h1>RECENT LC SUBMISSIONS</h1>
+    <img src="https://play.pokemonshowdown.com/sprites/gen5ani/pichu.gif" alt="Pichu" class="cute-sprite">
+    <div class="view-meta">
+        <span class="badge">Last {{ problems | length }} solved</span>
+    </div>
+</div>
+
+{% if problems %}
+<div class="table-wrap">
+    <table class="problems-table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Title</th>
+                <th>Timestamp</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for p in problems %}
+            <tr>
+                <td class="col-index">{{ loop.index }}</td>
+                <td class="col-title"><span class="difficulty-{{ p.difficulty|lower }}">{{ p.difficulty }}</span><br>{{ p.title }}</td>
+                <td class="col-rating">{{ p.timestamp | int | datetimeformat }}</td>
+                <td class="col-link">
+                    <a href="{{ p.link }}" target="_blank" class="open-btn">↗ Open</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% else %}
+<div class="empty-state">
+    <p>📭 Could not load recent LC problems. Check your LC handle or internet connection.</p>
+</div>
+{% endif %}
+
+{% endblock %}

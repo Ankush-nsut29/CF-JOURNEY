@@ -606,3 +606,123 @@ aside h2 {
     .level-3 { background-color: rgba(255, 255, 255, 0.85); }
     .level-4 { background-color: #ffffff; box-shadow: 0 0 4px #ffffff; }
 }
+
+/* ── LC Mode (Groudon/Ruby Theme) ── */
+html.lc-mode {
+    --emerald-bg: #1a0a0a;          /* Deep dark red/black */
+    --emerald-dark: #FFD700;        /* Gold accent */
+    --box-border: #c0392b;          /* Magma red border */
+    --box-bg: #2c0e0e;              /* Dark red-black box */
+    --box-inner-border: #e74c3c;    /* Brighter red inner */
+    --text-main: #ffffff;           /* White text on dark bg */
+    --pokemon-red: #c0392b;
+    --pokemon-blue: #229954;        /* Forest green highlight/buttons */
+    --highlight: #3a1c1c;           /* Highlight row color */
+    --bg-pattern-color: rgba(231, 76, 60, 0.1); /* Reddish dots */
+}
+
+html.lc-mode nav a, 
+html.lc-mode .stat-item, 
+html.lc-mode .add input, 
+html.lc-mode .btn-add, 
+html.lc-mode .problems-table, 
+html.lc-mode .heatmap, 
+html.lc-mode .chart-container {
+    background-color: var(--box-bg);
+    color: var(--text-main);
+}
+
+html.lc-mode .add input:focus {
+    background-color: #4a1515;
+}
+
+html.lc-mode .problems-table tbody tr:nth-child(even) {
+    background-color: #230b0b;
+}
+
+html.lc-mode .problems-table tbody tr:hover {
+    background-color: var(--highlight);
+}
+
+/* Groudon shouldn't float! */
+html.lc-mode .floating-rayquaza {
+    animation: none;
+    margin-bottom: -10px; /* Adjust alignment since it's not floating */
+}
+
+/* Heatmap colors for LC mode */
+html.lc-mode .level-0 { background-color: #2a1111; border-color: transparent; }
+html.lc-mode .level-1 { background-color: #e67e22; }
+html.lc-mode .level-2 { background-color: #d35400; }
+html.lc-mode .level-3 { background-color: #c0392b; }
+html.lc-mode .level-4 { background-color: #FFD700; box-shadow: 0 0 4px #FFD700; }
+
+/* Stats container toggling */
+html.lc-mode .cf-stats-container { display: none; }
+html.lc-mode .lc-stats-container { display: flex !important; flex-direction: column; gap: 16px; }
+
+/* Decorative Side Sprites */
+.deco-sprite {
+    position: fixed;
+    bottom: 5%;
+    image-rendering: pixelated;
+    width: 100px;
+    z-index: 0;
+    filter: drop-shadow(4px 4px 0px rgba(0,0,0,0.2));
+    animation: bounce-idle 2s infinite alternate;
+}
+
+@keyframes bounce-idle {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.deco-left {
+    left: 4%;
+    /* Flip left sprite to face the center */
+    transform: scaleX(-1);
+    animation: bounce-idle-flip 2s infinite alternate;
+}
+
+@keyframes bounce-idle-flip {
+    0% { transform: scaleX(-1) translateY(0); }
+    100% { transform: scaleX(-1) translateY(-10px); }
+}
+
+.deco-right {
+    right: 4%;
+}
+
+/* Hide them on smaller screens to prevent overlapping content */
+@media (max-width: 1400px) {
+    .deco-sprite {
+        display: none;
+    }
+}
+
+/* LeetCode Difficulty Tags */
+.difficulty-easy, .difficulty-medium, .difficulty-hard {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+}
+.difficulty-easy {
+    background-color: #e0f2f1;
+    color: #00897b;
+    border: 1px solid #00897b;
+}
+.difficulty-medium {
+    background-color: #fff3e0;
+    color: #f57c00;
+    border: 1px solid #f57c00;
+}
+.difficulty-hard {
+    background-color: #ffebee;
+    color: #e53935;
+    border: 1px solid #e53935;
+}
