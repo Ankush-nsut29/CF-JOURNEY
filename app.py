@@ -25,7 +25,7 @@ _lc_cache = {"stats": None, "time": None, "advice": None, "recent": None, "recen
 def get_cf_stats():
     """Fetch CF user stats with 5-minute caching."""
     now = datetime.now()
-    if _cf_cache.get("stats") and _cf_cache.get("stats_time") and (now - _cf_cache.get("stats_time")).seconds < 3600:
+    if _cf_cache.get("stats") and _cf_cache.get("stats_time") and (now - _cf_cache.get("stats_time")).total_seconds() < 3600:
         return _cf_cache["stats"]
 
     stats = {"rating": "N/A", "maxRating": "N/A", "rank": "N/A", "total_solved": 0, "rating_dist": {}}
@@ -65,15 +65,18 @@ def get_cf_stats():
     except Exception as e:
         print(f"CF user.status error: {e}")
 
-    _cf_cache["stats"] = stats
-    _cf_cache["stats_time"] = now
+    if stats["rating"] != "N/A":
+        _cf_cache["stats"] = stats
+        _cf_cache["stats_time"] = now
+    elif _cf_cache.get("stats"):
+        return _cf_cache["stats"]
     return stats
 
 
 def get_heatmap():
     """Fetch last 52 weeks of AC submission counts per day, starting on a Sunday."""
     now = datetime.now()
-    if _cf_cache.get("heatmap") and _cf_cache.get("heatmap_time") and (now - _cf_cache.get("heatmap_time")).seconds < 3600:
+    if _cf_cache.get("heatmap") and _cf_cache.get("heatmap_time") and (now - _cf_cache.get("heatmap_time")).total_seconds() < 3600:
         return _cf_cache["heatmap"]
 
     today = date.today()
@@ -106,8 +109,12 @@ def get_heatmap():
         print(f"CF heatmap error: {e}")
 
     result = sorted(day_counts.items())
-    _cf_cache["heatmap"] = result
-    _cf_cache["heatmap_time"] = now
+    # Only cache if data seems valid (has submissions)
+    if sum(day_counts.values()) > 0:
+        _cf_cache["heatmap"] = result
+        _cf_cache["heatmap_time"] = now
+    elif _cf_cache.get("heatmap"):
+        return _cf_cache["heatmap"]
     return result
 
 
@@ -118,7 +125,7 @@ def inject_cf_stats():
 
 def get_lc_stats():
     now = datetime.now()
-    if _lc_cache.get("stats") and _lc_cache.get("stats_time") and (now - _lc_cache.get("stats_time")).seconds < 3600:
+    if _lc_cache.get("stats") and _lc_cache.get("stats_time") and (now - _lc_cache.get("stats_time")).total_seconds() < 3600:
         return _lc_cache["stats"]
     
     url = 'https://leetcode.com/graphql'
@@ -146,13 +153,16 @@ def get_lc_stats():
     except Exception as e:
         print(f"LC stats error: {e}")
 
-    _lc_cache["stats"] = stats
-    _lc_cache["stats_time"] = now
+    if stats["All"] > 0 or not _lc_cache.get("stats"):
+        _lc_cache["stats"] = stats
+        _lc_cache["stats_time"] = now
+    elif _lc_cache.get("stats"):
+        return _lc_cache["stats"]
     return stats
 
 def get_lc_recent():
     now = datetime.now()
-    if _lc_cache.get("recent") and _lc_cache.get("recent_time") and (now - _lc_cache.get("recent_time")).seconds < 3600:
+    if _lc_cache.get("recent") and _lc_cache.get("recent_time") and (now - _lc_cache.get("recent_time")).total_seconds() < 3600:
         return _lc_cache["recent"]
 
     url = 'https://leetcode.com/graphql'
@@ -183,13 +193,16 @@ def get_lc_recent():
     except Exception as e:
         print(f"LC recent error: {e}")
         
-    _lc_cache["recent"] = recent
-    _lc_cache["recent_time"] = now
+    if recent:
+        _lc_cache["recent"] = recent
+        _lc_cache["recent_time"] = now
+    elif _lc_cache.get("recent"):
+        return _lc_cache["recent"]
     return recent
 
 def get_lc_heatmap():
     now = datetime.now()
-    if _lc_cache.get("heatmap") and _lc_cache.get("heatmap_time") and (now - _lc_cache.get("heatmap_time")).seconds < 3600:
+    if _lc_cache.get("heatmap") and _lc_cache.get("heatmap_time") and (now - _lc_cache.get("heatmap_time")).total_seconds() < 3600:
         return _lc_cache["heatmap"]
 
     url = 'https://leetcode.com/graphql'
@@ -229,8 +242,11 @@ def get_lc_heatmap():
         print(f"LC heatmap error: {e}")
 
     result = sorted(day_counts.items())
-    _lc_cache["heatmap"] = result
-    _lc_cache["heatmap_time"] = now
+    if sum(day_counts.values()) > 0:
+        _lc_cache["heatmap"] = result
+        _lc_cache["heatmap_time"] = now
+    elif _lc_cache.get("heatmap"):
+        return _lc_cache["heatmap"]
     return result
 
 @app.context_processor
@@ -246,7 +262,7 @@ def datetimeformat(value, format='%Y-%m-%d %H:%M'):
 def get_cf_solved_problems():
     """Fetch all unique accepted problems from CF API, sorted by rating."""
     now = datetime.now()
-    if _cf_cache.get("solved") and _cf_cache.get("solved_time") and (now - _cf_cache.get("solved_time")).seconds < 3600:
+    if _cf_cache.get("solved") and _cf_cache.get("solved_time") and (now - _cf_cache.get("solved_time")).total_seconds() < 3600:
         return _cf_cache["solved"]
         
     problems = []
@@ -278,8 +294,11 @@ def get_cf_solved_problems():
 
     # Sort: rated problems by rating, unrated at the end
     problems.sort(key=lambda p: (p["rating"] is None, p["rating"] or 0))
-    _cf_cache["solved"] = problems
-    _cf_cache["solved_time"] = now
+    if problems:
+        _cf_cache["solved"] = problems
+        _cf_cache["solved_time"] = now
+    elif _cf_cache.get("solved"):
+        return _cf_cache["solved"]
     return problems
 
 
