@@ -16,10 +16,29 @@ load_dotenv()
 app = Flask(__name__)
 
 CF_HANDLE = "akcodesalot"
-_cf_cache = {"stats": None, "time": None, "advice": None}
+_cf_cache = {"stats": None, "stats_time": None, "advice": None, "heatmap": None, "heatmap_time": None, "submissions": None, "submissions_time": None}
 
 LC_HANDLE = os.environ.get("LC_USERNAME", "isaidduh")
 _lc_cache = {"stats": None, "time": None, "advice": None, "recent": None, "recent_time": None, "heatmap": None, "heatmap_time": None}
+
+
+def _get_cf_submissions():
+    now = datetime.now()
+    if _cf_cache.get("submissions") and _cf_cache.get("submissions_time") and (now - _cf_cache.get("submissions_time")).total_seconds() < 3600:
+        return _cf_cache["submissions"]
+
+    try:
+        r = req.get(f"https://codeforces.com/api/user.status?handle={CF_HANDLE}&count=10000", timeout=15)
+        if r.status_code == 200:
+            d = r.json()
+            if d.get("status") == "OK":
+                _cf_cache["submissions"] = d["result"]
+                _cf_cache["submissions_time"] = now
+                return d["result"]
+    except Exception as e:
+        print(f"CF submissions error: {e}")
+        
+    return _cf_cache.get("submissions") or []
 
 
 def get_cf_stats():
@@ -41,31 +60,29 @@ def get_cf_stats():
         print(f"CF user.info error: {e}")
 
     try:
-        r = req.get(f"https://codeforces.com/api/user.status?handle={CF_HANDLE}&count=5000", timeout=10)
-        d = r.json()
-        if d["status"] == "OK":
-            solved = {}   # problem_id -> rating
-            for s in d["result"]:
-                if s["verdict"] == "OK":
-                    prob = s["problem"]
-                    pid = f"{prob.get('contestId', '')}{prob['index']}"
-                    if pid not in solved:
-                        solved[pid] = prob.get("rating")  # None if unrated
+        submissions = _get_cf_submissions()
+        solved = {}   # problem_id -> rating
+        for s in submissions:
+            if s.get("verdict") == "OK":
+                prob = s.get("problem", {})
+                pid = f"{prob.get('contestId', '')}{prob.get('index', '')}"
+                if pid and pid not in solved:
+                    solved[pid] = prob.get("rating")  # None if unrated
 
-            stats["total_solved"] = len(solved)
+        stats["total_solved"] = len(solved)
 
-            # Count per rating bucket
-            dist = {}
-            for rating in solved.values():
-                if rating is not None:
-                    dist[rating] = dist.get(rating, 0) + 1
+        # Count per rating bucket
+        dist = {}
+        for rating in solved.values():
+            if rating is not None:
+                dist[rating] = dist.get(rating, 0) + 1
 
-            # Return sorted by rating
-            stats["rating_dist"] = dict(sorted(dist.items()))
+        # Return sorted by rating
+        stats["rating_dist"] = dict(sorted(dist.items()))
     except Exception as e:
         print(f"CF user.status error: {e}")
 
-    if stats["rating"] != "N/A":
+    if stats["rating"] != "N/A" and stats["total_solved"] > 0:
         _cf_cache["stats"] = stats
         _cf_cache["stats_time"] = now
     elif _cf_cache.get("stats"):
@@ -93,18 +110,13 @@ def get_heatmap():
         cur += timedelta(days=1)
 
     try:
-        r = req.get(
-            f"https://codeforces.com/api/user.status?handle={CF_HANDLE}&count=10000",
-            timeout=15
-        )
-        d = r.json()
-        if d["status"] == "OK":
-            for sub in d["result"]:
-                if sub["verdict"] == "OK":
-                    sub_date = datetime.fromtimestamp(sub["creationTimeSeconds"]).date()
-                    date_str = sub_date.strftime("%Y-%m-%d")
-                    if date_str in day_counts:
-                        day_counts[date_str] += 1
+        submissions = _get_cf_submissions()
+        for sub in submissions:
+            if sub.get("verdict") == "OK":
+                sub_date = datetime.fromtimestamp(sub.get("creationTimeSeconds", 0)).date()
+                date_str = sub_date.strftime("%Y-%m-%d")
+                if date_str in day_counts:
+                    day_counts[date_str] += 1
     except Exception as e:
         print(f"CF heatmap error: {e}")
 
