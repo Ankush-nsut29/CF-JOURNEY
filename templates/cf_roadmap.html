@@ -1,0 +1,267 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="view-header header-with-sprite">
+    <h1>A2OJ LADDERS</h1>
+    <img src="https://play.pokemonshowdown.com/sprites/gen5ani/pikachu.gif" alt="Pikachu" class="cute-sprite">
+</div>
+
+<div class="roadmap-container">
+    {% for level in levels %}
+    <div class="roadmap-row">
+        {% for topic in level %}
+        <div class="roadmap-node" data-topic="{{ topic }}">
+            <div class="node-title">{{ topic }}</div>
+            <div class="node-progress">
+                <div class="progress-bar" style="width: 0%;"></div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% if not loop.last %}
+    <div class="roadmap-connector"></div>
+    {% endif %}
+    {% endfor %}
+</div>
+
+<!-- Modal for Problems -->
+<div id="roadmap-modal" class="modal-overlay">
+    <div class="modal-content">
+        <button id="close-modal" class="close-btn">&times;</button>
+        <h2 id="modal-topic-title">Topic</h2>
+        <div class="table-wrap">
+            <table class="problems-table">
+                <thead>
+                    <tr>
+                        <th>Status</th>
+                        <th>Title</th>
+                        <th>ID</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody id="modal-problems-body">
+                    <!-- Populated via JS -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+    const a2ojDict = {{ a2oj | tojson }};
+    const solvedPids = {{ solved_pids | tojson }};
+    // Convert to Set for O(1) lookup
+    const solvedSet = new Set(solvedPids);
+</script>
+
+<style>
+.roadmap-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+.roadmap-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+.roadmap-node {
+    background-color: var(--box-bg);
+    border: 4px solid var(--box-border);
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    width: 180px;
+    box-shadow: inset 0 0 0 2px var(--box-inner-border), 4px 4px 0px rgba(0,0,0,0.3);
+    transition: transform 0.1s, filter 0.1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 70px;
+}
+.roadmap-node:hover {
+    transform: translate(2px, 2px);
+    box-shadow: inset 0 0 0 2px var(--box-inner-border), 0px 0px 0px rgba(0,0,0,0.3);
+    filter: brightness(1.2);
+}
+.roadmap-node.completed {
+    border-color: var(--emerald-dark);
+    box-shadow: inset 0 0 0 2px rgba(255, 215, 0, 0.5), 0 0 15px rgba(255, 215, 0, 0.2), 4px 4px 0px rgba(0,0,0,0.3);
+}
+.roadmap-node.completed:hover {
+    box-shadow: inset 0 0 0 2px rgba(255, 215, 0, 0.5), 0 0 20px rgba(255, 215, 0, 0.4), 0px 0px 0px rgba(0,0,0,0.3);
+}
+.node-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.6rem;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    color: var(--text-color);
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+}
+.node-progress {
+    width: 100%;
+    height: 8px;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+.progress-bar {
+    height: 100%;
+    background-color: var(--pokemon-blue);
+    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.roadmap-node.completed .progress-bar {
+    background-color: var(--emerald-dark);
+}
+.roadmap-connector {
+    width: 6px;
+    height: 30px;
+    background-color: var(--box-border);
+    border-left: 2px solid var(--box-inner-border);
+    box-shadow: 2px 0 0 rgba(0,0,0,0.3);
+    margin: 5px 0;
+    z-index: 1;
+}
+
+/* Modal styles */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(4px);
+}
+.modal-content {
+    background-color: var(--box-bg);
+    border: 4px solid var(--box-border);
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 800px;
+    width: 90%;
+    max-height: 85vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: inset 0 0 0 4px var(--box-inner-border), 8px 8px 0px rgba(0,0,0,0.5);
+}
+.close-btn {
+    position: absolute;
+    top: 15px; right: 20px;
+    background: var(--box-border);
+    border: 2px solid white;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+.close-btn:hover {
+    background: white;
+    color: var(--box-border);
+}
+.status-checkbox {
+    width: 24px;
+    height: 24px;
+    accent-color: var(--emerald-dark);
+    /* Make checkbox readonly in CF mode since it tracks automatically */
+    pointer-events: none;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const nodes = document.querySelectorAll('.roadmap-node');
+    const modal = document.getElementById('roadmap-modal');
+    const closeModal = document.getElementById('close-modal');
+    const modalTitle = document.getElementById('modal-topic-title');
+    const modalBody = document.getElementById('modal-problems-body');
+
+    function updateNodeProgress(topic) {
+        const problems = a2ojDict[topic] || [];
+        if (problems.length === 0) return;
+        
+        let completed = 0;
+        problems.forEach(p => {
+            if (solvedSet.has(p.pid)) completed++;
+        });
+        
+        const pct = (completed / problems.length) * 100;
+        const node = document.querySelector(`.roadmap-node[data-topic="${topic}"]`);
+        if (node) {
+            const bar = node.querySelector('.progress-bar');
+            bar.style.width = pct + '%';
+            if (pct === 100) {
+                node.classList.add('completed');
+            } else {
+                node.classList.remove('completed');
+            }
+        }
+    }
+
+    // Initialize progress bars
+    Object.keys(a2ojDict).forEach(topic => updateNodeProgress(topic));
+
+    nodes.forEach(node => {
+        node.addEventListener('click', () => {
+            const topic = node.getAttribute('data-topic');
+            const problems = a2ojDict[topic] || [];
+            
+            modalTitle.textContent = topic;
+            modalBody.innerHTML = '';
+            
+            if (problems.length === 0) {
+                modalBody.innerHTML = '<tr><td colspan="4" style="text-align:center;">Coming soon...</td></tr>';
+            } else {
+                problems.forEach(p => {
+                    const isChecked = solvedSet.has(p.pid) ? 'checked' : '';
+                    
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td style="text-align: center;">
+                            <input type="checkbox" class="status-checkbox" data-pid="${p.pid}" ${isChecked}>
+                        </td>
+                        <td class="col-title">${p.title}</td>
+                        <td class="col-rating">
+                            <span class="rating-badge r-gray">${p.pid}</span>
+                        </td>
+                        <td class="col-link">
+                            <a href="${p.link}" target="_blank" class="open-btn">↗ Open</a>
+                        </td>
+                    `;
+                    modalBody.appendChild(tr);
+                });
+            }
+            
+            modal.style.display = 'flex';
+        });
+    });
+
+    closeModal.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
+
+    window.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+});
+</script>
+{% endblock %}

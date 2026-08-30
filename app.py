@@ -8,6 +8,7 @@ import markdown
 from dotenv import load_dotenv
 from google import genai
 from neetcode150 import NEETCODE_150, ROADMAP_LEVELS
+from a2oj_ladders import A2OJ_LADDERS, ROADMAP_LEVELS_A2OJ
 from dotenv import load_dotenv
 from google import genai
 
@@ -440,6 +441,13 @@ def coach():
     force = request.args.get("refresh", False)
     advice_html = get_birch_advice(force_refresh=force)
     return render_template("coach.html", advice=advice_html)
+
+
+@app.route("/cf/roadmap")
+def cf_roadmap():
+    solved = get_cf_solved_problems()
+    solved_pids = [p["pid"] for p in solved]
+    return render_template("cf_roadmap.html", levels=ROADMAP_LEVELS_A2OJ, a2oj=A2OJ_LADDERS, solved_pids=solved_pids)
 
 
 @app.route("/lc")
