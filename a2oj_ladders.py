@@ -3515,264 +3515,9 @@ A2OJ_LADDERS = {
     ],
     "Codeforces Rating < 1300": [
         {
-            "title": "Crazy Computer",
-            "link": "http://codeforces.com/problemset/problem/716/A",
-            "pid": "716A"
-        },
-        {
-            "title": "Haiku",
-            "link": "http://codeforces.com/problemset/problem/78/A",
-            "pid": "78A"
-        },
-        {
-            "title": "LLPS",
-            "link": "http://codeforces.com/problemset/problem/202/A",
-            "pid": "202A"
-        },
-        {
-            "title": "Wizards' Duel",
-            "link": "http://codeforces.com/problemset/problem/591/A",
-            "pid": "591A"
-        },
-        {
-            "title": "George and Accommodation",
-            "link": "http://codeforces.com/problemset/problem/467/A",
-            "pid": "467A"
-        },
-        {
-            "title": "Soldier and Bananas",
-            "link": "http://codeforces.com/problemset/problem/546/A",
-            "pid": "546A"
-        },
-        {
-            "title": "GukiZ and Contest",
-            "link": "http://codeforces.com/problemset/problem/551/A",
-            "pid": "551A"
-        },
-        {
-            "title": "Wasted Time",
-            "link": "http://codeforces.com/problemset/problem/127/A",
-            "pid": "127A"
-        },
-        {
-            "title": "Combination Lock",
-            "link": "http://codeforces.com/problemset/problem/540/A",
-            "pid": "540A"
-        },
-        {
-            "title": "Vitaly and Night",
-            "link": "http://codeforces.com/problemset/problem/595/A",
-            "pid": "595A"
-        },
-        {
-            "title": "Shaass and Oskols",
-            "link": "http://codeforces.com/problemset/problem/294/A",
-            "pid": "294A"
-        },
-        {
-            "title": "Sereja and Mugs",
-            "link": "http://codeforces.com/problemset/problem/426/A",
-            "pid": "426A"
-        },
-        {
-            "title": "Line to Cashier",
-            "link": "http://codeforces.com/problemset/problem/408/A",
-            "pid": "408A"
-        },
-        {
-            "title": "Mashmokh and Lights",
-            "link": "http://codeforces.com/problemset/problem/415/A",
-            "pid": "415A"
-        },
-        {
-            "title": "Squats",
-            "link": "http://codeforces.com/problemset/problem/424/A",
-            "pid": "424A"
-        },
-        {
-            "title": "Toy Army",
-            "link": "http://codeforces.com/problemset/problem/84/A",
-            "pid": "84A"
-        },
-        {
-            "title": "Soroban",
-            "link": "http://codeforces.com/problemset/problem/363/A",
-            "pid": "363A"
-        },
-        {
-            "title": "Kyoya and Photobooks",
-            "link": "http://codeforces.com/problemset/problem/554/A",
-            "pid": "554A"
-        },
-        {
-            "title": "Rewards",
-            "link": "http://codeforces.com/problemset/problem/448/A",
-            "pid": "448A"
-        },
-        {
-            "title": "Colorful Stones (Simplified Edition)",
-            "link": "http://codeforces.com/problemset/problem/265/A",
-            "pid": "265A"
-        },
-        {
-            "title": "Buggy Sorting",
-            "link": "http://codeforces.com/problemset/problem/246/A",
-            "pid": "246A"
-        },
-        {
-            "title": "Greg's Workout",
-            "link": "http://codeforces.com/problemset/problem/255/A",
-            "pid": "255A"
-        },
-        {
-            "title": "Police Recruits",
-            "link": "http://codeforces.com/problemset/problem/427/A",
-            "pid": "427A"
-        },
-        {
-            "title": "Black Square",
-            "link": "http://codeforces.com/problemset/problem/431/A",
-            "pid": "431A"
-        },
-        {
-            "title": "Circle Line",
-            "link": "http://codeforces.com/problemset/problem/278/A",
-            "pid": "278A"
-        },
-        {
-            "title": "Playing with Dice",
-            "link": "http://codeforces.com/problemset/problem/378/A",
-            "pid": "378A"
-        },
-        {
-            "title": "Roma and Lucky Numbers",
-            "link": "http://codeforces.com/problemset/problem/262/A",
-            "pid": "262A"
-        },
-        {
-            "title": "Games",
-            "link": "http://codeforces.com/problemset/problem/268/A",
-            "pid": "268A"
-        },
-        {
-            "title": "Bear and Finding Criminals",
-            "link": "http://codeforces.com/problemset/problem/680/B",
-            "pid": "680B"
-        },
-        {
-            "title": "Nicholas and Permutation",
-            "link": "http://codeforces.com/problemset/problem/676/A",
-            "pid": "676A"
-        },
-        {
-            "title": "Uncowed Forces",
-            "link": "http://codeforces.com/problemset/problem/604/A",
-            "pid": "604A"
-        },
-        {
-            "title": "Choosing Laptop",
-            "link": "http://codeforces.com/problemset/problem/106/B",
-            "pid": "106B"
-        },
-        {
-            "title": "Ternary Logic",
-            "link": "http://codeforces.com/problemset/problem/136/B",
-            "pid": "136B"
-        },
-        {
-            "title": "Lever",
-            "link": "http://codeforces.com/problemset/problem/376/A",
-            "pid": "376A"
-        },
-        {
-            "title": "Wet Shark and Odd and Even",
-            "link": "http://codeforces.com/problemset/problem/621/A",
-            "pid": "621A"
-        },
-        {
-            "title": "A and B and Chess",
-            "link": "http://codeforces.com/problemset/problem/519/A",
-            "pid": "519A"
-        },
-        {
-            "title": "Arrays",
-            "link": "http://codeforces.com/problemset/problem/572/A",
-            "pid": "572A"
-        },
-        {
-            "title": "Saitama Destroys Hotel",
-            "link": "http://codeforces.com/problemset/problem/608/A",
-            "pid": "608A"
-        },
-        {
-            "title": "Shell Game",
-            "link": "http://codeforces.com/problemset/problem/35/A",
-            "pid": "35A"
-        },
-        {
-            "title": "George and Sleep",
-            "link": "http://codeforces.com/problemset/problem/387/A",
-            "pid": "387A"
-        },
-        {
-            "title": "Vanya and Table",
-            "link": "http://codeforces.com/problemset/problem/552/A",
-            "pid": "552A"
-        },
-        {
-            "title": "Drazil and Date",
-            "link": "http://codeforces.com/problemset/problem/515/A",
-            "pid": "515A"
-        },
-        {
-            "title": "Sinking Ship",
-            "link": "http://codeforces.com/problemset/problem/63/A",
-            "pid": "63A"
-        },
-        {
-            "title": "Initial Bet",
-            "link": "http://codeforces.com/problemset/problem/478/A",
-            "pid": "478A"
-        },
-        {
-            "title": "Tavas and Nafas",
-            "link": "http://codeforces.com/problemset/problem/535/A",
-            "pid": "535A"
-        },
-        {
-            "title": "Calculating Function",
-            "link": "http://codeforces.com/problemset/problem/486/A",
-            "pid": "486A"
-        },
-        {
-            "title": "Exams",
-            "link": "http://codeforces.com/problemset/problem/194/A",
-            "pid": "194A"
-        },
-        {
-            "title": "Postcards and photos",
-            "link": "http://codeforces.com/problemset/problem/137/A",
-            "pid": "137A"
-        },
-        {
-            "title": "Multiplication Table",
-            "link": "http://codeforces.com/problemset/problem/577/A",
-            "pid": "577A"
-        },
-        {
-            "title": "Palindromic Times",
-            "link": "http://codeforces.com/problemset/problem/108/A",
-            "pid": "108A"
-        },
-        {
-            "title": "Help Vasilisa the Wise 2",
-            "link": "http://codeforces.com/problemset/problem/143/A",
-            "pid": "143A"
-        },
-        {
-            "title": "Currency System in Geraldion",
-            "link": "http://codeforces.com/problemset/problem/560/A",
-            "pid": "560A"
+            "title": "Lucky Ticket",
+            "link": "http://codeforces.com/problemset/problem/146/A",
+            "pid": "146A"
         },
         {
             "title": "Game Outcome",
@@ -3780,846 +3525,9 @@ A2OJ_LADDERS = {
             "pid": "157A"
         },
         {
-            "title": "Group of Students",
-            "link": "http://codeforces.com/problemset/problem/357/A",
-            "pid": "357A"
-        },
-        {
-            "title": "Interview",
-            "link": "http://codeforces.com/problemset/problem/631/A",
-            "pid": "631A"
-        },
-        {
-            "title": "Petya and Countryside",
-            "link": "http://codeforces.com/problemset/problem/66/B",
-            "pid": "66B"
-        },
-        {
-            "title": "Case of the Zeros and Ones",
-            "link": "http://codeforces.com/problemset/problem/556/A",
-            "pid": "556A"
-        },
-        {
-            "title": "Worms Evolution",
-            "link": "http://codeforces.com/problemset/problem/31/A",
-            "pid": "31A"
-        },
-        {
-            "title": "Ciel and Dancing",
-            "link": "http://codeforces.com/problemset/problem/322/A",
-            "pid": "322A"
-        },
-        {
-            "title": "Table",
-            "link": "http://codeforces.com/problemset/problem/359/A",
-            "pid": "359A"
-        },
-        {
-            "title": "Sereja and Coat Rack",
-            "link": "http://codeforces.com/problemset/problem/368/A",
-            "pid": "368A"
-        },
-        {
-            "title": "Toy Cars",
-            "link": "http://codeforces.com/problemset/problem/545/A",
-            "pid": "545A"
-        },
-        {
-            "title": "Joysticks",
-            "link": "http://codeforces.com/problemset/problem/651/A",
-            "pid": "651A"
-        },
-        {
-            "title": "Lucky Substring",
-            "link": "http://codeforces.com/problemset/problem/122/B",
-            "pid": "122B"
-        },
-        {
-            "title": "Lucky Ticket",
-            "link": "http://codeforces.com/problemset/problem/146/A",
-            "pid": "146A"
-        },
-        {
-            "title": "Kefa and First Steps",
-            "link": "http://codeforces.com/problemset/problem/580/A",
-            "pid": "580A"
-        },
-        {
-            "title": "Squares",
-            "link": "http://codeforces.com/problemset/problem/263/B",
-            "pid": "263B"
-        },
-        {
-            "title": "Valera and Plates",
-            "link": "http://codeforces.com/problemset/problem/369/A",
-            "pid": "369A"
-        },
-        {
-            "title": "Trace",
-            "link": "http://codeforces.com/problemset/problem/157/B",
-            "pid": "157B"
-        },
-        {
-            "title": "Pasha and Stick",
-            "link": "http://codeforces.com/problemset/problem/610/A",
-            "pid": "610A"
-        },
-        {
-            "title": "Queue on Bus Stop",
-            "link": "http://codeforces.com/problemset/problem/435/A",
-            "pid": "435A"
-        },
-        {
-            "title": "Lucky String",
-            "link": "http://codeforces.com/problemset/problem/110/B",
-            "pid": "110B"
-        },
-        {
-            "title": "Amr and Music",
-            "link": "http://codeforces.com/problemset/problem/507/A",
-            "pid": "507A"
-        },
-        {
-            "title": "Eugeny and Array",
-            "link": "http://codeforces.com/problemset/problem/302/A",
-            "pid": "302A"
-        },
-        {
-            "title": "Prison Transfer",
-            "link": "http://codeforces.com/problemset/problem/427/B",
-            "pid": "427B"
-        },
-        {
-            "title": "Bear and Raspberry",
-            "link": "http://codeforces.com/problemset/problem/385/A",
-            "pid": "385A"
-        },
-        {
-            "title": "Buttons",
-            "link": "http://codeforces.com/problemset/problem/268/B",
-            "pid": "268B"
-        },
-        {
-            "title": "Vasya and Digital Root",
-            "link": "http://codeforces.com/problemset/problem/355/A",
-            "pid": "355A"
-        },
-        {
-            "title": "Little Elephant and Magic Square",
-            "link": "http://codeforces.com/problemset/problem/259/B",
-            "pid": "259B"
-        },
-        {
-            "title": "Valera and X",
-            "link": "http://codeforces.com/problemset/problem/404/A",
-            "pid": "404A"
-        },
-        {
-            "title": "Game With Sticks",
-            "link": "http://codeforces.com/problemset/problem/451/A",
-            "pid": "451A"
-        },
-        {
-            "title": "Devu, the Singer and Churu, the Joker",
-            "link": "http://codeforces.com/problemset/problem/439/A",
-            "pid": "439A"
-        },
-        {
-            "title": "Roadside Trees (Simplified Edition)",
-            "link": "http://codeforces.com/problemset/problem/265/B",
-            "pid": "265B"
-        },
-        {
-            "title": "Valera and Antique Items",
-            "link": "http://codeforces.com/problemset/problem/441/A",
-            "pid": "441A"
-        },
-        {
-            "title": "Lecture",
-            "link": "http://codeforces.com/problemset/problem/499/B",
-            "pid": "499B"
-        },
-        {
-            "title": "Domino Effect",
-            "link": "http://codeforces.com/problemset/problem/405/B",
-            "pid": "405B"
-        },
-        {
-            "title": "Sereja and Stairs",
-            "link": "http://codeforces.com/problemset/problem/381/B",
-            "pid": "381B"
-        },
-        {
-            "title": "Eugeny and Play List",
-            "link": "http://codeforces.com/problemset/problem/302/B",
-            "pid": "302B"
-        },
-        {
-            "title": "K-special Tables",
-            "link": "http://codeforces.com/problemset/problem/625/C",
-            "pid": "625C"
-        },
-        {
-            "title": "Filya and Homework",
-            "link": "http://codeforces.com/problemset/problem/714/B",
-            "pid": "714B"
-        },
-        {
-            "title": "Walking in the Rain",
-            "link": "http://codeforces.com/problemset/problem/192/B",
-            "pid": "192B"
-        },
-        {
-            "title": "Rebranding",
-            "link": "http://codeforces.com/problemset/problem/591/B",
-            "pid": "591B"
-        },
-        {
-            "title": "Polo the Penguin and Strings",
-            "link": "http://codeforces.com/problemset/problem/288/A",
-            "pid": "288A"
-        },
-        {
-            "title": "Bear and Elections",
-            "link": "http://codeforces.com/problemset/problem/574/A",
-            "pid": "574A"
-        },
-        {
-            "title": "Ohana Cleans Up",
-            "link": "http://codeforces.com/problemset/problem/554/B",
-            "pid": "554B"
-        },
-        {
-            "title": "Little Elephant and Numbers",
-            "link": "http://codeforces.com/problemset/problem/221/B",
-            "pid": "221B"
-        },
-        {
-            "title": "Tiling with Hexagons",
-            "link": "http://codeforces.com/problemset/problem/216/A",
-            "pid": "216A"
-        },
-        {
-            "title": "Rook, Bishop and King",
-            "link": "http://codeforces.com/problemset/problem/370/A",
-            "pid": "370A"
-        },
-        {
-            "title": "Snow Footprints",
-            "link": "http://codeforces.com/problemset/problem/298/A",
-            "pid": "298A"
-        },
-        {
-            "title": "Alyona and Mex",
-            "link": "http://codeforces.com/problemset/problem/682/B",
-            "pid": "682B"
-        },
-        {
-            "title": "After Training",
-            "link": "http://codeforces.com/problemset/problem/195/B",
-            "pid": "195B"
-        },
-        {
-            "title": "Robot's Task",
-            "link": "http://codeforces.com/problemset/problem/583/B",
-            "pid": "583B"
-        },
-        {
-            "title": "Wilbur and Swimming Pool",
-            "link": "http://codeforces.com/problemset/problem/596/A",
-            "pid": "596A"
-        },
-        {
-            "title": "Permutation",
-            "link": "http://codeforces.com/problemset/problem/359/B",
-            "pid": "359B"
-        },
-        {
-            "title": "War of the Corporations",
-            "link": "http://codeforces.com/problemset/problem/625/B",
-            "pid": "625B"
-        },
-        {
-            "title": "Canvas Frames",
-            "link": "http://codeforces.com/problemset/problem/127/B",
-            "pid": "127B"
-        },
-        {
-            "title": "Alyona and Numbers",
-            "link": "http://codeforces.com/problemset/problem/682/A",
-            "pid": "682A"
-        },
-        {
-            "title": "Vika and Squares",
-            "link": "http://codeforces.com/problemset/problem/610/B",
-            "pid": "610B"
-        },
-        {
-            "title": "Vasya and Football",
-            "link": "http://codeforces.com/problemset/problem/493/A",
-            "pid": "493A"
-        },
-        {
-            "title": "Whose sentence is it?",
-            "link": "http://codeforces.com/problemset/problem/312/A",
-            "pid": "312A"
-        },
-        {
-            "title": "Vanya and Books",
-            "link": "http://codeforces.com/problemset/problem/552/B",
-            "pid": "552B"
-        },
-        {
-            "title": "Sockets",
-            "link": "http://codeforces.com/problemset/problem/257/A",
-            "pid": "257A"
-        },
-        {
-            "title": "The Wall",
-            "link": "http://codeforces.com/problemset/problem/340/A",
-            "pid": "340A"
-        },
-        {
-            "title": "Digital Counter",
-            "link": "http://codeforces.com/problemset/problem/495/A",
-            "pid": "495A"
-        },
-        {
-            "title": "Bear and Strings",
-            "link": "http://codeforces.com/problemset/problem/385/B",
-            "pid": "385B"
-        },
-        {
-            "title": "Bear and Poker",
-            "link": "http://codeforces.com/problemset/problem/573/A",
-            "pid": "573A"
-        },
-        {
-            "title": "Ksenia and Pan Scales",
-            "link": "http://codeforces.com/problemset/problem/382/A",
-            "pid": "382A"
-        },
-        {
-            "title": "Phone Numbers",
-            "link": "http://codeforces.com/problemset/problem/151/B",
-            "pid": "151B"
-        },
-        {
-            "title": "Inventory",
-            "link": "http://codeforces.com/problemset/problem/569/B",
-            "pid": "569B"
-        },
-        {
-            "title": "Vitaliy and Pie",
-            "link": "http://codeforces.com/problemset/problem/525/A",
-            "pid": "525A"
-        },
-        {
-            "title": "Students and Shoelaces",
-            "link": "http://codeforces.com/problemset/problem/129/B",
-            "pid": "129B"
-        },
-        {
-            "title": "Wilbur and Array",
-            "link": "http://codeforces.com/problemset/problem/596/B",
-            "pid": "596B"
-        },
-        {
-            "title": "Strings of Power",
-            "link": "http://codeforces.com/problemset/problem/318/B",
-            "pid": "318B"
-        },
-        {
-            "title": "Misha and Changing Handles",
-            "link": "http://codeforces.com/problemset/problem/501/B",
-            "pid": "501B"
-        },
-        {
-            "title": "Levko and Permutation",
-            "link": "http://codeforces.com/problemset/problem/361/B",
-            "pid": "361B"
-        },
-        {
-            "title": "Bar",
-            "link": "http://codeforces.com/problemset/problem/56/A",
-            "pid": "56A"
-        },
-        {
-            "title": "Beautiful Paintings",
-            "link": "http://codeforces.com/problemset/problem/651/B",
-            "pid": "651B"
-        },
-        {
-            "title": "Combination",
-            "link": "http://codeforces.com/problemset/problem/155/B",
-            "pid": "155B"
-        },
-        {
-            "title": "MUH and Sticks",
-            "link": "http://codeforces.com/problemset/problem/471/A",
-            "pid": "471A"
-        },
-        {
-            "title": "Print Check",
-            "link": "http://codeforces.com/problemset/problem/631/B",
-            "pid": "631B"
-        },
-        {
-            "title": "Art Union",
-            "link": "http://codeforces.com/problemset/problem/416/B",
-            "pid": "416B"
-        },
-        {
-            "title": "Lala Land and Apple Trees",
-            "link": "http://codeforces.com/problemset/problem/558/A",
-            "pid": "558A"
-        },
-        {
-            "title": "Lucky Conversion",
-            "link": "http://codeforces.com/problemset/problem/145/A",
-            "pid": "145A"
-        },
-        {
-            "title": "Two Bases",
-            "link": "http://codeforces.com/problemset/problem/602/A",
-            "pid": "602A"
-        },
-        {
-            "title": "The Monster and the Squirrel",
-            "link": "http://codeforces.com/problemset/problem/592/B",
-            "pid": "592B"
-        },
-        {
-            "title": "The Child and Homework",
-            "link": "http://codeforces.com/problemset/problem/437/A",
-            "pid": "437A"
-        },
-        {
-            "title": "Tavas and SaDDas",
-            "link": "http://codeforces.com/problemset/problem/535/B",
-            "pid": "535B"
-        },
-        {
-            "title": "Dima and To-do List",
-            "link": "http://codeforces.com/problemset/problem/366/B",
-            "pid": "366B"
-        },
-        {
-            "title": "Valuable Resources",
-            "link": "http://codeforces.com/problemset/problem/485/B",
-            "pid": "485B"
-        },
-        {
-            "title": "Fox and Number Game",
-            "link": "http://codeforces.com/problemset/problem/389/A",
-            "pid": "389A"
-        },
-        {
-            "title": "Unary",
-            "link": "http://codeforces.com/problemset/problem/133/B",
-            "pid": "133B"
-        },
-        {
-            "title": "Equidistant String",
-            "link": "http://codeforces.com/problemset/problem/545/B",
-            "pid": "545B"
-        },
-        {
-            "title": "Garland",
-            "link": "http://codeforces.com/problemset/problem/408/B",
-            "pid": "408B"
-        },
-        {
-            "title": "Coins",
-            "link": "http://codeforces.com/problemset/problem/58/B",
-            "pid": "58B"
-        },
-        {
-            "title": "Chewba?ca and Number",
-            "link": "http://codeforces.com/problemset/problem/514/A",
-            "pid": "514A"
-        },
-        {
-            "title": "Chat Online",
-            "link": "http://codeforces.com/problemset/problem/469/B",
-            "pid": "469B"
-        },
-        {
-            "title": "Elections",
-            "link": "http://codeforces.com/problemset/problem/570/A",
-            "pid": "570A"
-        },
-        {
-            "title": "George and Round",
-            "link": "http://codeforces.com/problemset/problem/387/B",
-            "pid": "387B"
-        },
-        {
-            "title": "Appleman and Toastman",
-            "link": "http://codeforces.com/problemset/problem/461/A",
-            "pid": "461A"
-        },
-        {
-            "title": "Petya and Staircases",
-            "link": "http://codeforces.com/problemset/problem/362/B",
-            "pid": "362B"
-        },
-        {
-            "title": "Good Number",
-            "link": "http://codeforces.com/problemset/problem/365/A",
-            "pid": "365A"
-        },
-        {
-            "title": "A and B and Compilation Errors",
-            "link": "http://codeforces.com/problemset/problem/519/B",
-            "pid": "519B"
-        },
-        {
-            "title": "Simple Game",
-            "link": "http://codeforces.com/problemset/problem/570/B",
-            "pid": "570B"
-        },
-        {
-            "title": "Fedor and New Game",
-            "link": "http://codeforces.com/problemset/problem/467/B",
-            "pid": "467B"
-        },
-        {
-            "title": "Drazil and Factorial",
-            "link": "http://codeforces.com/problemset/problem/515/C",
-            "pid": "515C"
-        },
-        {
-            "title": "Cifera",
-            "link": "http://codeforces.com/problemset/problem/114/A",
-            "pid": "114A"
-        },
-        {
-            "title": "A and B and Team Training",
-            "link": "http://codeforces.com/problemset/problem/519/C",
-            "pid": "519C"
-        },
-        {
-            "title": "Football Kit",
-            "link": "http://codeforces.com/problemset/problem/432/B",
-            "pid": "432B"
-        },
-        {
-            "title": "Devu, the Dumb Guy",
-            "link": "http://codeforces.com/problemset/problem/439/B",
-            "pid": "439B"
-        },
-        {
-            "title": "Anton and currency you all know",
-            "link": "http://codeforces.com/problemset/problem/508/B",
-            "pid": "508B"
-        },
-        {
-            "title": "Random Teams",
-            "link": "http://codeforces.com/problemset/problem/478/B",
-            "pid": "478B"
-        },
-        {
-            "title": "Bear and Three Musketeers",
-            "link": "http://codeforces.com/problemset/problem/574/B",
-            "pid": "574B"
-        },
-        {
-            "title": "Chris and Magic Square",
-            "link": "http://codeforces.com/problemset/problem/711/B",
-            "pid": "711B"
-        },
-        {
-            "title": "Restoring Painting",
-            "link": "http://codeforces.com/problemset/problem/675/B",
-            "pid": "675B"
-        },
-        {
-            "title": "Point on Spiral",
-            "link": "http://codeforces.com/problemset/problem/279/A",
-            "pid": "279A"
-        },
-        {
-            "title": "Vasya and the Bus",
-            "link": "http://codeforces.com/problemset/problem/190/A",
-            "pid": "190A"
-        },
-        {
-            "title": "Guest From the Past",
-            "link": "http://codeforces.com/problemset/problem/625/A",
-            "pid": "625A"
-        },
-        {
-            "title": "Photographer",
-            "link": "http://codeforces.com/problemset/problem/203/C",
-            "pid": "203C"
-        },
-        {
-            "title": "Taxes",
-            "link": "http://codeforces.com/problemset/problem/735/D",
-            "pid": "735D"
-        },
-        {
-            "title": "Dima and Lisa",
-            "link": "http://codeforces.com/problemset/problem/584/D",
-            "pid": "584D"
-        },
-        {
-            "title": "Cows and Primitive Roots",
-            "link": "http://codeforces.com/problemset/problem/284/A",
-            "pid": "284A"
-        },
-        {
-            "title": "MUH and Important Things",
-            "link": "http://codeforces.com/problemset/problem/471/B",
-            "pid": "471B"
-        },
-        {
-            "title": "Pyramid of Glasses",
-            "link": "http://codeforces.com/problemset/problem/676/B",
-            "pid": "676B"
-        },
-        {
-            "title": "Approximating a Constant Range",
-            "link": "http://codeforces.com/problemset/problem/602/B",
-            "pid": "602B"
-        },
-        {
-            "title": "PawnChess",
-            "link": "http://codeforces.com/problemset/problem/592/A",
-            "pid": "592A"
-        },
-        {
-            "title": "Non-square Equation",
-            "link": "http://codeforces.com/problemset/problem/233/B",
-            "pid": "233B"
-        },
-        {
-            "title": "Vasya and String",
-            "link": "http://codeforces.com/problemset/problem/676/C",
-            "pid": "676C"
-        },
-        {
-            "title": "DZY Loves Chemistry",
-            "link": "http://codeforces.com/problemset/problem/445/B",
-            "pid": "445B"
-        },
-        {
-            "title": "Valera and Contest",
-            "link": "http://codeforces.com/problemset/problem/369/B",
-            "pid": "369B"
-        },
-        {
-            "title": "Guess a number!",
-            "link": "http://codeforces.com/problemset/problem/416/A",
-            "pid": "416A"
-        },
-        {
-            "title": "Burning Midnight Oil",
-            "link": "http://codeforces.com/problemset/problem/165/B",
-            "pid": "165B"
-        },
-        {
-            "title": "Pythagorean Triples",
-            "link": "http://codeforces.com/problemset/problem/707/C",
-            "pid": "707C"
-        },
-        {
-            "title": "Replacement",
-            "link": "http://codeforces.com/problemset/problem/570/C",
-            "pid": "570C"
-        },
-        {
-            "title": "Woodcutters",
-            "link": "http://codeforces.com/problemset/problem/545/C",
-            "pid": "545C"
-        },
-        {
-            "title": "Amr and The Large Array",
-            "link": "http://codeforces.com/problemset/problem/558/B",
-            "pid": "558B"
-        },
-        {
-            "title": "The Child and Set",
-            "link": "http://codeforces.com/problemset/problem/437/B",
-            "pid": "437B"
-        },
-        {
-            "title": "More Cowbell",
-            "link": "http://codeforces.com/problemset/problem/604/B",
-            "pid": "604B"
-        },
-        {
-            "title": "Economy Game",
-            "link": "http://codeforces.com/problemset/problem/681/B",
-            "pid": "681B"
-        },
-        {
-            "title": "Soldier and Cards",
-            "link": "http://codeforces.com/problemset/problem/546/C",
-            "pid": "546C"
-        },
-        {
-            "title": "Pasha Maximizes",
-            "link": "http://codeforces.com/problemset/problem/435/B",
-            "pid": "435B"
-        },
-        {
-            "title": "Vasya and Wrestling",
-            "link": "http://codeforces.com/problemset/problem/493/B",
-            "pid": "493B"
-        },
-        {
-            "title": "OR in Matrix",
-            "link": "http://codeforces.com/problemset/problem/486/B",
-            "pid": "486B"
-        },
-        {
-            "title": "Kefa and Company",
-            "link": "http://codeforces.com/problemset/problem/580/B",
-            "pid": "580B"
-        },
-        {
-            "title": "Soldier and Badges",
-            "link": "http://codeforces.com/problemset/problem/546/B",
-            "pid": "546B"
-        },
-        {
-            "title": "Han Solo and Lazer Gun",
-            "link": "http://codeforces.com/problemset/problem/514/B",
-            "pid": "514B"
-        },
-        {
-            "title": "Kefa and Park",
-            "link": "http://codeforces.com/problemset/problem/580/C",
-            "pid": "580C"
-        },
-        {
-            "title": "Amr and Pins",
-            "link": "http://codeforces.com/problemset/problem/507/B",
-            "pid": "507B"
-        },
-        {
-            "title": "Two Substrings",
-            "link": "http://codeforces.com/problemset/problem/550/A",
-            "pid": "550A"
-        },
-        {
-            "title": "Queue",
-            "link": "http://codeforces.com/problemset/problem/545/D",
-            "pid": "545D"
-        },
-        {
-            "title": "Modulo Sum",
-            "link": "http://codeforces.com/problemset/problem/577/B",
-            "pid": "577B"
-        }
-    ],
-    "1300 <= Codeforces Rating <= 1399": [
-        {
-            "title": "Bulbs",
-            "link": "http://codeforces.com/problemset/problem/615/A",
-            "pid": "615A"
-        },
-        {
-            "title": "Wasted Time",
-            "link": "http://codeforces.com/problemset/problem/127/A",
-            "pid": "127A"
-        },
-        {
-            "title": "Line to Cashier",
-            "link": "http://codeforces.com/problemset/problem/408/A",
-            "pid": "408A"
-        },
-        {
-            "title": "Shaass and Oskols",
-            "link": "http://codeforces.com/problemset/problem/294/A",
-            "pid": "294A"
-        },
-        {
-            "title": "Soroban",
-            "link": "http://codeforces.com/problemset/problem/363/A",
-            "pid": "363A"
-        },
-        {
-            "title": "Soldier and Bananas",
-            "link": "http://codeforces.com/problemset/problem/546/A",
-            "pid": "546A"
-        },
-        {
-            "title": "Mashmokh and Lights",
-            "link": "http://codeforces.com/problemset/problem/415/A",
-            "pid": "415A"
-        },
-        {
-            "title": "Police Recruits",
-            "link": "http://codeforces.com/problemset/problem/427/A",
-            "pid": "427A"
-        },
-        {
-            "title": "Playing with Dice",
-            "link": "http://codeforces.com/problemset/problem/378/A",
-            "pid": "378A"
-        },
-        {
-            "title": "George and Accommodation",
-            "link": "http://codeforces.com/problemset/problem/467/A",
-            "pid": "467A"
-        },
-        {
-            "title": "Rewards",
-            "link": "http://codeforces.com/problemset/problem/448/A",
-            "pid": "448A"
-        },
-        {
-            "title": "Toy Army",
-            "link": "http://codeforces.com/problemset/problem/84/A",
-            "pid": "84A"
-        },
-        {
-            "title": "Buggy Sorting",
-            "link": "http://codeforces.com/problemset/problem/246/A",
-            "pid": "246A"
-        },
-        {
-            "title": "Combination Lock",
-            "link": "http://codeforces.com/problemset/problem/540/A",
-            "pid": "540A"
-        },
-        {
-            "title": "Circle Line",
-            "link": "http://codeforces.com/problemset/problem/278/A",
-            "pid": "278A"
-        },
-        {
-            "title": "Squats",
-            "link": "http://codeforces.com/problemset/problem/424/A",
-            "pid": "424A"
-        },
-        {
-            "title": "Roma and Lucky Numbers",
-            "link": "http://codeforces.com/problemset/problem/262/A",
-            "pid": "262A"
-        },
-        {
             "title": "LLPS",
             "link": "http://codeforces.com/problemset/problem/202/A",
             "pid": "202A"
-        },
-        {
-            "title": "Black Square",
-            "link": "http://codeforces.com/problemset/problem/431/A",
-            "pid": "431A"
-        },
-        {
-            "title": "GukiZ and Contest",
-            "link": "http://codeforces.com/problemset/problem/551/A",
-            "pid": "551A"
-        },
-        {
-            "title": "Games",
-            "link": "http://codeforces.com/problemset/problem/268/A",
-            "pid": "268A"
         },
         {
             "title": "Greg's Workout",
@@ -4627,906 +3535,34 @@ A2OJ_LADDERS = {
             "pid": "255A"
         },
         {
+            "title": "Roma and Lucky Numbers",
+            "link": "http://codeforces.com/problemset/problem/262/A",
+            "pid": "262A"
+        },
+        {
             "title": "Colorful Stones (Simplified Edition)",
             "link": "http://codeforces.com/problemset/problem/265/A",
             "pid": "265A"
         },
         {
-            "title": "Ilya and Diplomas",
-            "link": "http://codeforces.com/problemset/problem/557/A",
-            "pid": "557A"
+            "title": "Games",
+            "link": "http://codeforces.com/problemset/problem/268/A",
+            "pid": "268A"
         },
         {
-            "title": "Tavas and Nafas",
-            "link": "http://codeforces.com/problemset/problem/535/A",
-            "pid": "535A"
+            "title": "Circle Line",
+            "link": "http://codeforces.com/problemset/problem/278/A",
+            "pid": "278A"
         },
         {
-            "title": "Exams",
-            "link": "http://codeforces.com/problemset/problem/194/A",
-            "pid": "194A"
-        },
-        {
-            "title": "Lucky String",
-            "link": "http://codeforces.com/problemset/problem/110/B",
-            "pid": "110B"
-        },
-        {
-            "title": "Vasya and Public Transport",
-            "link": "http://codeforces.com/problemset/problem/355/B",
-            "pid": "355B"
-        },
-        {
-            "title": "Queue on Bus Stop",
-            "link": "http://codeforces.com/problemset/problem/435/A",
-            "pid": "435A"
-        },
-        {
-            "title": "Kefa and First Steps",
-            "link": "http://codeforces.com/problemset/problem/580/A",
-            "pid": "580A"
-        },
-        {
-            "title": "Wet Shark and Odd and Even",
-            "link": "http://codeforces.com/problemset/problem/621/A",
-            "pid": "621A"
-        },
-        {
-            "title": "Saitama Destroys Hotel",
-            "link": "http://codeforces.com/problemset/problem/608/A",
-            "pid": "608A"
-        },
-        {
-            "title": "Game Outcome",
-            "link": "http://codeforces.com/problemset/problem/157/A",
-            "pid": "157A"
-        },
-        {
-            "title": "Polo the Penguin and Segments",
-            "link": "http://codeforces.com/problemset/problem/289/A",
-            "pid": "289A"
-        },
-        {
-            "title": "Valera and X",
-            "link": "http://codeforces.com/problemset/problem/404/A",
-            "pid": "404A"
-        },
-        {
-            "title": "Multiplication Table",
-            "link": "http://codeforces.com/problemset/problem/577/A",
-            "pid": "577A"
-        },
-        {
-            "title": "Sinking Ship",
-            "link": "http://codeforces.com/problemset/problem/63/A",
-            "pid": "63A"
+            "title": "Shaass and Oskols",
+            "link": "http://codeforces.com/problemset/problem/294/A",
+            "pid": "294A"
         },
         {
             "title": "Eugeny and Array",
             "link": "http://codeforces.com/problemset/problem/302/A",
             "pid": "302A"
-        },
-        {
-            "title": "Little Frog",
-            "link": "http://codeforces.com/problemset/problem/53/C",
-            "pid": "53C"
-        },
-        {
-            "title": "Olesya and Rodion",
-            "link": "http://codeforces.com/problemset/problem/584/A",
-            "pid": "584A"
-        },
-        {
-            "title": "Cows and Poker Game",
-            "link": "http://codeforces.com/problemset/problem/284/B",
-            "pid": "284B"
-        },
-        {
-            "title": "George and Sleep",
-            "link": "http://codeforces.com/problemset/problem/387/A",
-            "pid": "387A"
-        },
-        {
-            "title": "Case of the Zeros and Ones",
-            "link": "http://codeforces.com/problemset/problem/556/A",
-            "pid": "556A"
-        },
-        {
-            "title": "Vanya and Table",
-            "link": "http://codeforces.com/problemset/problem/552/A",
-            "pid": "552A"
-        },
-        {
-            "title": "Lucky Ticket",
-            "link": "http://codeforces.com/problemset/problem/146/A",
-            "pid": "146A"
-        },
-        {
-            "title": "Sereja and Coat Rack",
-            "link": "http://codeforces.com/problemset/problem/368/A",
-            "pid": "368A"
-        },
-        {
-            "title": "Lucky Substring",
-            "link": "http://codeforces.com/problemset/problem/122/B",
-            "pid": "122B"
-        },
-        {
-            "title": "Group of Students",
-            "link": "http://codeforces.com/problemset/problem/357/A",
-            "pid": "357A"
-        },
-        {
-            "title": "Ciel and Dancing",
-            "link": "http://codeforces.com/problemset/problem/322/A",
-            "pid": "322A"
-        },
-        {
-            "title": "Vasya and Digital Root",
-            "link": "http://codeforces.com/problemset/problem/355/A",
-            "pid": "355A"
-        },
-        {
-            "title": "Inna and Choose Options",
-            "link": "http://codeforces.com/problemset/problem/400/A",
-            "pid": "400A"
-        },
-        {
-            "title": "Lever",
-            "link": "http://codeforces.com/problemset/problem/376/A",
-            "pid": "376A"
-        },
-        {
-            "title": "Calculating Function",
-            "link": "http://codeforces.com/problemset/problem/486/A",
-            "pid": "486A"
-        },
-        {
-            "title": "Bear and Raspberry",
-            "link": "http://codeforces.com/problemset/problem/385/A",
-            "pid": "385A"
-        },
-        {
-            "title": "Amr and Music",
-            "link": "http://codeforces.com/problemset/problem/507/A",
-            "pid": "507A"
-        },
-        {
-            "title": "Currency System in Geraldion",
-            "link": "http://codeforces.com/problemset/problem/560/A",
-            "pid": "560A"
-        },
-        {
-            "title": "Toy Cars",
-            "link": "http://codeforces.com/problemset/problem/545/A",
-            "pid": "545A"
-        },
-        {
-            "title": "Lecture",
-            "link": "http://codeforces.com/problemset/problem/499/B",
-            "pid": "499B"
-        },
-        {
-            "title": "Little Elephant and Magic Square",
-            "link": "http://codeforces.com/problemset/problem/259/B",
-            "pid": "259B"
-        },
-        {
-            "title": "Arrays",
-            "link": "http://codeforces.com/problemset/problem/572/A",
-            "pid": "572A"
-        },
-        {
-            "title": "Initial Bet",
-            "link": "http://codeforces.com/problemset/problem/478/A",
-            "pid": "478A"
-        },
-        {
-            "title": "Trace",
-            "link": "http://codeforces.com/problemset/problem/157/B",
-            "pid": "157B"
-        },
-        {
-            "title": "Valera and Antique Items",
-            "link": "http://codeforces.com/problemset/problem/441/A",
-            "pid": "441A"
-        },
-        {
-            "title": "Buttons",
-            "link": "http://codeforces.com/problemset/problem/268/B",
-            "pid": "268B"
-        },
-        {
-            "title": "Game With Sticks",
-            "link": "http://codeforces.com/problemset/problem/451/A",
-            "pid": "451A"
-        },
-        {
-            "title": "Devu, the Singer and Churu, the Joker",
-            "link": "http://codeforces.com/problemset/problem/439/A",
-            "pid": "439A"
-        },
-        {
-            "title": "A and B and Chess",
-            "link": "http://codeforces.com/problemset/problem/519/A",
-            "pid": "519A"
-        },
-        {
-            "title": "Squares",
-            "link": "http://codeforces.com/problemset/problem/263/B",
-            "pid": "263B"
-        },
-        {
-            "title": "Prison Transfer",
-            "link": "http://codeforces.com/problemset/problem/427/B",
-            "pid": "427B"
-        },
-        {
-            "title": "Valera and Plates",
-            "link": "http://codeforces.com/problemset/problem/369/A",
-            "pid": "369A"
-        },
-        {
-            "title": "Roadside Trees (Simplified Edition)",
-            "link": "http://codeforces.com/problemset/problem/265/B",
-            "pid": "265B"
-        },
-        {
-            "title": "Simple Game",
-            "link": "http://codeforces.com/problemset/problem/570/B",
-            "pid": "570B"
-        },
-        {
-            "title": "Elections",
-            "link": "http://codeforces.com/problemset/problem/570/A",
-            "pid": "570A"
-        },
-        {
-            "title": "Magical Array",
-            "link": "http://codeforces.com/problemset/problem/83/A",
-            "pid": "83A"
-        },
-        {
-            "title": "Combination",
-            "link": "http://codeforces.com/problemset/problem/155/B",
-            "pid": "155B"
-        },
-        {
-            "title": "Magic Spheres",
-            "link": "http://codeforces.com/problemset/problem/606/A",
-            "pid": "606A"
-        },
-        {
-            "title": "Whose sentence is it?",
-            "link": "http://codeforces.com/problemset/problem/312/A",
-            "pid": "312A"
-        },
-        {
-            "title": "Devu, the Dumb Guy",
-            "link": "http://codeforces.com/problemset/problem/439/B",
-            "pid": "439B"
-        },
-        {
-            "title": "Sockets",
-            "link": "http://codeforces.com/problemset/problem/257/A",
-            "pid": "257A"
-        },
-        {
-            "title": "Vasya and Petya's Game",
-            "link": "http://codeforces.com/problemset/problem/576/A",
-            "pid": "576A"
-        },
-        {
-            "title": "Art Union",
-            "link": "http://codeforces.com/problemset/problem/416/B",
-            "pid": "416B"
-        },
-        {
-            "title": "Coins",
-            "link": "http://codeforces.com/problemset/problem/58/B",
-            "pid": "58B"
-        },
-        {
-            "title": "K-special Tables",
-            "link": "http://codeforces.com/problemset/problem/625/C",
-            "pid": "625C"
-        },
-        {
-            "title": "Wet Shark and Bishops",
-            "link": "http://codeforces.com/problemset/problem/621/B",
-            "pid": "621B"
-        },
-        {
-            "title": "Chewba?ca and Number",
-            "link": "http://codeforces.com/problemset/problem/514/A",
-            "pid": "514A"
-        },
-        {
-            "title": "Binary Number",
-            "link": "http://codeforces.com/problemset/problem/92/B",
-            "pid": "92B"
-        },
-        {
-            "title": "Snow Footprints",
-            "link": "http://codeforces.com/problemset/problem/298/A",
-            "pid": "298A"
-        },
-        {
-            "title": "Levko and Permutation",
-            "link": "http://codeforces.com/problemset/problem/361/B",
-            "pid": "361B"
-        },
-        {
-            "title": "Watchmen",
-            "link": "http://codeforces.com/problemset/problem/650/A",
-            "pid": "650A"
-        },
-        {
-            "title": "Vitaliy and Pie",
-            "link": "http://codeforces.com/problemset/problem/525/A",
-            "pid": "525A"
-        },
-        {
-            "title": "Prizes, Prizes, more Prizes",
-            "link": "http://codeforces.com/problemset/problem/208/D",
-            "pid": "208D"
-        },
-        {
-            "title": "Email address",
-            "link": "http://codeforces.com/problemset/problem/41/C",
-            "pid": "41C"
-        },
-        {
-            "title": "Permutation",
-            "link": "http://codeforces.com/problemset/problem/359/B",
-            "pid": "359B"
-        },
-        {
-            "title": "Petya and Java",
-            "link": "http://codeforces.com/problemset/problem/66/A",
-            "pid": "66A"
-        },
-        {
-            "title": "Far Relative\u2019s Problem",
-            "link": "http://codeforces.com/problemset/problem/629/B",
-            "pid": "629B"
-        },
-        {
-            "title": "Polo the Penguin and Strings",
-            "link": "http://codeforces.com/problemset/problem/288/A",
-            "pid": "288A"
-        },
-        {
-            "title": "Sorting Railway Cars",
-            "link": "http://codeforces.com/problemset/problem/605/A",
-            "pid": "605A"
-        },
-        {
-            "title": "Wilbur and Array",
-            "link": "http://codeforces.com/problemset/problem/596/B",
-            "pid": "596B"
-        },
-        {
-            "title": "Little Xor",
-            "link": "http://codeforces.com/problemset/problem/252/A",
-            "pid": "252A"
-        },
-        {
-            "title": "Appleman and Toastman",
-            "link": "http://codeforces.com/problemset/problem/461/A",
-            "pid": "461A"
-        },
-        {
-            "title": "Lala Land and Apple Trees",
-            "link": "http://codeforces.com/problemset/problem/558/A",
-            "pid": "558A"
-        },
-        {
-            "title": "Cifera",
-            "link": "http://codeforces.com/problemset/problem/114/A",
-            "pid": "114A"
-        },
-        {
-            "title": "Fox and Number Game",
-            "link": "http://codeforces.com/problemset/problem/389/A",
-            "pid": "389A"
-        },
-        {
-            "title": "The Monster and the Squirrel",
-            "link": "http://codeforces.com/problemset/problem/592/B",
-            "pid": "592B"
-        },
-        {
-            "title": "The Child and Homework",
-            "link": "http://codeforces.com/problemset/problem/437/A",
-            "pid": "437A"
-        },
-        {
-            "title": "Replacement",
-            "link": "http://codeforces.com/problemset/problem/135/A",
-            "pid": "135A"
-        },
-        {
-            "title": "Mashmokh and Numbers",
-            "link": "http://codeforces.com/problemset/problem/414/A",
-            "pid": "414A"
-        },
-        {
-            "title": "Unary",
-            "link": "http://codeforces.com/problemset/problem/133/B",
-            "pid": "133B"
-        },
-        {
-            "title": "Good Number",
-            "link": "http://codeforces.com/problemset/problem/365/A",
-            "pid": "365A"
-        },
-        {
-            "title": "George and Round",
-            "link": "http://codeforces.com/problemset/problem/387/B",
-            "pid": "387B"
-        },
-        {
-            "title": "Students and Shoelaces",
-            "link": "http://codeforces.com/problemset/problem/129/B",
-            "pid": "129B"
-        },
-        {
-            "title": "Print Check",
-            "link": "http://codeforces.com/problemset/problem/631/B",
-            "pid": "631B"
-        },
-        {
-            "title": "War of the Corporations",
-            "link": "http://codeforces.com/problemset/problem/625/B",
-            "pid": "625B"
-        },
-        {
-            "title": "Digital Counter",
-            "link": "http://codeforces.com/problemset/problem/495/A",
-            "pid": "495A"
-        },
-        {
-            "title": "K-Periodic Array",
-            "link": "http://codeforces.com/problemset/problem/371/A",
-            "pid": "371A"
-        },
-        {
-            "title": "Tavas and SaDDas",
-            "link": "http://codeforces.com/problemset/problem/535/B",
-            "pid": "535B"
-        },
-        {
-            "title": "Alyona and Numbers",
-            "link": "http://codeforces.com/problemset/problem/682/A",
-            "pid": "682A"
-        },
-        {
-            "title": "Case of Fake Numbers",
-            "link": "http://codeforces.com/problemset/problem/556/B",
-            "pid": "556B"
-        },
-        {
-            "title": "Football Kit",
-            "link": "http://codeforces.com/problemset/problem/432/B",
-            "pid": "432B"
-        },
-        {
-            "title": "Vanya and Books",
-            "link": "http://codeforces.com/problemset/problem/552/B",
-            "pid": "552B"
-        },
-        {
-            "title": "Equidistant String",
-            "link": "http://codeforces.com/problemset/problem/545/B",
-            "pid": "545B"
-        },
-        {
-            "title": "Lucky Conversion",
-            "link": "http://codeforces.com/problemset/problem/145/A",
-            "pid": "145A"
-        },
-        {
-            "title": "Rebranding",
-            "link": "http://codeforces.com/problemset/problem/591/B",
-            "pid": "591B"
-        },
-        {
-            "title": "The Wall",
-            "link": "http://codeforces.com/problemset/problem/340/A",
-            "pid": "340A"
-        },
-        {
-            "title": "Diverse Permutation",
-            "link": "http://codeforces.com/problemset/problem/482/A",
-            "pid": "482A"
-        },
-        {
-            "title": "A and B and Team Training",
-            "link": "http://codeforces.com/problemset/problem/519/C",
-            "pid": "519C"
-        },
-        {
-            "title": "Anton and currency you all know",
-            "link": "http://codeforces.com/problemset/problem/508/B",
-            "pid": "508B"
-        },
-        {
-            "title": "Bear and Elections",
-            "link": "http://codeforces.com/problemset/problem/574/A",
-            "pid": "574A"
-        },
-        {
-            "title": "Chat Online",
-            "link": "http://codeforces.com/problemset/problem/469/B",
-            "pid": "469B"
-        },
-        {
-            "title": "Ksenia and Pan Scales",
-            "link": "http://codeforces.com/problemset/problem/382/A",
-            "pid": "382A"
-        },
-        {
-            "title": "Valuable Resources",
-            "link": "http://codeforces.com/problemset/problem/485/B",
-            "pid": "485B"
-        },
-        {
-            "title": "Strings of Power",
-            "link": "http://codeforces.com/problemset/problem/318/B",
-            "pid": "318B"
-        },
-        {
-            "title": "Petya and Staircases",
-            "link": "http://codeforces.com/problemset/problem/362/B",
-            "pid": "362B"
-        },
-        {
-            "title": "Ohana Cleans Up",
-            "link": "http://codeforces.com/problemset/problem/554/B",
-            "pid": "554B"
-        },
-        {
-            "title": "Beautiful Paintings",
-            "link": "http://codeforces.com/problemset/problem/651/B",
-            "pid": "651B"
-        },
-        {
-            "title": "Vasya and Football",
-            "link": "http://codeforces.com/problemset/problem/493/A",
-            "pid": "493A"
-        },
-        {
-            "title": "Random Teams",
-            "link": "http://codeforces.com/problemset/problem/478/B",
-            "pid": "478B"
-        },
-        {
-            "title": "Sereja and Stairs",
-            "link": "http://codeforces.com/problemset/problem/381/B",
-            "pid": "381B"
-        },
-        {
-            "title": "Bear and Strings",
-            "link": "http://codeforces.com/problemset/problem/385/B",
-            "pid": "385B"
-        },
-        {
-            "title": "A and B and Compilation Errors",
-            "link": "http://codeforces.com/problemset/problem/519/B",
-            "pid": "519B"
-        },
-        {
-            "title": "Drazil and Factorial",
-            "link": "http://codeforces.com/problemset/problem/515/C",
-            "pid": "515C"
-        },
-        {
-            "title": "Misha and Changing Handles",
-            "link": "http://codeforces.com/problemset/problem/501/B",
-            "pid": "501B"
-        },
-        {
-            "title": "Fedor and New Game",
-            "link": "http://codeforces.com/problemset/problem/467/B",
-            "pid": "467B"
-        },
-        {
-            "title": "Alyona and the Tree",
-            "link": "http://codeforces.com/problemset/problem/682/C",
-            "pid": "682C"
-        },
-        {
-            "title": "Gena's Code",
-            "link": "http://codeforces.com/problemset/problem/614/B",
-            "pid": "614B"
-        },
-        {
-            "title": "Mike and Chocolate Thieves",
-            "link": "http://codeforces.com/problemset/problem/689/C",
-            "pid": "689C"
-        },
-        {
-            "title": "Unusual Product",
-            "link": "http://codeforces.com/problemset/problem/405/C",
-            "pid": "405C"
-        },
-        {
-            "title": "Economy Game",
-            "link": "http://codeforces.com/problemset/problem/681/B",
-            "pid": "681B"
-        },
-        {
-            "title": "Arpa\u2019s obvious problem and Mehrdad\u2019s terrible solution",
-            "link": "http://codeforces.com/problemset/problem/742/B",
-            "pid": "742B"
-        },
-        {
-            "title": "Unsorting Array",
-            "link": "http://codeforces.com/problemset/problem/252/B",
-            "pid": "252B"
-        },
-        {
-            "title": "Guess a number!",
-            "link": "http://codeforces.com/problemset/problem/416/A",
-            "pid": "416A"
-        },
-        {
-            "title": "Plate Game",
-            "link": "http://codeforces.com/problemset/problem/197/A",
-            "pid": "197A"
-        },
-        {
-            "title": "Preparing Olympiad",
-            "link": "http://codeforces.com/problemset/problem/550/B",
-            "pid": "550B"
-        },
-        {
-            "title": "Mike and Cellphone",
-            "link": "http://codeforces.com/problemset/problem/689/A",
-            "pid": "689A"
-        },
-        {
-            "title": "Pasha Maximizes",
-            "link": "http://codeforces.com/problemset/problem/435/B",
-            "pid": "435B"
-        },
-        {
-            "title": "Guest From the Past",
-            "link": "http://codeforces.com/problemset/problem/625/A",
-            "pid": "625A"
-        },
-        {
-            "title": "Limit",
-            "link": "http://codeforces.com/problemset/problem/197/B",
-            "pid": "197B"
-        },
-        {
-            "title": "Order Book",
-            "link": "http://codeforces.com/problemset/problem/572/B",
-            "pid": "572B"
-        },
-        {
-            "title": "Watering Flowers",
-            "link": "http://codeforces.com/problemset/problem/617/C",
-            "pid": "617C"
-        },
-        {
-            "title": "Dima and Text Messages",
-            "link": "http://codeforces.com/problemset/problem/358/B",
-            "pid": "358B"
-        },
-        {
-            "title": "Taxes",
-            "link": "http://codeforces.com/problemset/problem/735/D",
-            "pid": "735D"
-        },
-        {
-            "title": "Replacement",
-            "link": "http://codeforces.com/problemset/problem/570/C",
-            "pid": "570C"
-        },
-        {
-            "title": "MUH and Important Things",
-            "link": "http://codeforces.com/problemset/problem/471/B",
-            "pid": "471B"
-        },
-        {
-            "title": "Ilya and Sticks",
-            "link": "http://codeforces.com/problemset/problem/525/C",
-            "pid": "525C"
-        },
-        {
-            "title": "Cthulhu",
-            "link": "http://codeforces.com/problemset/problem/103/B",
-            "pid": "103B"
-        },
-        {
-            "title": "Bakery",
-            "link": "http://codeforces.com/problemset/problem/707/B",
-            "pid": "707B"
-        },
-        {
-            "title": "New Problem",
-            "link": "http://codeforces.com/problemset/problem/278/B",
-            "pid": "278B"
-        },
-        {
-            "title": "Hamming Distance Sum",
-            "link": "http://codeforces.com/problemset/problem/608/B",
-            "pid": "608B"
-        },
-        {
-            "title": "Dima and Sequence",
-            "link": "http://codeforces.com/problemset/problem/272/B",
-            "pid": "272B"
-        },
-        {
-            "title": "Dima and Lisa",
-            "link": "http://codeforces.com/problemset/problem/584/D",
-            "pid": "584D"
-        },
-        {
-            "title": "Soldier and Badges",
-            "link": "http://codeforces.com/problemset/problem/546/B",
-            "pid": "546B"
-        },
-        {
-            "title": "Hard problem",
-            "link": "http://codeforces.com/problemset/problem/706/C",
-            "pid": "706C"
-        },
-        {
-            "title": "PawnChess",
-            "link": "http://codeforces.com/problemset/problem/592/A",
-            "pid": "592A"
-        },
-        {
-            "title": "Pasha and Tea",
-            "link": "http://codeforces.com/problemset/problem/557/B",
-            "pid": "557B"
-        },
-        {
-            "title": "Mike and Fun",
-            "link": "http://codeforces.com/problemset/problem/548/B",
-            "pid": "548B"
-        },
-        {
-            "title": "Kolya and Tanya",
-            "link": "http://codeforces.com/problemset/problem/584/B",
-            "pid": "584B"
-        },
-        {
-            "title": "Pasha and String",
-            "link": "http://codeforces.com/problemset/problem/525/B",
-            "pid": "525B"
-        },
-        {
-            "title": "Vasya and String",
-            "link": "http://codeforces.com/problemset/problem/676/C",
-            "pid": "676C"
-        },
-        {
-            "title": "Bits",
-            "link": "http://codeforces.com/problemset/problem/484/A",
-            "pid": "484A"
-        },
-        {
-            "title": "DZY Loves Chemistry",
-            "link": "http://codeforces.com/problemset/problem/445/B",
-            "pid": "445B"
-        },
-        {
-            "title": "Bear and Three Musketeers",
-            "link": "http://codeforces.com/problemset/problem/574/B",
-            "pid": "574B"
-        },
-        {
-            "title": "More Cowbell",
-            "link": "http://codeforces.com/problemset/problem/604/B",
-            "pid": "604B"
-        },
-        {
-            "title": "Secret Combination",
-            "link": "http://codeforces.com/problemset/problem/496/B",
-            "pid": "496B"
-        },
-        {
-            "title": "Burning Midnight Oil",
-            "link": "http://codeforces.com/problemset/problem/165/B",
-            "pid": "165B"
-        },
-        {
-            "title": "Heap Operations",
-            "link": "http://codeforces.com/problemset/problem/681/C",
-            "pid": "681C"
-        },
-        {
-            "title": "k-Multiple Free Set",
-            "link": "http://codeforces.com/problemset/problem/274/A",
-            "pid": "274A"
-        },
-        {
-            "title": "Kefa and Company",
-            "link": "http://codeforces.com/problemset/problem/580/B",
-            "pid": "580B"
-        },
-        {
-            "title": "Queue",
-            "link": "http://codeforces.com/problemset/problem/545/D",
-            "pid": "545D"
-        },
-        {
-            "title": "Amr and The Large Array",
-            "link": "http://codeforces.com/problemset/problem/558/B",
-            "pid": "558B"
-        },
-        {
-            "title": "Gerald is into Art",
-            "link": "http://codeforces.com/problemset/problem/560/B",
-            "pid": "560B"
-        },
-        {
-            "title": "Modular Equations",
-            "link": "http://codeforces.com/problemset/problem/495/B",
-            "pid": "495B"
-        },
-        {
-            "title": "Han Solo and Lazer Gun",
-            "link": "http://codeforces.com/problemset/problem/514/B",
-            "pid": "514B"
-        },
-        {
-            "title": "Approximating a Constant Range",
-            "link": "http://codeforces.com/problemset/problem/602/B",
-            "pid": "602B"
-        },
-        {
-            "title": "OR in Matrix",
-            "link": "http://codeforces.com/problemset/problem/486/B",
-            "pid": "486B"
-        },
-        {
-            "title": "Amr and Pins",
-            "link": "http://codeforces.com/problemset/problem/507/B",
-            "pid": "507B"
-        },
-        {
-            "title": "Two Substrings",
-            "link": "http://codeforces.com/problemset/problem/550/A",
-            "pid": "550A"
-        },
-        {
-            "title": "Soldier and Cards",
-            "link": "http://codeforces.com/problemset/problem/546/C",
-            "pid": "546C"
-        },
-        {
-            "title": "Vasya and Wrestling",
-            "link": "http://codeforces.com/problemset/problem/493/B",
-            "pid": "493B"
-        },
-        {
-            "title": "Kefa and Park",
-            "link": "http://codeforces.com/problemset/problem/580/C",
-            "pid": "580C"
-        },
-        {
-            "title": "Woodcutters",
-            "link": "http://codeforces.com/problemset/problem/545/C",
-            "pid": "545C"
-        }
-    ],
-    "1400 <= Codeforces Rating <= 1499": [
-        {
-            "title": "Police Recruits",
-            "link": "http://codeforces.com/problemset/problem/427/A",
-            "pid": "427A"
-        },
-        {
-            "title": "Spit Problem",
-            "link": "http://codeforces.com/problemset/problem/29/A",
-            "pid": "29A"
         },
         {
             "title": "Reconnaissance",
@@ -5534,1001 +3570,19 @@ A2OJ_LADDERS = {
             "pid": "32A"
         },
         {
-            "title": "Playing with Dice",
-            "link": "http://codeforces.com/problemset/problem/378/A",
-            "pid": "378A"
-        },
-        {
-            "title": "Line to Cashier",
-            "link": "http://codeforces.com/problemset/problem/408/A",
-            "pid": "408A"
-        },
-        {
-            "title": "GukiZ and Contest",
-            "link": "http://codeforces.com/problemset/problem/551/A",
-            "pid": "551A"
-        },
-        {
-            "title": "Soldier and Bananas",
-            "link": "http://codeforces.com/problemset/problem/546/A",
-            "pid": "546A"
-        },
-        {
-            "title": "Games",
-            "link": "http://codeforces.com/problemset/problem/268/A",
-            "pid": "268A"
-        },
-        {
-            "title": "Restoring Password",
-            "link": "http://codeforces.com/problemset/problem/94/A",
-            "pid": "94A"
-        },
-        {
             "title": "Soroban",
             "link": "http://codeforces.com/problemset/problem/363/A",
             "pid": "363A"
         },
         {
-            "title": "Greg's Workout",
-            "link": "http://codeforces.com/problemset/problem/255/A",
-            "pid": "255A"
+            "title": "Playing with Dice",
+            "link": "http://codeforces.com/problemset/problem/378/A",
+            "pid": "378A"
         },
         {
-            "title": "LLPS",
-            "link": "http://codeforces.com/problemset/problem/202/A",
-            "pid": "202A"
-        },
-        {
-            "title": "Colorful Stones (Simplified Edition)",
-            "link": "http://codeforces.com/problemset/problem/265/A",
-            "pid": "265A"
-        },
-        {
-            "title": "Roma and Lucky Numbers",
-            "link": "http://codeforces.com/problemset/problem/262/A",
-            "pid": "262A"
-        },
-        {
-            "title": "Toy Army",
-            "link": "http://codeforces.com/problemset/problem/84/A",
-            "pid": "84A"
-        },
-        {
-            "title": "Buggy Sorting",
-            "link": "http://codeforces.com/problemset/problem/246/A",
-            "pid": "246A"
-        },
-        {
-            "title": "Queue on Bus Stop",
-            "link": "http://codeforces.com/problemset/problem/435/A",
-            "pid": "435A"
-        },
-        {
-            "title": "Amr and Music",
-            "link": "http://codeforces.com/problemset/problem/507/A",
-            "pid": "507A"
-        },
-        {
-            "title": "Table",
-            "link": "http://codeforces.com/problemset/problem/359/A",
-            "pid": "359A"
-        },
-        {
-            "title": "A and B and Chess",
-            "link": "http://codeforces.com/problemset/problem/519/A",
-            "pid": "519A"
-        },
-        {
-            "title": "Valera and Plates",
-            "link": "http://codeforces.com/problemset/problem/369/A",
-            "pid": "369A"
-        },
-        {
-            "title": "Exams",
-            "link": "http://codeforces.com/problemset/problem/194/A",
-            "pid": "194A"
-        },
-        {
-            "title": "Ilya and Diplomas",
-            "link": "http://codeforces.com/problemset/problem/557/A",
-            "pid": "557A"
-        },
-        {
-            "title": "Help Vasilisa the Wise 2",
-            "link": "http://codeforces.com/problemset/problem/143/A",
-            "pid": "143A"
-        },
-        {
-            "title": "George and Sleep",
-            "link": "http://codeforces.com/problemset/problem/387/A",
-            "pid": "387A"
-        },
-        {
-            "title": "Sereja and Coat Rack",
-            "link": "http://codeforces.com/problemset/problem/368/A",
-            "pid": "368A"
-        },
-        {
-            "title": "Squares",
-            "link": "http://codeforces.com/problemset/problem/263/B",
-            "pid": "263B"
-        },
-        {
-            "title": "Lecture",
-            "link": "http://codeforces.com/problemset/problem/499/B",
-            "pid": "499B"
-        },
-        {
-            "title": "Valera and Antique Items",
-            "link": "http://codeforces.com/problemset/problem/441/A",
-            "pid": "441A"
-        },
-        {
-            "title": "Card Game",
-            "link": "http://codeforces.com/problemset/problem/106/A",
-            "pid": "106A"
-        },
-        {
-            "title": "Arrays",
-            "link": "http://codeforces.com/problemset/problem/572/A",
-            "pid": "572A"
-        },
-        {
-            "title": "Buttons",
-            "link": "http://codeforces.com/problemset/problem/268/B",
-            "pid": "268B"
-        },
-        {
-            "title": "Sinking Ship",
-            "link": "http://codeforces.com/problemset/problem/63/A",
-            "pid": "63A"
-        },
-        {
-            "title": "Lucky Ticket",
-            "link": "http://codeforces.com/problemset/problem/146/A",
-            "pid": "146A"
-        },
-        {
-            "title": "Kefa and First Steps",
-            "link": "http://codeforces.com/problemset/problem/580/A",
-            "pid": "580A"
-        },
-        {
-            "title": "Lucky String",
-            "link": "http://codeforces.com/problemset/problem/110/B",
-            "pid": "110B"
-        },
-        {
-            "title": "Vasya and Digital Root",
-            "link": "http://codeforces.com/problemset/problem/355/A",
-            "pid": "355A"
-        },
-        {
-            "title": "Joysticks",
-            "link": "http://codeforces.com/problemset/problem/651/A",
-            "pid": "651A"
-        },
-        {
-            "title": "Case of the Zeros and Ones",
-            "link": "http://codeforces.com/problemset/problem/556/A",
-            "pid": "556A"
-        },
-        {
-            "title": "Little Frog",
-            "link": "http://codeforces.com/problemset/problem/53/C",
-            "pid": "53C"
-        },
-        {
-            "title": "Prison Transfer",
-            "link": "http://codeforces.com/problemset/problem/427/B",
-            "pid": "427B"
-        },
-        {
-            "title": "Bear and Raspberry",
-            "link": "http://codeforces.com/problemset/problem/385/A",
-            "pid": "385A"
-        },
-        {
-            "title": "Palindromic Times",
-            "link": "http://codeforces.com/problemset/problem/108/A",
-            "pid": "108A"
-        },
-        {
-            "title": "Calculating Function",
-            "link": "http://codeforces.com/problemset/problem/486/A",
-            "pid": "486A"
-        },
-        {
-            "title": "Currency System in Geraldion",
-            "link": "http://codeforces.com/problemset/problem/560/A",
-            "pid": "560A"
-        },
-        {
-            "title": "Game With Sticks",
-            "link": "http://codeforces.com/problemset/problem/451/A",
-            "pid": "451A"
-        },
-        {
-            "title": "Roadside Trees (Simplified Edition)",
-            "link": "http://codeforces.com/problemset/problem/265/B",
-            "pid": "265B"
-        },
-        {
-            "title": "Game Outcome",
-            "link": "http://codeforces.com/problemset/problem/157/A",
-            "pid": "157A"
-        },
-        {
-            "title": "Ciel and Dancing",
-            "link": "http://codeforces.com/problemset/problem/322/A",
-            "pid": "322A"
-        },
-        {
-            "title": "Lucky Substring",
-            "link": "http://codeforces.com/problemset/problem/122/B",
-            "pid": "122B"
-        },
-        {
-            "title": "Group of Students",
-            "link": "http://codeforces.com/problemset/problem/357/A",
-            "pid": "357A"
-        },
-        {
-            "title": "Drazil and Date",
-            "link": "http://codeforces.com/problemset/problem/515/A",
-            "pid": "515A"
-        },
-        {
-            "title": "Valera and X",
-            "link": "http://codeforces.com/problemset/problem/404/A",
-            "pid": "404A"
-        },
-        {
-            "title": "Petya and Countryside",
-            "link": "http://codeforces.com/problemset/problem/66/B",
-            "pid": "66B"
-        },
-        {
-            "title": "Inna and Choose Options",
-            "link": "http://codeforces.com/problemset/problem/400/A",
-            "pid": "400A"
-        },
-        {
-            "title": "Trace",
-            "link": "http://codeforces.com/problemset/problem/157/B",
-            "pid": "157B"
-        },
-        {
-            "title": "Little Elephant and Magic Square",
-            "link": "http://codeforces.com/problemset/problem/259/B",
-            "pid": "259B"
-        },
-        {
-            "title": "Pasha and Pixels",
-            "link": "http://codeforces.com/problemset/problem/508/A",
-            "pid": "508A"
-        },
-        {
-            "title": "Eugeny and Play List",
-            "link": "http://codeforces.com/problemset/problem/302/B",
-            "pid": "302B"
-        },
-        {
-            "title": "Simple Game",
-            "link": "http://codeforces.com/problemset/problem/570/B",
-            "pid": "570B"
-        },
-        {
-            "title": "Vanya and Books",
-            "link": "http://codeforces.com/problemset/problem/552/B",
-            "pid": "552B"
-        },
-        {
-            "title": "Appleman and Toastman",
-            "link": "http://codeforces.com/problemset/problem/461/A",
-            "pid": "461A"
-        },
-        {
-            "title": "Bear and Strings",
-            "link": "http://codeforces.com/problemset/problem/385/B",
-            "pid": "385B"
-        },
-        {
-            "title": "Misha and Changing Handles",
-            "link": "http://codeforces.com/problemset/problem/501/B",
-            "pid": "501B"
-        },
-        {
-            "title": "Tiling with Hexagons",
-            "link": "http://codeforces.com/problemset/problem/216/A",
-            "pid": "216A"
-        },
-        {
-            "title": "Dima and To-do List",
-            "link": "http://codeforces.com/problemset/problem/366/B",
-            "pid": "366B"
-        },
-        {
-            "title": "Vitaliy and Pie",
-            "link": "http://codeforces.com/problemset/problem/525/A",
-            "pid": "525A"
-        },
-        {
-            "title": "Xor-tree",
-            "link": "http://codeforces.com/problemset/problem/429/A",
-            "pid": "429A"
-        },
-        {
-            "title": "Snow Footprints",
-            "link": "http://codeforces.com/problemset/problem/298/A",
-            "pid": "298A"
-        },
-        {
-            "title": "Vasya and Football",
-            "link": "http://codeforces.com/problemset/problem/493/A",
-            "pid": "493A"
-        },
-        {
-            "title": "Tournament",
-            "link": "http://codeforces.com/problemset/problem/27/B",
-            "pid": "27B"
-        },
-        {
-            "title": "Lala Land and Apple Trees",
-            "link": "http://codeforces.com/problemset/problem/558/A",
-            "pid": "558A"
-        },
-        {
-            "title": "Chocolate",
-            "link": "http://codeforces.com/problemset/problem/617/B",
-            "pid": "617B"
-        },
-        {
-            "title": "Rook, Bishop and King",
-            "link": "http://codeforces.com/problemset/problem/370/A",
-            "pid": "370A"
-        },
-        {
-            "title": "Lucky Tickets",
-            "link": "http://codeforces.com/problemset/problem/43/C",
-            "pid": "43C"
-        },
-        {
-            "title": "Bar",
-            "link": "http://codeforces.com/problemset/problem/56/A",
-            "pid": "56A"
-        },
-        {
-            "title": "Case of Fake Numbers",
-            "link": "http://codeforces.com/problemset/problem/556/B",
-            "pid": "556B"
-        },
-        {
-            "title": "Sockets",
-            "link": "http://codeforces.com/problemset/problem/257/A",
-            "pid": "257A"
-        },
-        {
-            "title": "War of the Corporations",
-            "link": "http://codeforces.com/problemset/problem/625/B",
-            "pid": "625B"
-        },
-        {
-            "title": "Diverse Permutation",
-            "link": "http://codeforces.com/problemset/problem/482/A",
-            "pid": "482A"
-        },
-        {
-            "title": "Garland",
-            "link": "http://codeforces.com/problemset/problem/408/B",
-            "pid": "408B"
-        },
-        {
-            "title": "Binary Number",
-            "link": "http://codeforces.com/problemset/problem/92/B",
-            "pid": "92B"
-        },
-        {
-            "title": "Walking in the Rain",
-            "link": "http://codeforces.com/problemset/problem/192/B",
-            "pid": "192B"
-        },
-        {
-            "title": "Good Number",
-            "link": "http://codeforces.com/problemset/problem/365/A",
-            "pid": "365A"
-        },
-        {
-            "title": "Replacement",
-            "link": "http://codeforces.com/problemset/problem/135/A",
-            "pid": "135A"
-        },
-        {
-            "title": "Little Xor",
-            "link": "http://codeforces.com/problemset/problem/252/A",
-            "pid": "252A"
-        },
-        {
-            "title": "Strings of Power",
-            "link": "http://codeforces.com/problemset/problem/318/B",
-            "pid": "318B"
-        },
-        {
-            "title": "Chewba?ca and Number",
-            "link": "http://codeforces.com/problemset/problem/514/A",
-            "pid": "514A"
-        },
-        {
-            "title": "Little Elephant and Numbers",
-            "link": "http://codeforces.com/problemset/problem/221/B",
-            "pid": "221B"
-        },
-        {
-            "title": "Lucky Conversion",
-            "link": "http://codeforces.com/problemset/problem/145/A",
-            "pid": "145A"
-        },
-        {
-            "title": "Chat Online",
-            "link": "http://codeforces.com/problemset/problem/469/B",
-            "pid": "469B"
-        },
-        {
-            "title": "Combination",
-            "link": "http://codeforces.com/problemset/problem/155/B",
-            "pid": "155B"
-        },
-        {
-            "title": "Levko and Permutation",
-            "link": "http://codeforces.com/problemset/problem/361/B",
-            "pid": "361B"
-        },
-        {
-            "title": "Sorting Railway Cars",
-            "link": "http://codeforces.com/problemset/problem/605/A",
-            "pid": "605A"
-        },
-        {
-            "title": "Vasya and Petya's Game",
-            "link": "http://codeforces.com/problemset/problem/576/A",
-            "pid": "576A"
-        },
-        {
-            "title": "Coins",
-            "link": "http://codeforces.com/problemset/problem/58/B",
-            "pid": "58B"
-        },
-        {
-            "title": "Bear and Elections",
-            "link": "http://codeforces.com/problemset/problem/574/A",
-            "pid": "574A"
-        },
-        {
-            "title": "A and B and Compilation Errors",
-            "link": "http://codeforces.com/problemset/problem/519/B",
-            "pid": "519B"
-        },
-        {
-            "title": "Mashmokh and Numbers",
-            "link": "http://codeforces.com/problemset/problem/414/A",
-            "pid": "414A"
-        },
-        {
-            "title": "Unary",
-            "link": "http://codeforces.com/problemset/problem/133/B",
-            "pid": "133B"
-        },
-        {
-            "title": "Football Kit",
-            "link": "http://codeforces.com/problemset/problem/432/B",
-            "pid": "432B"
-        },
-        {
-            "title": "Devu, the Dumb Guy",
-            "link": "http://codeforces.com/problemset/problem/439/B",
-            "pid": "439B"
-        },
-        {
-            "title": "The Wall",
-            "link": "http://codeforces.com/problemset/problem/340/A",
-            "pid": "340A"
-        },
-        {
-            "title": "Watchmen",
-            "link": "http://codeforces.com/problemset/problem/650/A",
-            "pid": "650A"
-        },
-        {
-            "title": "Petya and Staircases",
-            "link": "http://codeforces.com/problemset/problem/362/B",
-            "pid": "362B"
-        },
-        {
-            "title": "Students and Shoelaces",
-            "link": "http://codeforces.com/problemset/problem/129/B",
-            "pid": "129B"
-        },
-        {
-            "title": "Bear and Poker",
-            "link": "http://codeforces.com/problemset/problem/573/A",
-            "pid": "573A"
-        },
-        {
-            "title": "Permutation",
-            "link": "http://codeforces.com/problemset/problem/359/B",
-            "pid": "359B"
-        },
-        {
-            "title": "Cifera",
-            "link": "http://codeforces.com/problemset/problem/114/A",
-            "pid": "114A"
-        },
-        {
-            "title": "The Child and Homework",
-            "link": "http://codeforces.com/problemset/problem/437/A",
-            "pid": "437A"
-        },
-        {
-            "title": "Fedor and New Game",
-            "link": "http://codeforces.com/problemset/problem/467/B",
-            "pid": "467B"
-        },
-        {
-            "title": "Prizes, Prizes, more Prizes",
-            "link": "http://codeforces.com/problemset/problem/208/D",
-            "pid": "208D"
-        },
-        {
-            "title": "Valuable Resources",
-            "link": "http://codeforces.com/problemset/problem/485/B",
-            "pid": "485B"
-        },
-        {
-            "title": "Anton and currency you all know",
-            "link": "http://codeforces.com/problemset/problem/508/B",
-            "pid": "508B"
-        },
-        {
-            "title": "Fox and Number Game",
-            "link": "http://codeforces.com/problemset/problem/389/A",
-            "pid": "389A"
-        },
-        {
-            "title": "Art Union",
-            "link": "http://codeforces.com/problemset/problem/416/B",
-            "pid": "416B"
-        },
-        {
-            "title": "A and B and Team Training",
-            "link": "http://codeforces.com/problemset/problem/519/C",
-            "pid": "519C"
-        },
-        {
-            "title": "Drazil and Factorial",
-            "link": "http://codeforces.com/problemset/problem/515/C",
-            "pid": "515C"
-        },
-        {
-            "title": "Random Teams",
-            "link": "http://codeforces.com/problemset/problem/478/B",
-            "pid": "478B"
-        },
-        {
-            "title": "Secret Combination",
-            "link": "http://codeforces.com/problemset/problem/496/B",
-            "pid": "496B"
-        },
-        {
-            "title": "Tree Construction",
-            "link": "http://codeforces.com/problemset/problem/675/D",
-            "pid": "675D"
-        },
-        {
-            "title": "Report",
-            "link": "http://codeforces.com/problemset/problem/631/C",
-            "pid": "631C"
-        },
-        {
-            "title": "Cardiogram",
-            "link": "http://codeforces.com/problemset/problem/435/C",
-            "pid": "435C"
-        },
-        {
-            "title": "Order Book",
-            "link": "http://codeforces.com/problemset/problem/572/B",
-            "pid": "572B"
-        },
-        {
-            "title": "Dima and Text Messages",
-            "link": "http://codeforces.com/problemset/problem/358/B",
-            "pid": "358B"
-        },
-        {
-            "title": "Division into Teams",
-            "link": "http://codeforces.com/problemset/problem/149/C",
-            "pid": "149C"
-        },
-        {
-            "title": "Predict Outcome of the Game",
-            "link": "http://codeforces.com/problemset/problem/451/C",
-            "pid": "451C"
-        },
-        {
-            "title": "School Marks",
-            "link": "http://codeforces.com/problemset/problem/540/B",
-            "pid": "540B"
-        },
-        {
-            "title": "Biridian Forest",
-            "link": "http://codeforces.com/problemset/problem/329/B",
-            "pid": "329B"
-        },
-        {
-            "title": "Chris and Magic Square",
-            "link": "http://codeforces.com/problemset/problem/711/B",
-            "pid": "711B"
-        },
-        {
-            "title": "Xenia and Spies",
-            "link": "http://codeforces.com/problemset/problem/342/B",
-            "pid": "342B"
-        },
-        {
-            "title": "ZgukistringZ",
-            "link": "http://codeforces.com/problemset/problem/551/B",
-            "pid": "551B"
-        },
-        {
-            "title": "Unusual Product",
-            "link": "http://codeforces.com/problemset/problem/405/C",
-            "pid": "405C"
-        },
-        {
-            "title": "Pyramid of Glasses",
-            "link": "http://codeforces.com/problemset/problem/676/B",
-            "pid": "676B"
-        },
-        {
-            "title": "Mashmokh and Tokens",
-            "link": "http://codeforces.com/problemset/problem/415/B",
-            "pid": "415B"
-        },
-        {
-            "title": "Alternating Current",
-            "link": "http://codeforces.com/problemset/problem/343/B",
-            "pid": "343B"
-        },
-        {
-            "title": "Primes on Interval",
-            "link": "http://codeforces.com/problemset/problem/237/C",
-            "pid": "237C"
-        },
-        {
-            "title": "Memory and De-Evolution",
-            "link": "http://codeforces.com/problemset/problem/712/C",
-            "pid": "712C"
-        },
-        {
-            "title": "Vasya and Wrestling",
-            "link": "http://codeforces.com/problemset/problem/493/B",
-            "pid": "493B"
-        },
-        {
-            "title": "GCD Table",
-            "link": "http://codeforces.com/problemset/problem/582/A",
-            "pid": "582A"
-        },
-        {
-            "title": "Valera and Contest",
-            "link": "http://codeforces.com/problemset/problem/369/B",
-            "pid": "369B"
-        },
-        {
-            "title": "Approximating a Constant Range",
-            "link": "http://codeforces.com/problemset/problem/602/B",
-            "pid": "602B"
-        },
-        {
-            "title": "Heap Operations",
-            "link": "http://codeforces.com/problemset/problem/681/C",
-            "pid": "681C"
-        },
-        {
-            "title": "Alice and Bob",
-            "link": "http://codeforces.com/problemset/problem/346/A",
-            "pid": "346A"
-        },
-        {
-            "title": "Undoubtedly Lucky Numbers",
-            "link": "http://codeforces.com/problemset/problem/244/B",
-            "pid": "244B"
-        },
-        {
-            "title": "Gerald's Hexagon",
-            "link": "http://codeforces.com/problemset/problem/559/A",
-            "pid": "559A"
-        },
-        {
-            "title": "Vasya and the Bus",
-            "link": "http://codeforces.com/problemset/problem/190/A",
-            "pid": "190A"
-        },
-        {
-            "title": "Modular Equations",
-            "link": "http://codeforces.com/problemset/problem/495/B",
-            "pid": "495B"
-        },
-        {
-            "title": "Dima and Sequence",
-            "link": "http://codeforces.com/problemset/problem/272/B",
-            "pid": "272B"
-        },
-        {
-            "title": "Kolya and Tanya",
-            "link": "http://codeforces.com/problemset/problem/584/B",
-            "pid": "584B"
-        },
-        {
-            "title": "Marina and Vasya",
-            "link": "http://codeforces.com/problemset/problem/584/C",
-            "pid": "584C"
-        },
-        {
-            "title": "More Cowbell",
-            "link": "http://codeforces.com/problemset/problem/604/B",
-            "pid": "604B"
-        },
-        {
-            "title": "Quiz",
-            "link": "http://codeforces.com/problemset/problem/337/C",
-            "pid": "337C"
-        },
-        {
-            "title": "Hard problem",
-            "link": "http://codeforces.com/problemset/problem/706/C",
-            "pid": "706C"
-        },
-        {
-            "title": "Bits",
-            "link": "http://codeforces.com/problemset/problem/484/A",
-            "pid": "484A"
-        },
-        {
-            "title": "Dima and Lisa",
-            "link": "http://codeforces.com/problemset/problem/584/D",
-            "pid": "584D"
-        },
-        {
-            "title": "Little Elephant and Sorting",
-            "link": "http://codeforces.com/problemset/problem/205/B",
-            "pid": "205B"
-        },
-        {
-            "title": "Alyona and the Tree",
-            "link": "http://codeforces.com/problemset/problem/682/C",
-            "pid": "682C"
-        },
-        {
-            "title": "Guess Your Way Out!",
-            "link": "http://codeforces.com/problemset/problem/507/C",
-            "pid": "507C"
-        },
-        {
-            "title": "Parity Game",
-            "link": "http://codeforces.com/problemset/problem/297/A",
-            "pid": "297A"
-        },
-        {
-            "title": "Robbers' watch",
-            "link": "http://codeforces.com/problemset/problem/685/A",
-            "pid": "685A"
-        },
-        {
-            "title": "DZY Loves Chemistry",
-            "link": "http://codeforces.com/problemset/problem/445/B",
-            "pid": "445B"
-        },
-        {
-            "title": "Chilly Willy",
-            "link": "http://codeforces.com/problemset/problem/248/B",
-            "pid": "248B"
-        },
-        {
-            "title": "Photographer",
-            "link": "http://codeforces.com/problemset/problem/203/C",
-            "pid": "203C"
-        },
-        {
-            "title": "The Child and Set",
-            "link": "http://codeforces.com/problemset/problem/437/B",
-            "pid": "437B"
-        },
-        {
-            "title": "Find Maximum",
-            "link": "http://codeforces.com/problemset/problem/353/C",
-            "pid": "353C"
-        },
-        {
-            "title": "Trees in a Row",
-            "link": "http://codeforces.com/problemset/problem/402/B",
-            "pid": "402B"
-        },
-        {
-            "title": "Cows and Primitive Roots",
-            "link": "http://codeforces.com/problemset/problem/284/A",
-            "pid": "284A"
-        },
-        {
-            "title": "Mike and Shortcuts",
-            "link": "http://codeforces.com/problemset/problem/689/B",
-            "pid": "689B"
-        },
-        {
-            "title": "Pasha and String",
-            "link": "http://codeforces.com/problemset/problem/525/B",
-            "pid": "525B"
-        },
-        {
-            "title": "Soldier and Cards",
-            "link": "http://codeforces.com/problemset/problem/546/C",
-            "pid": "546C"
-        },
-        {
-            "title": "Pasha and Tea",
-            "link": "http://codeforces.com/problemset/problem/557/B",
-            "pid": "557B"
-        },
-        {
-            "title": "Vasya and String",
-            "link": "http://codeforces.com/problemset/problem/676/C",
-            "pid": "676C"
-        },
-        {
-            "title": "Mike and Fun",
-            "link": "http://codeforces.com/problemset/problem/548/B",
-            "pid": "548B"
-        },
-        {
-            "title": "Non-square Equation",
-            "link": "http://codeforces.com/problemset/problem/233/B",
-            "pid": "233B"
-        },
-        {
-            "title": "Ilya and Sticks",
-            "link": "http://codeforces.com/problemset/problem/525/C",
-            "pid": "525C"
-        },
-        {
-            "title": "Gerald is into Art",
-            "link": "http://codeforces.com/problemset/problem/560/B",
-            "pid": "560B"
-        },
-        {
-            "title": "Guess a number!",
-            "link": "http://codeforces.com/problemset/problem/416/A",
-            "pid": "416A"
-        },
-        {
-            "title": "Queue",
-            "link": "http://codeforces.com/problemset/problem/545/D",
-            "pid": "545D"
-        },
-        {
-            "title": "Han Solo and Lazer Gun",
-            "link": "http://codeforces.com/problemset/problem/514/B",
-            "pid": "514B"
-        },
-        {
-            "title": "Bear and Three Musketeers",
-            "link": "http://codeforces.com/problemset/problem/574/B",
-            "pid": "574B"
-        },
-        {
-            "title": "History",
-            "link": "http://codeforces.com/problemset/problem/137/C",
-            "pid": "137C"
-        },
-        {
-            "title": "Amr and Pins",
-            "link": "http://codeforces.com/problemset/problem/507/B",
-            "pid": "507B"
-        },
-        {
-            "title": "Burning Midnight Oil",
-            "link": "http://codeforces.com/problemset/problem/165/B",
-            "pid": "165B"
-        },
-        {
-            "title": "Dreamoon and Sums",
-            "link": "http://codeforces.com/problemset/problem/476/C",
-            "pid": "476C"
-        },
-        {
-            "title": "Replacement",
-            "link": "http://codeforces.com/problemset/problem/570/C",
-            "pid": "570C"
-        },
-        {
-            "title": "Preparing Olympiad",
-            "link": "http://codeforces.com/problemset/problem/550/B",
-            "pid": "550B"
-        },
-        {
-            "title": "OR in Matrix",
-            "link": "http://codeforces.com/problemset/problem/486/B",
-            "pid": "486B"
-        },
-        {
-            "title": "Amr and The Large Array",
-            "link": "http://codeforces.com/problemset/problem/558/B",
-            "pid": "558B"
-        },
-        {
-            "title": "Soldier and Badges",
-            "link": "http://codeforces.com/problemset/problem/546/B",
-            "pid": "546B"
-        },
-        {
-            "title": "Two Substrings",
-            "link": "http://codeforces.com/problemset/problem/550/A",
-            "pid": "550A"
-        },
-        {
-            "title": "k-Multiple Free Set",
-            "link": "http://codeforces.com/problemset/problem/274/A",
-            "pid": "274A"
-        },
-        {
-            "title": "Kefa and Company",
-            "link": "http://codeforces.com/problemset/problem/580/B",
-            "pid": "580B"
-        },
-        {
-            "title": "Woodcutters",
-            "link": "http://codeforces.com/problemset/problem/545/C",
-            "pid": "545C"
-        },
-        {
-            "title": "Kefa and Park",
-            "link": "http://codeforces.com/problemset/problem/580/C",
-            "pid": "580C"
-        },
-        {
-            "title": "Money Transfers",
-            "link": "http://codeforces.com/problemset/problem/675/C",
-            "pid": "675C"
-        },
-        {
-            "title": "Surrounded",
-            "link": "http://codeforces.com/problemset/problem/190/B",
-            "pid": "190B"
-        },
-        {
-            "title": "Amr and Chemistry",
-            "link": "http://codeforces.com/problemset/problem/558/C",
-            "pid": "558C"
-        },
-        {
-            "title": "Modulo Sum",
-            "link": "http://codeforces.com/problemset/problem/577/B",
-            "pid": "577B"
-        },
-        {
-            "title": "Kefa and Dishes",
-            "link": "http://codeforces.com/problemset/problem/580/D",
-            "pid": "580D"
-        }
-    ],
-    "1500 <= Codeforces Rating <= 1599": [
-        {
-            "title": "Rewards",
-            "link": "http://codeforces.com/problemset/problem/448/A",
-            "pid": "448A"
-        },
-        {
-            "title": "Games",
-            "link": "http://codeforces.com/problemset/problem/268/A",
-            "pid": "268A"
+            "title": "Sereja and Mugs",
+            "link": "http://codeforces.com/problemset/problem/426/A",
+            "pid": "426A"
         },
         {
             "title": "Police Recruits",
@@ -6536,996 +3590,9 @@ A2OJ_LADDERS = {
             "pid": "427A"
         },
         {
-            "title": "Squats",
-            "link": "http://codeforces.com/problemset/problem/424/A",
-            "pid": "424A"
-        },
-        {
-            "title": "Soroban",
-            "link": "http://codeforces.com/problemset/problem/363/A",
-            "pid": "363A"
-        },
-        {
-            "title": "Buggy Sorting",
-            "link": "http://codeforces.com/problemset/problem/246/A",
-            "pid": "246A"
-        },
-        {
-            "title": "Mashmokh and Lights",
-            "link": "http://codeforces.com/problemset/problem/415/A",
-            "pid": "415A"
-        },
-        {
-            "title": "Colorful Stones (Simplified Edition)",
-            "link": "http://codeforces.com/problemset/problem/265/A",
-            "pid": "265A"
-        },
-        {
-            "title": "Kyoya and Photobooks",
-            "link": "http://codeforces.com/problemset/problem/554/A",
-            "pid": "554A"
-        },
-        {
-            "title": "Greg's Workout",
-            "link": "http://codeforces.com/problemset/problem/255/A",
-            "pid": "255A"
-        },
-        {
-            "title": "Roma and Lucky Numbers",
-            "link": "http://codeforces.com/problemset/problem/262/A",
-            "pid": "262A"
-        },
-        {
-            "title": "Shaass and Oskols",
-            "link": "http://codeforces.com/problemset/problem/294/A",
-            "pid": "294A"
-        },
-        {
-            "title": "Circle Line",
-            "link": "http://codeforces.com/problemset/problem/278/A",
-            "pid": "278A"
-        },
-        {
-            "title": "Wasted Time",
-            "link": "http://codeforces.com/problemset/problem/127/A",
-            "pid": "127A"
-        },
-        {
-            "title": "LLPS",
-            "link": "http://codeforces.com/problemset/problem/202/A",
-            "pid": "202A"
-        },
-        {
-            "title": "Game Outcome",
-            "link": "http://codeforces.com/problemset/problem/157/A",
-            "pid": "157A"
-        },
-        {
-            "title": "Devu, the Singer and Churu, the Joker",
-            "link": "http://codeforces.com/problemset/problem/439/A",
-            "pid": "439A"
-        },
-        {
-            "title": "Drazil and Date",
-            "link": "http://codeforces.com/problemset/problem/515/A",
-            "pid": "515A"
-        },
-        {
-            "title": "Palindromic Times",
-            "link": "http://codeforces.com/problemset/problem/108/A",
-            "pid": "108A"
-        },
-        {
-            "title": "Dima and Guards",
-            "link": "http://codeforces.com/problemset/problem/366/A",
-            "pid": "366A"
-        },
-        {
-            "title": "Calculating Function",
-            "link": "http://codeforces.com/problemset/problem/486/A",
-            "pid": "486A"
-        },
-        {
-            "title": "Polo the Penguin and Segments",
-            "link": "http://codeforces.com/problemset/problem/289/A",
-            "pid": "289A"
-        },
-        {
-            "title": "Case of the Zeros and Ones",
-            "link": "http://codeforces.com/problemset/problem/556/A",
-            "pid": "556A"
-        },
-        {
-            "title": "A and B and Chess",
-            "link": "http://codeforces.com/problemset/problem/519/A",
-            "pid": "519A"
-        },
-        {
-            "title": "Buttons",
-            "link": "http://codeforces.com/problemset/problem/268/B",
-            "pid": "268B"
-        },
-        {
-            "title": "Lucky Substring",
-            "link": "http://codeforces.com/problemset/problem/122/B",
-            "pid": "122B"
-        },
-        {
-            "title": "Vasya and Digital Root",
-            "link": "http://codeforces.com/problemset/problem/355/A",
-            "pid": "355A"
-        },
-        {
-            "title": "Sinking Ship",
-            "link": "http://codeforces.com/problemset/problem/63/A",
-            "pid": "63A"
-        },
-        {
-            "title": "Valera and Antique Items",
-            "link": "http://codeforces.com/problemset/problem/441/A",
-            "pid": "441A"
-        },
-        {
-            "title": "Cows and Poker Game",
-            "link": "http://codeforces.com/problemset/problem/284/B",
-            "pid": "284B"
-        },
-        {
-            "title": "Valera and Plates",
-            "link": "http://codeforces.com/problemset/problem/369/A",
-            "pid": "369A"
-        },
-        {
-            "title": "Little Frog",
-            "link": "http://codeforces.com/problemset/problem/53/C",
-            "pid": "53C"
-        },
-        {
-            "title": "Lever",
-            "link": "http://codeforces.com/problemset/problem/376/A",
-            "pid": "376A"
-        },
-        {
-            "title": "Roadside Trees (Simplified Edition)",
-            "link": "http://codeforces.com/problemset/problem/265/B",
-            "pid": "265B"
-        },
-        {
-            "title": "Table",
-            "link": "http://codeforces.com/problemset/problem/359/A",
-            "pid": "359A"
-        },
-        {
-            "title": "Ciel and Dancing",
-            "link": "http://codeforces.com/problemset/problem/322/A",
-            "pid": "322A"
-        },
-        {
-            "title": "Valera and X",
-            "link": "http://codeforces.com/problemset/problem/404/A",
-            "pid": "404A"
-        },
-        {
-            "title": "Game With Sticks",
-            "link": "http://codeforces.com/problemset/problem/451/A",
-            "pid": "451A"
-        },
-        {
-            "title": "Prison Transfer",
-            "link": "http://codeforces.com/problemset/problem/427/B",
-            "pid": "427B"
-        },
-        {
-            "title": "Inna and Choose Options",
-            "link": "http://codeforces.com/problemset/problem/400/A",
-            "pid": "400A"
-        },
-        {
-            "title": "Squares",
-            "link": "http://codeforces.com/problemset/problem/263/B",
-            "pid": "263B"
-        },
-        {
-            "title": "Postcards and photos",
-            "link": "http://codeforces.com/problemset/problem/137/A",
-            "pid": "137A"
-        },
-        {
-            "title": "Little Elephant and Magic Square",
-            "link": "http://codeforces.com/problemset/problem/259/B",
-            "pid": "259B"
-        },
-        {
-            "title": "Lucky Ticket",
-            "link": "http://codeforces.com/problemset/problem/146/A",
-            "pid": "146A"
-        },
-        {
-            "title": "Trace",
-            "link": "http://codeforces.com/problemset/problem/157/B",
-            "pid": "157B"
-        },
-        {
-            "title": "Sereja and Algorithm",
-            "link": "http://codeforces.com/problemset/problem/367/A",
-            "pid": "367A"
-        },
-        {
-            "title": "Tiling with Hexagons",
-            "link": "http://codeforces.com/problemset/problem/216/A",
-            "pid": "216A"
-        },
-        {
-            "title": "Rook, Bishop and King",
-            "link": "http://codeforces.com/problemset/problem/370/A",
-            "pid": "370A"
-        },
-        {
-            "title": "Megacity",
-            "link": "http://codeforces.com/problemset/problem/424/B",
-            "pid": "424B"
-        },
-        {
-            "title": "Watchmen",
-            "link": "http://codeforces.com/problemset/problem/650/A",
-            "pid": "650A"
-        },
-        {
-            "title": "Dorm Water Supply",
-            "link": "http://codeforces.com/problemset/problem/107/A",
-            "pid": "107A"
-        },
-        {
-            "title": "MUH and Sticks",
-            "link": "http://codeforces.com/problemset/problem/471/A",
-            "pid": "471A"
-        },
-        {
-            "title": "Vitaliy and Pie",
-            "link": "http://codeforces.com/problemset/problem/525/A",
-            "pid": "525A"
-        },
-        {
-            "title": "Maxim and Discounts",
-            "link": "http://codeforces.com/problemset/problem/261/A",
-            "pid": "261A"
-        },
-        {
-            "title": "Eugeny and Play List",
-            "link": "http://codeforces.com/problemset/problem/302/B",
-            "pid": "302B"
-        },
-        {
-            "title": "Code Parsing",
-            "link": "http://codeforces.com/problemset/problem/255/B",
-            "pid": "255B"
-        },
-        {
-            "title": "Unary",
-            "link": "http://codeforces.com/problemset/problem/133/B",
-            "pid": "133B"
-        },
-        {
-            "title": "Alternative Thinking",
-            "link": "http://codeforces.com/problemset/problem/603/A",
-            "pid": "603A"
-        },
-        {
-            "title": "Milking cows",
-            "link": "http://codeforces.com/problemset/problem/383/A",
-            "pid": "383A"
-        },
-        {
-            "title": "Little Elephant and Numbers",
-            "link": "http://codeforces.com/problemset/problem/221/B",
-            "pid": "221B"
-        },
-        {
-            "title": "Canvas Frames",
-            "link": "http://codeforces.com/problemset/problem/127/B",
-            "pid": "127B"
-        },
-        {
-            "title": "Binary Number",
-            "link": "http://codeforces.com/problemset/problem/92/B",
-            "pid": "92B"
-        },
-        {
-            "title": "Domino Effect",
-            "link": "http://codeforces.com/problemset/problem/405/B",
-            "pid": "405B"
-        },
-        {
-            "title": "Valuable Resources",
-            "link": "http://codeforces.com/problemset/problem/485/B",
-            "pid": "485B"
-        },
-        {
-            "title": "Bear and Elections",
-            "link": "http://codeforces.com/problemset/problem/574/A",
-            "pid": "574A"
-        },
-        {
-            "title": "Art Union",
-            "link": "http://codeforces.com/problemset/problem/416/B",
-            "pid": "416B"
-        },
-        {
-            "title": "Digital Counter",
-            "link": "http://codeforces.com/problemset/problem/495/A",
-            "pid": "495A"
-        },
-        {
-            "title": "Ohana Cleans Up",
-            "link": "http://codeforces.com/problemset/problem/554/B",
-            "pid": "554B"
-        },
-        {
-            "title": "Vasya and Football",
-            "link": "http://codeforces.com/problemset/problem/493/A",
-            "pid": "493A"
-        },
-        {
-            "title": "Chat Online",
-            "link": "http://codeforces.com/problemset/problem/469/B",
-            "pid": "469B"
-        },
-        {
-            "title": "Ksenia and Pan Scales",
-            "link": "http://codeforces.com/problemset/problem/382/A",
-            "pid": "382A"
-        },
-        {
-            "title": "Bear and Poker",
-            "link": "http://codeforces.com/problemset/problem/573/A",
-            "pid": "573A"
-        },
-        {
-            "title": "Whose sentence is it?",
-            "link": "http://codeforces.com/problemset/problem/312/A",
-            "pid": "312A"
-        },
-        {
-            "title": "Vasya and Petya's Game",
-            "link": "http://codeforces.com/problemset/problem/576/A",
-            "pid": "576A"
-        },
-        {
-            "title": "Good Number",
-            "link": "http://codeforces.com/problemset/problem/365/A",
-            "pid": "365A"
-        },
-        {
-            "title": "Permutation",
-            "link": "http://codeforces.com/problemset/problem/359/B",
-            "pid": "359B"
-        },
-        {
-            "title": "Replacement",
-            "link": "http://codeforces.com/problemset/problem/135/A",
-            "pid": "135A"
-        },
-        {
-            "title": "Mashmokh and Numbers",
-            "link": "http://codeforces.com/problemset/problem/414/A",
-            "pid": "414A"
-        },
-        {
-            "title": "Football Kit",
-            "link": "http://codeforces.com/problemset/problem/432/B",
-            "pid": "432B"
-        },
-        {
-            "title": "The Wall",
-            "link": "http://codeforces.com/problemset/problem/340/A",
-            "pid": "340A"
-        },
-        {
-            "title": "Cifera",
-            "link": "http://codeforces.com/problemset/problem/114/A",
-            "pid": "114A"
-        },
-        {
-            "title": "Polo the Penguin and Strings",
-            "link": "http://codeforces.com/problemset/problem/288/A",
-            "pid": "288A"
-        },
-        {
-            "title": "Fox and Number Game",
-            "link": "http://codeforces.com/problemset/problem/389/A",
-            "pid": "389A"
-        },
-        {
-            "title": "A and B and Team Training",
-            "link": "http://codeforces.com/problemset/problem/519/C",
-            "pid": "519C"
-        },
-        {
-            "title": "Drazil and Factorial",
-            "link": "http://codeforces.com/problemset/problem/515/C",
-            "pid": "515C"
-        },
-        {
-            "title": "Sereja and Stairs",
-            "link": "http://codeforces.com/problemset/problem/381/B",
-            "pid": "381B"
-        },
-        {
-            "title": "Plant",
-            "link": "http://codeforces.com/problemset/problem/185/A",
-            "pid": "185A"
-        },
-        {
-            "title": "A and B and Compilation Errors",
-            "link": "http://codeforces.com/problemset/problem/519/B",
-            "pid": "519B"
-        },
-        {
-            "title": "Students and Shoelaces",
-            "link": "http://codeforces.com/problemset/problem/129/B",
-            "pid": "129B"
-        },
-        {
-            "title": "The Child and Homework",
-            "link": "http://codeforces.com/problemset/problem/437/A",
-            "pid": "437A"
-        },
-        {
-            "title": "Petya and Staircases",
-            "link": "http://codeforces.com/problemset/problem/362/B",
-            "pid": "362B"
-        },
-        {
-            "title": "Random Teams",
-            "link": "http://codeforces.com/problemset/problem/478/B",
-            "pid": "478B"
-        },
-        {
-            "title": "Devu, the Dumb Guy",
-            "link": "http://codeforces.com/problemset/problem/439/B",
-            "pid": "439B"
-        },
-        {
-            "title": "Lucky Conversion",
-            "link": "http://codeforces.com/problemset/problem/145/A",
-            "pid": "145A"
-        },
-        {
-            "title": "Misha and Changing Handles",
-            "link": "http://codeforces.com/problemset/problem/501/B",
-            "pid": "501B"
-        },
-        {
-            "title": "Bear and Strings",
-            "link": "http://codeforces.com/problemset/problem/385/B",
-            "pid": "385B"
-        },
-        {
-            "title": "Anton and currency you all know",
-            "link": "http://codeforces.com/problemset/problem/508/B",
-            "pid": "508B"
-        },
-        {
-            "title": "Strings of Power",
-            "link": "http://codeforces.com/problemset/problem/318/B",
-            "pid": "318B"
-        },
-        {
-            "title": "Fedor and New Game",
-            "link": "http://codeforces.com/problemset/problem/467/B",
-            "pid": "467B"
-        },
-        {
-            "title": "Xor-tree",
-            "link": "http://codeforces.com/problemset/problem/429/A",
-            "pid": "429A"
-        },
-        {
-            "title": "Prizes, Prizes, more Prizes",
-            "link": "http://codeforces.com/problemset/problem/208/D",
-            "pid": "208D"
-        },
-        {
-            "title": "Points and Segments (easy)",
-            "link": "http://codeforces.com/problemset/problem/430/A",
-            "pid": "430A"
-        },
-        {
-            "title": "24 Game",
-            "link": "http://codeforces.com/problemset/problem/468/A",
-            "pid": "468A"
-        },
-        {
-            "title": "Eight Point Sets",
-            "link": "http://codeforces.com/problemset/problem/334/B",
-            "pid": "334B"
-        },
-        {
-            "title": "Secret Combination",
-            "link": "http://codeforces.com/problemset/problem/496/B",
-            "pid": "496B"
-        },
-        {
-            "title": "Tavas and Karafs",
-            "link": "http://codeforces.com/problemset/problem/535/C",
-            "pid": "535C"
-        },
-        {
-            "title": "Burning Midnight Oil",
-            "link": "http://codeforces.com/problemset/problem/165/B",
-            "pid": "165B"
-        },
-        {
-            "title": "GCD Table",
-            "link": "http://codeforces.com/problemset/problem/582/A",
-            "pid": "582A"
-        },
-        {
-            "title": "Recycling Bottles",
-            "link": "http://codeforces.com/problemset/problem/671/A",
-            "pid": "671A"
-        },
-        {
-            "title": "Prime Swaps",
-            "link": "http://codeforces.com/problemset/problem/432/C",
-            "pid": "432C"
-        },
-        {
-            "title": "Win or Freeze",
-            "link": "http://codeforces.com/problemset/problem/150/A",
-            "pid": "150A"
-        },
-        {
-            "title": "Pythagorean Triples",
-            "link": "http://codeforces.com/problemset/problem/707/C",
-            "pid": "707C"
-        },
-        {
-            "title": "Inna and Huge Candy Matrix",
-            "link": "http://codeforces.com/problemset/problem/400/C",
-            "pid": "400C"
-        },
-        {
-            "title": "ZgukistringZ",
-            "link": "http://codeforces.com/problemset/problem/551/B",
-            "pid": "551B"
-        },
-        {
-            "title": "Vasily the Bear and Sequence",
-            "link": "http://codeforces.com/problemset/problem/336/C",
-            "pid": "336C"
-        },
-        {
-            "title": "Preparing Olympiad",
-            "link": "http://codeforces.com/problemset/problem/550/B",
-            "pid": "550B"
-        },
-        {
-            "title": "The Two Routes",
-            "link": "http://codeforces.com/problemset/problem/601/A",
-            "pid": "601A"
-        },
-        {
-            "title": "Queue",
-            "link": "http://codeforces.com/problemset/problem/91/B",
-            "pid": "91B"
-        },
-        {
-            "title": "Tree Construction",
-            "link": "http://codeforces.com/problemset/problem/675/D",
-            "pid": "675D"
-        },
-        {
-            "title": "Cardiogram",
-            "link": "http://codeforces.com/problemset/problem/435/C",
-            "pid": "435C"
-        },
-        {
-            "title": "Buns",
-            "link": "http://codeforces.com/problemset/problem/106/C",
-            "pid": "106C"
-        },
-        {
-            "title": "Guest From the Past",
-            "link": "http://codeforces.com/problemset/problem/625/A",
-            "pid": "625A"
-        },
-        {
-            "title": "Page Numbers",
-            "link": "http://codeforces.com/problemset/problem/34/C",
-            "pid": "34C"
-        },
-        {
-            "title": "Road Map",
-            "link": "http://codeforces.com/problemset/problem/34/D",
-            "pid": "34D"
-        },
-        {
-            "title": "Memory and De-Evolution",
-            "link": "http://codeforces.com/problemset/problem/712/C",
-            "pid": "712C"
-        },
-        {
-            "title": "Valera and Contest",
-            "link": "http://codeforces.com/problemset/problem/369/B",
-            "pid": "369B"
-        },
-        {
-            "title": "Chilly Willy",
-            "link": "http://codeforces.com/problemset/problem/248/B",
-            "pid": "248B"
-        },
-        {
-            "title": "Watering Flowers",
-            "link": "http://codeforces.com/problemset/problem/617/C",
-            "pid": "617C"
-        },
-        {
-            "title": "Hard problem",
-            "link": "http://codeforces.com/problemset/problem/706/C",
-            "pid": "706C"
-        },
-        {
-            "title": "Perfect Pair",
-            "link": "http://codeforces.com/problemset/problem/317/A",
-            "pid": "317A"
-        },
-        {
-            "title": "The Big Race",
-            "link": "http://codeforces.com/problemset/problem/592/C",
-            "pid": "592C"
-        },
-        {
-            "title": "Nearest Fraction",
-            "link": "http://codeforces.com/problemset/problem/281/B",
-            "pid": "281B"
-        },
-        {
-            "title": "MUH and Important Things",
-            "link": "http://codeforces.com/problemset/problem/471/B",
-            "pid": "471B"
-        },
-        {
-            "title": "Heap Operations",
-            "link": "http://codeforces.com/problemset/problem/681/C",
-            "pid": "681C"
-        },
-        {
-            "title": "Gerald's Hexagon",
-            "link": "http://codeforces.com/problemset/problem/559/A",
-            "pid": "559A"
-        },
-        {
-            "title": "Guess a number!",
-            "link": "http://codeforces.com/problemset/problem/416/A",
-            "pid": "416A"
-        },
-        {
-            "title": "Coloring Trees",
-            "link": "http://codeforces.com/problemset/problem/711/C",
-            "pid": "711C"
-        },
-        {
-            "title": "More Cowbell",
-            "link": "http://codeforces.com/problemset/problem/604/B",
-            "pid": "604B"
-        },
-        {
-            "title": "Vasiliy's Multiset",
-            "link": "http://codeforces.com/problemset/problem/706/D",
-            "pid": "706D"
-        },
-        {
-            "title": "The Child and Set",
-            "link": "http://codeforces.com/problemset/problem/437/B",
-            "pid": "437B"
-        },
-        {
-            "title": "OR in Matrix",
-            "link": "http://codeforces.com/problemset/problem/486/B",
-            "pid": "486B"
-        },
-        {
-            "title": "Two Heaps",
-            "link": "http://codeforces.com/problemset/problem/353/B",
-            "pid": "353B"
-        },
-        {
-            "title": "Pasha Maximizes",
-            "link": "http://codeforces.com/problemset/problem/435/B",
-            "pid": "435B"
-        },
-        {
-            "title": "Balls and Boxes",
-            "link": "http://codeforces.com/problemset/problem/260/C",
-            "pid": "260C"
-        },
-        {
-            "title": "Dima and Text Messages",
-            "link": "http://codeforces.com/problemset/problem/358/B",
-            "pid": "358B"
-        },
-        {
-            "title": "Terse princess",
-            "link": "http://codeforces.com/problemset/problem/148/C",
-            "pid": "148C"
-        },
-        {
-            "title": "Primes on Interval",
-            "link": "http://codeforces.com/problemset/problem/237/C",
-            "pid": "237C"
-        },
-        {
-            "title": "Cows and Primitive Roots",
-            "link": "http://codeforces.com/problemset/problem/284/A",
-            "pid": "284A"
-        },
-        {
-            "title": "Anagram Search",
-            "link": "http://codeforces.com/problemset/problem/144/C",
-            "pid": "144C"
-        },
-        {
-            "title": "Photographer",
-            "link": "http://codeforces.com/problemset/problem/203/C",
-            "pid": "203C"
-        },
-        {
-            "title": "Magic Box",
-            "link": "http://codeforces.com/problemset/problem/231/D",
-            "pid": "231D"
-        },
-        {
-            "title": "Bear and Three Musketeers",
-            "link": "http://codeforces.com/problemset/problem/574/B",
-            "pid": "574B"
-        },
-        {
-            "title": "Gerald is into Art",
-            "link": "http://codeforces.com/problemset/problem/560/B",
-            "pid": "560B"
-        },
-        {
-            "title": "Alice and Bob",
-            "link": "http://codeforces.com/problemset/problem/346/A",
-            "pid": "346A"
-        },
-        {
-            "title": "Kefa and Company",
-            "link": "http://codeforces.com/problemset/problem/580/B",
-            "pid": "580B"
-        },
-        {
-            "title": "Queue",
-            "link": "http://codeforces.com/problemset/problem/545/D",
-            "pid": "545D"
-        },
-        {
-            "title": "Magic Formulas",
-            "link": "http://codeforces.com/problemset/problem/424/C",
-            "pid": "424C"
-        },
-        {
-            "title": "Beauty Pageant",
-            "link": "http://codeforces.com/problemset/problem/246/C",
-            "pid": "246C"
-        },
-        {
-            "title": "Non-square Equation",
-            "link": "http://codeforces.com/problemset/problem/233/B",
-            "pid": "233B"
-        },
-        {
-            "title": "Undoubtedly Lucky Numbers",
-            "link": "http://codeforces.com/problemset/problem/244/B",
-            "pid": "244B"
-        },
-        {
-            "title": "Cthulhu",
-            "link": "http://codeforces.com/problemset/problem/103/B",
-            "pid": "103B"
-        },
-        {
-            "title": "Woodcutters",
-            "link": "http://codeforces.com/problemset/problem/545/C",
-            "pid": "545C"
-        },
-        {
-            "title": "Han Solo and Lazer Gun",
-            "link": "http://codeforces.com/problemset/problem/514/B",
-            "pid": "514B"
-        },
-        {
-            "title": "Approximating a Constant Range",
-            "link": "http://codeforces.com/problemset/problem/602/B",
-            "pid": "602B"
-        },
-        {
-            "title": "MUH and House of Cards",
-            "link": "http://codeforces.com/problemset/problem/471/C",
-            "pid": "471C"
-        },
-        {
-            "title": "Pasha and String",
-            "link": "http://codeforces.com/problemset/problem/525/B",
-            "pid": "525B"
-        },
-        {
-            "title": "Kefa and Park",
-            "link": "http://codeforces.com/problemset/problem/580/C",
-            "pid": "580C"
-        },
-        {
-            "title": "Find Pair",
-            "link": "http://codeforces.com/problemset/problem/160/C",
-            "pid": "160C"
-        },
-        {
-            "title": "Vasya and Wrestling",
-            "link": "http://codeforces.com/problemset/problem/493/B",
-            "pid": "493B"
-        },
-        {
-            "title": "k-Multiple Free Set",
-            "link": "http://codeforces.com/problemset/problem/274/A",
-            "pid": "274A"
-        },
-        {
-            "title": "Dima and Sequence",
-            "link": "http://codeforces.com/problemset/problem/272/B",
-            "pid": "272B"
-        },
-        {
-            "title": "Dreamoon and Sets",
-            "link": "http://codeforces.com/problemset/problem/476/D",
-            "pid": "476D"
-        },
-        {
-            "title": "Pasha and Tea",
-            "link": "http://codeforces.com/problemset/problem/557/B",
-            "pid": "557B"
-        },
-        {
-            "title": "Soldier and Badges",
-            "link": "http://codeforces.com/problemset/problem/546/B",
-            "pid": "546B"
-        },
-        {
-            "title": "Ilya and Sticks",
-            "link": "http://codeforces.com/problemset/problem/525/C",
-            "pid": "525C"
-        },
-        {
-            "title": "Bits",
-            "link": "http://codeforces.com/problemset/problem/484/A",
-            "pid": "484A"
-        },
-        {
-            "title": "History",
-            "link": "http://codeforces.com/problemset/problem/137/C",
-            "pid": "137C"
-        },
-        {
-            "title": "Division into Teams",
-            "link": "http://codeforces.com/problemset/problem/149/C",
-            "pid": "149C"
-        },
-        {
-            "title": "Rational Resistance",
-            "link": "http://codeforces.com/problemset/problem/343/A",
-            "pid": "343A"
-        },
-        {
-            "title": "Quiz",
-            "link": "http://codeforces.com/problemset/problem/337/C",
-            "pid": "337C"
-        },
-        {
-            "title": "Guess Your Way Out!",
-            "link": "http://codeforces.com/problemset/problem/507/C",
-            "pid": "507C"
-        },
-        {
-            "title": "Amr and Pins",
-            "link": "http://codeforces.com/problemset/problem/507/B",
-            "pid": "507B"
-        },
-        {
-            "title": "Dreamoon and Sums",
-            "link": "http://codeforces.com/problemset/problem/476/C",
-            "pid": "476C"
-        },
-        {
-            "title": "DZY Loves Chemistry",
-            "link": "http://codeforces.com/problemset/problem/445/B",
-            "pid": "445B"
-        },
-        {
-            "title": "Two Substrings",
-            "link": "http://codeforces.com/problemset/problem/550/A",
-            "pid": "550A"
-        },
-        {
-            "title": "Dima and Lisa",
-            "link": "http://codeforces.com/problemset/problem/584/D",
-            "pid": "584D"
-        },
-        {
-            "title": "Soldier and Cards",
-            "link": "http://codeforces.com/problemset/problem/546/C",
-            "pid": "546C"
-        },
-        {
-            "title": "Replacement",
-            "link": "http://codeforces.com/problemset/problem/570/C",
-            "pid": "570C"
-        },
-        {
-            "title": "Alyona and Strings",
-            "link": "http://codeforces.com/problemset/problem/682/D",
-            "pid": "682D"
-        },
-        {
-            "title": "Journey",
-            "link": "http://codeforces.com/problemset/problem/721/C",
-            "pid": "721C"
-        },
-        {
-            "title": "Money Transfers",
-            "link": "http://codeforces.com/problemset/problem/675/C",
-            "pid": "675C"
-        },
-        {
-            "title": "Babaei and Birthday Cake",
-            "link": "http://codeforces.com/problemset/problem/629/D",
-            "pid": "629D"
-        },
-        {
-            "title": "Paths and Trees",
-            "link": "http://codeforces.com/problemset/problem/545/E",
-            "pid": "545E"
-        },
-        {
-            "title": "Vanya and Triangles",
-            "link": "http://codeforces.com/problemset/problem/552/D",
-            "pid": "552D"
-        },
-        {
-            "title": "Candy Boxes",
-            "link": "http://codeforces.com/problemset/problem/488/B",
-            "pid": "488B"
-        },
-        {
-            "title": "Cycle in Graph",
-            "link": "http://codeforces.com/problemset/problem/263/D",
-            "pid": "263D"
-        },
-        {
-            "title": "Amr and Chemistry",
-            "link": "http://codeforces.com/problemset/problem/558/C",
-            "pid": "558C"
-        },
-        {
-            "title": "Arthur and Table",
-            "link": "http://codeforces.com/problemset/problem/557/C",
-            "pid": "557C"
-        },
-        {
-            "title": "Kefa and Dishes",
-            "link": "http://codeforces.com/problemset/problem/580/D",
-            "pid": "580D"
-        },
-        {
-            "title": "Modulo Sum",
-            "link": "http://codeforces.com/problemset/problem/577/B",
-            "pid": "577B"
-        }
-    ],
-    "1600 <= Codeforces Rating <= 1699": [
-        {
-            "title": "Colorful Stones (Simplified Edition)",
-            "link": "http://codeforces.com/problemset/problem/265/A",
-            "pid": "265A"
+            "title": "Black Square",
+            "link": "http://codeforces.com/problemset/problem/431/A",
+            "pid": "431A"
         },
         {
             "title": "Rewards",
@@ -7533,104 +3600,9 @@ A2OJ_LADDERS = {
             "pid": "448A"
         },
         {
-            "title": "Roma and Lucky Numbers",
-            "link": "http://codeforces.com/problemset/problem/262/A",
-            "pid": "262A"
-        },
-        {
-            "title": "Soroban",
-            "link": "http://codeforces.com/problemset/problem/363/A",
-            "pid": "363A"
-        },
-        {
-            "title": "Toy Army",
-            "link": "http://codeforces.com/problemset/problem/84/A",
-            "pid": "84A"
-        },
-        {
-            "title": "Greg's Workout",
-            "link": "http://codeforces.com/problemset/problem/255/A",
-            "pid": "255A"
-        },
-        {
             "title": "George and Accommodation",
             "link": "http://codeforces.com/problemset/problem/467/A",
             "pid": "467A"
-        },
-        {
-            "title": "Case of the Zeros and Ones",
-            "link": "http://codeforces.com/problemset/problem/556/A",
-            "pid": "556A"
-        },
-        {
-            "title": "Table",
-            "link": "http://codeforces.com/problemset/problem/359/A",
-            "pid": "359A"
-        },
-        {
-            "title": "Cows and Poker Game",
-            "link": "http://codeforces.com/problemset/problem/284/B",
-            "pid": "284B"
-        },
-        {
-            "title": "Drazil and Date",
-            "link": "http://codeforces.com/problemset/problem/515/A",
-            "pid": "515A"
-        },
-        {
-            "title": "Exams",
-            "link": "http://codeforces.com/problemset/problem/194/A",
-            "pid": "194A"
-        },
-        {
-            "title": "Sinking Ship",
-            "link": "http://codeforces.com/problemset/problem/63/A",
-            "pid": "63A"
-        },
-        {
-            "title": "Sereja and Coat Rack",
-            "link": "http://codeforces.com/problemset/problem/368/A",
-            "pid": "368A"
-        },
-        {
-            "title": "Worms Evolution",
-            "link": "http://codeforces.com/problemset/problem/31/A",
-            "pid": "31A"
-        },
-        {
-            "title": "Lecture",
-            "link": "http://codeforces.com/problemset/problem/499/B",
-            "pid": "499B"
-        },
-        {
-            "title": "Valera and Antique Items",
-            "link": "http://codeforces.com/problemset/problem/441/A",
-            "pid": "441A"
-        },
-        {
-            "title": "Game With Sticks",
-            "link": "http://codeforces.com/problemset/problem/451/A",
-            "pid": "451A"
-        },
-        {
-            "title": "Squares",
-            "link": "http://codeforces.com/problemset/problem/263/B",
-            "pid": "263B"
-        },
-        {
-            "title": "Trace",
-            "link": "http://codeforces.com/problemset/problem/157/B",
-            "pid": "157B"
-        },
-        {
-            "title": "Little Frog",
-            "link": "http://codeforces.com/problemset/problem/53/C",
-            "pid": "53C"
-        },
-        {
-            "title": "Valera and Plates",
-            "link": "http://codeforces.com/problemset/problem/369/A",
-            "pid": "369A"
         },
         {
             "title": "Calculating Function",
@@ -7638,29 +3610,319 @@ A2OJ_LADDERS = {
             "pid": "486A"
         },
         {
-            "title": "Sereja and Algorithm",
-            "link": "http://codeforces.com/problemset/problem/367/A",
-            "pid": "367A"
+            "title": "Combination Lock",
+            "link": "http://codeforces.com/problemset/problem/540/A",
+            "pid": "540A"
         },
         {
-            "title": "Chat Online",
-            "link": "http://codeforces.com/problemset/problem/469/B",
-            "pid": "469B"
+            "title": "Soldier and Bananas",
+            "link": "http://codeforces.com/problemset/problem/546/A",
+            "pid": "546A"
         },
         {
-            "title": "Domino Effect",
-            "link": "http://codeforces.com/problemset/problem/405/B",
-            "pid": "405B"
+            "title": "GukiZ and Contest",
+            "link": "http://codeforces.com/problemset/problem/551/A",
+            "pid": "551A"
         },
         {
-            "title": "Good Number",
-            "link": "http://codeforces.com/problemset/problem/365/A",
-            "pid": "365A"
+            "title": "Vitaly and Night",
+            "link": "http://codeforces.com/problemset/problem/595/A",
+            "pid": "595A"
         },
         {
-            "title": "Lucky Permutation",
-            "link": "http://codeforces.com/problemset/problem/286/A",
-            "pid": "286A"
+            "title": "Patrick and Shopping",
+            "link": "http://codeforces.com/problemset/problem/599/A",
+            "pid": "599A"
+        },
+        {
+            "title": "Bulbs",
+            "link": "http://codeforces.com/problemset/problem/615/A",
+            "pid": "615A"
+        },
+        {
+            "title": "Complicated GCD",
+            "link": "http://codeforces.com/problemset/problem/664/A",
+            "pid": "664A"
+        },
+        {
+            "title": "Summer Camp",
+            "link": "http://codeforces.com/problemset/problem/672/A",
+            "pid": "672A"
+        },
+        {
+            "title": "Nicholas and Permutation",
+            "link": "http://codeforces.com/problemset/problem/676/A",
+            "pid": "676A"
+        },
+        {
+            "title": "Bear and Five Cards",
+            "link": "http://codeforces.com/problemset/problem/680/A",
+            "pid": "680A"
+        },
+        {
+            "title": "Free Ice Cream",
+            "link": "http://codeforces.com/problemset/problem/686/A",
+            "pid": "686A"
+        },
+        {
+            "title": "Opponents",
+            "link": "http://codeforces.com/problemset/problem/688/A",
+            "pid": "688A"
+        },
+        {
+            "title": "Bus to Udayland",
+            "link": "http://codeforces.com/problemset/problem/711/A",
+            "pid": "711A"
+        },
+        {
+            "title": "Memory and Crow",
+            "link": "http://codeforces.com/problemset/problem/712/A",
+            "pid": "712A"
+        },
+        {
+            "title": "Crazy Computer",
+            "link": "http://codeforces.com/problemset/problem/716/A",
+            "pid": "716A"
+        },
+        {
+            "title": "Taymyr is calling you",
+            "link": "http://codeforces.com/problemset/problem/764/A",
+            "pid": "764A"
+        },
+        {
+            "title": "Haiku",
+            "link": "http://codeforces.com/problemset/problem/78/A",
+            "pid": "78A"
+        },
+        {
+            "title": "Wasted Time",
+            "link": "http://codeforces.com/problemset/problem/127/A",
+            "pid": "127A"
+        },
+        {
+            "title": "Postcards and photos",
+            "link": "http://codeforces.com/problemset/problem/137/A",
+            "pid": "137A"
+        },
+        {
+            "title": "Exams",
+            "link": "http://codeforces.com/problemset/problem/194/A",
+            "pid": "194A"
+        },
+        {
+            "title": "Buggy Sorting",
+            "link": "http://codeforces.com/problemset/problem/246/A",
+            "pid": "246A"
+        },
+        {
+            "title": "Squares",
+            "link": "http://codeforces.com/problemset/problem/263/B",
+            "pid": "263B"
+        },
+        {
+            "title": "Valera and Plates",
+            "link": "http://codeforces.com/problemset/problem/369/A",
+            "pid": "369A"
+        },
+        {
+            "title": "Lever",
+            "link": "http://codeforces.com/problemset/problem/376/A",
+            "pid": "376A"
+        },
+        {
+            "title": "George and Sleep",
+            "link": "http://codeforces.com/problemset/problem/387/A",
+            "pid": "387A"
+        },
+        {
+            "title": "Line to Cashier",
+            "link": "http://codeforces.com/problemset/problem/408/A",
+            "pid": "408A"
+        },
+        {
+            "title": "Mashmokh and Lights",
+            "link": "http://codeforces.com/problemset/problem/415/A",
+            "pid": "415A"
+        },
+        {
+            "title": "Squats",
+            "link": "http://codeforces.com/problemset/problem/424/A",
+            "pid": "424A"
+        },
+        {
+            "title": "Devu, the Singer and Churu, the Joker",
+            "link": "http://codeforces.com/problemset/problem/439/A",
+            "pid": "439A"
+        },
+        {
+            "title": "Game With Sticks",
+            "link": "http://codeforces.com/problemset/problem/451/A",
+            "pid": "451A"
+        },
+        {
+            "title": "A and B and Chess",
+            "link": "http://codeforces.com/problemset/problem/519/A",
+            "pid": "519A"
+        },
+        {
+            "title": "Toy Cars",
+            "link": "http://codeforces.com/problemset/problem/545/A",
+            "pid": "545A"
+        },
+        {
+            "title": "Kyoya and Photobooks",
+            "link": "http://codeforces.com/problemset/problem/554/A",
+            "pid": "554A"
+        },
+        {
+            "title": "Case of the Zeros and Ones",
+            "link": "http://codeforces.com/problemset/problem/556/A",
+            "pid": "556A"
+        },
+        {
+            "title": "Arrays",
+            "link": "http://codeforces.com/problemset/problem/572/A",
+            "pid": "572A"
+        },
+        {
+            "title": "Kefa and First Steps",
+            "link": "http://codeforces.com/problemset/problem/580/A",
+            "pid": "580A"
+        },
+        {
+            "title": "Wizards' Duel",
+            "link": "http://codeforces.com/problemset/problem/591/A",
+            "pid": "591A"
+        },
+        {
+            "title": "Wet Shark and Odd and Even",
+            "link": "http://codeforces.com/problemset/problem/621/A",
+            "pid": "621A"
+        },
+        {
+            "title": "Interview",
+            "link": "http://codeforces.com/problemset/problem/631/A",
+            "pid": "631A"
+        },
+        {
+            "title": "Sinking Ship",
+            "link": "http://codeforces.com/problemset/problem/63/A",
+            "pid": "63A"
+        },
+        {
+            "title": "Beru-taxi",
+            "link": "http://codeforces.com/problemset/problem/706/A",
+            "pid": "706A"
+        },
+        {
+            "title": "Timofey and cubes",
+            "link": "http://codeforces.com/problemset/problem/764/B",
+            "pid": "764B"
+        },
+        {
+            "title": "Toy Army",
+            "link": "http://codeforces.com/problemset/problem/84/A",
+            "pid": "84A"
+        },
+        {
+            "title": "Restoring Password",
+            "link": "http://codeforces.com/problemset/problem/94/A",
+            "pid": "94A"
+        },
+        {
+            "title": "Card Game",
+            "link": "http://codeforces.com/problemset/problem/106/A",
+            "pid": "106A"
+        },
+        {
+            "title": "Choosing Laptop",
+            "link": "http://codeforces.com/problemset/problem/106/B",
+            "pid": "106B"
+        },
+        {
+            "title": "Palindromic Times",
+            "link": "http://codeforces.com/problemset/problem/108/A",
+            "pid": "108A"
+        },
+        {
+            "title": "Cifera",
+            "link": "http://codeforces.com/problemset/problem/114/A",
+            "pid": "114A"
+        },
+        {
+            "title": "Lucky Substring",
+            "link": "http://codeforces.com/problemset/problem/122/B",
+            "pid": "122B"
+        },
+        {
+            "title": "Canvas Frames",
+            "link": "http://codeforces.com/problemset/problem/127/B",
+            "pid": "127B"
+        },
+        {
+            "title": "Help Vasilisa the Wise 2",
+            "link": "http://codeforces.com/problemset/problem/143/A",
+            "pid": "143A"
+        },
+        {
+            "title": "Trace",
+            "link": "http://codeforces.com/problemset/problem/157/B",
+            "pid": "157B"
+        },
+        {
+            "title": "Roadside Trees (Simplified Edition)",
+            "link": "http://codeforces.com/problemset/problem/265/B",
+            "pid": "265B"
+        },
+        {
+            "title": "Buttons",
+            "link": "http://codeforces.com/problemset/problem/268/B",
+            "pid": "268B"
+        },
+        {
+            "title": "Cows and Poker Game",
+            "link": "http://codeforces.com/problemset/problem/284/B",
+            "pid": "284B"
+        },
+        {
+            "title": "Spit Problem",
+            "link": "http://codeforces.com/problemset/problem/29/A",
+            "pid": "29A"
+        },
+        {
+            "title": "Ciel and Dancing",
+            "link": "http://codeforces.com/problemset/problem/322/A",
+            "pid": "322A"
+        },
+        {
+            "title": "Group of Students",
+            "link": "http://codeforces.com/problemset/problem/357/A",
+            "pid": "357A"
+        },
+        {
+            "title": "Table",
+            "link": "http://codeforces.com/problemset/problem/359/A",
+            "pid": "359A"
+        },
+        {
+            "title": "Shell Game",
+            "link": "http://codeforces.com/problemset/problem/35/A",
+            "pid": "35A"
+        },
+        {
+            "title": "Sereja and Coat Rack",
+            "link": "http://codeforces.com/problemset/problem/368/A",
+            "pid": "368A"
+        },
+        {
+            "title": "K-Periodic Array",
+            "link": "http://codeforces.com/problemset/problem/371/A",
+            "pid": "371A"
+        },
+        {
+            "title": "Bear and Raspberry",
+            "link": "http://codeforces.com/problemset/problem/385/A",
+            "pid": "385A"
         },
         {
             "title": "Fox and Number Game",
@@ -7668,59 +3930,104 @@ A2OJ_LADDERS = {
             "pid": "389A"
         },
         {
-            "title": "Magical Array",
-            "link": "http://codeforces.com/problemset/problem/83/A",
-            "pid": "83A"
+            "title": "Inna and Choose Options",
+            "link": "http://codeforces.com/problemset/problem/400/A",
+            "pid": "400A"
         },
         {
-            "title": "Replacement",
-            "link": "http://codeforces.com/problemset/problem/135/A",
-            "pid": "135A"
+            "title": "Valera and X",
+            "link": "http://codeforces.com/problemset/problem/404/A",
+            "pid": "404A"
         },
         {
-            "title": "Drazil and Factorial",
-            "link": "http://codeforces.com/problemset/problem/515/C",
-            "pid": "515C"
+            "title": "Queue on Bus Stop",
+            "link": "http://codeforces.com/problemset/problem/435/A",
+            "pid": "435A"
         },
         {
-            "title": "Bear and Strings",
-            "link": "http://codeforces.com/problemset/problem/385/B",
-            "pid": "385B"
+            "title": "Valera and Antique Items",
+            "link": "http://codeforces.com/problemset/problem/441/A",
+            "pid": "441A"
         },
         {
-            "title": "The Child and Homework",
-            "link": "http://codeforces.com/problemset/problem/437/A",
-            "pid": "437A"
+            "title": "Lecture",
+            "link": "http://codeforces.com/problemset/problem/499/B",
+            "pid": "499B"
         },
         {
-            "title": "Dorm Water Supply",
-            "link": "http://codeforces.com/problemset/problem/107/A",
-            "pid": "107A"
+            "title": "Amr and Music",
+            "link": "http://codeforces.com/problemset/problem/507/A",
+            "pid": "507A"
         },
         {
-            "title": "Misha and Changing Handles",
-            "link": "http://codeforces.com/problemset/problem/501/B",
-            "pid": "501B"
+            "title": "Drazil and Date",
+            "link": "http://codeforces.com/problemset/problem/515/A",
+            "pid": "515A"
         },
         {
-            "title": "Maxim and Discounts",
-            "link": "http://codeforces.com/problemset/problem/261/A",
-            "pid": "261A"
+            "title": "Tavas and Nafas",
+            "link": "http://codeforces.com/problemset/problem/535/A",
+            "pid": "535A"
         },
         {
-            "title": "Permutation",
-            "link": "http://codeforces.com/problemset/problem/359/B",
-            "pid": "359B"
+            "title": "Vanya and Table",
+            "link": "http://codeforces.com/problemset/problem/552/A",
+            "pid": "552A"
         },
         {
-            "title": "Tavas and SaDDas",
-            "link": "http://codeforces.com/problemset/problem/535/B",
-            "pid": "535B"
+            "title": "Currency System in Geraldion",
+            "link": "http://codeforces.com/problemset/problem/560/A",
+            "pid": "560A"
         },
         {
-            "title": "Levko and Permutation",
-            "link": "http://codeforces.com/problemset/problem/361/B",
-            "pid": "361B"
+            "title": "Bar",
+            "link": "http://codeforces.com/problemset/problem/56/A",
+            "pid": "56A"
+        },
+        {
+            "title": "Multiplication Table",
+            "link": "http://codeforces.com/problemset/problem/577/A",
+            "pid": "577A"
+        },
+        {
+            "title": "Olesya and Rodion",
+            "link": "http://codeforces.com/problemset/problem/584/A",
+            "pid": "584A"
+        },
+        {
+            "title": "Uncowed Forces",
+            "link": "http://codeforces.com/problemset/problem/604/A",
+            "pid": "604A"
+        },
+        {
+            "title": "Saitama Destroys Hotel",
+            "link": "http://codeforces.com/problemset/problem/608/A",
+            "pid": "608A"
+        },
+        {
+            "title": "Pasha and Stick",
+            "link": "http://codeforces.com/problemset/problem/610/A",
+            "pid": "610A"
+        },
+        {
+            "title": "Different is Good",
+            "link": "http://codeforces.com/problemset/problem/672/B",
+            "pid": "672B"
+        },
+        {
+            "title": "Bear and Finding Criminals",
+            "link": "http://codeforces.com/problemset/problem/680/B",
+            "pid": "680B"
+        },
+        {
+            "title": "Lovely Palindromes",
+            "link": "http://codeforces.com/problemset/problem/688/B",
+            "pid": "688B"
+        },
+        {
+            "title": "Arpa\u2019s hard exam and Mehrdad\u2019s naive cheat",
+            "link": "http://codeforces.com/problemset/problem/742/A",
+            "pid": "742A"
         },
         {
             "title": "Testing Pants for Sadness",
@@ -7728,34 +4035,34 @@ A2OJ_LADDERS = {
             "pid": "103A"
         },
         {
-            "title": "Multithreading",
-            "link": "http://codeforces.com/problemset/problem/270/B",
-            "pid": "270B"
+            "title": "Lucky String",
+            "link": "http://codeforces.com/problemset/problem/110/B",
+            "pid": "110B"
         },
         {
-            "title": "The Wall",
-            "link": "http://codeforces.com/problemset/problem/340/A",
-            "pid": "340A"
+            "title": "Ternary Logic",
+            "link": "http://codeforces.com/problemset/problem/136/B",
+            "pid": "136B"
         },
         {
-            "title": "Milking cows",
-            "link": "http://codeforces.com/problemset/problem/383/A",
-            "pid": "383A"
+            "title": "Combination",
+            "link": "http://codeforces.com/problemset/problem/155/B",
+            "pid": "155B"
         },
         {
-            "title": "MUH and Sticks",
-            "link": "http://codeforces.com/problemset/problem/471/A",
-            "pid": "471A"
+            "title": "Vasya and the Bus",
+            "link": "http://codeforces.com/problemset/problem/190/A",
+            "pid": "190A"
         },
         {
-            "title": "Anton and currency you all know",
-            "link": "http://codeforces.com/problemset/problem/508/B",
-            "pid": "508B"
+            "title": "Walking in the Rain",
+            "link": "http://codeforces.com/problemset/problem/192/B",
+            "pid": "192B"
         },
         {
-            "title": "Email address",
-            "link": "http://codeforces.com/problemset/problem/41/C",
-            "pid": "41C"
+            "title": "Lexicographically Maximum Subsequence",
+            "link": "http://codeforces.com/problemset/problem/196/A",
+            "pid": "196A"
         },
         {
             "title": "Little Xor",
@@ -7763,9 +4070,49 @@ A2OJ_LADDERS = {
             "pid": "252A"
         },
         {
-            "title": "Strings of Power",
-            "link": "http://codeforces.com/problemset/problem/318/B",
-            "pid": "318B"
+            "title": "Sockets",
+            "link": "http://codeforces.com/problemset/problem/257/A",
+            "pid": "257A"
+        },
+        {
+            "title": "Little Elephant and Magic Square",
+            "link": "http://codeforces.com/problemset/problem/259/B",
+            "pid": "259B"
+        },
+        {
+            "title": "Polo the Penguin and Segments",
+            "link": "http://codeforces.com/problemset/problem/289/A",
+            "pid": "289A"
+        },
+        {
+            "title": "Whose sentence is it?",
+            "link": "http://codeforces.com/problemset/problem/312/A",
+            "pid": "312A"
+        },
+        {
+            "title": "Vasya and Digital Root",
+            "link": "http://codeforces.com/problemset/problem/355/A",
+            "pid": "355A"
+        },
+        {
+            "title": "Vasya and Public Transport",
+            "link": "http://codeforces.com/problemset/problem/355/B",
+            "pid": "355B"
+        },
+        {
+            "title": "Petya and Staircases",
+            "link": "http://codeforces.com/problemset/problem/362/B",
+            "pid": "362B"
+        },
+        {
+            "title": "Good Number",
+            "link": "http://codeforces.com/problemset/problem/365/A",
+            "pid": "365A"
+        },
+        {
+            "title": "Dima and Guards",
+            "link": "http://codeforces.com/problemset/problem/366/A",
+            "pid": "366A"
         },
         {
             "title": "Rook, Bishop and King",
@@ -7773,34 +4120,29 @@ A2OJ_LADDERS = {
             "pid": "370A"
         },
         {
-            "title": "Valuable Resources",
-            "link": "http://codeforces.com/problemset/problem/485/B",
-            "pid": "485B"
+            "title": "Sereja and Stairs",
+            "link": "http://codeforces.com/problemset/problem/381/B",
+            "pid": "381B"
         },
         {
-            "title": "Art Union",
-            "link": "http://codeforces.com/problemset/problem/416/B",
-            "pid": "416B"
+            "title": "Ksenia and Pan Scales",
+            "link": "http://codeforces.com/problemset/problem/382/A",
+            "pid": "382A"
         },
         {
-            "title": "Ohana Cleans Up",
-            "link": "http://codeforces.com/problemset/problem/554/B",
-            "pid": "554B"
+            "title": "Nuts",
+            "link": "http://codeforces.com/problemset/problem/402/A",
+            "pid": "402A"
         },
         {
-            "title": "A and B and Compilation Errors",
-            "link": "http://codeforces.com/problemset/problem/519/B",
-            "pid": "519B"
+            "title": "Domino Effect",
+            "link": "http://codeforces.com/problemset/problem/405/B",
+            "pid": "405B"
         },
         {
-            "title": "Plant",
-            "link": "http://codeforces.com/problemset/problem/185/A",
-            "pid": "185A"
-        },
-        {
-            "title": "A and B and Team Training",
-            "link": "http://codeforces.com/problemset/problem/519/C",
-            "pid": "519C"
+            "title": "Prison Transfer",
+            "link": "http://codeforces.com/problemset/problem/427/B",
+            "pid": "427B"
         },
         {
             "title": "Fedor and New Game",
@@ -7808,9 +4150,159 @@ A2OJ_LADDERS = {
             "pid": "467B"
         },
         {
-            "title": "Xor-tree",
-            "link": "http://codeforces.com/problemset/problem/429/A",
-            "pid": "429A"
+            "title": "MUH and Sticks",
+            "link": "http://codeforces.com/problemset/problem/471/A",
+            "pid": "471A"
+        },
+        {
+            "title": "Initial Bet",
+            "link": "http://codeforces.com/problemset/problem/478/A",
+            "pid": "478A"
+        },
+        {
+            "title": "Digital Counter",
+            "link": "http://codeforces.com/problemset/problem/495/A",
+            "pid": "495A"
+        },
+        {
+            "title": "Misha and Changing Handles",
+            "link": "http://codeforces.com/problemset/problem/501/B",
+            "pid": "501B"
+        },
+        {
+            "title": "Pasha and Pixels",
+            "link": "http://codeforces.com/problemset/problem/508/A",
+            "pid": "508A"
+        },
+        {
+            "title": "A and B and Compilation Errors",
+            "link": "http://codeforces.com/problemset/problem/519/B",
+            "pid": "519B"
+        },
+        {
+            "title": "Vitaliy and Pie",
+            "link": "http://codeforces.com/problemset/problem/525/A",
+            "pid": "525A"
+        },
+        {
+            "title": "Tavas and SaDDas",
+            "link": "http://codeforces.com/problemset/problem/535/B",
+            "pid": "535B"
+        },
+        {
+            "title": "Equidistant String",
+            "link": "http://codeforces.com/problemset/problem/545/B",
+            "pid": "545B"
+        },
+        {
+            "title": "Case of Fake Numbers",
+            "link": "http://codeforces.com/problemset/problem/556/B",
+            "pid": "556B"
+        },
+        {
+            "title": "Ilya and Diplomas",
+            "link": "http://codeforces.com/problemset/problem/557/A",
+            "pid": "557A"
+        },
+        {
+            "title": "Lala Land and Apple Trees",
+            "link": "http://codeforces.com/problemset/problem/558/A",
+            "pid": "558A"
+        },
+        {
+            "title": "Elections",
+            "link": "http://codeforces.com/problemset/problem/570/A",
+            "pid": "570A"
+        },
+        {
+            "title": "The Monster and the Squirrel",
+            "link": "http://codeforces.com/problemset/problem/592/B",
+            "pid": "592B"
+        },
+        {
+            "title": "Wilbur and Swimming Pool",
+            "link": "http://codeforces.com/problemset/problem/596/A",
+            "pid": "596A"
+        },
+        {
+            "title": "Wilbur and Array",
+            "link": "http://codeforces.com/problemset/problem/596/B",
+            "pid": "596B"
+        },
+        {
+            "title": "Two Bases",
+            "link": "http://codeforces.com/problemset/problem/602/A",
+            "pid": "602A"
+        },
+        {
+            "title": "Far Relative\u2019s Problem",
+            "link": "http://codeforces.com/problemset/problem/629/B",
+            "pid": "629B"
+        },
+        {
+            "title": "Joysticks",
+            "link": "http://codeforces.com/problemset/problem/651/A",
+            "pid": "651A"
+        },
+        {
+            "title": "Petya and Countryside",
+            "link": "http://codeforces.com/problemset/problem/66/B",
+            "pid": "66B"
+        },
+        {
+            "title": "Infinite Sequence",
+            "link": "http://codeforces.com/problemset/problem/675/A",
+            "pid": "675A"
+        },
+        {
+            "title": "Alyona and Numbers",
+            "link": "http://codeforces.com/problemset/problem/682/A",
+            "pid": "682A"
+        },
+        {
+            "title": "Little Robber Girl's Zoo",
+            "link": "http://codeforces.com/problemset/problem/686/B",
+            "pid": "686B"
+        },
+        {
+            "title": "Memory and Trident",
+            "link": "http://codeforces.com/problemset/problem/712/B",
+            "pid": "712B"
+        },
+        {
+            "title": "Meeting of Old Friends",
+            "link": "http://codeforces.com/problemset/problem/714/A",
+            "pid": "714A"
+        },
+        {
+            "title": "Petya and Square",
+            "link": "http://codeforces.com/problemset/problem/112/B",
+            "pid": "112B"
+        },
+        {
+            "title": "Students and Shoelaces",
+            "link": "http://codeforces.com/problemset/problem/129/B",
+            "pid": "129B"
+        },
+        {
+            "title": "Unary",
+            "link": "http://codeforces.com/problemset/problem/133/B",
+            "pid": "133B"
+        },
+        {
+            "title": "Lucky Conversion",
+            "link": "http://codeforces.com/problemset/problem/145/A",
+            "pid": "145A"
+        },
+        {
+            "title": "Phone Numbers",
+            "link": "http://codeforces.com/problemset/problem/151/B",
+            "pid": "151B"
+        },
+        {
+            "title": "Square",
+            "link": "http://codeforces.com/problemset/problem/194/B",
+            "pid": "194B"
         },
         {
             "title": "Prizes, Prizes, more Prizes",
@@ -7818,114 +4310,321 @@ A2OJ_LADDERS = {
             "pid": "208D"
         },
         {
-            "title": "Forming Teams",
-            "link": "http://codeforces.com/problemset/problem/216/B",
-            "pid": "216B"
+            "title": "Tiling with Hexagons",
+            "link": "http://codeforces.com/problemset/problem/216/A",
+            "pid": "216A"
         },
         {
-            "title": "Sysadmin Bob",
-            "link": "http://codeforces.com/problemset/problem/31/B",
-            "pid": "31B"
+            "title": "Code Parsing",
+            "link": "http://codeforces.com/problemset/problem/255/B",
+            "pid": "255B"
         },
         {
-            "title": "Perfect Pair",
-            "link": "http://codeforces.com/problemset/problem/317/A",
-            "pid": "317A"
+            "title": "Eugeny and Play List",
+            "link": "http://codeforces.com/problemset/problem/302/B",
+            "pid": "302B"
         },
         {
-            "title": "The Two Routes",
-            "link": "http://codeforces.com/problemset/problem/601/A",
-            "pid": "601A"
+            "title": "Worms Evolution",
+            "link": "http://codeforces.com/problemset/problem/31/A",
+            "pid": "31A"
         },
         {
-            "title": "Eight Point Sets",
-            "link": "http://codeforces.com/problemset/problem/334/B",
-            "pid": "334B"
+            "title": "The Wall",
+            "link": "http://codeforces.com/problemset/problem/340/A",
+            "pid": "340A"
         },
         {
-            "title": "Cloud of Hashtags",
-            "link": "http://codeforces.com/problemset/problem/777/D",
-            "pid": "777D"
+            "title": "Levko and Permutation",
+            "link": "http://codeforces.com/problemset/problem/361/B",
+            "pid": "361B"
         },
         {
-            "title": "Martian Dollar",
-            "link": "http://codeforces.com/problemset/problem/41/B",
-            "pid": "41B"
+            "title": "Dima and To-do List",
+            "link": "http://codeforces.com/problemset/problem/366/B",
+            "pid": "366B"
         },
         {
-            "title": "Guess Your Way Out!",
-            "link": "http://codeforces.com/problemset/problem/507/C",
-            "pid": "507C"
+            "title": "Bear and Strings",
+            "link": "http://codeforces.com/problemset/problem/385/B",
+            "pid": "385B"
         },
         {
-            "title": "Alice and Bob",
-            "link": "http://codeforces.com/problemset/problem/346/A",
-            "pid": "346A"
+            "title": "George and Round",
+            "link": "http://codeforces.com/problemset/problem/387/B",
+            "pid": "387B"
         },
         {
-            "title": "STL",
-            "link": "http://codeforces.com/problemset/problem/190/C",
-            "pid": "190C"
+            "title": "Garland",
+            "link": "http://codeforces.com/problemset/problem/408/B",
+            "pid": "408B"
         },
         {
-            "title": "Magical Boxes",
-            "link": "http://codeforces.com/problemset/problem/269/A",
-            "pid": "269A"
+            "title": "Megacity",
+            "link": "http://codeforces.com/problemset/problem/424/B",
+            "pid": "424B"
+        },
+        {
+            "title": "Football Kit",
+            "link": "http://codeforces.com/problemset/problem/432/B",
+            "pid": "432B"
+        },
+        {
+            "title": "Devu, the Dumb Guy",
+            "link": "http://codeforces.com/problemset/problem/439/B",
+            "pid": "439B"
+        },
+        {
+            "title": "Appleman and Toastman",
+            "link": "http://codeforces.com/problemset/problem/461/A",
+            "pid": "461A"
+        },
+        {
+            "title": "Diverse Permutation",
+            "link": "http://codeforces.com/problemset/problem/482/A",
+            "pid": "482A"
+        },
+        {
+            "title": "Chewba?ca and Number",
+            "link": "http://codeforces.com/problemset/problem/514/A",
+            "pid": "514A"
+        },
+        {
+            "title": "Little Frog",
+            "link": "http://codeforces.com/problemset/problem/53/C",
+            "pid": "53C"
+        },
+        {
+            "title": "Soldier and Badges",
+            "link": "http://codeforces.com/problemset/problem/546/B",
+            "pid": "546B"
+        },
+        {
+            "title": "Vanya and Books",
+            "link": "http://codeforces.com/problemset/problem/552/B",
+            "pid": "552B"
+        },
+        {
+            "title": "Ohana Cleans Up",
+            "link": "http://codeforces.com/problemset/problem/554/B",
+            "pid": "554B"
+        },
+        {
+            "title": "Gerald is into Art",
+            "link": "http://codeforces.com/problemset/problem/560/B",
+            "pid": "560B"
+        },
+        {
+            "title": "Inventory",
+            "link": "http://codeforces.com/problemset/problem/569/B",
+            "pid": "569B"
+        },
+        {
+            "title": "Bear and Elections",
+            "link": "http://codeforces.com/problemset/problem/574/A",
+            "pid": "574A"
+        },
+        {
+            "title": "Robot's Task",
+            "link": "http://codeforces.com/problemset/problem/583/B",
+            "pid": "583B"
+        },
+        {
+            "title": "Rebranding",
+            "link": "http://codeforces.com/problemset/problem/591/B",
+            "pid": "591B"
+        },
+        {
+            "title": "PawnChess",
+            "link": "http://codeforces.com/problemset/problem/592/A",
+            "pid": "592A"
+        },
+        {
+            "title": "Fortune Telling",
+            "link": "http://codeforces.com/problemset/problem/59/B",
+            "pid": "59B"
+        },
+        {
+            "title": "Magic Spheres",
+            "link": "http://codeforces.com/problemset/problem/606/A",
+            "pid": "606A"
+        },
+        {
+            "title": "War of the Corporations",
+            "link": "http://codeforces.com/problemset/problem/625/B",
+            "pid": "625B"
+        },
+        {
+            "title": "Print Check",
+            "link": "http://codeforces.com/problemset/problem/631/B",
+            "pid": "631B"
+        },
+        {
+            "title": "Beautiful Paintings",
+            "link": "http://codeforces.com/problemset/problem/651/B",
+            "pid": "651B"
+        },
+        {
+            "title": "Alyona and Mex",
+            "link": "http://codeforces.com/problemset/problem/682/B",
+            "pid": "682B"
+        },
+        {
+            "title": "Filya and Homework",
+            "link": "http://codeforces.com/problemset/problem/714/B",
+            "pid": "714B"
+        },
+        {
+            "title": "Easter Eggs",
+            "link": "http://codeforces.com/problemset/problem/78/B",
+            "pid": "78B"
+        },
+        {
+            "title": "Depression",
+            "link": "http://codeforces.com/problemset/problem/80/B",
+            "pid": "80B"
+        }
+    ],
+    "1300 <= Codeforces Rating <= 1399": [
+        {
+            "title": "Prime Permutation",
+            "link": "http://codeforces.com/problemset/problem/123/A",
+            "pid": "123A"
         },
         {
             "title": "Replacement",
-            "link": "http://codeforces.com/problemset/problem/570/C",
-            "pid": "570C"
+            "link": "http://codeforces.com/problemset/problem/135/A",
+            "pid": "135A"
         },
         {
-            "title": "Tavas and Karafs",
-            "link": "http://codeforces.com/problemset/problem/535/C",
-            "pid": "535C"
+            "title": "Lucky Mask",
+            "link": "http://codeforces.com/problemset/problem/146/B",
+            "pid": "146B"
         },
         {
-            "title": "Mike and Fun",
-            "link": "http://codeforces.com/problemset/problem/548/B",
-            "pid": "548B"
+            "title": "Plant",
+            "link": "http://codeforces.com/problemset/problem/185/A",
+            "pid": "185A"
         },
         {
-            "title": "Marina and Vasya",
-            "link": "http://codeforces.com/problemset/problem/584/C",
-            "pid": "584C"
+            "title": "After Training",
+            "link": "http://codeforces.com/problemset/problem/195/B",
+            "pid": "195B"
         },
         {
-            "title": "Fish Weight",
-            "link": "http://codeforces.com/problemset/problem/297/B",
-            "pid": "297B"
+            "title": "Little Elephant and Numbers",
+            "link": "http://codeforces.com/problemset/problem/221/B",
+            "pid": "221B"
         },
         {
-            "title": "Dreamoon and Sets",
-            "link": "http://codeforces.com/problemset/problem/476/D",
-            "pid": "476D"
+            "title": "Tournament",
+            "link": "http://codeforces.com/problemset/problem/27/B",
+            "pid": "27B"
         },
         {
-            "title": "Alternating Current",
-            "link": "http://codeforces.com/problemset/problem/343/B",
-            "pid": "343B"
+            "title": "Polo the Penguin and Strings",
+            "link": "http://codeforces.com/problemset/problem/288/A",
+            "pid": "288A"
         },
         {
-            "title": "Olympiad",
-            "link": "http://codeforces.com/problemset/problem/222/D",
-            "pid": "222D"
+            "title": "Snow Footprints",
+            "link": "http://codeforces.com/problemset/problem/298/A",
+            "pid": "298A"
         },
         {
-            "title": "Xenia and Spies",
-            "link": "http://codeforces.com/problemset/problem/342/B",
-            "pid": "342B"
+            "title": "Lucky Permutation Triple",
+            "link": "http://codeforces.com/problemset/problem/303/A",
+            "pid": "303A"
         },
         {
-            "title": "Chilly Willy",
-            "link": "http://codeforces.com/problemset/problem/248/B",
-            "pid": "248B"
+            "title": "Strings of Power",
+            "link": "http://codeforces.com/problemset/problem/318/B",
+            "pid": "318B"
         },
         {
-            "title": "Planets",
-            "link": "http://codeforces.com/problemset/problem/229/B",
-            "pid": "229B"
+            "title": "Page Numbers",
+            "link": "http://codeforces.com/problemset/problem/34/C",
+            "pid": "34C"
+        },
+        {
+            "title": "I.O.U.",
+            "link": "http://codeforces.com/problemset/problem/376/B",
+            "pid": "376B"
+        },
+        {
+            "title": "Semifinals",
+            "link": "http://codeforces.com/problemset/problem/378/B",
+            "pid": "378B"
+        },
+        {
+            "title": "Art Union",
+            "link": "http://codeforces.com/problemset/problem/416/B",
+            "pid": "416B"
+        },
+        {
+            "title": "Email address",
+            "link": "http://codeforces.com/problemset/problem/41/C",
+            "pid": "41C"
+        },
+        {
+            "title": "Sereja and Mirroring",
+            "link": "http://codeforces.com/problemset/problem/426/B",
+            "pid": "426B"
+        },
+        {
+            "title": "Xor-tree",
+            "link": "http://codeforces.com/problemset/problem/429/A",
+            "pid": "429A"
+        },
+        {
+            "title": "The Child and Homework",
+            "link": "http://codeforces.com/problemset/problem/437/A",
+            "pid": "437A"
+        },
+        {
+            "title": "Lucky Tickets",
+            "link": "http://codeforces.com/problemset/problem/43/C",
+            "pid": "43C"
+        },
+        {
+            "title": "Chat Online",
+            "link": "http://codeforces.com/problemset/problem/469/B",
+            "pid": "469B"
+        },
+        {
+            "title": "MUH and Important Things",
+            "link": "http://codeforces.com/problemset/problem/471/B",
+            "pid": "471B"
+        },
+        {
+            "title": "Random Teams",
+            "link": "http://codeforces.com/problemset/problem/478/B",
+            "pid": "478B"
+        },
+        {
+            "title": "Valuable Resources",
+            "link": "http://codeforces.com/problemset/problem/485/B",
+            "pid": "485B"
+        },
+        {
+            "title": "OR in Matrix",
+            "link": "http://codeforces.com/problemset/problem/486/B",
+            "pid": "486B"
+        },
+        {
+            "title": "Vasya and Football",
+            "link": "http://codeforces.com/problemset/problem/493/A",
+            "pid": "493A"
+        },
+        {
+            "title": "Anton and currency you all know",
+            "link": "http://codeforces.com/problemset/problem/508/B",
+            "pid": "508B"
+        },
+        {
+            "title": "A and B and Team Training",
+            "link": "http://codeforces.com/problemset/problem/519/C",
+            "pid": "519C"
         },
         {
             "title": "Queue",
@@ -7933,114 +4632,96 @@ A2OJ_LADDERS = {
             "pid": "545D"
         },
         {
-            "title": "Longtail Hedgehog",
-            "link": "http://codeforces.com/problemset/problem/615/B",
-            "pid": "615B"
+            "title": "Amr and The Large Array",
+            "link": "http://codeforces.com/problemset/problem/558/B",
+            "pid": "558B"
         },
         {
-            "title": "Message",
-            "link": "http://codeforces.com/problemset/problem/156/A",
-            "pid": "156A"
+            "title": "Simple Game",
+            "link": "http://codeforces.com/problemset/problem/570/B",
+            "pid": "570B"
         },
         {
-            "title": "Voting",
-            "link": "http://codeforces.com/problemset/problem/749/C",
-            "pid": "749C"
+            "title": "Order Book",
+            "link": "http://codeforces.com/problemset/problem/572/B",
+            "pid": "572B"
         },
         {
-            "title": "Polo the Penguin and Houses",
-            "link": "http://codeforces.com/problemset/problem/288/B",
-            "pid": "288B"
+            "title": "Bear and Poker",
+            "link": "http://codeforces.com/problemset/problem/573/A",
+            "pid": "573A"
         },
         {
-            "title": "Pasha and String",
-            "link": "http://codeforces.com/problemset/problem/525/B",
-            "pid": "525B"
+            "title": "Coins",
+            "link": "http://codeforces.com/problemset/problem/58/B",
+            "pid": "58B"
         },
         {
-            "title": "Toy Sum",
-            "link": "http://codeforces.com/problemset/problem/405/D",
-            "pid": "405D"
+            "title": "Vika and Squares",
+            "link": "http://codeforces.com/problemset/problem/610/B",
+            "pid": "610B"
         },
         {
-            "title": "Tree Construction",
-            "link": "http://codeforces.com/problemset/problem/675/D",
-            "pid": "675D"
+            "title": "Chocolate",
+            "link": "http://codeforces.com/problemset/problem/617/B",
+            "pid": "617B"
         },
         {
-            "title": "Report",
-            "link": "http://codeforces.com/problemset/problem/631/C",
-            "pid": "631C"
+            "title": "Wet Shark and Bishops",
+            "link": "http://codeforces.com/problemset/problem/621/B",
+            "pid": "621B"
         },
         {
-            "title": "Bear and Blocks",
-            "link": "http://codeforces.com/problemset/problem/573/B",
-            "pid": "573B"
+            "title": "K-special Tables",
+            "link": "http://codeforces.com/problemset/problem/625/C",
+            "pid": "625C"
         },
         {
-            "title": "Dima and Two Sequences",
-            "link": "http://codeforces.com/problemset/problem/272/D",
-            "pid": "272D"
+            "title": "Petya and Java",
+            "link": "http://codeforces.com/problemset/problem/66/A",
+            "pid": "66A"
         },
         {
-            "title": "Trees in a Row",
-            "link": "http://codeforces.com/problemset/problem/402/B",
-            "pid": "402B"
+            "title": "Economy Game",
+            "link": "http://codeforces.com/problemset/problem/681/B",
+            "pid": "681B"
         },
         {
-            "title": "Terse princess",
-            "link": "http://codeforces.com/problemset/problem/148/C",
-            "pid": "148C"
+            "title": "Bakery",
+            "link": "http://codeforces.com/problemset/problem/707/B",
+            "pid": "707B"
         },
         {
-            "title": "Chloe and pleasant prizes",
-            "link": "http://codeforces.com/problemset/problem/743/D",
-            "pid": "743D"
+            "title": "Complete the Word",
+            "link": "http://codeforces.com/problemset/problem/716/B",
+            "pid": "716B"
         },
         {
-            "title": "GCD Table",
-            "link": "http://codeforces.com/problemset/problem/582/A",
-            "pid": "582A"
+            "title": "Progress Bar",
+            "link": "http://codeforces.com/problemset/problem/71/B",
+            "pid": "71B"
         },
         {
-            "title": "Prime Swaps",
-            "link": "http://codeforces.com/problemset/problem/432/C",
-            "pid": "432C"
+            "title": "Game of Credit Cards",
+            "link": "http://codeforces.com/problemset/problem/777/B",
+            "pid": "777B"
         },
         {
-            "title": "Soldier and Cards",
-            "link": "http://codeforces.com/problemset/problem/546/C",
-            "pid": "546C"
+            "title": "Magical Array",
+            "link": "http://codeforces.com/problemset/problem/83/A",
+            "pid": "83A"
         },
         {
-            "title": "DNA Alignment",
-            "link": "http://codeforces.com/problemset/problem/520/C",
-            "pid": "520C"
-        },
+            "title": "Binary Number",
+            "link": "http://codeforces.com/problemset/problem/92/B",
+            "pid": "92B"
+        }
+    ],
+    "1400 <= Codeforces Rating <= 1499": [
         {
-            "title": "Sereja and Swaps",
-            "link": "http://codeforces.com/problemset/problem/425/A",
-            "pid": "425A"
-        },
-        {
-            "title": "The Big Race",
-            "link": "http://codeforces.com/problemset/problem/592/C",
-            "pid": "592C"
-        },
-        {
-            "title": "Image Preview",
-            "link": "http://codeforces.com/problemset/problem/650/B",
-            "pid": "650B"
-        },
-        {
-            "title": "Find Pair",
-            "link": "http://codeforces.com/problemset/problem/160/C",
-            "pid": "160C"
-        },
-        {
-            "title": "Mike and Chocolate Thieves",
-            "link": "http://codeforces.com/problemset/problem/689/C",
-            "pid": "689C"
+            "title": "Dorm Water Supply",
+            "link": "http://codeforces.com/problemset/problem/107/A",
+            "pid": "107A"
         },
         {
             "title": "Petya and Inequiations",
@@ -8048,9 +4729,201 @@ A2OJ_LADDERS = {
             "pid": "111A"
         },
         {
-            "title": "Non-Secret Cypher",
-            "link": "http://codeforces.com/problemset/problem/190/D",
-            "pid": "190D"
+            "title": "Win or Freeze",
+            "link": "http://codeforces.com/problemset/problem/150/A",
+            "pid": "150A"
+        },
+        {
+            "title": "Limit",
+            "link": "http://codeforces.com/problemset/problem/197/B",
+            "pid": "197B"
+        },
+        {
+            "title": "Jumping on Walls",
+            "link": "http://codeforces.com/problemset/problem/198/B",
+            "pid": "198B"
+        },
+        {
+            "title": "Photographer",
+            "link": "http://codeforces.com/problemset/problem/203/C",
+            "pid": "203C"
+        },
+        {
+            "title": "Little Elephant and Sorting",
+            "link": "http://codeforces.com/problemset/problem/205/B",
+            "pid": "205B"
+        },
+        {
+            "title": "Non-square Equation",
+            "link": "http://codeforces.com/problemset/problem/233/B",
+            "pid": "233B"
+        },
+        {
+            "title": "Chilly Willy",
+            "link": "http://codeforces.com/problemset/problem/248/B",
+            "pid": "248B"
+        },
+        {
+            "title": "Maxim and Discounts",
+            "link": "http://codeforces.com/problemset/problem/261/A",
+            "pid": "261A"
+        },
+        {
+            "title": "Multithreading",
+            "link": "http://codeforces.com/problemset/problem/270/B",
+            "pid": "270B"
+        },
+        {
+            "title": "Dima and Sequence",
+            "link": "http://codeforces.com/problemset/problem/272/B",
+            "pid": "272B"
+        },
+        {
+            "title": "Point on Spiral",
+            "link": "http://codeforces.com/problemset/problem/279/A",
+            "pid": "279A"
+        },
+        {
+            "title": "Cows and Primitive Roots",
+            "link": "http://codeforces.com/problemset/problem/284/A",
+            "pid": "284A"
+        },
+        {
+            "title": "Lucky Permutation",
+            "link": "http://codeforces.com/problemset/problem/286/A",
+            "pid": "286A"
+        },
+        {
+            "title": "Eight Point Sets",
+            "link": "http://codeforces.com/problemset/problem/334/B",
+            "pid": "334B"
+        },
+        {
+            "title": "Permutation",
+            "link": "http://codeforces.com/problemset/problem/359/B",
+            "pid": "359B"
+        },
+        {
+            "title": "Valera and Contest",
+            "link": "http://codeforces.com/problemset/problem/369/B",
+            "pid": "369B"
+        },
+        {
+            "title": "Trees in a Row",
+            "link": "http://codeforces.com/problemset/problem/402/B",
+            "pid": "402B"
+        },
+        {
+            "title": "Guess a number!",
+            "link": "http://codeforces.com/problemset/problem/416/A",
+            "pid": "416A"
+        },
+        {
+            "title": "Martian Dollar",
+            "link": "http://codeforces.com/problemset/problem/41/B",
+            "pid": "41B"
+        },
+        {
+            "title": "Pasha Maximizes",
+            "link": "http://codeforces.com/problemset/problem/435/B",
+            "pid": "435B"
+        },
+        {
+            "title": "DZY Loves Chemistry",
+            "link": "http://codeforces.com/problemset/problem/445/B",
+            "pid": "445B"
+        },
+        {
+            "title": "Vasya and Wrestling",
+            "link": "http://codeforces.com/problemset/problem/493/B",
+            "pid": "493B"
+        },
+        {
+            "title": "Amr and Pins",
+            "link": "http://codeforces.com/problemset/problem/507/B",
+            "pid": "507B"
+        },
+        {
+            "title": "Han Solo and Lazer Gun",
+            "link": "http://codeforces.com/problemset/problem/514/B",
+            "pid": "514B"
+        },
+        {
+            "title": "Drazil and Factorial",
+            "link": "http://codeforces.com/problemset/problem/515/C",
+            "pid": "515C"
+        },
+        {
+            "title": "Pasha and String",
+            "link": "http://codeforces.com/problemset/problem/525/B",
+            "pid": "525B"
+        },
+        {
+            "title": "Soldier and Cards",
+            "link": "http://codeforces.com/problemset/problem/546/C",
+            "pid": "546C"
+        },
+        {
+            "title": "Mike and Fun",
+            "link": "http://codeforces.com/problemset/problem/548/B",
+            "pid": "548B"
+        },
+        {
+            "title": "Preparing Olympiad",
+            "link": "http://codeforces.com/problemset/problem/550/B",
+            "pid": "550B"
+        },
+        {
+            "title": "Approximating a Constant Range",
+            "link": "http://codeforces.com/problemset/problem/602/B",
+            "pid": "602B"
+        },
+        {
+            "title": "More Cowbell",
+            "link": "http://codeforces.com/problemset/problem/604/B",
+            "pid": "604B"
+        },
+        {
+            "title": "Gena's Code",
+            "link": "http://codeforces.com/problemset/problem/614/B",
+            "pid": "614B"
+        },
+        {
+            "title": "Watchmen",
+            "link": "http://codeforces.com/problemset/problem/650/A",
+            "pid": "650A"
+        },
+        {
+            "title": "Restoring Painting",
+            "link": "http://codeforces.com/problemset/problem/675/B",
+            "pid": "675B"
+        },
+        {
+            "title": "Mike and Cellphone",
+            "link": "http://codeforces.com/problemset/problem/689/A",
+            "pid": "689A"
+        },
+        {
+            "title": "Chris and Magic Square",
+            "link": "http://codeforces.com/problemset/problem/711/B",
+            "pid": "711B"
+        }
+    ],
+    "1500 <= Codeforces Rating <= 1599": [
+        {
+            "title": "Cthulhu",
+            "link": "http://codeforces.com/problemset/problem/103/B",
+            "pid": "103B"
+        },
+        {
+            "title": "History",
+            "link": "http://codeforces.com/problemset/problem/137/C",
+            "pid": "137C"
+        },
+        {
+            "title": "Anagram Search",
+            "link": "http://codeforces.com/problemset/problem/144/C",
+            "pid": "144C"
         },
         {
             "title": "Division into Teams",
@@ -8058,24 +4931,14 @@ A2OJ_LADDERS = {
             "pid": "149C"
         },
         {
-            "title": "Predict Outcome of the Game",
-            "link": "http://codeforces.com/problemset/problem/451/C",
-            "pid": "451C"
+            "title": "Burning Midnight Oil",
+            "link": "http://codeforces.com/problemset/problem/165/B",
+            "pid": "165B"
         },
         {
-            "title": "The Child and Zoo",
-            "link": "http://codeforces.com/problemset/problem/437/D",
-            "pid": "437D"
-        },
-        {
-            "title": "Nearest Fraction",
-            "link": "http://codeforces.com/problemset/problem/281/B",
-            "pid": "281B"
-        },
-        {
-            "title": "Purification",
-            "link": "http://codeforces.com/problemset/problem/329/A",
-            "pid": "329A"
+            "title": "STL",
+            "link": "http://codeforces.com/problemset/problem/190/C",
+            "pid": "190C"
         },
         {
             "title": "Dynasty Puzzles",
@@ -8083,44 +4946,94 @@ A2OJ_LADDERS = {
             "pid": "191A"
         },
         {
-            "title": "Secret Combination",
-            "link": "http://codeforces.com/problemset/problem/496/B",
-            "pid": "496B"
+            "title": "Secret",
+            "link": "http://codeforces.com/problemset/problem/271/C",
+            "pid": "271C"
         },
         {
-            "title": "Divisible by Seven",
-            "link": "http://codeforces.com/problemset/problem/375/A",
-            "pid": "375A"
+            "title": "k-Multiple Free Set",
+            "link": "http://codeforces.com/problemset/problem/274/A",
+            "pid": "274A"
         },
         {
-            "title": "Burning Midnight Oil",
-            "link": "http://codeforces.com/problemset/problem/165/B",
-            "pid": "165B"
+            "title": "New Problem",
+            "link": "http://codeforces.com/problemset/problem/278/B",
+            "pid": "278B"
         },
         {
-            "title": "School Marks",
-            "link": "http://codeforces.com/problemset/problem/540/B",
-            "pid": "540B"
+            "title": "Polo the Penguin and Houses",
+            "link": "http://codeforces.com/problemset/problem/288/B",
+            "pid": "288B"
         },
         {
-            "title": "Road Map",
-            "link": "http://codeforces.com/problemset/problem/34/D",
-            "pid": "34D"
+            "title": "Sysadmin Bob",
+            "link": "http://codeforces.com/problemset/problem/31/B",
+            "pid": "31B"
         },
         {
-            "title": "Harmony Analysis",
-            "link": "http://codeforces.com/problemset/problem/610/C",
-            "pid": "610C"
+            "title": "Purification",
+            "link": "http://codeforces.com/problemset/problem/329/A",
+            "pid": "329A"
         },
         {
-            "title": "Magic Formulas",
-            "link": "http://codeforces.com/problemset/problem/424/C",
-            "pid": "424C"
+            "title": "Biridian Forest",
+            "link": "http://codeforces.com/problemset/problem/329/B",
+            "pid": "329B"
         },
         {
-            "title": "Pasha and Tea",
-            "link": "http://codeforces.com/problemset/problem/557/B",
-            "pid": "557B"
+            "title": "Xenia and Spies",
+            "link": "http://codeforces.com/problemset/problem/342/B",
+            "pid": "342B"
+        },
+        {
+            "title": "Dima and Text Messages",
+            "link": "http://codeforces.com/problemset/problem/358/B",
+            "pid": "358B"
+        },
+        {
+            "title": "Fire Again",
+            "link": "http://codeforces.com/problemset/problem/35/C",
+            "pid": "35C"
+        },
+        {
+            "title": "Sereja and Algorithm",
+            "link": "http://codeforces.com/problemset/problem/367/A",
+            "pid": "367A"
+        },
+        {
+            "title": "Inna and Nine",
+            "link": "http://codeforces.com/problemset/problem/374/B",
+            "pid": "374B"
+        },
+        {
+            "title": "Multitasking",
+            "link": "http://codeforces.com/problemset/problem/384/B",
+            "pid": "384B"
+        },
+        {
+            "title": "Inna and Huge Candy Matrix",
+            "link": "http://codeforces.com/problemset/problem/400/C",
+            "pid": "400C"
+        },
+        {
+            "title": "Mashmokh and Numbers",
+            "link": "http://codeforces.com/problemset/problem/414/A",
+            "pid": "414A"
+        },
+        {
+            "title": "Mashmokh and Tokens",
+            "link": "http://codeforces.com/problemset/problem/415/B",
+            "pid": "415B"
+        },
+        {
+            "title": "Sereja and Swaps",
+            "link": "http://codeforces.com/problemset/problem/425/A",
+            "pid": "425A"
+        },
+        {
+            "title": "The Child and Set",
+            "link": "http://codeforces.com/problemset/problem/437/B",
+            "pid": "437B"
         },
         {
             "title": "24 Game",
@@ -8128,19 +5041,191 @@ A2OJ_LADDERS = {
             "pid": "468A"
         },
         {
+            "title": "Secret Combination",
+            "link": "http://codeforces.com/problemset/problem/496/B",
+            "pid": "496B"
+        },
+        {
+            "title": "DNA Alignment",
+            "link": "http://codeforces.com/problemset/problem/520/C",
+            "pid": "520C"
+        },
+        {
+            "title": "Woodcutters",
+            "link": "http://codeforces.com/problemset/problem/545/C",
+            "pid": "545C"
+        },
+        {
+            "title": "Two Substrings",
+            "link": "http://codeforces.com/problemset/problem/550/A",
+            "pid": "550A"
+        },
+        {
+            "title": "Kyoya and Colored Balls",
+            "link": "http://codeforces.com/problemset/problem/553/A",
+            "pid": "553A"
+        },
+        {
+            "title": "Case of Matryoshkas",
+            "link": "http://codeforces.com/problemset/problem/555/A",
+            "pid": "555A"
+        },
+        {
+            "title": "Pasha and Tea",
+            "link": "http://codeforces.com/problemset/problem/557/B",
+            "pid": "557B"
+        },
+        {
+            "title": "Music",
+            "link": "http://codeforces.com/problemset/problem/569/A",
+            "pid": "569A"
+        },
+        {
+            "title": "Bear and Three Musketeers",
+            "link": "http://codeforces.com/problemset/problem/574/B",
+            "pid": "574B"
+        },
+        {
+            "title": "Vasya and Petya's Game",
+            "link": "http://codeforces.com/problemset/problem/576/A",
+            "pid": "576A"
+        },
+        {
+            "title": "Kefa and Company",
+            "link": "http://codeforces.com/problemset/problem/580/B",
+            "pid": "580B"
+        },
+        {
+            "title": "Kefa and Park",
+            "link": "http://codeforces.com/problemset/problem/580/C",
+            "pid": "580C"
+        },
+        {
+            "title": "Kolya and Tanya",
+            "link": "http://codeforces.com/problemset/problem/584/B",
+            "pid": "584B"
+        },
+        {
+            "title": "Spongebob and Joke",
+            "link": "http://codeforces.com/problemset/problem/599/B",
+            "pid": "599B"
+        },
+        {
+            "title": "Hamming Distance Sum",
+            "link": "http://codeforces.com/problemset/problem/608/B",
+            "pid": "608B"
+        },
+        {
+            "title": "Pyramid of Glasses",
+            "link": "http://codeforces.com/problemset/problem/676/B",
+            "pid": "676B"
+        },
+        {
+            "title": "Vasya and String",
+            "link": "http://codeforces.com/problemset/problem/676/C",
+            "pid": "676C"
+        },
+        {
+            "title": "NP-Hard Problem",
+            "link": "http://codeforces.com/problemset/problem/687/A",
+            "pid": "687A"
+        },
+        {
+            "title": "Pythagorean Triples",
+            "link": "http://codeforces.com/problemset/problem/707/C",
+            "pid": "707C"
+        },
+        {
+            "title": "Arpa\u2019s obvious problem and Mehrdad\u2019s terrible solution",
+            "link": "http://codeforces.com/problemset/problem/742/B",
+            "pid": "742B"
+        },
+        {
+            "title": "Voting",
+            "link": "http://codeforces.com/problemset/problem/749/C",
+            "pid": "749C"
+        },
+        {
+            "title": "Keyboard",
+            "link": "http://codeforces.com/problemset/problem/88/B",
+            "pid": "88B"
+        },
+        {
+            "title": "Newspaper Headline",
+            "link": "http://codeforces.com/problemset/problem/91/A",
+            "pid": "91A"
+        },
+        {
+            "title": "Queue",
+            "link": "http://codeforces.com/problemset/problem/91/B",
+            "pid": "91B"
+        }
+    ],
+    "1600 <= Codeforces Rating <= 1699": [
+        {
             "title": "Basketball Team",
             "link": "http://codeforces.com/problemset/problem/107/B",
             "pid": "107B"
         },
         {
-            "title": "Heap Operations",
-            "link": "http://codeforces.com/problemset/problem/681/C",
-            "pid": "681C"
+            "title": "Quantity of Strings",
+            "link": "http://codeforces.com/problemset/problem/150/B",
+            "pid": "150B"
         },
         {
-            "title": "Rational Resistance",
-            "link": "http://codeforces.com/problemset/problem/343/A",
-            "pid": "343A"
+            "title": "Hometask",
+            "link": "http://codeforces.com/problemset/problem/154/A",
+            "pid": "154A"
+        },
+        {
+            "title": "Colliders",
+            "link": "http://codeforces.com/problemset/problem/154/B",
+            "pid": "154B"
+        },
+        {
+            "title": "Plate Game",
+            "link": "http://codeforces.com/problemset/problem/197/A",
+            "pid": "197A"
+        },
+        {
+            "title": "Magic Box",
+            "link": "http://codeforces.com/problemset/problem/231/D",
+            "pid": "231D"
+        },
+        {
+            "title": "Cycles",
+            "link": "http://codeforces.com/problemset/problem/232/A",
+            "pid": "232A"
+        },
+        {
+            "title": "Primes on Interval",
+            "link": "http://codeforces.com/problemset/problem/237/C",
+            "pid": "237C"
+        },
+        {
+            "title": "Undoubtedly Lucky Numbers",
+            "link": "http://codeforces.com/problemset/problem/244/B",
+            "pid": "244B"
+        },
+        {
+            "title": "Beauty Pageant",
+            "link": "http://codeforces.com/problemset/problem/246/C",
+            "pid": "246C"
+        },
+        {
+            "title": "Magical Boxes",
+            "link": "http://codeforces.com/problemset/problem/269/A",
+            "pid": "269A"
+        },
+        {
+            "title": "Dima and Two Sequences",
+            "link": "http://codeforces.com/problemset/problem/272/D",
+            "pid": "272D"
+        },
+        {
+            "title": "Fish Weight",
+            "link": "http://codeforces.com/problemset/problem/297/B",
+            "pid": "297B"
         },
         {
             "title": "Strange Addition",
@@ -8153,871 +5238,9 @@ A2OJ_LADDERS = {
             "pid": "305C"
         },
         {
-            "title": "Beauty Pageant",
-            "link": "http://codeforces.com/problemset/problem/246/C",
-            "pid": "246C"
-        },
-        {
-            "title": "Modular Equations",
-            "link": "http://codeforces.com/problemset/problem/495/B",
-            "pid": "495B"
-        },
-        {
-            "title": "Quantity of Strings",
-            "link": "http://codeforces.com/problemset/problem/150/B",
-            "pid": "150B"
-        },
-        {
-            "title": "Gerald's Hexagon",
-            "link": "http://codeforces.com/problemset/problem/559/A",
-            "pid": "559A"
-        },
-        {
-            "title": "ZgukistringZ",
-            "link": "http://codeforces.com/problemset/problem/551/B",
-            "pid": "551B"
-        },
-        {
-            "title": "Non-square Equation",
-            "link": "http://codeforces.com/problemset/problem/233/B",
-            "pid": "233B"
-        },
-        {
-            "title": "Find Maximum",
-            "link": "http://codeforces.com/problemset/problem/353/C",
-            "pid": "353C"
-        },
-        {
-            "title": "Alyona and the Tree",
-            "link": "http://codeforces.com/problemset/problem/682/C",
-            "pid": "682C"
-        },
-        {
-            "title": "Newspaper Headline",
-            "link": "http://codeforces.com/problemset/problem/91/A",
-            "pid": "91A"
-        },
-        {
-            "title": "MUH and House of Cards",
-            "link": "http://codeforces.com/problemset/problem/471/C",
-            "pid": "471C"
-        },
-        {
-            "title": "Vasya and String",
-            "link": "http://codeforces.com/problemset/problem/676/C",
-            "pid": "676C"
-        },
-        {
-            "title": "Amr and Pins",
-            "link": "http://codeforces.com/problemset/problem/507/B",
-            "pid": "507B"
-        },
-        {
-            "title": "Buns",
-            "link": "http://codeforces.com/problemset/problem/106/C",
-            "pid": "106C"
-        },
-        {
-            "title": "Magic Five",
-            "link": "http://codeforces.com/problemset/problem/327/C",
-            "pid": "327C"
-        },
-        {
-            "title": "Cows and Primitive Roots",
-            "link": "http://codeforces.com/problemset/problem/284/A",
-            "pid": "284A"
-        },
-        {
-            "title": "Vasily the Bear and Sequence",
-            "link": "http://codeforces.com/problemset/problem/336/C",
-            "pid": "336C"
-        },
-        {
-            "title": "Preparing Olympiad",
-            "link": "http://codeforces.com/problemset/problem/550/B",
-            "pid": "550B"
-        },
-        {
-            "title": "Bear and Three Musketeers",
-            "link": "http://codeforces.com/problemset/problem/574/B",
-            "pid": "574B"
-        },
-        {
-            "title": "Undoubtedly Lucky Numbers",
-            "link": "http://codeforces.com/problemset/problem/244/B",
-            "pid": "244B"
-        },
-        {
-            "title": "Dreamoon and Sums",
-            "link": "http://codeforces.com/problemset/problem/476/C",
-            "pid": "476C"
-        },
-        {
-            "title": "Cthulhu",
-            "link": "http://codeforces.com/problemset/problem/103/B",
-            "pid": "103B"
-        },
-        {
-            "title": "Win or Freeze",
-            "link": "http://codeforces.com/problemset/problem/150/A",
-            "pid": "150A"
-        },
-        {
-            "title": "Quiz",
-            "link": "http://codeforces.com/problemset/problem/337/C",
-            "pid": "337C"
-        },
-        {
-            "title": "Anagram Search",
-            "link": "http://codeforces.com/problemset/problem/144/C",
-            "pid": "144C"
-        },
-        {
-            "title": "Two Substrings",
-            "link": "http://codeforces.com/problemset/problem/550/A",
-            "pid": "550A"
-        },
-        {
-            "title": "Subsegments",
-            "link": "http://codeforces.com/problemset/problem/69/E",
-            "pid": "69E"
-        },
-        {
-            "title": "History",
-            "link": "http://codeforces.com/problemset/problem/137/C",
-            "pid": "137C"
-        },
-        {
-            "title": "Primes on Interval",
-            "link": "http://codeforces.com/problemset/problem/237/C",
-            "pid": "237C"
-        },
-        {
-            "title": "The Child and Set",
-            "link": "http://codeforces.com/problemset/problem/437/B",
-            "pid": "437B"
-        },
-        {
-            "title": "OR in Matrix",
-            "link": "http://codeforces.com/problemset/problem/486/B",
-            "pid": "486B"
-        },
-        {
-            "title": "DZY Loves Chemistry",
-            "link": "http://codeforces.com/problemset/problem/445/B",
-            "pid": "445B"
-        },
-        {
-            "title": "Vasiliy's Multiset",
-            "link": "http://codeforces.com/problemset/problem/706/D",
-            "pid": "706D"
-        },
-        {
-            "title": "Bits",
-            "link": "http://codeforces.com/problemset/problem/484/A",
-            "pid": "484A"
-        },
-        {
-            "title": "Ilya and Sticks",
-            "link": "http://codeforces.com/problemset/problem/525/C",
-            "pid": "525C"
-        },
-        {
-            "title": "Dima and Lisa",
-            "link": "http://codeforces.com/problemset/problem/584/D",
-            "pid": "584D"
-        },
-        {
-            "title": "Kefa and Park",
-            "link": "http://codeforces.com/problemset/problem/580/C",
-            "pid": "580C"
-        },
-        {
-            "title": "Queue",
-            "link": "http://codeforces.com/problemset/problem/91/B",
-            "pid": "91B"
-        },
-        {
-            "title": "Woodcutters",
-            "link": "http://codeforces.com/problemset/problem/545/C",
-            "pid": "545C"
-        },
-        {
-            "title": "Biridian Forest",
-            "link": "http://codeforces.com/problemset/problem/329/B",
-            "pid": "329B"
-        },
-        {
-            "title": "k-Multiple Free Set",
-            "link": "http://codeforces.com/problemset/problem/274/A",
-            "pid": "274A"
-        },
-        {
-            "title": "Magic Box",
-            "link": "http://codeforces.com/problemset/problem/231/D",
-            "pid": "231D"
-        },
-        {
-            "title": "Alyona and Strings",
-            "link": "http://codeforces.com/problemset/problem/682/D",
-            "pid": "682D"
-        },
-        {
-            "title": "Dispute",
-            "link": "http://codeforces.com/problemset/problem/242/D",
-            "pid": "242D"
-        },
-        {
-            "title": "Volleyball",
-            "link": "http://codeforces.com/problemset/problem/95/C",
-            "pid": "95C"
-        },
-        {
-            "title": "Decoding Genome",
-            "link": "http://codeforces.com/problemset/problem/222/E",
-            "pid": "222E"
-        },
-        {
-            "title": "Running Track",
-            "link": "http://codeforces.com/problemset/problem/615/C",
-            "pid": "615C"
-        },
-        {
-            "title": "Police Station",
-            "link": "http://codeforces.com/problemset/problem/208/C",
-            "pid": "208C"
-        },
-        {
-            "title": "Money Transfers",
-            "link": "http://codeforces.com/problemset/problem/675/C",
-            "pid": "675C"
-        },
-        {
-            "title": "Mishka and Interesting sum",
-            "link": "http://codeforces.com/problemset/problem/703/D",
-            "pid": "703D"
-        },
-        {
-            "title": "Queue",
-            "link": "http://codeforces.com/problemset/problem/353/D",
-            "pid": "353D"
-        },
-        {
-            "title": "Directed Roads",
-            "link": "http://codeforces.com/problemset/problem/711/D",
-            "pid": "711D"
-        },
-        {
-            "title": "Spongebob and Squares",
-            "link": "http://codeforces.com/problemset/problem/599/D",
-            "pid": "599D"
-        },
-        {
-            "title": "Black and White Tree",
-            "link": "http://codeforces.com/problemset/problem/260/D",
-            "pid": "260D"
-        },
-        {
-            "title": "Ilya and Roads",
-            "link": "http://codeforces.com/problemset/problem/313/D",
-            "pid": "313D"
-        },
-        {
-            "title": "Babaei and Birthday Cake",
-            "link": "http://codeforces.com/problemset/problem/629/D",
-            "pid": "629D"
-        },
-        {
-            "title": "Block Tower",
-            "link": "http://codeforces.com/problemset/problem/327/D",
-            "pid": "327D"
-        },
-        {
-            "title": "Police Patrol",
-            "link": "http://codeforces.com/problemset/problem/427/E",
-            "pid": "427E"
-        },
-        {
-            "title": "Persistent Bookcase",
-            "link": "http://codeforces.com/problemset/problem/707/D",
-            "pid": "707D"
-        },
-        {
-            "title": "Random Task",
-            "link": "http://codeforces.com/problemset/problem/431/D",
-            "pid": "431D"
-        },
-        {
-            "title": "Number With The Given Amount Of Divisors",
-            "link": "http://codeforces.com/problemset/problem/27/E",
-            "pid": "27E"
-        },
-        {
-            "title": "Cycle in Graph",
-            "link": "http://codeforces.com/problemset/problem/263/D",
-            "pid": "263D"
-        },
-        {
-            "title": "Circle of Numbers",
-            "link": "http://codeforces.com/problemset/problem/263/C",
-            "pid": "263C"
-        },
-        {
-            "title": "Fox And Jumping",
-            "link": "http://codeforces.com/problemset/problem/510/D",
-            "pid": "510D"
-        },
-        {
-            "title": "Vanya and Triangles",
-            "link": "http://codeforces.com/problemset/problem/552/D",
-            "pid": "552D"
-        },
-        {
-            "title": "Shaass and Lights",
-            "link": "http://codeforces.com/problemset/problem/294/C",
-            "pid": "294C"
-        },
-        {
-            "title": "Vitaly and Cycle",
-            "link": "http://codeforces.com/problemset/problem/557/D",
-            "pid": "557D"
-        },
-        {
-            "title": "Minesweeper 1D",
-            "link": "http://codeforces.com/problemset/problem/404/D",
-            "pid": "404D"
-        },
-        {
-            "title": "Modulo Sum",
-            "link": "http://codeforces.com/problemset/problem/577/B",
-            "pid": "577B"
-        },
-        {
-            "title": "Amr and Chemistry",
-            "link": "http://codeforces.com/problemset/problem/558/C",
-            "pid": "558C"
-        },
-        {
-            "title": "Arthur and Table",
-            "link": "http://codeforces.com/problemset/problem/557/C",
-            "pid": "557C"
-        },
-        {
-            "title": "Paths and Trees",
-            "link": "http://codeforces.com/problemset/problem/545/E",
-            "pid": "545E"
-        },
-        {
-            "title": "Kefa and Dishes",
-            "link": "http://codeforces.com/problemset/problem/580/D",
-            "pid": "580D"
-        },
-        {
-            "title": "Anya and Cubes",
-            "link": "http://codeforces.com/problemset/problem/525/E",
-            "pid": "525E"
-        },
-        {
-            "title": "Yet Another Number Game",
-            "link": "http://codeforces.com/problemset/problem/282/D",
-            "pid": "282D"
-        }
-    ],
-    "1700 <= Codeforces Rating <= 1799": [
-        {
-            "title": "Circle Line",
-            "link": "http://codeforces.com/problemset/problem/278/A",
-            "pid": "278A"
-        },
-        {
-            "title": "Restoring Password",
-            "link": "http://codeforces.com/problemset/problem/94/A",
-            "pid": "94A"
-        },
-        {
-            "title": "Playing with Dice",
-            "link": "http://codeforces.com/problemset/problem/378/A",
-            "pid": "378A"
-        },
-        {
-            "title": "Colorful Stones (Simplified Edition)",
-            "link": "http://codeforces.com/problemset/problem/265/A",
-            "pid": "265A"
-        },
-        {
-            "title": "Roma and Lucky Numbers",
-            "link": "http://codeforces.com/problemset/problem/262/A",
-            "pid": "262A"
-        },
-        {
-            "title": "Kyoya and Photobooks",
-            "link": "http://codeforces.com/problemset/problem/554/A",
-            "pid": "554A"
-        },
-        {
-            "title": "Valera and X",
-            "link": "http://codeforces.com/problemset/problem/404/A",
-            "pid": "404A"
-        },
-        {
-            "title": "Game With Sticks",
-            "link": "http://codeforces.com/problemset/problem/451/A",
-            "pid": "451A"
-        },
-        {
-            "title": "Vasya and Digital Root",
-            "link": "http://codeforces.com/problemset/problem/355/A",
-            "pid": "355A"
-        },
-        {
-            "title": "Multiplication Table",
-            "link": "http://codeforces.com/problemset/problem/577/A",
-            "pid": "577A"
-        },
-        {
-            "title": "Calculating Function",
-            "link": "http://codeforces.com/problemset/problem/486/A",
-            "pid": "486A"
-        },
-        {
-            "title": "Valera and Antique Items",
-            "link": "http://codeforces.com/problemset/problem/441/A",
-            "pid": "441A"
-        },
-        {
-            "title": "Kefa and First Steps",
-            "link": "http://codeforces.com/problemset/problem/580/A",
-            "pid": "580A"
-        },
-        {
-            "title": "Toy Cars",
-            "link": "http://codeforces.com/problemset/problem/545/A",
-            "pid": "545A"
-        },
-        {
-            "title": "Joysticks",
-            "link": "http://codeforces.com/problemset/problem/651/A",
-            "pid": "651A"
-        },
-        {
-            "title": "Little Frog",
-            "link": "http://codeforces.com/problemset/problem/53/C",
-            "pid": "53C"
-        },
-        {
-            "title": "Sinking Ship",
-            "link": "http://codeforces.com/problemset/problem/63/A",
-            "pid": "63A"
-        },
-        {
-            "title": "Case of the Zeros and Ones",
-            "link": "http://codeforces.com/problemset/problem/556/A",
-            "pid": "556A"
-        },
-        {
-            "title": "Roadside Trees (Simplified Edition)",
-            "link": "http://codeforces.com/problemset/problem/265/B",
-            "pid": "265B"
-        },
-        {
-            "title": "Ciel and Dancing",
-            "link": "http://codeforces.com/problemset/problem/322/A",
-            "pid": "322A"
-        },
-        {
-            "title": "Currency System in Geraldion",
-            "link": "http://codeforces.com/problemset/problem/560/A",
-            "pid": "560A"
-        },
-        {
-            "title": "Prizes, Prizes, more Prizes",
-            "link": "http://codeforces.com/problemset/problem/208/D",
-            "pid": "208D"
-        },
-        {
-            "title": "Bear and Poker",
-            "link": "http://codeforces.com/problemset/problem/573/A",
-            "pid": "573A"
-        },
-        {
-            "title": "Fox and Number Game",
-            "link": "http://codeforces.com/problemset/problem/389/A",
-            "pid": "389A"
-        },
-        {
-            "title": "A and B and Team Training",
-            "link": "http://codeforces.com/problemset/problem/519/C",
-            "pid": "519C"
-        },
-        {
-            "title": "Misha and Changing Handles",
-            "link": "http://codeforces.com/problemset/problem/501/B",
-            "pid": "501B"
-        },
-        {
-            "title": "Cifera",
-            "link": "http://codeforces.com/problemset/problem/114/A",
-            "pid": "114A"
-        },
-        {
-            "title": "Lucky Tickets",
-            "link": "http://codeforces.com/problemset/problem/43/C",
-            "pid": "43C"
-        },
-        {
-            "title": "Bar",
-            "link": "http://codeforces.com/problemset/problem/56/A",
-            "pid": "56A"
-        },
-        {
-            "title": "Bear and Elections",
-            "link": "http://codeforces.com/problemset/problem/574/A",
-            "pid": "574A"
-        },
-        {
-            "title": "Lexicographically Maximum Subsequence",
-            "link": "http://codeforces.com/problemset/problem/196/A",
-            "pid": "196A"
-        },
-        {
-            "title": "Strings of Power",
-            "link": "http://codeforces.com/problemset/problem/318/B",
-            "pid": "318B"
-        },
-        {
-            "title": "Lucky Permutation Triple",
-            "link": "http://codeforces.com/problemset/problem/303/A",
-            "pid": "303A"
-        },
-        {
-            "title": "Good Number",
-            "link": "http://codeforces.com/problemset/problem/365/A",
-            "pid": "365A"
-        },
-        {
-            "title": "Case of Fake Numbers",
-            "link": "http://codeforces.com/problemset/problem/556/B",
-            "pid": "556B"
-        },
-        {
-            "title": "Art Union",
-            "link": "http://codeforces.com/problemset/problem/416/B",
-            "pid": "416B"
-        },
-        {
-            "title": "War of the Corporations",
-            "link": "http://codeforces.com/problemset/problem/625/B",
-            "pid": "625B"
-        },
-        {
-            "title": "Fortune Telling",
-            "link": "http://codeforces.com/problemset/problem/59/B",
-            "pid": "59B"
-        },
-        {
-            "title": "Sereja and Algorithm",
-            "link": "http://codeforces.com/problemset/problem/367/A",
-            "pid": "367A"
-        },
-        {
-            "title": "Fedor and New Game",
-            "link": "http://codeforces.com/problemset/problem/467/B",
-            "pid": "467B"
-        },
-        {
-            "title": "Ohana Cleans Up",
-            "link": "http://codeforces.com/problemset/problem/554/B",
-            "pid": "554B"
-        },
-        {
-            "title": "Students and Shoelaces",
-            "link": "http://codeforces.com/problemset/problem/129/B",
-            "pid": "129B"
-        },
-        {
-            "title": "Xor-tree",
-            "link": "http://codeforces.com/problemset/problem/429/A",
-            "pid": "429A"
-        },
-        {
-            "title": "Maxim and Discounts",
-            "link": "http://codeforces.com/problemset/problem/261/A",
-            "pid": "261A"
-        },
-        {
-            "title": "Kyoya and Colored Balls",
-            "link": "http://codeforces.com/problemset/problem/553/A",
-            "pid": "553A"
-        },
-        {
-            "title": "Heap Operations",
-            "link": "http://codeforces.com/problemset/problem/681/C",
-            "pid": "681C"
-        },
-        {
-            "title": "Colliders",
-            "link": "http://codeforces.com/problemset/problem/154/B",
-            "pid": "154B"
-        },
-        {
-            "title": "Day at the Beach",
-            "link": "http://codeforces.com/problemset/problem/599/C",
-            "pid": "599C"
-        },
-        {
-            "title": "History",
-            "link": "http://codeforces.com/problemset/problem/137/C",
-            "pid": "137C"
-        },
-        {
-            "title": "Buns",
-            "link": "http://codeforces.com/problemset/problem/106/C",
-            "pid": "106C"
-        },
-        {
             "title": "Sereja and Contest",
             "link": "http://codeforces.com/problemset/problem/314/A",
             "pid": "314A"
-        },
-        {
-            "title": "Division into Teams",
-            "link": "http://codeforces.com/problemset/problem/149/C",
-            "pid": "149C"
-        },
-        {
-            "title": "Dima and Two Sequences",
-            "link": "http://codeforces.com/problemset/problem/272/D",
-            "pid": "272D"
-        },
-        {
-            "title": "Marina and Vasya",
-            "link": "http://codeforces.com/problemset/problem/584/C",
-            "pid": "584C"
-        },
-        {
-            "title": "George and Number",
-            "link": "http://codeforces.com/problemset/problem/387/C",
-            "pid": "387C"
-        },
-        {
-            "title": "More Cowbell",
-            "link": "http://codeforces.com/problemset/problem/604/B",
-            "pid": "604B"
-        },
-        {
-            "title": "Approximating a Constant Range",
-            "link": "http://codeforces.com/problemset/problem/602/B",
-            "pid": "602B"
-        },
-        {
-            "title": "The Big Race",
-            "link": "http://codeforces.com/problemset/problem/592/C",
-            "pid": "592C"
-        },
-        {
-            "title": "Magic Formulas",
-            "link": "http://codeforces.com/problemset/problem/424/C",
-            "pid": "424C"
-        },
-        {
-            "title": "Polo the Penguin and XOR operation",
-            "link": "http://codeforces.com/problemset/problem/288/C",
-            "pid": "288C"
-        },
-        {
-            "title": "Gerald is into Art",
-            "link": "http://codeforces.com/problemset/problem/560/B",
-            "pid": "560B"
-        },
-        {
-            "title": "Alice and Bob",
-            "link": "http://codeforces.com/problemset/problem/346/A",
-            "pid": "346A"
-        },
-        {
-            "title": "Plate Game",
-            "link": "http://codeforces.com/problemset/problem/197/A",
-            "pid": "197A"
-        },
-        {
-            "title": "Tavas and Karafs",
-            "link": "http://codeforces.com/problemset/problem/535/C",
-            "pid": "535C"
-        },
-        {
-            "title": "Dima and Lisa",
-            "link": "http://codeforces.com/problemset/problem/584/D",
-            "pid": "584D"
-        },
-        {
-            "title": "Cows and Primitive Roots",
-            "link": "http://codeforces.com/problemset/problem/284/A",
-            "pid": "284A"
-        },
-        {
-            "title": "Secret",
-            "link": "http://codeforces.com/problemset/problem/271/C",
-            "pid": "271C"
-        },
-        {
-            "title": "Fish Weight",
-            "link": "http://codeforces.com/problemset/problem/297/B",
-            "pid": "297B"
-        },
-        {
-            "title": "GCD Table",
-            "link": "http://codeforces.com/problemset/problem/582/A",
-            "pid": "582A"
-        },
-        {
-            "title": "DZY Loves Chemistry",
-            "link": "http://codeforces.com/problemset/problem/445/B",
-            "pid": "445B"
-        },
-        {
-            "title": "Olympiad",
-            "link": "http://codeforces.com/problemset/problem/222/D",
-            "pid": "222D"
-        },
-        {
-            "title": "Preparing Olympiad",
-            "link": "http://codeforces.com/problemset/problem/550/B",
-            "pid": "550B"
-        },
-        {
-            "title": "Image Preview",
-            "link": "http://codeforces.com/problemset/problem/650/B",
-            "pid": "650B"
-        },
-        {
-            "title": "Alyona and the Tree",
-            "link": "http://codeforces.com/problemset/problem/682/C",
-            "pid": "682C"
-        },
-        {
-            "title": "Biridian Forest",
-            "link": "http://codeforces.com/problemset/problem/329/B",
-            "pid": "329B"
-        },
-        {
-            "title": "Gena's Code",
-            "link": "http://codeforces.com/problemset/problem/614/B",
-            "pid": "614B"
-        },
-        {
-            "title": "Dynasty Puzzles",
-            "link": "http://codeforces.com/problemset/problem/191/A",
-            "pid": "191A"
-        },
-        {
-            "title": "Eight Point Sets",
-            "link": "http://codeforces.com/problemset/problem/334/B",
-            "pid": "334B"
-        },
-        {
-            "title": "Secret Combination",
-            "link": "http://codeforces.com/problemset/problem/496/B",
-            "pid": "496B"
-        },
-        {
-            "title": "Fire Again",
-            "link": "http://codeforces.com/problemset/problem/35/C",
-            "pid": "35C"
-        },
-        {
-            "title": "Replacement",
-            "link": "http://codeforces.com/problemset/problem/570/C",
-            "pid": "570C"
-        },
-        {
-            "title": "Lazy Student",
-            "link": "http://codeforces.com/problemset/problem/605/B",
-            "pid": "605B"
-        },
-        {
-            "title": "Quiz",
-            "link": "http://codeforces.com/problemset/problem/337/C",
-            "pid": "337C"
-        },
-        {
-            "title": "Queue",
-            "link": "http://codeforces.com/problemset/problem/545/D",
-            "pid": "545D"
-        },
-        {
-            "title": "Wet Shark and Flowers",
-            "link": "http://codeforces.com/problemset/problem/621/C",
-            "pid": "621C"
-        },
-        {
-            "title": "Han Solo and Lazer Gun",
-            "link": "http://codeforces.com/problemset/problem/514/B",
-            "pid": "514B"
-        },
-        {
-            "title": "Two Heaps",
-            "link": "http://codeforces.com/problemset/problem/353/B",
-            "pid": "353B"
-        },
-        {
-            "title": "Vasya and String",
-            "link": "http://codeforces.com/problemset/problem/676/C",
-            "pid": "676C"
-        },
-        {
-            "title": "Clear Symmetry",
-            "link": "http://codeforces.com/problemset/problem/201/A",
-            "pid": "201A"
-        },
-        {
-            "title": "Hometask",
-            "link": "http://codeforces.com/problemset/problem/154/A",
-            "pid": "154A"
-        },
-        {
-            "title": "Case of Matryoshkas",
-            "link": "http://codeforces.com/problemset/problem/555/A",
-            "pid": "555A"
-        },
-        {
-            "title": "Report",
-            "link": "http://codeforces.com/problemset/problem/631/C",
-            "pid": "631C"
-        },
-        {
-            "title": "Amr and Pins",
-            "link": "http://codeforces.com/problemset/problem/507/B",
-            "pid": "507B"
-        },
-        {
-            "title": "Bracket Sequence",
-            "link": "http://codeforces.com/problemset/problem/223/A",
-            "pid": "223A"
-        },
-        {
-            "title": "Alternating Current",
-            "link": "http://codeforces.com/problemset/problem/343/B",
-            "pid": "343B"
-        },
-        {
-            "title": "Win or Freeze",
-            "link": "http://codeforces.com/problemset/problem/150/A",
-            "pid": "150A"
-        },
-        {
-            "title": "Soldier and Badges",
-            "link": "http://codeforces.com/problemset/problem/546/B",
-            "pid": "546B"
-        },
-        {
-            "title": "Unordered Subsequence",
-            "link": "http://codeforces.com/problemset/problem/27/C",
-            "pid": "27C"
-        },
-        {
-            "title": "Woodcutters",
-            "link": "http://codeforces.com/problemset/problem/545/C",
-            "pid": "545C"
         },
         {
             "title": "Perfect Pair",
@@ -9025,876 +5248,9 @@ A2OJ_LADDERS = {
             "pid": "317A"
         },
         {
-            "title": "Tree Construction",
-            "link": "http://codeforces.com/problemset/problem/675/D",
-            "pid": "675D"
-        },
-        {
-            "title": "The Values You Can Make",
-            "link": "http://codeforces.com/problemset/problem/687/C",
-            "pid": "687C"
-        },
-        {
-            "title": "Magic Five",
-            "link": "http://codeforces.com/problemset/problem/327/C",
-            "pid": "327C"
-        },
-        {
-            "title": "Falling Anvils",
-            "link": "http://codeforces.com/problemset/problem/77/B",
-            "pid": "77B"
-        },
-        {
-            "title": "Vasily the Bear and Sequence",
-            "link": "http://codeforces.com/problemset/problem/336/C",
-            "pid": "336C"
-        },
-        {
-            "title": "Vasiliy's Multiset",
-            "link": "http://codeforces.com/problemset/problem/706/D",
-            "pid": "706D"
-        },
-        {
-            "title": "Bits",
-            "link": "http://codeforces.com/problemset/problem/484/A",
-            "pid": "484A"
-        },
-        {
-            "title": "Divisible by Seven",
-            "link": "http://codeforces.com/problemset/problem/375/A",
-            "pid": "375A"
-        },
-        {
-            "title": "Zuma",
-            "link": "http://codeforces.com/problemset/problem/607/B",
-            "pid": "607B"
-        },
-        {
-            "title": "Primes on Interval",
-            "link": "http://codeforces.com/problemset/problem/237/C",
-            "pid": "237C"
-        },
-        {
-            "title": "Road Map",
-            "link": "http://codeforces.com/problemset/problem/34/D",
-            "pid": "34D"
-        },
-        {
-            "title": "Harmony Analysis",
-            "link": "http://codeforces.com/problemset/problem/610/C",
-            "pid": "610C"
-        },
-        {
-            "title": "Rational Resistance",
-            "link": "http://codeforces.com/problemset/problem/343/A",
-            "pid": "343A"
-        },
-        {
-            "title": "Prime Swaps",
-            "link": "http://codeforces.com/problemset/problem/432/C",
-            "pid": "432C"
-        },
-        {
-            "title": "Cthulhu",
-            "link": "http://codeforces.com/problemset/problem/103/B",
-            "pid": "103B"
-        },
-        {
-            "title": "Pasha and Tea",
-            "link": "http://codeforces.com/problemset/problem/557/B",
-            "pid": "557B"
-        },
-        {
-            "title": "Find Maximum",
-            "link": "http://codeforces.com/problemset/problem/353/C",
-            "pid": "353C"
-        },
-        {
-            "title": "k-Multiple Free Set",
-            "link": "http://codeforces.com/problemset/problem/274/A",
-            "pid": "274A"
-        },
-        {
-            "title": "Recycling Bottles",
-            "link": "http://codeforces.com/problemset/problem/671/A",
-            "pid": "671A"
-        },
-        {
-            "title": "Bear and Three Musketeers",
-            "link": "http://codeforces.com/problemset/problem/574/B",
-            "pid": "574B"
-        },
-        {
-            "title": "Beauty Pageant",
-            "link": "http://codeforces.com/problemset/problem/246/C",
-            "pid": "246C"
-        },
-        {
-            "title": "About Bacteria",
-            "link": "http://codeforces.com/problemset/problem/198/A",
-            "pid": "198A"
-        },
-        {
-            "title": "Spongebob and Joke",
-            "link": "http://codeforces.com/problemset/problem/599/B",
-            "pid": "599B"
-        },
-        {
-            "title": "Bear and Blocks",
-            "link": "http://codeforces.com/problemset/problem/573/B",
-            "pid": "573B"
-        },
-        {
-            "title": "Two Substrings",
-            "link": "http://codeforces.com/problemset/problem/550/A",
-            "pid": "550A"
-        },
-        {
-            "title": "Chips",
-            "link": "http://codeforces.com/problemset/problem/333/B",
-            "pid": "333B"
-        },
-        {
-            "title": "Guest From the Past",
-            "link": "http://codeforces.com/problemset/problem/625/A",
-            "pid": "625A"
-        },
-        {
-            "title": "Subsegments",
-            "link": "http://codeforces.com/problemset/problem/69/E",
-            "pid": "69E"
-        },
-        {
-            "title": "Magic Box",
-            "link": "http://codeforces.com/problemset/problem/231/D",
-            "pid": "231D"
-        },
-        {
-            "title": "Planets",
-            "link": "http://codeforces.com/problemset/problem/229/B",
-            "pid": "229B"
-        },
-        {
-            "title": "Longtail Hedgehog",
-            "link": "http://codeforces.com/problemset/problem/615/B",
-            "pid": "615B"
-        },
-        {
-            "title": "Queue",
-            "link": "http://codeforces.com/problemset/problem/91/B",
-            "pid": "91B"
-        },
-        {
-            "title": "The Child and Zoo",
-            "link": "http://codeforces.com/problemset/problem/437/D",
-            "pid": "437D"
-        },
-        {
-            "title": "Watering Flowers",
-            "link": "http://codeforces.com/problemset/problem/617/C",
-            "pid": "617C"
-        },
-        {
-            "title": "Polyline",
-            "link": "http://codeforces.com/problemset/problem/617/D",
-            "pid": "617D"
-        },
-        {
-            "title": "Money Transfers",
-            "link": "http://codeforces.com/problemset/problem/675/C",
-            "pid": "675C"
-        },
-        {
-            "title": "3-cycles",
-            "link": "http://codeforces.com/problemset/problem/41/E",
-            "pid": "41E"
-        },
-        {
-            "title": "Numbers",
-            "link": "http://codeforces.com/problemset/problem/213/B",
-            "pid": "213B"
-        },
-        {
-            "title": "Persistent Bookcase",
-            "link": "http://codeforces.com/problemset/problem/707/D",
-            "pid": "707D"
-        },
-        {
-            "title": "Number With The Given Amount Of Divisors",
-            "link": "http://codeforces.com/problemset/problem/27/E",
-            "pid": "27E"
-        },
-        {
-            "title": "Cipher",
-            "link": "http://codeforces.com/problemset/problem/156/C",
-            "pid": "156C"
-        },
-        {
-            "title": "Friends and Subsequences",
-            "link": "http://codeforces.com/problemset/problem/689/D",
-            "pid": "689D"
-        },
-        {
-            "title": "Last Chance",
-            "link": "http://codeforces.com/problemset/problem/137/E",
-            "pid": "137E"
-        },
-        {
-            "title": "Messenger",
-            "link": "http://codeforces.com/problemset/problem/631/D",
-            "pid": "631D"
-        },
-        {
-            "title": "Mishka and Interesting sum",
-            "link": "http://codeforces.com/problemset/problem/703/D",
-            "pid": "703D"
-        },
-        {
-            "title": "Relay Race",
-            "link": "http://codeforces.com/problemset/problem/213/C",
-            "pid": "213C"
-        },
-        {
-            "title": "Black and White Tree",
-            "link": "http://codeforces.com/problemset/problem/260/D",
-            "pid": "260D"
-        },
-        {
-            "title": "Sereja and Periods",
-            "link": "http://codeforces.com/problemset/problem/314/B",
-            "pid": "314B"
-        },
-        {
-            "title": "Dima and Containers",
-            "link": "http://codeforces.com/problemset/problem/358/C",
-            "pid": "358C"
-        },
-        {
-            "title": "Reducing Fractions",
-            "link": "http://codeforces.com/problemset/problem/222/C",
-            "pid": "222C"
-        },
-        {
-            "title": "Alyona and Strings",
-            "link": "http://codeforces.com/problemset/problem/682/D",
-            "pid": "682D"
-        },
-        {
-            "title": "Police Station",
-            "link": "http://codeforces.com/problemset/problem/208/C",
-            "pid": "208C"
-        },
-        {
-            "title": "Pawn",
-            "link": "http://codeforces.com/problemset/problem/41/D",
-            "pid": "41D"
-        },
-        {
-            "title": "Permutation Sum",
-            "link": "http://codeforces.com/problemset/problem/285/D",
-            "pid": "285D"
-        },
-        {
-            "title": "Ilya and Roads",
-            "link": "http://codeforces.com/problemset/problem/313/D",
-            "pid": "313D"
-        },
-        {
-            "title": "Triangles",
-            "link": "http://codeforces.com/problemset/problem/229/C",
-            "pid": "229C"
-        },
-        {
-            "title": "Gifts by the List",
-            "link": "http://codeforces.com/problemset/problem/681/D",
-            "pid": "681D"
-        },
-        {
-            "title": "Spongebob and Squares",
-            "link": "http://codeforces.com/problemset/problem/599/D",
-            "pid": "599D"
-        },
-        {
-            "title": "Flawed Flow",
-            "link": "http://codeforces.com/problemset/problem/269/C",
-            "pid": "269C"
-        },
-        {
-            "title": "Hydra",
-            "link": "http://codeforces.com/problemset/problem/243/B",
-            "pid": "243B"
-        },
-        {
-            "title": "Police Patrol",
-            "link": "http://codeforces.com/problemset/problem/427/E",
-            "pid": "427E"
-        },
-        {
-            "title": "Decoding Genome",
-            "link": "http://codeforces.com/problemset/problem/222/E",
-            "pid": "222E"
-        },
-        {
-            "title": "Points on Plane",
-            "link": "http://codeforces.com/problemset/problem/576/C",
-            "pid": "576C"
-        },
-        {
-            "title": "Apple Tree",
-            "link": "http://codeforces.com/problemset/problem/348/B",
-            "pid": "348B"
-        },
-        {
-            "title": "Domino Principle",
-            "link": "http://codeforces.com/problemset/problem/56/E",
-            "pid": "56E"
-        },
-        {
-            "title": "Little Elephant and LCM",
-            "link": "http://codeforces.com/problemset/problem/258/C",
-            "pid": "258C"
-        },
-        {
-            "title": "Minesweeper 1D",
-            "link": "http://codeforces.com/problemset/problem/404/D",
-            "pid": "404D"
-        },
-        {
-            "title": "Two Strings",
-            "link": "http://codeforces.com/problemset/problem/223/B",
-            "pid": "223B"
-        },
-        {
-            "title": "Vanya and Triangles",
-            "link": "http://codeforces.com/problemset/problem/552/D",
-            "pid": "552D"
-        },
-        {
-            "title": "Shaass and Lights",
-            "link": "http://codeforces.com/problemset/problem/294/C",
-            "pid": "294C"
-        },
-        {
-            "title": "Cycle in Graph",
-            "link": "http://codeforces.com/problemset/problem/263/D",
-            "pid": "263D"
-        },
-        {
-            "title": "Compatible Numbers",
-            "link": "http://codeforces.com/problemset/problem/165/E",
-            "pid": "165E"
-        },
-        {
-            "title": "Ring Road 2",
-            "link": "http://codeforces.com/problemset/problem/27/D",
-            "pid": "27D"
-        },
-        {
-            "title": "Running Track",
-            "link": "http://codeforces.com/problemset/problem/615/C",
-            "pid": "615C"
-        },
-        {
-            "title": "Famil Door and Brackets",
-            "link": "http://codeforces.com/problemset/problem/629/C",
-            "pid": "629C"
-        },
-        {
-            "title": "Sum",
-            "link": "http://codeforces.com/problemset/problem/257/D",
-            "pid": "257D"
-        },
-        {
-            "title": "Fox And Jumping",
-            "link": "http://codeforces.com/problemset/problem/510/D",
-            "pid": "510D"
-        },
-        {
-            "title": "Journey",
-            "link": "http://codeforces.com/problemset/problem/721/C",
-            "pid": "721C"
-        },
-        {
-            "title": "Paths and Trees",
-            "link": "http://codeforces.com/problemset/problem/545/E",
-            "pid": "545E"
-        },
-        {
-            "title": "Vitaly and Cycle",
-            "link": "http://codeforces.com/problemset/problem/557/D",
-            "pid": "557D"
-        },
-        {
-            "title": "Block Tower",
-            "link": "http://codeforces.com/problemset/problem/327/D",
-            "pid": "327D"
-        },
-        {
-            "title": "Dispute",
-            "link": "http://codeforces.com/problemset/problem/242/D",
-            "pid": "242D"
-        },
-        {
-            "title": "Random Task",
-            "link": "http://codeforces.com/problemset/problem/431/D",
-            "pid": "431D"
-        },
-        {
-            "title": "Arthur and Table",
-            "link": "http://codeforces.com/problemset/problem/557/C",
-            "pid": "557C"
-        },
-        {
-            "title": "Queue",
-            "link": "http://codeforces.com/problemset/problem/353/D",
-            "pid": "353D"
-        },
-        {
-            "title": "Amr and Chemistry",
-            "link": "http://codeforces.com/problemset/problem/558/C",
-            "pid": "558C"
-        },
-        {
-            "title": "The Road to Berland is Paved With Good Intentions",
-            "link": "http://codeforces.com/problemset/problem/228/E",
-            "pid": "228E"
-        },
-        {
-            "title": "Babaei and Birthday Cake",
-            "link": "http://codeforces.com/problemset/problem/629/D",
-            "pid": "629D"
-        },
-        {
-            "title": "Kefa and Dishes",
-            "link": "http://codeforces.com/problemset/problem/580/D",
-            "pid": "580D"
-        },
-        {
-            "title": "Modulo Sum",
-            "link": "http://codeforces.com/problemset/problem/577/B",
-            "pid": "577B"
-        },
-        {
-            "title": "Yet Another Number Game",
-            "link": "http://codeforces.com/problemset/problem/282/D",
-            "pid": "282D"
-        },
-        {
-            "title": "Edges in MST",
-            "link": "http://codeforces.com/problemset/problem/160/D",
-            "pid": "160D"
-        },
-        {
-            "title": "Arthur and Brackets",
-            "link": "http://codeforces.com/problemset/problem/508/E",
-            "pid": "508E"
-        },
-        {
-            "title": "Vanya and Brackets",
-            "link": "http://codeforces.com/problemset/problem/552/E",
-            "pid": "552E"
-        },
-        {
-            "title": "Devu and Flowers",
-            "link": "http://codeforces.com/problemset/problem/451/E",
-            "pid": "451E"
-        },
-        {
-            "title": "Anya and Cubes",
-            "link": "http://codeforces.com/problemset/problem/525/E",
-            "pid": "525E"
-        },
-        {
-            "title": "Vasily the Bear and Beautiful Strings",
-            "link": "http://codeforces.com/problemset/problem/336/D",
-            "pid": "336D"
-        },
-        {
-            "title": "Little Victor and Set",
-            "link": "http://codeforces.com/problemset/problem/460/D",
-            "pid": "460D"
-        },
-        {
-            "title": "Axis Walking",
-            "link": "http://codeforces.com/problemset/problem/327/E",
-            "pid": "327E"
-        },
-        {
-            "title": "Kefa and Watch",
-            "link": "http://codeforces.com/problemset/problem/580/E",
-            "pid": "580E"
-        }
-    ],
-    "1800 <= Codeforces Rating <= 1899": [
-        {
-            "title": "George and Accommodation",
-            "link": "http://codeforces.com/problemset/problem/467/A",
-            "pid": "467A"
-        },
-        {
-            "title": "Spit Problem",
-            "link": "http://codeforces.com/problemset/problem/29/A",
-            "pid": "29A"
-        },
-        {
-            "title": "Sereja and Mugs",
-            "link": "http://codeforces.com/problemset/problem/426/A",
-            "pid": "426A"
-        },
-        {
-            "title": "Playing with Dice",
-            "link": "http://codeforces.com/problemset/problem/378/A",
-            "pid": "378A"
-        },
-        {
-            "title": "Kyoya and Photobooks",
-            "link": "http://codeforces.com/problemset/problem/554/A",
-            "pid": "554A"
-        },
-        {
-            "title": "Haiku",
-            "link": "http://codeforces.com/problemset/problem/78/A",
-            "pid": "78A"
-        },
-        {
-            "title": "Soroban",
-            "link": "http://codeforces.com/problemset/problem/363/A",
-            "pid": "363A"
-        },
-        {
-            "title": "Table",
-            "link": "http://codeforces.com/problemset/problem/359/A",
-            "pid": "359A"
-        },
-        {
-            "title": "Valera and Plates",
-            "link": "http://codeforces.com/problemset/problem/369/A",
-            "pid": "369A"
-        },
-        {
-            "title": "Sinking Ship",
-            "link": "http://codeforces.com/problemset/problem/63/A",
-            "pid": "63A"
-        },
-        {
-            "title": "Case of the Zeros and Ones",
-            "link": "http://codeforces.com/problemset/problem/556/A",
-            "pid": "556A"
-        },
-        {
-            "title": "Drazil and Date",
-            "link": "http://codeforces.com/problemset/problem/515/A",
-            "pid": "515A"
-        },
-        {
-            "title": "Bear and Raspberry",
-            "link": "http://codeforces.com/problemset/problem/385/A",
-            "pid": "385A"
-        },
-        {
-            "title": "Worms Evolution",
-            "link": "http://codeforces.com/problemset/problem/31/A",
-            "pid": "31A"
-        },
-        {
-            "title": "Group of Students",
-            "link": "http://codeforces.com/problemset/problem/357/A",
-            "pid": "357A"
-        },
-        {
-            "title": "Lever",
-            "link": "http://codeforces.com/problemset/problem/376/A",
-            "pid": "376A"
-        },
-        {
-            "title": "Lucky Ticket",
-            "link": "http://codeforces.com/problemset/problem/146/A",
-            "pid": "146A"
-        },
-        {
-            "title": "Game With Sticks",
-            "link": "http://codeforces.com/problemset/problem/451/A",
-            "pid": "451A"
-        },
-        {
-            "title": "Depression",
-            "link": "http://codeforces.com/problemset/problem/80/B",
-            "pid": "80B"
-        },
-        {
-            "title": "Easter Eggs",
-            "link": "http://codeforces.com/problemset/problem/78/B",
-            "pid": "78B"
-        },
-        {
-            "title": "Vasya and Digital Root",
-            "link": "http://codeforces.com/problemset/problem/355/A",
-            "pid": "355A"
-        },
-        {
-            "title": "Sereja and Coat Rack",
-            "link": "http://codeforces.com/problemset/problem/368/A",
-            "pid": "368A"
-        },
-        {
-            "title": "Multiplication Table",
-            "link": "http://codeforces.com/problemset/problem/577/A",
-            "pid": "577A"
-        },
-        {
-            "title": "Canvas Frames",
-            "link": "http://codeforces.com/problemset/problem/127/B",
-            "pid": "127B"
-        },
-        {
-            "title": "Petya and Staircases",
-            "link": "http://codeforces.com/problemset/problem/362/B",
-            "pid": "362B"
-        },
-        {
-            "title": "Progress Bar",
-            "link": "http://codeforces.com/problemset/problem/71/B",
-            "pid": "71B"
-        },
-        {
-            "title": "A and B and Compilation Errors",
-            "link": "http://codeforces.com/problemset/problem/519/B",
-            "pid": "519B"
-        },
-        {
-            "title": "Bear and Strings",
-            "link": "http://codeforces.com/problemset/problem/385/B",
-            "pid": "385B"
-        },
-        {
-            "title": "Dorm Water Supply",
-            "link": "http://codeforces.com/problemset/problem/107/A",
-            "pid": "107A"
-        },
-        {
-            "title": "Permutation",
-            "link": "http://codeforces.com/problemset/problem/359/B",
-            "pid": "359B"
-        },
-        {
-            "title": "Appleman and Toastman",
-            "link": "http://codeforces.com/problemset/problem/461/A",
-            "pid": "461A"
-        },
-        {
-            "title": "Strings of Power",
-            "link": "http://codeforces.com/problemset/problem/318/B",
-            "pid": "318B"
-        },
-        {
-            "title": "Lexicographically Maximum Subsequence",
-            "link": "http://codeforces.com/problemset/problem/196/A",
-            "pid": "196A"
-        },
-        {
-            "title": "Whose sentence is it?",
-            "link": "http://codeforces.com/problemset/problem/312/A",
-            "pid": "312A"
-        },
-        {
-            "title": "Milking cows",
-            "link": "http://codeforces.com/problemset/problem/383/A",
-            "pid": "383A"
-        },
-        {
-            "title": "Sereja and Stairs",
-            "link": "http://codeforces.com/problemset/problem/381/B",
-            "pid": "381B"
-        },
-        {
-            "title": "Good Number",
-            "link": "http://codeforces.com/problemset/problem/365/A",
-            "pid": "365A"
-        },
-        {
-            "title": "Mashmokh and Numbers",
-            "link": "http://codeforces.com/problemset/problem/414/A",
-            "pid": "414A"
-        },
-        {
-            "title": "Fox and Number Game",
-            "link": "http://codeforces.com/problemset/problem/389/A",
-            "pid": "389A"
-        },
-        {
-            "title": "Levko and Permutation",
-            "link": "http://codeforces.com/problemset/problem/361/B",
-            "pid": "361B"
-        },
-        {
-            "title": "Xor-tree",
-            "link": "http://codeforces.com/problemset/problem/429/A",
-            "pid": "429A"
-        },
-        {
-            "title": "Prizes, Prizes, more Prizes",
-            "link": "http://codeforces.com/problemset/problem/208/D",
-            "pid": "208D"
-        },
-        {
-            "title": "Find Pair",
-            "link": "http://codeforces.com/problemset/problem/160/C",
-            "pid": "160C"
-        },
-        {
-            "title": "Magic Box",
-            "link": "http://codeforces.com/problemset/problem/231/D",
-            "pid": "231D"
-        },
-        {
-            "title": "Bits",
-            "link": "http://codeforces.com/problemset/problem/484/A",
-            "pid": "484A"
-        },
-        {
-            "title": "History",
-            "link": "http://codeforces.com/problemset/problem/137/C",
-            "pid": "137C"
-        },
-        {
-            "title": "Remainders Game",
-            "link": "http://codeforces.com/problemset/problem/687/B",
-            "pid": "687B"
-        },
-        {
-            "title": "Guess Your Way Out!",
-            "link": "http://codeforces.com/problemset/problem/507/C",
-            "pid": "507C"
-        },
-        {
-            "title": "Guest From the Past",
-            "link": "http://codeforces.com/problemset/problem/625/A",
-            "pid": "625A"
-        },
-        {
-            "title": "Magical Boxes",
-            "link": "http://codeforces.com/problemset/problem/269/A",
-            "pid": "269A"
-        },
-        {
-            "title": "Prime Permutation",
-            "link": "http://codeforces.com/problemset/problem/123/A",
-            "pid": "123A"
-        },
-        {
-            "title": "Yaroslav and Sequence",
-            "link": "http://codeforces.com/problemset/problem/301/A",
-            "pid": "301A"
-        },
-        {
-            "title": "Division into Teams",
-            "link": "http://codeforces.com/problemset/problem/149/C",
-            "pid": "149C"
-        },
-        {
-            "title": "School Marks",
-            "link": "http://codeforces.com/problemset/problem/540/B",
-            "pid": "540B"
-        },
-        {
-            "title": "Prime Swaps",
-            "link": "http://codeforces.com/problemset/problem/432/C",
-            "pid": "432C"
-        },
-        {
-            "title": "Cutting Figure",
-            "link": "http://codeforces.com/problemset/problem/193/A",
-            "pid": "193A"
-        },
-        {
-            "title": "Vasily the Bear and Sequence",
-            "link": "http://codeforces.com/problemset/problem/336/C",
-            "pid": "336C"
-        },
-        {
-            "title": "Alyona and a tree",
-            "link": "http://codeforces.com/problemset/problem/739/B",
-            "pid": "739B"
-        },
-        {
-            "title": "Ilya and Sticks",
-            "link": "http://codeforces.com/problemset/problem/525/C",
-            "pid": "525C"
-        },
-        {
-            "title": "Heap Operations",
-            "link": "http://codeforces.com/problemset/problem/681/C",
-            "pid": "681C"
-        },
-        {
-            "title": "Report",
-            "link": "http://codeforces.com/problemset/problem/631/C",
-            "pid": "631C"
-        },
-        {
-            "title": "Bear and Blocks",
-            "link": "http://codeforces.com/problemset/problem/573/B",
-            "pid": "573B"
-        },
-        {
-            "title": "Kolya and Tanya",
-            "link": "http://codeforces.com/problemset/problem/584/B",
-            "pid": "584B"
-        },
-        {
-            "title": "Bracket Sequence",
-            "link": "http://codeforces.com/problemset/problem/223/A",
-            "pid": "223A"
-        },
-        {
-            "title": "Dreamoon and Sets",
-            "link": "http://codeforces.com/problemset/problem/476/D",
-            "pid": "476D"
-        },
-        {
-            "title": "Lazy Student",
-            "link": "http://codeforces.com/problemset/problem/605/B",
-            "pid": "605B"
-        },
-        {
-            "title": "Olympiad",
-            "link": "http://codeforces.com/problemset/problem/222/D",
-            "pid": "222D"
-        },
-        {
-            "title": "The Child and Zoo",
-            "link": "http://codeforces.com/problemset/problem/437/D",
-            "pid": "437D"
-        },
-        {
-            "title": "Queue",
-            "link": "http://codeforces.com/problemset/problem/545/D",
-            "pid": "545D"
-        },
-        {
-            "title": "Approximating a Constant Range",
-            "link": "http://codeforces.com/problemset/problem/602/B",
-            "pid": "602B"
-        },
-        {
-            "title": "Biridian Forest",
-            "link": "http://codeforces.com/problemset/problem/329/B",
-            "pid": "329B"
-        },
-        {
-            "title": "Amr and Pins",
-            "link": "http://codeforces.com/problemset/problem/507/B",
-            "pid": "507B"
-        },
-        {
-            "title": "Levko and Array Recovery",
-            "link": "http://codeforces.com/problemset/problem/360/A",
-            "pid": "360A"
-        },
-        {
-            "title": "Robin Hood",
-            "link": "http://codeforces.com/problemset/problem/671/B",
-            "pid": "671B"
+            "title": "Malek Dance Club",
+            "link": "http://codeforces.com/problemset/problem/319/A",
+            "pid": "319A"
         },
         {
             "title": "Quiz",
@@ -9902,69 +5258,9 @@ A2OJ_LADDERS = {
             "pid": "337C"
         },
         {
-            "title": "Polo the Penguin and XOR operation",
-            "link": "http://codeforces.com/problemset/problem/288/C",
-            "pid": "288C"
-        },
-        {
-            "title": "Dynasty Puzzles",
-            "link": "http://codeforces.com/problemset/problem/191/A",
-            "pid": "191A"
-        },
-        {
-            "title": "k-Multiple Free Set",
-            "link": "http://codeforces.com/problemset/problem/274/A",
-            "pid": "274A"
-        },
-        {
-            "title": "Tree Construction",
-            "link": "http://codeforces.com/problemset/problem/675/D",
-            "pid": "675D"
-        },
-        {
-            "title": "Misha and Permutations Summation",
-            "link": "http://codeforces.com/problemset/problem/501/D",
-            "pid": "501D"
-        },
-        {
-            "title": "Inna and Nine",
-            "link": "http://codeforces.com/problemset/problem/374/B",
-            "pid": "374B"
-        },
-        {
-            "title": "Two Substrings",
-            "link": "http://codeforces.com/problemset/problem/550/A",
-            "pid": "550A"
-        },
-        {
-            "title": "Alyona and the Tree",
-            "link": "http://codeforces.com/problemset/problem/682/C",
-            "pid": "682C"
-        },
-        {
-            "title": "Subsegments",
-            "link": "http://codeforces.com/problemset/problem/69/E",
-            "pid": "69E"
-        },
-        {
-            "title": "Toy Sum",
-            "link": "http://codeforces.com/problemset/problem/405/D",
-            "pid": "405D"
-        },
-        {
-            "title": "Alice and Bob",
-            "link": "http://codeforces.com/problemset/problem/346/A",
-            "pid": "346A"
-        },
-        {
-            "title": "Non-Secret Cypher",
-            "link": "http://codeforces.com/problemset/problem/190/D",
-            "pid": "190D"
-        },
-        {
-            "title": "Petya and His Friends",
-            "link": "http://codeforces.com/problemset/problem/66/D",
-            "pid": "66D"
+            "title": "Rational Resistance",
+            "link": "http://codeforces.com/problemset/problem/343/A",
+            "pid": "343A"
         },
         {
             "title": "Alternating Current",
@@ -9972,19 +5268,9 @@ A2OJ_LADDERS = {
             "pid": "343B"
         },
         {
-            "title": "The Big Race",
-            "link": "http://codeforces.com/problemset/problem/592/C",
-            "pid": "592C"
-        },
-        {
-            "title": "Cycles",
-            "link": "http://codeforces.com/problemset/problem/232/A",
-            "pid": "232A"
-        },
-        {
-            "title": "The Values You Can Make",
-            "link": "http://codeforces.com/problemset/problem/687/C",
-            "pid": "687C"
+            "title": "Alice and Bob",
+            "link": "http://codeforces.com/problemset/problem/346/A",
+            "pid": "346A"
         },
         {
             "title": "Road Map",
@@ -9992,69 +5278,9 @@ A2OJ_LADDERS = {
             "pid": "34D"
         },
         {
-            "title": "Newspaper Headline",
-            "link": "http://codeforces.com/problemset/problem/91/A",
-            "pid": "91A"
-        },
-        {
-            "title": "Valera and Contest",
-            "link": "http://codeforces.com/problemset/problem/369/B",
-            "pid": "369B"
-        },
-        {
-            "title": "Ivan and Powers of Two",
-            "link": "http://codeforces.com/problemset/problem/305/C",
-            "pid": "305C"
-        },
-        {
-            "title": "Polyline",
-            "link": "http://codeforces.com/problemset/problem/617/D",
-            "pid": "617D"
-        },
-        {
-            "title": "Inna and Sequence",
-            "link": "http://codeforces.com/problemset/problem/374/D",
-            "pid": "374D"
-        },
-        {
-            "title": "Anagram Search",
-            "link": "http://codeforces.com/problemset/problem/144/C",
-            "pid": "144C"
-        },
-        {
-            "title": "Chips",
-            "link": "http://codeforces.com/problemset/problem/333/B",
-            "pid": "333B"
-        },
-        {
-            "title": "Fish Weight",
-            "link": "http://codeforces.com/problemset/problem/297/B",
-            "pid": "297B"
-        },
-        {
-            "title": "Rational Resistance",
-            "link": "http://codeforces.com/problemset/problem/343/A",
-            "pid": "343A"
-        },
-        {
-            "title": "Falling Anvils",
-            "link": "http://codeforces.com/problemset/problem/77/B",
-            "pid": "77B"
-        },
-        {
-            "title": "Maximal Area Quadrilateral",
-            "link": "http://codeforces.com/problemset/problem/340/B",
-            "pid": "340B"
-        },
-        {
             "title": "Find Maximum",
             "link": "http://codeforces.com/problemset/problem/353/C",
             "pid": "353C"
-        },
-        {
-            "title": "Jeff and Furik",
-            "link": "http://codeforces.com/problemset/problem/351/B",
-            "pid": "351B"
         },
         {
             "title": "Making Sequences is Fun",
@@ -10062,681 +5288,14 @@ A2OJ_LADDERS = {
             "pid": "373B"
         },
         {
-            "title": "Multitasking",
-            "link": "http://codeforces.com/problemset/problem/384/B",
-            "pid": "384B"
-        },
-        {
-            "title": "Vasiliy's Multiset",
-            "link": "http://codeforces.com/problemset/problem/706/D",
-            "pid": "706D"
-        },
-        {
-            "title": "Woodcutters",
-            "link": "http://codeforces.com/problemset/problem/545/C",
-            "pid": "545C"
-        },
-        {
-            "title": "More Cowbell",
-            "link": "http://codeforces.com/problemset/problem/604/B",
-            "pid": "604B"
-        },
-        {
-            "title": "Watering Flowers",
-            "link": "http://codeforces.com/problemset/problem/617/C",
-            "pid": "617C"
-        },
-        {
-            "title": "Planets",
-            "link": "http://codeforces.com/problemset/problem/229/B",
-            "pid": "229B"
-        },
-        {
-            "title": "Zuma",
-            "link": "http://codeforces.com/problemset/problem/607/B",
-            "pid": "607B"
-        },
-        {
-            "title": "OR in Matrix",
-            "link": "http://codeforces.com/problemset/problem/486/B",
-            "pid": "486B"
-        },
-        {
             "title": "Divisible by Seven",
             "link": "http://codeforces.com/problemset/problem/375/A",
             "pid": "375A"
         },
         {
-            "title": "Dima and Two Sequences",
-            "link": "http://codeforces.com/problemset/problem/272/D",
-            "pid": "272D"
-        },
-        {
-            "title": "Queue",
-            "link": "http://codeforces.com/problemset/problem/91/B",
-            "pid": "91B"
-        },
-        {
-            "title": "Dima and Lisa",
-            "link": "http://codeforces.com/problemset/problem/584/D",
-            "pid": "584D"
-        },
-        {
-            "title": "Running Track",
-            "link": "http://codeforces.com/problemset/problem/615/C",
-            "pid": "615C"
-        },
-        {
-            "title": "Mike and Geometry Problem",
-            "link": "http://codeforces.com/problemset/problem/689/E",
-            "pid": "689E"
-        },
-        {
-            "title": "Flawed Flow",
-            "link": "http://codeforces.com/problemset/problem/269/C",
-            "pid": "269C"
-        },
-        {
-            "title": "Love Triangles",
-            "link": "http://codeforces.com/problemset/problem/553/C",
-            "pid": "553C"
-        },
-        {
-            "title": "Subway Innovation",
-            "link": "http://codeforces.com/problemset/problem/371/E",
-            "pid": "371E"
-        },
-        {
-            "title": "Gifts by the List",
-            "link": "http://codeforces.com/problemset/problem/681/D",
-            "pid": "681D"
-        },
-        {
-            "title": "Black and White Tree",
-            "link": "http://codeforces.com/problemset/problem/260/D",
-            "pid": "260D"
-        },
-        {
-            "title": "Anton and Ira",
-            "link": "http://codeforces.com/problemset/problem/584/E",
-            "pid": "584E"
-        },
-        {
-            "title": "Beavermuncher-0xFF",
-            "link": "http://codeforces.com/problemset/problem/77/C",
-            "pid": "77C"
-        },
-        {
-            "title": "Last Chance",
-            "link": "http://codeforces.com/problemset/problem/137/E",
-            "pid": "137E"
-        },
-        {
-            "title": "Palindromes",
-            "link": "http://codeforces.com/problemset/problem/137/D",
-            "pid": "137D"
-        },
-        {
-            "title": "Preparing for the Contest",
-            "link": "http://codeforces.com/problemset/problem/377/B",
-            "pid": "377B"
-        },
-        {
-            "title": "Block Tower",
-            "link": "http://codeforces.com/problemset/problem/327/D",
-            "pid": "327D"
-        },
-        {
-            "title": "Vladik and cards",
-            "link": "http://codeforces.com/problemset/problem/743/E",
-            "pid": "743E"
-        },
-        {
-            "title": "Beautiful Decomposition",
-            "link": "http://codeforces.com/problemset/problem/279/E",
-            "pid": "279E"
-        },
-        {
-            "title": "Points on Plane",
-            "link": "http://codeforces.com/problemset/problem/576/C",
-            "pid": "576C"
-        },
-        {
-            "title": "Broken Monitor",
-            "link": "http://codeforces.com/problemset/problem/370/D",
-            "pid": "370D"
-        },
-        {
-            "title": "Memory and Scores",
-            "link": "http://codeforces.com/problemset/problem/712/D",
-            "pid": "712D"
-        },
-        {
-            "title": "Cubes",
-            "link": "http://codeforces.com/problemset/problem/520/D",
-            "pid": "520D"
-        },
-        {
-            "title": "Games with Rectangle",
-            "link": "http://codeforces.com/problemset/problem/128/C",
-            "pid": "128C"
-        },
-        {
-            "title": "Iahub and Permutations",
-            "link": "http://codeforces.com/problemset/problem/340/E",
-            "pid": "340E"
-        },
-        {
-            "title": "Friends and Subsequences",
-            "link": "http://codeforces.com/problemset/problem/689/D",
-            "pid": "689D"
-        },
-        {
-            "title": "Insertion Sort",
-            "link": "http://codeforces.com/problemset/problem/362/C",
-            "pid": "362C"
-        },
-        {
-            "title": "Vika and Segments",
-            "link": "http://codeforces.com/problemset/problem/610/D",
-            "pid": "610D"
-        },
-        {
-            "title": "Persistent Bookcase",
-            "link": "http://codeforces.com/problemset/problem/707/D",
-            "pid": "707D"
-        },
-        {
-            "title": "Cycle in Graph",
-            "link": "http://codeforces.com/problemset/problem/263/D",
-            "pid": "263D"
-        },
-        {
-            "title": "Apple Tree",
-            "link": "http://codeforces.com/problemset/problem/348/B",
-            "pid": "348B"
-        },
-        {
-            "title": "Wizards and Huge Prize",
-            "link": "http://codeforces.com/problemset/problem/167/B",
-            "pid": "167B"
-        },
-        {
-            "title": "3-cycles",
-            "link": "http://codeforces.com/problemset/problem/41/E",
-            "pid": "41E"
-        },
-        {
-            "title": "Dima and Containers",
-            "link": "http://codeforces.com/problemset/problem/358/C",
-            "pid": "358C"
-        },
-        {
-            "title": "Directed Roads",
-            "link": "http://codeforces.com/problemset/problem/711/D",
-            "pid": "711D"
-        },
-        {
-            "title": "Dima and Magic Guitar",
-            "link": "http://codeforces.com/problemset/problem/366/E",
-            "pid": "366E"
-        },
-        {
-            "title": "Free Market",
-            "link": "http://codeforces.com/problemset/problem/364/B",
-            "pid": "364B"
-        },
-        {
-            "title": "Infinite Maze",
-            "link": "http://codeforces.com/problemset/problem/196/B",
-            "pid": "196B"
-        },
-        {
-            "title": "Ilya and Roads",
-            "link": "http://codeforces.com/problemset/problem/313/D",
-            "pid": "313D"
-        },
-        {
-            "title": "The Road to Berland is Paved With Good Intentions",
-            "link": "http://codeforces.com/problemset/problem/228/E",
-            "pid": "228E"
-        },
-        {
-            "title": "Alyona and Strings",
-            "link": "http://codeforces.com/problemset/problem/682/D",
-            "pid": "682D"
-        },
-        {
-            "title": "Messenger",
-            "link": "http://codeforces.com/problemset/problem/631/D",
-            "pid": "631D"
-        },
-        {
-            "title": "Police Patrol",
-            "link": "http://codeforces.com/problemset/problem/427/E",
-            "pid": "427E"
-        },
-        {
-            "title": "Xenia and Hamming",
-            "link": "http://codeforces.com/problemset/problem/356/B",
-            "pid": "356B"
-        },
-        {
-            "title": "Let's Play Osu!",
-            "link": "http://codeforces.com/problemset/problem/235/B",
-            "pid": "235B"
-        },
-        {
-            "title": "Happy Tree Party",
-            "link": "http://codeforces.com/problemset/problem/593/D",
-            "pid": "593D"
-        },
-        {
-            "title": "Number With The Given Amount Of Divisors",
-            "link": "http://codeforces.com/problemset/problem/27/E",
-            "pid": "27E"
-        },
-        {
-            "title": "Shaass and Lights",
-            "link": "http://codeforces.com/problemset/problem/294/C",
-            "pid": "294C"
-        },
-        {
-            "title": "Little Elephant and Elections",
-            "link": "http://codeforces.com/problemset/problem/258/B",
-            "pid": "258B"
-        },
-        {
-            "title": "Theseus and labyrinth",
-            "link": "http://codeforces.com/problemset/problem/676/D",
-            "pid": "676D"
-        },
-        {
-            "title": "Yaroslav and Time",
-            "link": "http://codeforces.com/problemset/problem/301/B",
-            "pid": "301B"
-        },
-        {
-            "title": "Rat Kwesh and Cheese",
-            "link": "http://codeforces.com/problemset/problem/621/D",
-            "pid": "621D"
-        },
-        {
-            "title": "Minesweeper 1D",
-            "link": "http://codeforces.com/problemset/problem/404/D",
-            "pid": "404D"
-        },
-        {
-            "title": "Beard Graph",
-            "link": "http://codeforces.com/problemset/problem/165/D",
-            "pid": "165D"
-        },
-        {
-            "title": "Compatible Numbers",
-            "link": "http://codeforces.com/problemset/problem/165/E",
-            "pid": "165E"
-        },
-        {
-            "title": "Mishka and Interesting sum",
-            "link": "http://codeforces.com/problemset/problem/703/D",
-            "pid": "703D"
-        },
-        {
-            "title": "Vanya and Triangles",
-            "link": "http://codeforces.com/problemset/problem/552/D",
-            "pid": "552D"
-        },
-        {
-            "title": "Money Transfers",
-            "link": "http://codeforces.com/problemset/problem/675/C",
-            "pid": "675C"
-        },
-        {
-            "title": "Queue",
-            "link": "http://codeforces.com/problemset/problem/353/D",
-            "pid": "353D"
-        },
-        {
-            "title": "Inna and Pink Pony",
-            "link": "http://codeforces.com/problemset/problem/374/A",
-            "pid": "374A"
-        },
-        {
-            "title": "Fox And Jumping",
-            "link": "http://codeforces.com/problemset/problem/510/D",
-            "pid": "510D"
-        },
-        {
-            "title": "Random Task",
-            "link": "http://codeforces.com/problemset/problem/431/D",
-            "pid": "431D"
-        },
-        {
-            "title": "Minimization",
-            "link": "http://codeforces.com/problemset/problem/571/B",
-            "pid": "571B"
-        },
-        {
-            "title": "Modulo Sum",
-            "link": "http://codeforces.com/problemset/problem/577/B",
-            "pid": "577B"
-        },
-        {
-            "title": "Paths and Trees",
-            "link": "http://codeforces.com/problemset/problem/545/E",
-            "pid": "545E"
-        },
-        {
-            "title": "Famil Door and Brackets",
-            "link": "http://codeforces.com/problemset/problem/629/C",
-            "pid": "629C"
-        },
-        {
-            "title": "Babaei and Birthday Cake",
-            "link": "http://codeforces.com/problemset/problem/629/D",
-            "pid": "629D"
-        },
-        {
-            "title": "Wet Shark and Blocks",
-            "link": "http://codeforces.com/problemset/problem/621/E",
-            "pid": "621E"
-        },
-        {
-            "title": "Empire Strikes Back",
-            "link": "http://codeforces.com/problemset/problem/300/E",
-            "pid": "300E"
-        },
-        {
-            "title": "Vanya and Brackets",
-            "link": "http://codeforces.com/problemset/problem/552/E",
-            "pid": "552E"
-        },
-        {
-            "title": "Game with Powers",
-            "link": "http://codeforces.com/problemset/problem/317/D",
-            "pid": "317D"
-        },
-        {
-            "title": "Arthur and Brackets",
-            "link": "http://codeforces.com/problemset/problem/508/E",
-            "pid": "508E"
-        },
-        {
-            "title": "Anya and Cubes",
-            "link": "http://codeforces.com/problemset/problem/525/E",
-            "pid": "525E"
-        },
-        {
-            "title": "Devu and Flowers",
-            "link": "http://codeforces.com/problemset/problem/451/E",
-            "pid": "451E"
-        },
-        {
-            "title": "Coin Troubles",
-            "link": "http://codeforces.com/problemset/problem/283/C",
-            "pid": "283C"
-        },
-        {
-            "title": "Thwarting Demonstrations",
-            "link": "http://codeforces.com/problemset/problem/191/E",
-            "pid": "191E"
-        },
-        {
-            "title": "Yet Another Number Game",
-            "link": "http://codeforces.com/problemset/problem/282/D",
-            "pid": "282D"
-        },
-        {
-            "title": "Game on Tree",
-            "link": "http://codeforces.com/problemset/problem/280/C",
-            "pid": "280C"
-        },
-        {
-            "title": "Edges in MST",
-            "link": "http://codeforces.com/problemset/problem/160/D",
-            "pid": "160D"
-        },
-        {
-            "title": "Trains and Statistic",
-            "link": "http://codeforces.com/problemset/problem/675/E",
-            "pid": "675E"
-        },
-        {
-            "title": "Infinite Inversions",
-            "link": "http://codeforces.com/problemset/problem/540/E",
-            "pid": "540E"
-        },
-        {
-            "title": "Product Sum",
-            "link": "http://codeforces.com/problemset/problem/631/E",
-            "pid": "631E"
-        },
-        {
-            "title": "Axis Walking",
-            "link": "http://codeforces.com/problemset/problem/327/E",
-            "pid": "327E"
-        },
-        {
-            "title": "Kefa and Watch",
-            "link": "http://codeforces.com/problemset/problem/580/E",
-            "pid": "580E"
-        },
-        {
-            "title": "Optimize!",
-            "link": "http://codeforces.com/problemset/problem/338/E",
-            "pid": "338E"
-        }
-    ],
-    "1900 <= Codeforces Rating <= 1999": [
-        {
-            "title": "Rewards",
-            "link": "http://codeforces.com/problemset/problem/448/A",
-            "pid": "448A"
-        },
-        {
-            "title": "Kyoya and Photobooks",
-            "link": "http://codeforces.com/problemset/problem/554/A",
-            "pid": "554A"
-        },
-        {
-            "title": "Playing with Dice",
-            "link": "http://codeforces.com/problemset/problem/378/A",
-            "pid": "378A"
-        },
-        {
-            "title": "George and Accommodation",
-            "link": "http://codeforces.com/problemset/problem/467/A",
-            "pid": "467A"
-        },
-        {
-            "title": "Bear and Finding Criminals",
-            "link": "http://codeforces.com/problemset/problem/680/B",
-            "pid": "680B"
-        },
-        {
-            "title": "Table",
-            "link": "http://codeforces.com/problemset/problem/359/A",
-            "pid": "359A"
-        },
-        {
-            "title": "Lever",
-            "link": "http://codeforces.com/problemset/problem/376/A",
-            "pid": "376A"
-        },
-        {
-            "title": "Drazil and Date",
-            "link": "http://codeforces.com/problemset/problem/515/A",
-            "pid": "515A"
-        },
-        {
-            "title": "Exams",
-            "link": "http://codeforces.com/problemset/problem/194/A",
-            "pid": "194A"
-        },
-        {
-            "title": "Bear and Five Cards",
-            "link": "http://codeforces.com/problemset/problem/680/A",
-            "pid": "680A"
-        },
-        {
-            "title": "Amr and Music",
-            "link": "http://codeforces.com/problemset/problem/507/A",
-            "pid": "507A"
-        },
-        {
-            "title": "Initial Bet",
-            "link": "http://codeforces.com/problemset/problem/478/A",
-            "pid": "478A"
-        },
-        {
-            "title": "Game With Sticks",
-            "link": "http://codeforces.com/problemset/problem/451/A",
-            "pid": "451A"
-        },
-        {
-            "title": "Devu, the Singer and Churu, the Joker",
-            "link": "http://codeforces.com/problemset/problem/439/A",
-            "pid": "439A"
-        },
-        {
-            "title": "Joysticks",
-            "link": "http://codeforces.com/problemset/problem/651/A",
-            "pid": "651A"
-        },
-        {
-            "title": "Arrays",
-            "link": "http://codeforces.com/problemset/problem/572/A",
-            "pid": "572A"
-        },
-        {
-            "title": "Case of the Zeros and Ones",
-            "link": "http://codeforces.com/problemset/problem/556/A",
-            "pid": "556A"
-        },
-        {
-            "title": "Multiplication Table",
-            "link": "http://codeforces.com/problemset/problem/577/A",
-            "pid": "577A"
-        },
-        {
-            "title": "Currency System in Geraldion",
-            "link": "http://codeforces.com/problemset/problem/560/A",
-            "pid": "560A"
-        },
-        {
-            "title": "Domino Effect",
-            "link": "http://codeforces.com/problemset/problem/405/B",
-            "pid": "405B"
-        },
-        {
-            "title": "Case of Fake Numbers",
-            "link": "http://codeforces.com/problemset/problem/556/B",
-            "pid": "556B"
-        },
-        {
-            "title": "Sereja and Stairs",
-            "link": "http://codeforces.com/problemset/problem/381/B",
-            "pid": "381B"
-        },
-        {
-            "title": "Bear and Poker",
-            "link": "http://codeforces.com/problemset/problem/573/A",
-            "pid": "573A"
-        },
-        {
-            "title": "I.O.U.",
-            "link": "http://codeforces.com/problemset/problem/376/B",
-            "pid": "376B"
-        },
-        {
-            "title": "Nuts",
-            "link": "http://codeforces.com/problemset/problem/402/A",
-            "pid": "402A"
-        },
-        {
-            "title": "The Wall",
-            "link": "http://codeforces.com/problemset/problem/340/A",
-            "pid": "340A"
-        },
-        {
-            "title": "Semifinals",
-            "link": "http://codeforces.com/problemset/problem/378/B",
-            "pid": "378B"
-        },
-        {
-            "title": "Valuable Resources",
-            "link": "http://codeforces.com/problemset/problem/485/B",
-            "pid": "485B"
-        },
-        {
-            "title": "Prizes, Prizes, more Prizes",
-            "link": "http://codeforces.com/problemset/problem/208/D",
-            "pid": "208D"
-        },
-        {
-            "title": "Fox and Number Game",
-            "link": "http://codeforces.com/problemset/problem/389/A",
-            "pid": "389A"
-        },
-        {
-            "title": "Simple Game",
-            "link": "http://codeforces.com/problemset/problem/570/B",
-            "pid": "570B"
-        },
-        {
-            "title": "Elections",
-            "link": "http://codeforces.com/problemset/problem/570/A",
-            "pid": "570A"
-        },
-        {
-            "title": "Strings of Power",
-            "link": "http://codeforces.com/problemset/problem/318/B",
-            "pid": "318B"
-        },
-        {
-            "title": "Permutation",
-            "link": "http://codeforces.com/problemset/problem/359/B",
-            "pid": "359B"
-        },
-        {
-            "title": "Art Union",
-            "link": "http://codeforces.com/problemset/problem/416/B",
-            "pid": "416B"
-        },
-        {
-            "title": "Diverse Permutation",
-            "link": "http://codeforces.com/problemset/problem/482/A",
-            "pid": "482A"
-        },
-        {
-            "title": "MUH and Sticks",
-            "link": "http://codeforces.com/problemset/problem/471/A",
-            "pid": "471A"
-        },
-        {
-            "title": "Kyoya and Colored Balls",
-            "link": "http://codeforces.com/problemset/problem/553/A",
-            "pid": "553A"
-        },
-        {
-            "title": "Mashmokh and Numbers",
-            "link": "http://codeforces.com/problemset/problem/414/A",
-            "pid": "414A"
-        },
-        {
-            "title": "Devu, the Dumb Guy",
-            "link": "http://codeforces.com/problemset/problem/439/B",
-            "pid": "439B"
-        },
-        {
-            "title": "Random Teams",
-            "link": "http://codeforces.com/problemset/problem/478/B",
-            "pid": "478B"
-        },
-        {
-            "title": "Chat Online",
-            "link": "http://codeforces.com/problemset/problem/469/B",
-            "pid": "469B"
+            "title": "Sereja and Prefixes",
+            "link": "http://codeforces.com/problemset/problem/380/A",
+            "pid": "380A"
         },
         {
             "title": "Milking cows",
@@ -10744,94 +5303,9 @@ A2OJ_LADDERS = {
             "pid": "383A"
         },
         {
-            "title": "Basketball Team",
-            "link": "http://codeforces.com/problemset/problem/107/B",
-            "pid": "107B"
-        },
-        {
-            "title": "Dynasty Puzzles",
-            "link": "http://codeforces.com/problemset/problem/191/A",
-            "pid": "191A"
-        },
-        {
-            "title": "Case of Matryoshkas",
-            "link": "http://codeforces.com/problemset/problem/555/A",
-            "pid": "555A"
-        },
-        {
-            "title": "Report",
-            "link": "http://codeforces.com/problemset/problem/631/C",
-            "pid": "631C"
-        },
-        {
-            "title": "Petya and Inequiations",
-            "link": "http://codeforces.com/problemset/problem/111/A",
-            "pid": "111A"
-        },
-        {
-            "title": "Guess Your Way Out!",
-            "link": "http://codeforces.com/problemset/problem/507/C",
-            "pid": "507C"
-        },
-        {
-            "title": "Naughty Stone Piles",
-            "link": "http://codeforces.com/problemset/problem/226/B",
-            "pid": "226B"
-        },
-        {
-            "title": "Guest From the Past",
-            "link": "http://codeforces.com/problemset/problem/625/A",
-            "pid": "625A"
-        },
-        {
-            "title": "Animals",
-            "link": "http://codeforces.com/problemset/problem/35/D",
-            "pid": "35D"
-        },
-        {
-            "title": "Replacement",
-            "link": "http://codeforces.com/problemset/problem/570/C",
-            "pid": "570C"
-        },
-        {
-            "title": "Inna and Sequence",
-            "link": "http://codeforces.com/problemset/problem/374/D",
-            "pid": "374D"
-        },
-        {
-            "title": "Inna and Nine",
-            "link": "http://codeforces.com/problemset/problem/374/B",
-            "pid": "374B"
-        },
-        {
-            "title": "Zuma",
-            "link": "http://codeforces.com/problemset/problem/607/B",
-            "pid": "607B"
-        },
-        {
-            "title": "Rational Resistance",
-            "link": "http://codeforces.com/problemset/problem/343/A",
-            "pid": "343A"
-        },
-        {
-            "title": "Wilbur and Points",
-            "link": "http://codeforces.com/problemset/problem/596/C",
-            "pid": "596C"
-        },
-        {
-            "title": "Pythagorean Triples",
-            "link": "http://codeforces.com/problemset/problem/707/C",
-            "pid": "707C"
-        },
-        {
-            "title": "Ivan and Powers of Two",
-            "link": "http://codeforces.com/problemset/problem/305/C",
-            "pid": "305C"
-        },
-        {
-            "title": "Sereja and Swaps",
-            "link": "http://codeforces.com/problemset/problem/425/A",
-            "pid": "425A"
+            "title": "Unusual Product",
+            "link": "http://codeforces.com/problemset/problem/405/C",
+            "pid": "405C"
         },
         {
             "title": "Magic Formulas",
@@ -10839,39 +5313,156 @@ A2OJ_LADDERS = {
             "pid": "424C"
         },
         {
-            "title": "Two Heaps",
-            "link": "http://codeforces.com/problemset/problem/353/B",
-            "pid": "353B"
+            "title": "Points and Segments (easy)",
+            "link": "http://codeforces.com/problemset/problem/430/A",
+            "pid": "430A"
         },
         {
-            "title": "Toy Sum",
-            "link": "http://codeforces.com/problemset/problem/405/D",
-            "pid": "405D"
+            "title": "Cardiogram",
+            "link": "http://codeforces.com/problemset/problem/435/C",
+            "pid": "435C"
         },
         {
-            "title": "Vasya and String",
-            "link": "http://codeforces.com/problemset/problem/676/C",
-            "pid": "676C"
+            "title": "Dreamoon and Sums",
+            "link": "http://codeforces.com/problemset/problem/476/C",
+            "pid": "476C"
         },
         {
-            "title": "Bear and Three Musketeers",
-            "link": "http://codeforces.com/problemset/problem/574/B",
-            "pid": "574B"
+            "title": "Modular Equations",
+            "link": "http://codeforces.com/problemset/problem/495/B",
+            "pid": "495B"
         },
         {
-            "title": "Jumping on Walls",
-            "link": "http://codeforces.com/problemset/problem/198/B",
-            "pid": "198B"
+            "title": "Ilya and Sticks",
+            "link": "http://codeforces.com/problemset/problem/525/C",
+            "pid": "525C"
         },
         {
-            "title": "Guess a number!",
-            "link": "http://codeforces.com/problemset/problem/416/A",
-            "pid": "416A"
+            "title": "Gerald's Hexagon",
+            "link": "http://codeforces.com/problemset/problem/559/A",
+            "pid": "559A"
         },
         {
-            "title": "Divisible by Seven",
-            "link": "http://codeforces.com/problemset/problem/375/A",
-            "pid": "375A"
+            "title": "Replacement",
+            "link": "http://codeforces.com/problemset/problem/570/C",
+            "pid": "570C"
+        },
+        {
+            "title": "Bear and Blocks",
+            "link": "http://codeforces.com/problemset/problem/573/B",
+            "pid": "573B"
+        },
+        {
+            "title": "Day at the Beach",
+            "link": "http://codeforces.com/problemset/problem/599/C",
+            "pid": "599C"
+        },
+        {
+            "title": "The Two Routes",
+            "link": "http://codeforces.com/problemset/problem/601/A",
+            "pid": "601A"
+        },
+        {
+            "title": "Alternative Thinking",
+            "link": "http://codeforces.com/problemset/problem/603/A",
+            "pid": "603A"
+        },
+        {
+            "title": "Sorting Railway Cars",
+            "link": "http://codeforces.com/problemset/problem/605/A",
+            "pid": "605A"
+        },
+        {
+            "title": "Longtail Hedgehog",
+            "link": "http://codeforces.com/problemset/problem/615/B",
+            "pid": "615B"
+        },
+        {
+            "title": "Watering Flowers",
+            "link": "http://codeforces.com/problemset/problem/617/C",
+            "pid": "617C"
+        },
+        {
+            "title": "Heap Operations",
+            "link": "http://codeforces.com/problemset/problem/681/C",
+            "pid": "681C"
+        },
+        {
+            "title": "Alyona and the Tree",
+            "link": "http://codeforces.com/problemset/problem/682/C",
+            "pid": "682C"
+        },
+        {
+            "title": "Mike and Shortcuts",
+            "link": "http://codeforces.com/problemset/problem/689/B",
+            "pid": "689B"
+        },
+        {
+            "title": "Hard problem",
+            "link": "http://codeforces.com/problemset/problem/706/C",
+            "pid": "706C"
+        },
+        {
+            "title": "Memory and De-Evolution",
+            "link": "http://codeforces.com/problemset/problem/712/C",
+            "pid": "712C"
+        },
+        {
+            "title": "Tennis Championship",
+            "link": "http://codeforces.com/problemset/problem/735/C",
+            "pid": "735C"
+        },
+        {
+            "title": "Taxes",
+            "link": "http://codeforces.com/problemset/problem/735/D",
+            "pid": "735D"
+        }
+    ],
+    "1700 <= Codeforces Rating <= 1799": [
+        {
+            "title": "Buns",
+            "link": "http://codeforces.com/problemset/problem/106/C",
+            "pid": "106C"
+        },
+        {
+            "title": "Terse princess",
+            "link": "http://codeforces.com/problemset/problem/148/C",
+            "pid": "148C"
+        },
+        {
+            "title": "Message",
+            "link": "http://codeforces.com/problemset/problem/156/A",
+            "pid": "156A"
+        },
+        {
+            "title": "Find Pair",
+            "link": "http://codeforces.com/problemset/problem/160/C",
+            "pid": "160C"
+        },
+        {
+            "title": "Cutting Figure",
+            "link": "http://codeforces.com/problemset/problem/193/A",
+            "pid": "193A"
+        },
+        {
+            "title": "About Bacteria",
+            "link": "http://codeforces.com/problemset/problem/198/A",
+            "pid": "198A"
+        },
+        {
+            "title": "Clear Symmetry",
+            "link": "http://codeforces.com/problemset/problem/201/A",
+            "pid": "201A"
+        },
+        {
+            "title": "Forming Teams",
+            "link": "http://codeforces.com/problemset/problem/216/B",
+            "pid": "216B"
+        },
+        {
+            "title": "Bracket Sequence",
+            "link": "http://codeforces.com/problemset/problem/223/A",
+            "pid": "223A"
         },
         {
             "title": "Planets",
@@ -10879,9 +5470,231 @@ A2OJ_LADDERS = {
             "pid": "229B"
         },
         {
-            "title": "Secret Combination",
-            "link": "http://codeforces.com/problemset/problem/496/B",
-            "pid": "496B"
+            "title": "Balls and Boxes",
+            "link": "http://codeforces.com/problemset/problem/260/C",
+            "pid": "260C"
+        },
+        {
+            "title": "Nearest Fraction",
+            "link": "http://codeforces.com/problemset/problem/281/B",
+            "pid": "281B"
+        },
+        {
+            "title": "Polo the Penguin and XOR operation",
+            "link": "http://codeforces.com/problemset/problem/288/C",
+            "pid": "288C"
+        },
+        {
+            "title": "Parity Game",
+            "link": "http://codeforces.com/problemset/problem/297/A",
+            "pid": "297A"
+        },
+        {
+            "title": "Magic Five",
+            "link": "http://codeforces.com/problemset/problem/327/C",
+            "pid": "327C"
+        },
+        {
+            "title": "Animals",
+            "link": "http://codeforces.com/problemset/problem/35/D",
+            "pid": "35D"
+        },
+        {
+            "title": "Levko and Array Recovery",
+            "link": "http://codeforces.com/problemset/problem/360/A",
+            "pid": "360A"
+        },
+        {
+            "title": "George and Number",
+            "link": "http://codeforces.com/problemset/problem/387/C",
+            "pid": "387C"
+        },
+        {
+            "title": "Toy Sum",
+            "link": "http://codeforces.com/problemset/problem/405/D",
+            "pid": "405D"
+        },
+        {
+            "title": "Borya and Hanabi",
+            "link": "http://codeforces.com/problemset/problem/442/A",
+            "pid": "442A"
+        },
+        {
+            "title": "Predict Outcome of the Game",
+            "link": "http://codeforces.com/problemset/problem/451/C",
+            "pid": "451C"
+        },
+        {
+            "title": "MUH and House of Cards",
+            "link": "http://codeforces.com/problemset/problem/471/C",
+            "pid": "471C"
+        },
+        {
+            "title": "Bits",
+            "link": "http://codeforces.com/problemset/problem/484/A",
+            "pid": "484A"
+        },
+        {
+            "title": "Guess Your Way Out!",
+            "link": "http://codeforces.com/problemset/problem/507/C",
+            "pid": "507C"
+        },
+        {
+            "title": "School Marks",
+            "link": "http://codeforces.com/problemset/problem/540/B",
+            "pid": "540B"
+        },
+        {
+            "title": "GCD Table",
+            "link": "http://codeforces.com/problemset/problem/582/A",
+            "pid": "582A"
+        },
+        {
+            "title": "Marina and Vasya",
+            "link": "http://codeforces.com/problemset/problem/584/C",
+            "pid": "584C"
+        },
+        {
+            "title": "Median Smoothing",
+            "link": "http://codeforces.com/problemset/problem/590/A",
+            "pid": "590A"
+        },
+        {
+            "title": "Wilbur and Points",
+            "link": "http://codeforces.com/problemset/problem/596/C",
+            "pid": "596C"
+        },
+        {
+            "title": "Lazy Student",
+            "link": "http://codeforces.com/problemset/problem/605/B",
+            "pid": "605B"
+        },
+        {
+            "title": "Polyline",
+            "link": "http://codeforces.com/problemset/problem/617/D",
+            "pid": "617D"
+        },
+        {
+            "title": "Wet Shark and Flowers",
+            "link": "http://codeforces.com/problemset/problem/621/C",
+            "pid": "621C"
+        },
+        {
+            "title": "Guest From the Past",
+            "link": "http://codeforces.com/problemset/problem/625/A",
+            "pid": "625A"
+        },
+        {
+            "title": "Report",
+            "link": "http://codeforces.com/problemset/problem/631/C",
+            "pid": "631C"
+        },
+        {
+            "title": "Petya and His Friends",
+            "link": "http://codeforces.com/problemset/problem/66/D",
+            "pid": "66D"
+        },
+        {
+            "title": "Robbers' watch",
+            "link": "http://codeforces.com/problemset/problem/685/A",
+            "pid": "685A"
+        },
+        {
+            "title": "Mike and Chocolate Thieves",
+            "link": "http://codeforces.com/problemset/problem/689/C",
+            "pid": "689C"
+        },
+        {
+            "title": "Coloring Trees",
+            "link": "http://codeforces.com/problemset/problem/711/C",
+            "pid": "711C"
+        }
+    ],
+    "1800 <= Codeforces Rating <= 1899": [
+        {
+            "title": "Logo Turtle",
+            "link": "http://codeforces.com/problemset/problem/132/C",
+            "pid": "132C"
+        },
+        {
+            "title": "Wizards and Huge Prize",
+            "link": "http://codeforces.com/problemset/problem/167/B",
+            "pid": "167B"
+        },
+        {
+            "title": "Surrounded",
+            "link": "http://codeforces.com/problemset/problem/190/B",
+            "pid": "190B"
+        },
+        {
+            "title": "Reducing Fractions",
+            "link": "http://codeforces.com/problemset/problem/222/C",
+            "pid": "222C"
+        },
+        {
+            "title": "Unsorting Array",
+            "link": "http://codeforces.com/problemset/problem/252/B",
+            "pid": "252B"
+        },
+        {
+            "title": "Cycle in Graph",
+            "link": "http://codeforces.com/problemset/problem/263/D",
+            "pid": "263D"
+        },
+        {
+            "title": "Yaroslav and Sequence",
+            "link": "http://codeforces.com/problemset/problem/301/A",
+            "pid": "301A"
+        },
+        {
+            "title": "Chips",
+            "link": "http://codeforces.com/problemset/problem/333/B",
+            "pid": "333B"
+        },
+        {
+            "title": "Vasily the Bear and Sequence",
+            "link": "http://codeforces.com/problemset/problem/336/C",
+            "pid": "336C"
+        },
+        {
+            "title": "Prime Swaps",
+            "link": "http://codeforces.com/problemset/problem/432/C",
+            "pid": "432C"
+        },
+        {
+            "title": "ZgukistringZ",
+            "link": "http://codeforces.com/problemset/problem/551/B",
+            "pid": "551B"
+        },
+        {
+            "title": "Kefa and Dishes",
+            "link": "http://codeforces.com/problemset/problem/580/D",
+            "pid": "580D"
+        },
+        {
+            "title": "Dima and Lisa",
+            "link": "http://codeforces.com/problemset/problem/584/D",
+            "pid": "584D"
+        },
+        {
+            "title": "The Big Race",
+            "link": "http://codeforces.com/problemset/problem/592/C",
+            "pid": "592C"
+        },
+        {
+            "title": "Moodular Arithmetic",
+            "link": "http://codeforces.com/problemset/problem/603/B",
+            "pid": "603B"
+        },
+        {
+            "title": "Harmony Analysis",
+            "link": "http://codeforces.com/problemset/problem/610/C",
+            "pid": "610C"
+        },
+        {
+            "title": "Recycling Bottles",
+            "link": "http://codeforces.com/problemset/problem/671/A",
+            "pid": "671A"
         },
         {
             "title": "Tree Construction",
@@ -10894,1853 +5707,9 @@ A2OJ_LADDERS = {
             "pid": "687B"
         },
         {
-            "title": "Amr and Pins",
-            "link": "http://codeforces.com/problemset/problem/507/B",
-            "pid": "507B"
-        },
-        {
-            "title": "Gerald is into Art",
-            "link": "http://codeforces.com/problemset/problem/560/B",
-            "pid": "560B"
-        },
-        {
-            "title": "Kay and Snowflake",
-            "link": "http://codeforces.com/problemset/problem/685/B",
-            "pid": "685B"
-        },
-        {
-            "title": "DZY Loves Chemistry",
-            "link": "http://codeforces.com/problemset/problem/445/B",
-            "pid": "445B"
-        },
-        {
-            "title": "The Child and Zoo",
-            "link": "http://codeforces.com/problemset/problem/437/D",
-            "pid": "437D"
-        },
-        {
-            "title": "Vasiliy's Multiset",
-            "link": "http://codeforces.com/problemset/problem/706/D",
-            "pid": "706D"
-        },
-        {
-            "title": "Alyona and the Tree",
-            "link": "http://codeforces.com/problemset/problem/682/C",
-            "pid": "682C"
-        },
-        {
-            "title": "Polo the Penguin and XOR operation",
-            "link": "http://codeforces.com/problemset/problem/288/C",
-            "pid": "288C"
-        },
-        {
-            "title": "Unusual Product",
-            "link": "http://codeforces.com/problemset/problem/405/C",
-            "pid": "405C"
-        },
-        {
-            "title": "Chips",
-            "link": "http://codeforces.com/problemset/problem/333/B",
-            "pid": "333B"
-        },
-        {
-            "title": "Two Substrings",
-            "link": "http://codeforces.com/problemset/problem/550/A",
-            "pid": "550A"
-        },
-        {
-            "title": "The Big Race",
-            "link": "http://codeforces.com/problemset/problem/592/C",
-            "pid": "592C"
-        },
-        {
-            "title": "Borya and Hanabi",
-            "link": "http://codeforces.com/problemset/problem/442/A",
-            "pid": "442A"
-        },
-        {
-            "title": "Alice and Bob",
-            "link": "http://codeforces.com/problemset/problem/346/A",
-            "pid": "346A"
-        },
-        {
-            "title": "Bits",
-            "link": "http://codeforces.com/problemset/problem/484/A",
-            "pid": "484A"
-        },
-        {
-            "title": "The Values You Can Make",
-            "link": "http://codeforces.com/problemset/problem/687/C",
-            "pid": "687C"
-        },
-        {
             "title": "Subsegments",
             "link": "http://codeforces.com/problemset/problem/69/E",
             "pid": "69E"
-        },
-        {
-            "title": "Alternating Current",
-            "link": "http://codeforces.com/problemset/problem/343/B",
-            "pid": "343B"
-        },
-        {
-            "title": "Ski Base",
-            "link": "http://codeforces.com/problemset/problem/91/C",
-            "pid": "91C"
-        },
-        {
-            "title": "Mike and Geometry Problem",
-            "link": "http://codeforces.com/problemset/problem/689/E",
-            "pid": "689E"
-        },
-        {
-            "title": "Police Station",
-            "link": "http://codeforces.com/problemset/problem/208/C",
-            "pid": "208C"
-        },
-        {
-            "title": "Maxim and Restaurant",
-            "link": "http://codeforces.com/problemset/problem/261/B",
-            "pid": "261B"
-        },
-        {
-            "title": "Xenia and Hamming",
-            "link": "http://codeforces.com/problemset/problem/356/B",
-            "pid": "356B"
-        },
-        {
-            "title": "The Road to Berland is Paved With Good Intentions",
-            "link": "http://codeforces.com/problemset/problem/228/E",
-            "pid": "228E"
-        },
-        {
-            "title": "Arthur and Table",
-            "link": "http://codeforces.com/problemset/problem/557/C",
-            "pid": "557C"
-        },
-        {
-            "title": "Queue",
-            "link": "http://codeforces.com/problemset/problem/353/D",
-            "pid": "353D"
-        },
-        {
-            "title": "Domino Principle",
-            "link": "http://codeforces.com/problemset/problem/56/E",
-            "pid": "56E"
-        },
-        {
-            "title": "Kleof\u00e1\u0161 and the n-thlon",
-            "link": "http://codeforces.com/problemset/problem/601/C",
-            "pid": "601C"
-        },
-        {
-            "title": "Little Elephant and Elections",
-            "link": "http://codeforces.com/problemset/problem/258/B",
-            "pid": "258B"
-        },
-        {
-            "title": "Wrong Floyd",
-            "link": "http://codeforces.com/problemset/problem/350/E",
-            "pid": "350E"
-        },
-        {
-            "title": "Free Market",
-            "link": "http://codeforces.com/problemset/problem/364/B",
-            "pid": "364B"
-        },
-        {
-            "title": "Strictly Positive Matrix",
-            "link": "http://codeforces.com/problemset/problem/402/E",
-            "pid": "402E"
-        },
-        {
-            "title": "Hydra",
-            "link": "http://codeforces.com/problemset/problem/243/B",
-            "pid": "243B"
-        },
-        {
-            "title": "Fox And Jumping",
-            "link": "http://codeforces.com/problemset/problem/510/D",
-            "pid": "510D"
-        },
-        {
-            "title": "Building Forest",
-            "link": "http://codeforces.com/problemset/problem/195/E",
-            "pid": "195E"
-        },
-        {
-            "title": "Vika and Segments",
-            "link": "http://codeforces.com/problemset/problem/610/D",
-            "pid": "610D"
-        },
-        {
-            "title": "Cipher",
-            "link": "http://codeforces.com/problemset/problem/156/C",
-            "pid": "156C"
-        },
-        {
-            "title": "Famil Door and Brackets",
-            "link": "http://codeforces.com/problemset/problem/629/C",
-            "pid": "629C"
-        },
-        {
-            "title": "Theseus and labyrinth",
-            "link": "http://codeforces.com/problemset/problem/676/D",
-            "pid": "676D"
-        },
-        {
-            "title": "3-cycles",
-            "link": "http://codeforces.com/problemset/problem/41/E",
-            "pid": "41E"
-        },
-        {
-            "title": "The table",
-            "link": "http://codeforces.com/problemset/problem/226/D",
-            "pid": "226D"
-        },
-        {
-            "title": "Relay Race",
-            "link": "http://codeforces.com/problemset/problem/213/C",
-            "pid": "213C"
-        },
-        {
-            "title": "Sereja and Periods",
-            "link": "http://codeforces.com/problemset/problem/314/B",
-            "pid": "314B"
-        },
-        {
-            "title": "Lucky Permutation",
-            "link": "http://codeforces.com/problemset/problem/121/C",
-            "pid": "121C"
-        },
-        {
-            "title": "Ilya and Roads",
-            "link": "http://codeforces.com/problemset/problem/313/D",
-            "pid": "313D"
-        },
-        {
-            "title": "Little Elephant and Furik and Rubik",
-            "link": "http://codeforces.com/problemset/problem/204/C",
-            "pid": "204C"
-        },
-        {
-            "title": "Running Track",
-            "link": "http://codeforces.com/problemset/problem/615/C",
-            "pid": "615C"
-        },
-        {
-            "title": "Minesweeper 1D",
-            "link": "http://codeforces.com/problemset/problem/404/D",
-            "pid": "404D"
-        },
-        {
-            "title": "Wizards and Huge Prize",
-            "link": "http://codeforces.com/problemset/problem/167/B",
-            "pid": "167B"
-        },
-        {
-            "title": "Spongebob and Squares",
-            "link": "http://codeforces.com/problemset/problem/599/D",
-            "pid": "599D"
-        },
-        {
-            "title": "Numbers",
-            "link": "http://codeforces.com/problemset/problem/213/B",
-            "pid": "213B"
-        },
-        {
-            "title": "Shortest Path",
-            "link": "http://codeforces.com/problemset/problem/59/E",
-            "pid": "59E"
-        },
-        {
-            "title": "Let's Play Osu!",
-            "link": "http://codeforces.com/problemset/problem/235/B",
-            "pid": "235B"
-        },
-        {
-            "title": "Triangles",
-            "link": "http://codeforces.com/problemset/problem/229/C",
-            "pid": "229C"
-        },
-        {
-            "title": "Lieges of Legendre",
-            "link": "http://codeforces.com/problemset/problem/603/C",
-            "pid": "603C"
-        },
-        {
-            "title": "Number With The Given Amount Of Divisors",
-            "link": "http://codeforces.com/problemset/problem/27/E",
-            "pid": "27E"
-        },
-        {
-            "title": "Iahub and Permutations",
-            "link": "http://codeforces.com/problemset/problem/340/E",
-            "pid": "340E"
-        },
-        {
-            "title": "Wet Shark and Blocks",
-            "link": "http://codeforces.com/problemset/problem/621/E",
-            "pid": "621E"
-        },
-        {
-            "title": "Number Transformation",
-            "link": "http://codeforces.com/problemset/problem/251/C",
-            "pid": "251C"
-        },
-        {
-            "title": "Invariance of Tree",
-            "link": "http://codeforces.com/problemset/problem/576/B",
-            "pid": "576B"
-        },
-        {
-            "title": "Alyona and Strings",
-            "link": "http://codeforces.com/problemset/problem/682/D",
-            "pid": "682D"
-        },
-        {
-            "title": "Gifts by the List",
-            "link": "http://codeforces.com/problemset/problem/681/D",
-            "pid": "681D"
-        },
-        {
-            "title": "Mushroom Gnomes - 2",
-            "link": "http://codeforces.com/problemset/problem/138/C",
-            "pid": "138C"
-        },
-        {
-            "title": "Messenger",
-            "link": "http://codeforces.com/problemset/problem/631/D",
-            "pid": "631D"
-        },
-        {
-            "title": "Lengthening Sticks",
-            "link": "http://codeforces.com/problemset/problem/571/A",
-            "pid": "571A"
-        },
-        {
-            "title": "Flawed Flow",
-            "link": "http://codeforces.com/problemset/problem/269/C",
-            "pid": "269C"
-        },
-        {
-            "title": "Love Triangles",
-            "link": "http://codeforces.com/problemset/problem/553/C",
-            "pid": "553C"
-        },
-        {
-            "title": "Random Task",
-            "link": "http://codeforces.com/problemset/problem/431/D",
-            "pid": "431D"
-        },
-        {
-            "title": "Modulo Sum",
-            "link": "http://codeforces.com/problemset/problem/577/B",
-            "pid": "577B"
-        },
-        {
-            "title": "Inna and Binary Logic",
-            "link": "http://codeforces.com/problemset/problem/400/E",
-            "pid": "400E"
-        },
-        {
-            "title": "Little Elephant and LCM",
-            "link": "http://codeforces.com/problemset/problem/258/C",
-            "pid": "258C"
-        },
-        {
-            "title": "Preparing for the Contest",
-            "link": "http://codeforces.com/problemset/problem/377/B",
-            "pid": "377B"
-        },
-        {
-            "title": "Minimization",
-            "link": "http://codeforces.com/problemset/problem/571/B",
-            "pid": "571B"
-        },
-        {
-            "title": "Two Strings",
-            "link": "http://codeforces.com/problemset/problem/223/B",
-            "pid": "223B"
-        },
-        {
-            "title": "Games with Rectangle",
-            "link": "http://codeforces.com/problemset/problem/128/C",
-            "pid": "128C"
-        },
-        {
-            "title": "Interesting Game",
-            "link": "http://codeforces.com/problemset/problem/87/C",
-            "pid": "87C"
-        },
-        {
-            "title": "Persistent Bookcase",
-            "link": "http://codeforces.com/problemset/problem/707/D",
-            "pid": "707D"
-        },
-        {
-            "title": "Amr and Chemistry",
-            "link": "http://codeforces.com/problemset/problem/558/C",
-            "pid": "558C"
-        },
-        {
-            "title": "Apple Tree",
-            "link": "http://codeforces.com/problemset/problem/348/B",
-            "pid": "348B"
-        },
-        {
-            "title": "Friends and Subsequences",
-            "link": "http://codeforces.com/problemset/problem/689/D",
-            "pid": "689D"
-        },
-        {
-            "title": "Mishka and Interesting sum",
-            "link": "http://codeforces.com/problemset/problem/703/D",
-            "pid": "703D"
-        },
-        {
-            "title": "Time to Raid Cowavans",
-            "link": "http://codeforces.com/problemset/problem/103/D",
-            "pid": "103D"
-        },
-        {
-            "title": "Decoding Genome",
-            "link": "http://codeforces.com/problemset/problem/222/E",
-            "pid": "222E"
-        },
-        {
-            "title": "Points on Plane",
-            "link": "http://codeforces.com/problemset/problem/576/C",
-            "pid": "576C"
-        },
-        {
-            "title": "Vitaly and Cycle",
-            "link": "http://codeforces.com/problemset/problem/557/D",
-            "pid": "557D"
-        },
-        {
-            "title": "Babaei and Birthday Cake",
-            "link": "http://codeforces.com/problemset/problem/629/D",
-            "pid": "629D"
-        },
-        {
-            "title": "Money Transfers",
-            "link": "http://codeforces.com/problemset/problem/675/C",
-            "pid": "675C"
-        },
-        {
-            "title": "Compatible Numbers",
-            "link": "http://codeforces.com/problemset/problem/165/E",
-            "pid": "165E"
-        },
-        {
-            "title": "Infinite Inversions",
-            "link": "http://codeforces.com/problemset/problem/540/E",
-            "pid": "540E"
-        },
-        {
-            "title": "Cactus",
-            "link": "http://codeforces.com/problemset/problem/231/E",
-            "pid": "231E"
-        },
-        {
-            "title": "Yet Another Number Game",
-            "link": "http://codeforces.com/problemset/problem/282/D",
-            "pid": "282D"
-        },
-        {
-            "title": "Vasily the Bear and Beautiful Strings",
-            "link": "http://codeforces.com/problemset/problem/336/D",
-            "pid": "336D"
-        },
-        {
-            "title": "Empire Strikes Back",
-            "link": "http://codeforces.com/problemset/problem/300/E",
-            "pid": "300E"
-        },
-        {
-            "title": "George and Cards",
-            "link": "http://codeforces.com/problemset/problem/387/E",
-            "pid": "387E"
-        },
-        {
-            "title": "Game on Tree",
-            "link": "http://codeforces.com/problemset/problem/280/C",
-            "pid": "280C"
-        },
-        {
-            "title": "Graph Cutting",
-            "link": "http://codeforces.com/problemset/problem/405/E",
-            "pid": "405E"
-        },
-        {
-            "title": "Lovely Matrix",
-            "link": "http://codeforces.com/problemset/problem/274/D",
-            "pid": "274D"
-        },
-        {
-            "title": "Beautiful Road",
-            "link": "http://codeforces.com/problemset/problem/87/D",
-            "pid": "87D"
-        },
-        {
-            "title": "Vanya and Treasure",
-            "link": "http://codeforces.com/problemset/problem/677/D",
-            "pid": "677D"
-        },
-        {
-            "title": "Famil Door and Roads",
-            "link": "http://codeforces.com/problemset/problem/629/E",
-            "pid": "629E"
-        },
-        {
-            "title": "Acyclic Organic Compounds",
-            "link": "http://codeforces.com/problemset/problem/601/D",
-            "pid": "601D"
-        },
-        {
-            "title": "Thwarting Demonstrations",
-            "link": "http://codeforces.com/problemset/problem/191/E",
-            "pid": "191E"
-        },
-        {
-            "title": "Vanya and Brackets",
-            "link": "http://codeforces.com/problemset/problem/552/E",
-            "pid": "552E"
-        },
-        {
-            "title": "Game with Powers",
-            "link": "http://codeforces.com/problemset/problem/317/D",
-            "pid": "317D"
-        },
-        {
-            "title": "Edges in MST",
-            "link": "http://codeforces.com/problemset/problem/160/D",
-            "pid": "160D"
-        },
-        {
-            "title": "Anya and Cubes",
-            "link": "http://codeforces.com/problemset/problem/525/E",
-            "pid": "525E"
-        },
-        {
-            "title": "The Last Fight Between Human and AI",
-            "link": "http://codeforces.com/problemset/problem/676/E",
-            "pid": "676E"
-        },
-        {
-            "title": "Arthur and Brackets",
-            "link": "http://codeforces.com/problemset/problem/508/E",
-            "pid": "508E"
-        },
-        {
-            "title": "Trains and Statistic",
-            "link": "http://codeforces.com/problemset/problem/675/E",
-            "pid": "675E"
-        },
-        {
-            "title": "Devu and Flowers",
-            "link": "http://codeforces.com/problemset/problem/451/E",
-            "pid": "451E"
-        },
-        {
-            "title": "Minimum Modular",
-            "link": "http://codeforces.com/problemset/problem/303/C",
-            "pid": "303C"
-        },
-        {
-            "title": "Anniversary",
-            "link": "http://codeforces.com/problemset/problem/226/C",
-            "pid": "226C"
-        },
-        {
-            "title": "Axis Walking",
-            "link": "http://codeforces.com/problemset/problem/327/E",
-            "pid": "327E"
-        },
-        {
-            "title": "Lucky Arrays",
-            "link": "http://codeforces.com/problemset/problem/256/E",
-            "pid": "256E"
-        },
-        {
-            "title": "Working routine",
-            "link": "http://codeforces.com/problemset/problem/706/E",
-            "pid": "706E"
-        },
-        {
-            "title": "Linear Kingdom Races",
-            "link": "http://codeforces.com/problemset/problem/115/E",
-            "pid": "115E"
-        },
-        {
-            "title": "Little Elephant and Tree",
-            "link": "http://codeforces.com/problemset/problem/258/E",
-            "pid": "258E"
-        },
-        {
-            "title": "Lucky Array",
-            "link": "http://codeforces.com/problemset/problem/121/E",
-            "pid": "121E"
-        },
-        {
-            "title": "Alphabet Permutations",
-            "link": "http://codeforces.com/problemset/problem/610/E",
-            "pid": "610E"
-        },
-        {
-            "title": "Sereja and Sets",
-            "link": "http://codeforces.com/problemset/problem/367/D",
-            "pid": "367D"
-        },
-        {
-            "title": "President's Path",
-            "link": "http://codeforces.com/problemset/problem/416/E",
-            "pid": "416E"
-        },
-        {
-            "title": "Counter Attack",
-            "link": "http://codeforces.com/problemset/problem/190/E",
-            "pid": "190E"
-        },
-        {
-            "title": "Kefa and Watch",
-            "link": "http://codeforces.com/problemset/problem/580/E",
-            "pid": "580E"
-        },
-        {
-            "title": "Optimize!",
-            "link": "http://codeforces.com/problemset/problem/338/E",
-            "pid": "338E"
-        },
-        {
-            "title": "Choosing Subtree is Fun",
-            "link": "http://codeforces.com/problemset/problem/372/D",
-            "pid": "372D"
-        },
-        {
-            "title": "Blood Cousins Return",
-            "link": "http://codeforces.com/problemset/problem/246/E",
-            "pid": "246E"
-        },
-        {
-            "title": "Little Elephant and Strings",
-            "link": "http://codeforces.com/problemset/problem/204/E",
-            "pid": "204E"
-        }
-    ],
-    "2000 <= Codeforces Rating <= 2099": [
-        {
-            "title": "George and Accommodation",
-            "link": "http://codeforces.com/problemset/problem/467/A",
-            "pid": "467A"
-        },
-        {
-            "title": "Opponents",
-            "link": "http://codeforces.com/problemset/problem/688/A",
-            "pid": "688A"
-        },
-        {
-            "title": "Patrick and Shopping",
-            "link": "http://codeforces.com/problemset/problem/599/A",
-            "pid": "599A"
-        },
-        {
-            "title": "Mashmokh and Lights",
-            "link": "http://codeforces.com/problemset/problem/415/A",
-            "pid": "415A"
-        },
-        {
-            "title": "Squats",
-            "link": "http://codeforces.com/problemset/problem/424/A",
-            "pid": "424A"
-        },
-        {
-            "title": "Sereja and Mugs",
-            "link": "http://codeforces.com/problemset/problem/426/A",
-            "pid": "426A"
-        },
-        {
-            "title": "Summer Camp",
-            "link": "http://codeforces.com/problemset/problem/672/A",
-            "pid": "672A"
-        },
-        {
-            "title": "Case of the Zeros and Ones",
-            "link": "http://codeforces.com/problemset/problem/556/A",
-            "pid": "556A"
-        },
-        {
-            "title": "Lucky String",
-            "link": "http://codeforces.com/problemset/problem/110/B",
-            "pid": "110B"
-        },
-        {
-            "title": "Queue on Bus Stop",
-            "link": "http://codeforces.com/problemset/problem/435/A",
-            "pid": "435A"
-        },
-        {
-            "title": "Currency System in Geraldion",
-            "link": "http://codeforces.com/problemset/problem/560/A",
-            "pid": "560A"
-        },
-        {
-            "title": "Saitama Destroys Hotel",
-            "link": "http://codeforces.com/problemset/problem/608/A",
-            "pid": "608A"
-        },
-        {
-            "title": "Lecture",
-            "link": "http://codeforces.com/problemset/problem/499/B",
-            "pid": "499B"
-        },
-        {
-            "title": "Uncowed Forces",
-            "link": "http://codeforces.com/problemset/problem/604/A",
-            "pid": "604A"
-        },
-        {
-            "title": "Drazil and Date",
-            "link": "http://codeforces.com/problemset/problem/515/A",
-            "pid": "515A"
-        },
-        {
-            "title": "Different is Good",
-            "link": "http://codeforces.com/problemset/problem/672/B",
-            "pid": "672B"
-        },
-        {
-            "title": "Case of Fake Numbers",
-            "link": "http://codeforces.com/problemset/problem/556/B",
-            "pid": "556B"
-        },
-        {
-            "title": "Plant",
-            "link": "http://codeforces.com/problemset/problem/185/A",
-            "pid": "185A"
-        },
-        {
-            "title": "Infinite Sequence",
-            "link": "http://codeforces.com/problemset/problem/675/A",
-            "pid": "675A"
-        },
-        {
-            "title": "K-special Tables",
-            "link": "http://codeforces.com/problemset/problem/625/C",
-            "pid": "625C"
-        },
-        {
-            "title": "Digital Counter",
-            "link": "http://codeforces.com/problemset/problem/495/A",
-            "pid": "495A"
-        },
-        {
-            "title": "Xor-tree",
-            "link": "http://codeforces.com/problemset/problem/429/A",
-            "pid": "429A"
-        },
-        {
-            "title": "Memory and Trident",
-            "link": "http://codeforces.com/problemset/problem/712/B",
-            "pid": "712B"
-        },
-        {
-            "title": "Vasya and Football",
-            "link": "http://codeforces.com/problemset/problem/493/A",
-            "pid": "493A"
-        },
-        {
-            "title": "Lucky Mask",
-            "link": "http://codeforces.com/problemset/problem/146/B",
-            "pid": "146B"
-        },
-        {
-            "title": "Alternative Thinking",
-            "link": "http://codeforces.com/problemset/problem/603/A",
-            "pid": "603A"
-        },
-        {
-            "title": "Tournament",
-            "link": "http://codeforces.com/problemset/problem/27/B",
-            "pid": "27B"
-        },
-        {
-            "title": "Sereja and Algorithm",
-            "link": "http://codeforces.com/problemset/problem/367/A",
-            "pid": "367A"
-        },
-        {
-            "title": "Megacity",
-            "link": "http://codeforces.com/problemset/problem/424/B",
-            "pid": "424B"
-        },
-        {
-            "title": "Beautiful Paintings",
-            "link": "http://codeforces.com/problemset/problem/651/B",
-            "pid": "651B"
-        },
-        {
-            "title": "Petya and Square",
-            "link": "http://codeforces.com/problemset/problem/112/B",
-            "pid": "112B"
-        },
-        {
-            "title": "Valuable Resources",
-            "link": "http://codeforces.com/problemset/problem/485/B",
-            "pid": "485B"
-        },
-        {
-            "title": "Progress Bar",
-            "link": "http://codeforces.com/problemset/problem/71/B",
-            "pid": "71B"
-        },
-        {
-            "title": "Garland",
-            "link": "http://codeforces.com/problemset/problem/408/B",
-            "pid": "408B"
-        },
-        {
-            "title": "War of the Corporations",
-            "link": "http://codeforces.com/problemset/problem/625/B",
-            "pid": "625B"
-        },
-        {
-            "title": "Misha and Changing Handles",
-            "link": "http://codeforces.com/problemset/problem/501/B",
-            "pid": "501B"
-        },
-        {
-            "title": "Milking cows",
-            "link": "http://codeforces.com/problemset/problem/383/A",
-            "pid": "383A"
-        },
-        {
-            "title": "Sereja and Mirroring",
-            "link": "http://codeforces.com/problemset/problem/426/B",
-            "pid": "426B"
-        },
-        {
-            "title": "The Child and Homework",
-            "link": "http://codeforces.com/problemset/problem/437/A",
-            "pid": "437A"
-        },
-        {
-            "title": "Vasya and String",
-            "link": "http://codeforces.com/problemset/problem/676/C",
-            "pid": "676C"
-        },
-        {
-            "title": "Pyramid of Glasses",
-            "link": "http://codeforces.com/problemset/problem/676/B",
-            "pid": "676B"
-        },
-        {
-            "title": "Restoring Painting",
-            "link": "http://codeforces.com/problemset/problem/675/B",
-            "pid": "675B"
-        },
-        {
-            "title": "Petya and Inequiations",
-            "link": "http://codeforces.com/problemset/problem/111/A",
-            "pid": "111A"
-        },
-        {
-            "title": "Buns",
-            "link": "http://codeforces.com/problemset/problem/106/C",
-            "pid": "106C"
-        },
-        {
-            "title": "Sereja and Prefixes",
-            "link": "http://codeforces.com/problemset/problem/380/A",
-            "pid": "380A"
-        },
-        {
-            "title": "Cthulhu",
-            "link": "http://codeforces.com/problemset/problem/103/B",
-            "pid": "103B"
-        },
-        {
-            "title": "Chris and Magic Square",
-            "link": "http://codeforces.com/problemset/problem/711/B",
-            "pid": "711B"
-        },
-        {
-            "title": "Logo Turtle",
-            "link": "http://codeforces.com/problemset/problem/132/C",
-            "pid": "132C"
-        },
-        {
-            "title": "Moodular Arithmetic",
-            "link": "http://codeforces.com/problemset/problem/603/B",
-            "pid": "603B"
-        },
-        {
-            "title": "Vasiliy's Multiset",
-            "link": "http://codeforces.com/problemset/problem/706/D",
-            "pid": "706D"
-        },
-        {
-            "title": "Message",
-            "link": "http://codeforces.com/problemset/problem/156/A",
-            "pid": "156A"
-        },
-        {
-            "title": "24 Game",
-            "link": "http://codeforces.com/problemset/problem/468/A",
-            "pid": "468A"
-        },
-        {
-            "title": "Mike and Chocolate Thieves",
-            "link": "http://codeforces.com/problemset/problem/689/C",
-            "pid": "689C"
-        },
-        {
-            "title": "Peter and Snow Blower",
-            "link": "http://codeforces.com/problemset/problem/613/A",
-            "pid": "613A"
-        },
-        {
-            "title": "Secret Combination",
-            "link": "http://codeforces.com/problemset/problem/496/B",
-            "pid": "496B"
-        },
-        {
-            "title": "Hometask",
-            "link": "http://codeforces.com/problemset/problem/154/A",
-            "pid": "154A"
-        },
-        {
-            "title": "Alice and Bob",
-            "link": "http://codeforces.com/problemset/problem/346/A",
-            "pid": "346A"
-        },
-        {
-            "title": "Memory and De-Evolution",
-            "link": "http://codeforces.com/problemset/problem/712/C",
-            "pid": "712C"
-        },
-        {
-            "title": "Levko and Array Recovery",
-            "link": "http://codeforces.com/problemset/problem/360/A",
-            "pid": "360A"
-        },
-        {
-            "title": "Vasya and Wrestling",
-            "link": "http://codeforces.com/problemset/problem/493/B",
-            "pid": "493B"
-        },
-        {
-            "title": "Kay and Snowflake",
-            "link": "http://codeforces.com/problemset/problem/685/B",
-            "pid": "685B"
-        },
-        {
-            "title": "Alternating Current",
-            "link": "http://codeforces.com/problemset/problem/343/B",
-            "pid": "343B"
-        },
-        {
-            "title": "Coloring Trees",
-            "link": "http://codeforces.com/problemset/problem/711/C",
-            "pid": "711C"
-        },
-        {
-            "title": "Multitasking",
-            "link": "http://codeforces.com/problemset/problem/384/B",
-            "pid": "384B"
-        },
-        {
-            "title": "History",
-            "link": "http://codeforces.com/problemset/problem/137/C",
-            "pid": "137C"
-        },
-        {
-            "title": "Zuma",
-            "link": "http://codeforces.com/problemset/problem/607/B",
-            "pid": "607B"
-        },
-        {
-            "title": "Fish Weight",
-            "link": "http://codeforces.com/problemset/problem/297/B",
-            "pid": "297B"
-        },
-        {
-            "title": "Sereja and Swaps",
-            "link": "http://codeforces.com/problemset/problem/425/A",
-            "pid": "425A"
-        },
-        {
-            "title": "The Child and Set",
-            "link": "http://codeforces.com/problemset/problem/437/B",
-            "pid": "437B"
-        },
-        {
-            "title": "Tavas and Karafs",
-            "link": "http://codeforces.com/problemset/problem/535/C",
-            "pid": "535C"
-        },
-        {
-            "title": "Once Again...",
-            "link": "http://codeforces.com/problemset/problem/582/B",
-            "pid": "582B"
-        },
-        {
-            "title": "Win or Freeze",
-            "link": "http://codeforces.com/problemset/problem/150/A",
-            "pid": "150A"
-        },
-        {
-            "title": "More Cowbell",
-            "link": "http://codeforces.com/problemset/problem/604/B",
-            "pid": "604B"
-        },
-        {
-            "title": "World Tour",
-            "link": "http://codeforces.com/problemset/problem/666/B",
-            "pid": "666B"
-        },
-        {
-            "title": "Chip 'n Dale Rescue Rangers",
-            "link": "http://codeforces.com/problemset/problem/590/B",
-            "pid": "590B"
-        },
-        {
-            "title": "Pythagorean Triples",
-            "link": "http://codeforces.com/problemset/problem/707/C",
-            "pid": "707C"
-        },
-        {
-            "title": "Subsegments",
-            "link": "http://codeforces.com/problemset/problem/69/E",
-            "pid": "69E"
-        },
-        {
-            "title": "Divisible by Seven",
-            "link": "http://codeforces.com/problemset/problem/375/A",
-            "pid": "375A"
-        },
-        {
-            "title": "The Two Routes",
-            "link": "http://codeforces.com/problemset/problem/601/A",
-            "pid": "601A"
-        },
-        {
-            "title": "Lipshitz Sequence",
-            "link": "http://codeforces.com/problemset/problem/601/B",
-            "pid": "601B"
-        },
-        {
-            "title": "Inna and Sequence",
-            "link": "http://codeforces.com/problemset/problem/374/D",
-            "pid": "374D"
-        },
-        {
-            "title": "Theseus and labyrinth",
-            "link": "http://codeforces.com/problemset/problem/676/D",
-            "pid": "676D"
-        },
-        {
-            "title": "Table",
-            "link": "http://codeforces.com/problemset/problem/232/B",
-            "pid": "232B"
-        },
-        {
-            "title": "Gifts by the List",
-            "link": "http://codeforces.com/problemset/problem/681/D",
-            "pid": "681D"
-        },
-        {
-            "title": "Fragile Bridges",
-            "link": "http://codeforces.com/problemset/problem/201/C",
-            "pid": "201C"
-        },
-        {
-            "title": "Minimization",
-            "link": "http://codeforces.com/problemset/problem/571/B",
-            "pid": "571B"
-        },
-        {
-            "title": "Lengthening Sticks",
-            "link": "http://codeforces.com/problemset/problem/571/A",
-            "pid": "571A"
-        },
-        {
-            "title": "Sereja and Periods",
-            "link": "http://codeforces.com/problemset/problem/314/B",
-            "pid": "314B"
-        },
-        {
-            "title": "Anton and Ira",
-            "link": "http://codeforces.com/problemset/problem/584/E",
-            "pid": "584E"
-        },
-        {
-            "title": "Vika and Segments",
-            "link": "http://codeforces.com/problemset/problem/610/D",
-            "pid": "610D"
-        },
-        {
-            "title": "Karen and Supermarket",
-            "link": "http://codeforces.com/problemset/problem/815/C",
-            "pid": "815C"
-        },
-        {
-            "title": "Happy Tree Party",
-            "link": "http://codeforces.com/problemset/problem/593/D",
-            "pid": "593D"
-        },
-        {
-            "title": "Number Transformation",
-            "link": "http://codeforces.com/problemset/problem/251/C",
-            "pid": "251C"
-        },
-        {
-            "title": "Invariance of Tree",
-            "link": "http://codeforces.com/problemset/problem/576/B",
-            "pid": "576B"
-        },
-        {
-            "title": "Little Elephant and Shifts",
-            "link": "http://codeforces.com/problemset/problem/220/C",
-            "pid": "220C"
-        },
-        {
-            "title": "Queue",
-            "link": "http://codeforces.com/problemset/problem/353/D",
-            "pid": "353D"
-        },
-        {
-            "title": "Ksenia and Pawns",
-            "link": "http://codeforces.com/problemset/problem/382/D",
-            "pid": "382D"
-        },
-        {
-            "title": "Table Compression",
-            "link": "http://codeforces.com/problemset/problem/650/C",
-            "pid": "650C"
-        },
-        {
-            "title": "Petya and Spiders",
-            "link": "http://codeforces.com/problemset/problem/111/C",
-            "pid": "111C"
-        },
-        {
-            "title": "Free Market",
-            "link": "http://codeforces.com/problemset/problem/364/B",
-            "pid": "364B"
-        },
-        {
-            "title": "Relay Race",
-            "link": "http://codeforces.com/problemset/problem/213/C",
-            "pid": "213C"
-        },
-        {
-            "title": "Flawed Flow",
-            "link": "http://codeforces.com/problemset/problem/269/C",
-            "pid": "269C"
-        },
-        {
-            "title": "Complete The Graph",
-            "link": "http://codeforces.com/problemset/problem/715/B",
-            "pid": "715B"
-        },
-        {
-            "title": "Coloring Brackets",
-            "link": "http://codeforces.com/problemset/problem/149/D",
-            "pid": "149D"
-        },
-        {
-            "title": "Ilya and Roads",
-            "link": "http://codeforces.com/problemset/problem/313/D",
-            "pid": "313D"
-        },
-        {
-            "title": "Lucky Numbers",
-            "link": "http://codeforces.com/problemset/problem/95/B",
-            "pid": "95B"
-        },
-        {
-            "title": "Compartments",
-            "link": "http://codeforces.com/problemset/problem/356/C",
-            "pid": "356C"
-        },
-        {
-            "title": "Xenia and Hamming",
-            "link": "http://codeforces.com/problemset/problem/356/B",
-            "pid": "356B"
-        },
-        {
-            "title": "Little Elephant and Furik and Rubik",
-            "link": "http://codeforces.com/problemset/problem/204/C",
-            "pid": "204C"
-        },
-        {
-            "title": "Inna and Binary Logic",
-            "link": "http://codeforces.com/problemset/problem/400/E",
-            "pid": "400E"
-        },
-        {
-            "title": "The Road to Berland is Paved With Good Intentions",
-            "link": "http://codeforces.com/problemset/problem/228/E",
-            "pid": "228E"
-        },
-        {
-            "title": "Maxim and Restaurant",
-            "link": "http://codeforces.com/problemset/problem/261/B",
-            "pid": "261B"
-        },
-        {
-            "title": "Spongebob and Squares",
-            "link": "http://codeforces.com/problemset/problem/599/D",
-            "pid": "599D"
-        },
-        {
-            "title": "The table",
-            "link": "http://codeforces.com/problemset/problem/226/D",
-            "pid": "226D"
-        },
-        {
-            "title": "Numbers",
-            "link": "http://codeforces.com/problemset/problem/213/B",
-            "pid": "213B"
-        },
-        {
-            "title": "Vladik and cards",
-            "link": "http://codeforces.com/problemset/problem/743/E",
-            "pid": "743E"
-        },
-        {
-            "title": "Partial Sums",
-            "link": "http://codeforces.com/problemset/problem/223/C",
-            "pid": "223C"
-        },
-        {
-            "title": "Points on Plane",
-            "link": "http://codeforces.com/problemset/problem/576/C",
-            "pid": "576C"
-        },
-        {
-            "title": "Running Track",
-            "link": "http://codeforces.com/problemset/problem/615/C",
-            "pid": "615C"
-        },
-        {
-            "title": "Alyona and Strings",
-            "link": "http://codeforces.com/problemset/problem/682/D",
-            "pid": "682D"
-        },
-        {
-            "title": "Famil Door and Brackets",
-            "link": "http://codeforces.com/problemset/problem/629/C",
-            "pid": "629C"
-        },
-        {
-            "title": "Preparing for the Contest",
-            "link": "http://codeforces.com/problemset/problem/377/B",
-            "pid": "377B"
-        },
-        {
-            "title": "Strictly Positive Matrix",
-            "link": "http://codeforces.com/problemset/problem/402/E",
-            "pid": "402E"
-        },
-        {
-            "title": "Compatible Numbers",
-            "link": "http://codeforces.com/problemset/problem/165/E",
-            "pid": "165E"
-        },
-        {
-            "title": "Love Triangles",
-            "link": "http://codeforces.com/problemset/problem/553/C",
-            "pid": "553C"
-        },
-        {
-            "title": "Police Patrol",
-            "link": "http://codeforces.com/problemset/problem/427/E",
-            "pid": "427E"
-        },
-        {
-            "title": "Time to Raid Cowavans",
-            "link": "http://codeforces.com/problemset/problem/103/D",
-            "pid": "103D"
-        },
-        {
-            "title": "Directed Roads",
-            "link": "http://codeforces.com/problemset/problem/711/D",
-            "pid": "711D"
-        },
-        {
-            "title": "Money Transfers",
-            "link": "http://codeforces.com/problemset/problem/675/C",
-            "pid": "675C"
-        },
-        {
-            "title": "Messenger",
-            "link": "http://codeforces.com/problemset/problem/631/D",
-            "pid": "631D"
-        },
-        {
-            "title": "Mishka and Interesting sum",
-            "link": "http://codeforces.com/problemset/problem/703/D",
-            "pid": "703D"
-        },
-        {
-            "title": "Two Strings",
-            "link": "http://codeforces.com/problemset/problem/223/B",
-            "pid": "223B"
-        },
-        {
-            "title": "Persistent Bookcase",
-            "link": "http://codeforces.com/problemset/problem/707/D",
-            "pid": "707D"
-        },
-        {
-            "title": "Ring Road 2",
-            "link": "http://codeforces.com/problemset/problem/27/D",
-            "pid": "27D"
-        },
-        {
-            "title": "Lucky Number Representation",
-            "link": "http://codeforces.com/problemset/problem/354/E",
-            "pid": "354E"
-        },
-        {
-            "title": "Little Elephant and LCM",
-            "link": "http://codeforces.com/problemset/problem/258/C",
-            "pid": "258C"
-        },
-        {
-            "title": "Superior Periodic Subarrays",
-            "link": "http://codeforces.com/problemset/problem/582/C",
-            "pid": "582C"
-        },
-        {
-            "title": "Pluses everywhere",
-            "link": "http://codeforces.com/problemset/problem/520/E",
-            "pid": "520E"
-        },
-        {
-            "title": "Cubes",
-            "link": "http://codeforces.com/problemset/problem/520/D",
-            "pid": "520D"
-        },
-        {
-            "title": "Friends and Subsequences",
-            "link": "http://codeforces.com/problemset/problem/689/D",
-            "pid": "689D"
-        },
-        {
-            "title": "Kleof\u00e1\u0161 and the n-thlon",
-            "link": "http://codeforces.com/problemset/problem/601/C",
-            "pid": "601C"
-        },
-        {
-            "title": "Mike and Geometry Problem",
-            "link": "http://codeforces.com/problemset/problem/689/E",
-            "pid": "689E"
-        },
-        {
-            "title": "Lieges of Legendre",
-            "link": "http://codeforces.com/problemset/problem/603/C",
-            "pid": "603C"
-        },
-        {
-            "title": "Apple Tree",
-            "link": "http://codeforces.com/problemset/problem/348/B",
-            "pid": "348B"
-        },
-        {
-            "title": "Sonya and Problem Wihtout a Legend",
-            "link": "http://codeforces.com/problemset/problem/713/C",
-            "pid": "713C"
-        },
-        {
-            "title": "Ant Man",
-            "link": "http://codeforces.com/problemset/problem/704/B",
-            "pid": "704B"
-        },
-        {
-            "title": "Alyona and towers",
-            "link": "http://codeforces.com/problemset/problem/739/C",
-            "pid": "739C"
-        },
-        {
-            "title": "Double Happiness",
-            "link": "http://codeforces.com/problemset/problem/113/C",
-            "pid": "113C"
-        },
-        {
-            "title": "Lovely Matrix",
-            "link": "http://codeforces.com/problemset/problem/274/D",
-            "pid": "274D"
-        },
-        {
-            "title": "Devu and Flowers",
-            "link": "http://codeforces.com/problemset/problem/451/E",
-            "pid": "451E"
-        },
-        {
-            "title": "George and Cards",
-            "link": "http://codeforces.com/problemset/problem/387/E",
-            "pid": "387E"
-        },
-        {
-            "title": "Anya and Cubes",
-            "link": "http://codeforces.com/problemset/problem/525/E",
-            "pid": "525E"
-        },
-        {
-            "title": "Game on Tree",
-            "link": "http://codeforces.com/problemset/problem/280/C",
-            "pid": "280C"
-        },
-        {
-            "title": "Garlands",
-            "link": "http://codeforces.com/problemset/problem/707/E",
-            "pid": "707E"
-        },
-        {
-            "title": "Codeword",
-            "link": "http://codeforces.com/problemset/problem/666/C",
-            "pid": "666C"
-        },
-        {
-            "title": "Game with Powers",
-            "link": "http://codeforces.com/problemset/problem/317/D",
-            "pid": "317D"
-        },
-        {
-            "title": "Graph Cutting",
-            "link": "http://codeforces.com/problemset/problem/405/E",
-            "pid": "405E"
-        },
-        {
-            "title": "Wilbur and Trees",
-            "link": "http://codeforces.com/problemset/problem/596/D",
-            "pid": "596D"
-        },
-        {
-            "title": "Thwarting Demonstrations",
-            "link": "http://codeforces.com/problemset/problem/191/E",
-            "pid": "191E"
-        },
-        {
-            "title": "Trains and Statistic",
-            "link": "http://codeforces.com/problemset/problem/675/E",
-            "pid": "675E"
-        },
-        {
-            "title": "ZS and The Birthday Paradox",
-            "link": "http://codeforces.com/problemset/problem/711/E",
-            "pid": "711E"
-        },
-        {
-            "title": "Arthur and Brackets",
-            "link": "http://codeforces.com/problemset/problem/508/E",
-            "pid": "508E"
-        },
-        {
-            "title": "Acyclic Organic Compounds",
-            "link": "http://codeforces.com/problemset/problem/601/D",
-            "pid": "601D"
-        },
-        {
-            "title": "Dividing Kingdom II",
-            "link": "http://codeforces.com/problemset/problem/687/D",
-            "pid": "687D"
-        },
-        {
-            "title": "Animals and Puzzle",
-            "link": "http://codeforces.com/problemset/problem/713/D",
-            "pid": "713D"
-        },
-        {
-            "title": "Splitting the Uniqueness",
-            "link": "http://codeforces.com/problemset/problem/297/C",
-            "pid": "297C"
-        },
-        {
-            "title": "Curious Array",
-            "link": "http://codeforces.com/problemset/problem/407/C",
-            "pid": "407C"
-        },
-        {
-            "title": "Igloo Skyscraper",
-            "link": "http://codeforces.com/problemset/problem/91/E",
-            "pid": "91E"
-        },
-        {
-            "title": "Clearing Up",
-            "link": "http://codeforces.com/problemset/problem/141/E",
-            "pid": "141E"
-        },
-        {
-            "title": "President's Path",
-            "link": "http://codeforces.com/problemset/problem/416/E",
-            "pid": "416E"
-        },
-        {
-            "title": "String",
-            "link": "http://codeforces.com/problemset/problem/123/D",
-            "pid": "123D"
-        },
-        {
-            "title": "Painting Square",
-            "link": "http://codeforces.com/problemset/problem/300/D",
-            "pid": "300D"
-        },
-        {
-            "title": "Alphabet Permutations",
-            "link": "http://codeforces.com/problemset/problem/610/E",
-            "pid": "610E"
-        },
-        {
-            "title": "Kefa and Watch",
-            "link": "http://codeforces.com/problemset/problem/580/E",
-            "pid": "580E"
-        },
-        {
-            "title": "Sereja and Sets",
-            "link": "http://codeforces.com/problemset/problem/425/E",
-            "pid": "425E"
-        },
-        {
-            "title": "Game with Strings",
-            "link": "http://codeforces.com/problemset/problem/354/B",
-            "pid": "354B"
-        },
-        {
-            "title": "Clues",
-            "link": "http://codeforces.com/problemset/problem/156/D",
-            "pid": "156D"
-        },
-        {
-            "title": "Counter Attack",
-            "link": "http://codeforces.com/problemset/problem/190/E",
-            "pid": "190E"
-        },
-        {
-            "title": "Ilya and Two Numbers",
-            "link": "http://codeforces.com/problemset/problem/313/E",
-            "pid": "313E"
-        },
-        {
-            "title": "Lucky Country",
-            "link": "http://codeforces.com/problemset/problem/95/E",
-            "pid": "95E"
-        },
-        {
-            "title": "Interval Cubing",
-            "link": "http://codeforces.com/problemset/problem/311/D",
-            "pid": "311D"
-        },
-        {
-            "title": "Little Victor and Set",
-            "link": "http://codeforces.com/problemset/problem/460/D",
-            "pid": "460D"
-        },
-        {
-            "title": "Minimum Modular",
-            "link": "http://codeforces.com/problemset/problem/303/C",
-            "pid": "303C"
-        },
-        {
-            "title": "Sandy and Nuts",
-            "link": "http://codeforces.com/problemset/problem/599/E",
-            "pid": "599E"
-        },
-        {
-            "title": "Sereja and Straight Lines",
-            "link": "http://codeforces.com/problemset/problem/314/D",
-            "pid": "314D"
-        },
-        {
-            "title": "Linear Kingdom Races",
-            "link": "http://codeforces.com/problemset/problem/115/E",
-            "pid": "115E"
-        },
-        {
-            "title": "Yaroslav and Points",
-            "link": "http://codeforces.com/problemset/problem/295/E",
-            "pid": "295E"
-        },
-        {
-            "title": "Arpa\u2019s overnight party and Mehrdad\u2019s silent entering",
-            "link": "http://codeforces.com/problemset/problem/741/C",
-            "pid": "741C"
-        },
-        {
-            "title": "Iahub and Xors",
-            "link": "http://codeforces.com/problemset/problem/341/D",
-            "pid": "341D"
-        },
-        {
-            "title": "Working routine",
-            "link": "http://codeforces.com/problemset/problem/706/E",
-            "pid": "706E"
-        },
-        {
-            "title": "Sereja and Sets",
-            "link": "http://codeforces.com/problemset/problem/367/D",
-            "pid": "367D"
-        },
-        {
-            "title": "Levko and Strings",
-            "link": "http://codeforces.com/problemset/problem/360/C",
-            "pid": "360C"
-        },
-        {
-            "title": "Product Sum",
-            "link": "http://codeforces.com/problemset/problem/631/E",
-            "pid": "631E"
-        },
-        {
-            "title": "Little Elephant and Tree",
-            "link": "http://codeforces.com/problemset/problem/258/E",
-            "pid": "258E"
-        },
-        {
-            "title": "Maze",
-            "link": "http://codeforces.com/problemset/problem/123/E",
-            "pid": "123E"
-        },
-        {
-            "title": "Blood Cousins Return",
-            "link": "http://codeforces.com/problemset/problem/246/E",
-            "pid": "246E"
-        },
-        {
-            "title": "Drazil and Morning Exercise",
-            "link": "http://codeforces.com/problemset/problem/516/D",
-            "pid": "516D"
-        },
-        {
-            "title": "Jeff and Removing Periods",
-            "link": "http://codeforces.com/problemset/problem/351/D",
-            "pid": "351D"
-        },
-        {
-            "title": "Bags and Coins",
-            "link": "http://codeforces.com/problemset/problem/356/D",
-            "pid": "356D"
-        },
-        {
-            "title": "Choosing Subtree is Fun",
-            "link": "http://codeforces.com/problemset/problem/372/D",
-            "pid": "372D"
-        }
-    ],
-    "2100 <= Codeforces Rating <= 2199": [
-        {
-            "title": "Toy Army",
-            "link": "http://codeforces.com/problemset/problem/84/A",
-            "pid": "84A"
-        },
-        {
-            "title": "Spit Problem",
-            "link": "http://codeforces.com/problemset/problem/29/A",
-            "pid": "29A"
-        },
-        {
-            "title": "Reconnaissance",
-            "link": "http://codeforces.com/problemset/problem/32/A",
-            "pid": "32A"
-        },
-        {
-            "title": "Circle Line",
-            "link": "http://codeforces.com/problemset/problem/278/A",
-            "pid": "278A"
-        },
-        {
-            "title": "George and Accommodation",
-            "link": "http://codeforces.com/problemset/problem/467/A",
-            "pid": "467A"
-        },
-        {
-            "title": "Memory and Crow",
-            "link": "http://codeforces.com/problemset/problem/712/A",
-            "pid": "712A"
-        },
-        {
-            "title": "Wizards' Duel",
-            "link": "http://codeforces.com/problemset/problem/591/A",
-            "pid": "591A"
-        },
-        {
-            "title": "Rewards",
-            "link": "http://codeforces.com/problemset/problem/448/A",
-            "pid": "448A"
-        },
-        {
-            "title": "Crazy Computer",
-            "link": "http://codeforces.com/problemset/problem/716/A",
-            "pid": "716A"
-        },
-        {
-            "title": "Multiplication Table",
-            "link": "http://codeforces.com/problemset/problem/577/A",
-            "pid": "577A"
-        },
-        {
-            "title": "Beru-taxi",
-            "link": "http://codeforces.com/problemset/problem/706/A",
-            "pid": "706A"
-        },
-        {
-            "title": "Joysticks",
-            "link": "http://codeforces.com/problemset/problem/651/A",
-            "pid": "651A"
-        },
-        {
-            "title": "Case of the Zeros and Ones",
-            "link": "http://codeforces.com/problemset/problem/556/A",
-            "pid": "556A"
-        },
-        {
-            "title": "Lovely Palindromes",
-            "link": "http://codeforces.com/problemset/problem/688/B",
-            "pid": "688B"
-        },
-        {
-            "title": "A and B and Chess",
-            "link": "http://codeforces.com/problemset/problem/519/A",
-            "pid": "519A"
-        },
-        {
-            "title": "Tavas and Nafas",
-            "link": "http://codeforces.com/problemset/problem/535/A",
-            "pid": "535A"
-        },
-        {
-            "title": "Drazil and Date",
-            "link": "http://codeforces.com/problemset/problem/515/A",
-            "pid": "515A"
-        },
-        {
-            "title": "Lecture",
-            "link": "http://codeforces.com/problemset/problem/499/B",
-            "pid": "499B"
-        },
-        {
-            "title": "Digital Counter",
-            "link": "http://codeforces.com/problemset/problem/495/A",
-            "pid": "495A"
-        },
-        {
-            "title": "Random Teams",
-            "link": "http://codeforces.com/problemset/problem/478/B",
-            "pid": "478B"
-        },
-        {
-            "title": "Memory and Trident",
-            "link": "http://codeforces.com/problemset/problem/712/B",
-            "pid": "712B"
-        },
-        {
-            "title": "Magic Spheres",
-            "link": "http://codeforces.com/problemset/problem/606/A",
-            "pid": "606A"
-        },
-        {
-            "title": "Case of Fake Numbers",
-            "link": "http://codeforces.com/problemset/problem/556/B",
-            "pid": "556B"
-        },
-        {
-            "title": "Fedor and New Game",
-            "link": "http://codeforces.com/problemset/problem/467/B",
-            "pid": "467B"
-        },
-        {
-            "title": "Filya and Homework",
-            "link": "http://codeforces.com/problemset/problem/714/B",
-            "pid": "714B"
-        },
-        {
-            "title": "Xor-tree",
-            "link": "http://codeforces.com/problemset/problem/429/A",
-            "pid": "429A"
-        },
-        {
-            "title": "NP-Hard Problem",
-            "link": "http://codeforces.com/problemset/problem/687/A",
-            "pid": "687A"
-        },
-        {
-            "title": "A and B and Compilation Errors",
-            "link": "http://codeforces.com/problemset/problem/519/B",
-            "pid": "519B"
-        },
-        {
-            "title": "Tavas and SaDDas",
-            "link": "http://codeforces.com/problemset/problem/535/B",
-            "pid": "535B"
-        },
-        {
-            "title": "Two Bases",
-            "link": "http://codeforces.com/problemset/problem/602/A",
-            "pid": "602A"
-        },
-        {
-            "title": "Rebranding",
-            "link": "http://codeforces.com/problemset/problem/591/B",
-            "pid": "591B"
-        },
-        {
-            "title": "Lucky Permutation Triple",
-            "link": "http://codeforces.com/problemset/problem/303/A",
-            "pid": "303A"
-        },
-        {
-            "title": "Meeting of Old Friends",
-            "link": "http://codeforces.com/problemset/problem/714/A",
-            "pid": "714A"
-        },
-        {
-            "title": "A and B and Team Training",
-            "link": "http://codeforces.com/problemset/problem/519/C",
-            "pid": "519C"
-        },
-        {
-            "title": "Square",
-            "link": "http://codeforces.com/problemset/problem/194/B",
-            "pid": "194B"
-        },
-        {
-            "title": "Sorting Railway Cars",
-            "link": "http://codeforces.com/problemset/problem/605/A",
-            "pid": "605A"
-        },
-        {
-            "title": "Chat Online",
-            "link": "http://codeforces.com/problemset/problem/469/B",
-            "pid": "469B"
-        },
-        {
-            "title": "Diverse Permutation",
-            "link": "http://codeforces.com/problemset/problem/482/A",
-            "pid": "482A"
-        },
-        {
-            "title": "Alice and Bob",
-            "link": "http://codeforces.com/problemset/problem/346/A",
-            "pid": "346A"
-        },
-        {
-            "title": "Vasya and the Bus",
-            "link": "http://codeforces.com/problemset/problem/190/A",
-            "pid": "190A"
-        },
-        {
-            "title": "Sereja and Prefixes",
-            "link": "http://codeforces.com/problemset/problem/380/A",
-            "pid": "380A"
-        },
-        {
-            "title": "Divisible by Seven",
-            "link": "http://codeforces.com/problemset/problem/375/A",
-            "pid": "375A"
         },
         {
             "title": "Connecting Universities",
@@ -12748,259 +5717,121 @@ A2OJ_LADDERS = {
             "pid": "700B"
         },
         {
+            "title": "Vasiliy's Multiset",
+            "link": "http://codeforces.com/problemset/problem/706/D",
+            "pid": "706D"
+        },
+        {
+            "title": "Journey",
+            "link": "http://codeforces.com/problemset/problem/721/C",
+            "pid": "721C"
+        },
+        {
+            "title": "Chloe and pleasant prizes",
+            "link": "http://codeforces.com/problemset/problem/743/D",
+            "pid": "743D"
+        },
+        {
+            "title": "Cloud of Hashtags",
+            "link": "http://codeforces.com/problemset/problem/777/D",
+            "pid": "777D"
+        },
+        {
+            "title": "Falling Anvils",
+            "link": "http://codeforces.com/problemset/problem/77/B",
+            "pid": "77B"
+        },
+        {
+            "title": "Lucky Numbers",
+            "link": "http://codeforces.com/problemset/problem/95/B",
+            "pid": "95B"
+        }
+    ],
+    "1900 <= Codeforces Rating <= 1999": [
+        {
+            "title": "Lucky Permutation",
+            "link": "http://codeforces.com/problemset/problem/121/C",
+            "pid": "121C"
+        },
+        {
             "title": "Zero-One",
             "link": "http://codeforces.com/problemset/problem/135/C",
             "pid": "135C"
         },
         {
-            "title": "Ant on the Tree",
-            "link": "http://codeforces.com/problemset/problem/29/D",
-            "pid": "29D"
+            "title": "Palindromes",
+            "link": "http://codeforces.com/problemset/problem/137/D",
+            "pid": "137D"
         },
         {
-            "title": "Kay and Snowflake",
-            "link": "http://codeforces.com/problemset/problem/685/B",
-            "pid": "685B"
+            "title": "Coloring Brackets",
+            "link": "http://codeforces.com/problemset/problem/149/D",
+            "pid": "149D"
         },
         {
-            "title": "DNA Alignment",
-            "link": "http://codeforces.com/problemset/problem/520/C",
-            "pid": "520C"
+            "title": "Non-Secret Cypher",
+            "link": "http://codeforces.com/problemset/problem/190/D",
+            "pid": "190D"
         },
         {
-            "title": "Coloring Trees",
-            "link": "http://codeforces.com/problemset/problem/711/C",
-            "pid": "711C"
+            "title": "Police Station",
+            "link": "http://codeforces.com/problemset/problem/208/C",
+            "pid": "208C"
         },
         {
-            "title": "More Cowbell",
-            "link": "http://codeforces.com/problemset/problem/604/B",
-            "pid": "604B"
+            "title": "Numbers",
+            "link": "http://codeforces.com/problemset/problem/213/B",
+            "pid": "213B"
         },
         {
-            "title": "Malek Dance Club",
-            "link": "http://codeforces.com/problemset/problem/319/A",
-            "pid": "319A"
+            "title": "Olympiad",
+            "link": "http://codeforces.com/problemset/problem/222/D",
+            "pid": "222D"
         },
         {
-            "title": "Berzerk",
-            "link": "http://codeforces.com/problemset/problem/786/A",
-            "pid": "786A"
+            "title": "Decoding Genome",
+            "link": "http://codeforces.com/problemset/problem/222/E",
+            "pid": "222E"
         },
         {
-            "title": "Recycling Bottles",
-            "link": "http://codeforces.com/problemset/problem/671/A",
-            "pid": "671A"
+            "title": "Two Strings",
+            "link": "http://codeforces.com/problemset/problem/223/B",
+            "pid": "223B"
         },
         {
-            "title": "Moodular Arithmetic",
-            "link": "http://codeforces.com/problemset/problem/603/B",
-            "pid": "603B"
+            "title": "Partial Sums",
+            "link": "http://codeforces.com/problemset/problem/223/C",
+            "pid": "223C"
         },
         {
-            "title": "Keyboard",
-            "link": "http://codeforces.com/problemset/problem/88/B",
-            "pid": "88B"
+            "title": "Naughty Stone Piles",
+            "link": "http://codeforces.com/problemset/problem/226/B",
+            "pid": "226B"
         },
         {
-            "title": "Sysadmin Bob",
-            "link": "http://codeforces.com/problemset/problem/31/B",
-            "pid": "31B"
+            "title": "The Road to Berland is Paved With Good Intentions",
+            "link": "http://codeforces.com/problemset/problem/228/E",
+            "pid": "228E"
         },
         {
-            "title": "The Child and Set",
-            "link": "http://codeforces.com/problemset/problem/437/B",
-            "pid": "437B"
+            "title": "Triangles",
+            "link": "http://codeforces.com/problemset/problem/229/C",
+            "pid": "229C"
         },
         {
-            "title": "Borya and Hanabi",
-            "link": "http://codeforces.com/problemset/problem/442/A",
-            "pid": "442A"
+            "title": "Table",
+            "link": "http://codeforces.com/problemset/problem/232/B",
+            "pid": "232B"
         },
         {
-            "title": "Ilya and Sticks",
-            "link": "http://codeforces.com/problemset/problem/525/C",
-            "pid": "525C"
+            "title": "Sum",
+            "link": "http://codeforces.com/problemset/problem/257/D",
+            "pid": "257D"
         },
         {
-            "title": "Peter and Snow Blower",
-            "link": "http://codeforces.com/problemset/problem/613/A",
-            "pid": "613A"
-        },
-        {
-            "title": "Amr and Pins",
-            "link": "http://codeforces.com/problemset/problem/507/B",
-            "pid": "507B"
-        },
-        {
-            "title": "Modular Equations",
-            "link": "http://codeforces.com/problemset/problem/495/B",
-            "pid": "495B"
-        },
-        {
-            "title": "Timofey and rectangles",
-            "link": "http://codeforces.com/problemset/problem/763/B",
-            "pid": "763B"
-        },
-        {
-            "title": "Replacement",
-            "link": "http://codeforces.com/problemset/problem/570/C",
-            "pid": "570C"
-        },
-        {
-            "title": "Dreamoon and Sets",
-            "link": "http://codeforces.com/problemset/problem/476/D",
-            "pid": "476D"
-        },
-        {
-            "title": "Polyline",
-            "link": "http://codeforces.com/problemset/problem/617/D",
-            "pid": "617D"
-        },
-        {
-            "title": "Music",
-            "link": "http://codeforces.com/problemset/problem/569/A",
-            "pid": "569A"
-        },
-        {
-            "title": "Chips",
-            "link": "http://codeforces.com/problemset/problem/333/B",
-            "pid": "333B"
-        },
-        {
-            "title": "The Values You Can Make",
-            "link": "http://codeforces.com/problemset/problem/687/C",
-            "pid": "687C"
-        },
-        {
-            "title": "Inna and Sequence",
-            "link": "http://codeforces.com/problemset/problem/374/D",
-            "pid": "374D"
-        },
-        {
-            "title": "School Marks",
-            "link": "http://codeforces.com/problemset/problem/540/B",
-            "pid": "540B"
-        },
-        {
-            "title": "Alternating Current",
-            "link": "http://codeforces.com/problemset/problem/343/B",
-            "pid": "343B"
-        },
-        {
-            "title": "Unordered Subsequence",
-            "link": "http://codeforces.com/problemset/problem/27/C",
-            "pid": "27C"
-        },
-        {
-            "title": "Hard problem",
-            "link": "http://codeforces.com/problemset/problem/706/C",
-            "pid": "706C"
-        },
-        {
-            "title": "Subsegments",
-            "link": "http://codeforces.com/problemset/problem/69/E",
-            "pid": "69E"
-        },
-        {
-            "title": "Mike and Fun",
-            "link": "http://codeforces.com/problemset/problem/548/B",
-            "pid": "548B"
-        },
-        {
-            "title": "DZY Loves Chemistry",
-            "link": "http://codeforces.com/problemset/problem/445/B",
-            "pid": "445B"
-        },
-        {
-            "title": "Lazy Student",
-            "link": "http://codeforces.com/problemset/problem/605/B",
-            "pid": "605B"
-        },
-        {
-            "title": "Approximating a Constant Range",
-            "link": "http://codeforces.com/problemset/problem/602/B",
-            "pid": "602B"
-        },
-        {
-            "title": "24 Game",
-            "link": "http://codeforces.com/problemset/problem/468/A",
-            "pid": "468A"
-        },
-        {
-            "title": "Gena's Code",
-            "link": "http://codeforces.com/problemset/problem/614/B",
-            "pid": "614B"
-        },
-        {
-            "title": "Complete the Word",
-            "link": "http://codeforces.com/problemset/problem/716/B",
-            "pid": "716B"
-        },
-        {
-            "title": "Memory and De-Evolution",
-            "link": "http://codeforces.com/problemset/problem/712/C",
-            "pid": "712C"
-        },
-        {
-            "title": "Sereja and Swaps",
-            "link": "http://codeforces.com/problemset/problem/425/A",
-            "pid": "425A"
-        },
-        {
-            "title": "Remainders Game",
-            "link": "http://codeforces.com/problemset/problem/687/B",
-            "pid": "687B"
-        },
-        {
-            "title": "The table",
-            "link": "http://codeforces.com/problemset/problem/226/D",
-            "pid": "226D"
-        },
-        {
-            "title": "Let's Play Osu!",
-            "link": "http://codeforces.com/problemset/problem/235/B",
-            "pid": "235B"
-        },
-        {
-            "title": "Legacy",
-            "link": "http://codeforces.com/problemset/problem/786/B",
-            "pid": "786B"
-        },
-        {
-            "title": "Games with Rectangle",
-            "link": "http://codeforces.com/problemset/problem/128/C",
-            "pid": "128C"
-        },
-        {
-            "title": "Lieges of Legendre",
-            "link": "http://codeforces.com/problemset/problem/603/C",
-            "pid": "603C"
-        },
-        {
-            "title": "Ring Road 2",
-            "link": "http://codeforces.com/problemset/problem/27/D",
-            "pid": "27D"
-        },
-        {
-            "title": "Number With The Given Amount Of Divisors",
-            "link": "http://codeforces.com/problemset/problem/27/E",
-            "pid": "27E"
-        },
-        {
-            "title": "Anton and Permutation",
-            "link": "http://codeforces.com/problemset/problem/785/E",
-            "pid": "785E"
-        },
-        {
-            "title": "Anton and School - 2",
-            "link": "http://codeforces.com/problemset/problem/785/D",
-            "pid": "785D"
-        },
-        {
-            "title": "Ants",
-            "link": "http://codeforces.com/problemset/problem/317/B",
-            "pid": "317B"
+            "title": "Little Elephant and Elections",
+            "link": "http://codeforces.com/problemset/problem/258/B",
+            "pid": "258B"
         },
         {
             "title": "Maxim and Restaurant",
@@ -13008,44 +5839,159 @@ A2OJ_LADDERS = {
             "pid": "261B"
         },
         {
+            "title": "Beautiful Decomposition",
+            "link": "http://codeforces.com/problemset/problem/279/E",
+            "pid": "279E"
+        },
+        {
+            "title": "Unordered Subsequence",
+            "link": "http://codeforces.com/problemset/problem/27/C",
+            "pid": "27C"
+        },
+        {
+            "title": "Permutation Sum",
+            "link": "http://codeforces.com/problemset/problem/285/D",
+            "pid": "285D"
+        },
+        {
+            "title": "Shaass and Lights",
+            "link": "http://codeforces.com/problemset/problem/294/C",
+            "pid": "294C"
+        },
+        {
+            "title": "Block Tower",
+            "link": "http://codeforces.com/problemset/problem/327/D",
+            "pid": "327D"
+        },
+        {
+            "title": "Jeff and Furik",
+            "link": "http://codeforces.com/problemset/problem/351/B",
+            "pid": "351B"
+        },
+        {
+            "title": "Two Heaps",
+            "link": "http://codeforces.com/problemset/problem/353/B",
+            "pid": "353B"
+        },
+        {
+            "title": "Xenia and Hamming",
+            "link": "http://codeforces.com/problemset/problem/356/B",
+            "pid": "356B"
+        },
+        {
+            "title": "Insertion Sort",
+            "link": "http://codeforces.com/problemset/problem/362/C",
+            "pid": "362C"
+        },
+        {
+            "title": "Preparing for the Contest",
+            "link": "http://codeforces.com/problemset/problem/377/B",
+            "pid": "377B"
+        },
+        {
+            "title": "Minesweeper 1D",
+            "link": "http://codeforces.com/problemset/problem/404/D",
+            "pid": "404D"
+        },
+        {
+            "title": "Pawn",
+            "link": "http://codeforces.com/problemset/problem/41/D",
+            "pid": "41D"
+        },
+        {
             "title": "3-cycles",
             "link": "http://codeforces.com/problemset/problem/41/E",
             "pid": "41E"
         },
         {
-            "title": "Surrounded",
-            "link": "http://codeforces.com/problemset/problem/190/B",
-            "pid": "190B"
+            "title": "The Child and Zoo",
+            "link": "http://codeforces.com/problemset/problem/437/D",
+            "pid": "437D"
         },
         {
-            "title": "Dispute",
-            "link": "http://codeforces.com/problemset/problem/242/D",
-            "pid": "242D"
+            "title": "Dreamoon and Sets",
+            "link": "http://codeforces.com/problemset/problem/476/D",
+            "pid": "476D"
         },
         {
-            "title": "Nanami's Digital Board",
-            "link": "http://codeforces.com/problemset/problem/433/D",
-            "pid": "433D"
+            "title": "Candy Boxes",
+            "link": "http://codeforces.com/problemset/problem/488/B",
+            "pid": "488B"
         },
         {
-            "title": "Searching Rectangles",
-            "link": "http://codeforces.com/problemset/problem/713/B",
-            "pid": "713B"
+            "title": "Fox And Jumping",
+            "link": "http://codeforces.com/problemset/problem/510/D",
+            "pid": "510D"
         },
         {
-            "title": "Compatible Numbers",
-            "link": "http://codeforces.com/problemset/problem/165/E",
-            "pid": "165E"
+            "title": "Tavas and Karafs",
+            "link": "http://codeforces.com/problemset/problem/535/C",
+            "pid": "535C"
         },
         {
-            "title": "Anton and Ira",
-            "link": "http://codeforces.com/problemset/problem/584/E",
-            "pid": "584E"
+            "title": "Vanya and Triangles",
+            "link": "http://codeforces.com/problemset/problem/552/D",
+            "pid": "552D"
         },
         {
-            "title": "Pluses everywhere",
-            "link": "http://codeforces.com/problemset/problem/520/E",
-            "pid": "520E"
+            "title": "Arthur and Table",
+            "link": "http://codeforces.com/problemset/problem/557/C",
+            "pid": "557C"
+        },
+        {
+            "title": "Amr and Chemistry",
+            "link": "http://codeforces.com/problemset/problem/558/C",
+            "pid": "558C"
+        },
+        {
+            "title": "Symmetric and Transitive",
+            "link": "http://codeforces.com/problemset/problem/568/B",
+            "pid": "568B"
+        },
+        {
+            "title": "Modulo Sum",
+            "link": "http://codeforces.com/problemset/problem/577/B",
+            "pid": "577B"
+        },
+        {
+            "title": "Once Again...",
+            "link": "http://codeforces.com/problemset/problem/582/B",
+            "pid": "582B"
+        },
+        {
+            "title": "Spongebob and Squares",
+            "link": "http://codeforces.com/problemset/problem/599/D",
+            "pid": "599D"
+        },
+        {
+            "title": "Zuma",
+            "link": "http://codeforces.com/problemset/problem/607/B",
+            "pid": "607B"
+        },
+        {
+            "title": "Peter and Snow Blower",
+            "link": "http://codeforces.com/problemset/problem/613/A",
+            "pid": "613A"
+        },
+        {
+            "title": "Image Preview",
+            "link": "http://codeforces.com/problemset/problem/650/B",
+            "pid": "650B"
+        },
+        {
+            "title": "Alyona and Strings",
+            "link": "http://codeforces.com/problemset/problem/682/D",
+            "pid": "682D"
+        },
+        {
+            "title": "Kay and Snowflake",
+            "link": "http://codeforces.com/problemset/problem/685/B",
+            "pid": "685B"
+        },
+        {
+            "title": "The Values You Can Make",
+            "link": "http://codeforces.com/problemset/problem/687/C",
+            "pid": "687C"
         },
         {
             "title": "Directed Roads",
@@ -13053,19 +5999,216 @@ A2OJ_LADDERS = {
             "pid": "711D"
         },
         {
-            "title": "Random Task",
-            "link": "http://codeforces.com/problemset/problem/431/D",
-            "pid": "431D"
+            "title": "Alyona and a tree",
+            "link": "http://codeforces.com/problemset/problem/739/B",
+            "pid": "739B"
         },
         {
-            "title": "Interesting Game",
-            "link": "http://codeforces.com/problemset/problem/87/C",
-            "pid": "87C"
+            "title": "Volleyball",
+            "link": "http://codeforces.com/problemset/problem/95/C",
+            "pid": "95C"
+        }
+    ],
+    "2000 <= Codeforces Rating <= 2099": [
+        {
+            "title": "Games with Rectangle",
+            "link": "http://codeforces.com/problemset/problem/128/C",
+            "pid": "128C"
         },
         {
-            "title": "Apple Tree",
-            "link": "http://codeforces.com/problemset/problem/348/B",
-            "pid": "348B"
+            "title": "Last Chance",
+            "link": "http://codeforces.com/problemset/problem/137/E",
+            "pid": "137E"
+        },
+        {
+            "title": "Cipher",
+            "link": "http://codeforces.com/problemset/problem/156/C",
+            "pid": "156C"
+        },
+        {
+            "title": "Weak Memory",
+            "link": "http://codeforces.com/problemset/problem/187/C",
+            "pid": "187C"
+        },
+        {
+            "title": "Building Forest",
+            "link": "http://codeforces.com/problemset/problem/195/E",
+            "pid": "195E"
+        },
+        {
+            "title": "Infinite Maze",
+            "link": "http://codeforces.com/problemset/problem/196/B",
+            "pid": "196B"
+        },
+        {
+            "title": "Fragile Bridges",
+            "link": "http://codeforces.com/problemset/problem/201/C",
+            "pid": "201C"
+        },
+        {
+            "title": "Little Elephant and Furik and Rubik",
+            "link": "http://codeforces.com/problemset/problem/204/C",
+            "pid": "204C"
+        },
+        {
+            "title": "Relay Race",
+            "link": "http://codeforces.com/problemset/problem/213/C",
+            "pid": "213C"
+        },
+        {
+            "title": "Let's Play Osu!",
+            "link": "http://codeforces.com/problemset/problem/235/B",
+            "pid": "235B"
+        },
+        {
+            "title": "Build String",
+            "link": "http://codeforces.com/problemset/problem/237/E",
+            "pid": "237E"
+        },
+        {
+            "title": "Hydra",
+            "link": "http://codeforces.com/problemset/problem/243/B",
+            "pid": "243B"
+        },
+        {
+            "title": "Number Transformation",
+            "link": "http://codeforces.com/problemset/problem/251/C",
+            "pid": "251C"
+        },
+        {
+            "title": "Little Elephant and LCM",
+            "link": "http://codeforces.com/problemset/problem/258/C",
+            "pid": "258C"
+        },
+        {
+            "title": "Circle of Numbers",
+            "link": "http://codeforces.com/problemset/problem/263/C",
+            "pid": "263C"
+        },
+        {
+            "title": "Number With The Given Amount Of Divisors",
+            "link": "http://codeforces.com/problemset/problem/27/E",
+            "pid": "27E"
+        },
+        {
+            "title": "Ant on the Tree",
+            "link": "http://codeforces.com/problemset/problem/29/D",
+            "pid": "29D"
+        },
+        {
+            "title": "Sereja and Periods",
+            "link": "http://codeforces.com/problemset/problem/314/B",
+            "pid": "314B"
+        },
+        {
+            "title": "Ants",
+            "link": "http://codeforces.com/problemset/problem/317/B",
+            "pid": "317B"
+        },
+        {
+            "title": "Iahub and Permutations",
+            "link": "http://codeforces.com/problemset/problem/340/E",
+            "pid": "340E"
+        },
+        {
+            "title": "Queue",
+            "link": "http://codeforces.com/problemset/problem/353/D",
+            "pid": "353D"
+        },
+        {
+            "title": "Dima and Containers",
+            "link": "http://codeforces.com/problemset/problem/358/C",
+            "pid": "358C"
+        },
+        {
+            "title": "Subway Innovation",
+            "link": "http://codeforces.com/problemset/problem/371/E",
+            "pid": "371E"
+        },
+        {
+            "title": "Inna and Pink Pony",
+            "link": "http://codeforces.com/problemset/problem/374/A",
+            "pid": "374A"
+        },
+        {
+            "title": "Inna and Sequence",
+            "link": "http://codeforces.com/problemset/problem/374/D",
+            "pid": "374D"
+        },
+        {
+            "title": "Police Patrol",
+            "link": "http://codeforces.com/problemset/problem/427/E",
+            "pid": "427E"
+        },
+        {
+            "title": "Nanami's Digital Board",
+            "link": "http://codeforces.com/problemset/problem/433/D",
+            "pid": "433D"
+        },
+        {
+            "title": "Misha and Permutations Summation",
+            "link": "http://codeforces.com/problemset/problem/501/D",
+            "pid": "501D"
+        },
+        {
+            "title": "Paths and Trees",
+            "link": "http://codeforces.com/problemset/problem/545/E",
+            "pid": "545E"
+        },
+        {
+            "title": "Vitaly and Cycle",
+            "link": "http://codeforces.com/problemset/problem/557/D",
+            "pid": "557D"
+        },
+        {
+            "title": "Minimization",
+            "link": "http://codeforces.com/problemset/problem/571/B",
+            "pid": "571B"
+        },
+        {
+            "title": "Shortest Path",
+            "link": "http://codeforces.com/problemset/problem/59/E",
+            "pid": "59E"
+        },
+        {
+            "title": "Running Track",
+            "link": "http://codeforces.com/problemset/problem/615/C",
+            "pid": "615C"
+        },
+        {
+            "title": "Wet Shark and Blocks",
+            "link": "http://codeforces.com/problemset/problem/621/E",
+            "pid": "621E"
+        },
+        {
+            "title": "Famil Door and Brackets",
+            "link": "http://codeforces.com/problemset/problem/629/C",
+            "pid": "629C"
+        },
+        {
+            "title": "Babaei and Birthday Cake",
+            "link": "http://codeforces.com/problemset/problem/629/D",
+            "pid": "629D"
+        },
+        {
+            "title": "World Tour",
+            "link": "http://codeforces.com/problemset/problem/666/B",
+            "pid": "666B"
+        },
+        {
+            "title": "Robin Hood",
+            "link": "http://codeforces.com/problemset/problem/671/B",
+            "pid": "671B"
+        },
+        {
+            "title": "Theseus and labyrinth",
+            "link": "http://codeforces.com/problemset/problem/676/D",
+            "pid": "676D"
+        },
+        {
+            "title": "Gifts by the List",
+            "link": "http://codeforces.com/problemset/problem/681/D",
+            "pid": "681D"
         },
         {
             "title": "Mike and Geometry Problem",
@@ -13078,666 +6221,9 @@ A2OJ_LADDERS = {
             "pid": "721D"
         },
         {
-            "title": "Minimization",
-            "link": "http://codeforces.com/problemset/problem/571/B",
-            "pid": "571B"
-        },
-        {
-            "title": "World Eater Brothers",
-            "link": "http://codeforces.com/problemset/problem/238/C",
-            "pid": "238C"
-        },
-        {
-            "title": "Memory and Scores",
-            "link": "http://codeforces.com/problemset/problem/712/D",
-            "pid": "712D"
-        },
-        {
-            "title": "Vanya and Triangles",
-            "link": "http://codeforces.com/problemset/problem/552/D",
-            "pid": "552D"
-        },
-        {
-            "title": "Persistent Bookcase",
-            "link": "http://codeforces.com/problemset/problem/707/D",
-            "pid": "707D"
-        },
-        {
-            "title": "Bamboo Partition",
-            "link": "http://codeforces.com/problemset/problem/830/C",
-            "pid": "830C"
-        },
-        {
-            "title": "Lucky Number Representation",
-            "link": "http://codeforces.com/problemset/problem/354/E",
-            "pid": "354E"
-        },
-        {
-            "title": "Dima and Magic Guitar",
-            "link": "http://codeforces.com/problemset/problem/366/E",
-            "pid": "366E"
-        },
-        {
-            "title": "Friends and Subsequences",
-            "link": "http://codeforces.com/problemset/problem/689/D",
-            "pid": "689D"
-        },
-        {
-            "title": "Journey",
-            "link": "http://codeforces.com/problemset/problem/721/C",
-            "pid": "721C"
-        },
-        {
-            "title": "Messenger",
-            "link": "http://codeforces.com/problemset/problem/631/D",
-            "pid": "631D"
-        },
-        {
-            "title": "Build String",
-            "link": "http://codeforces.com/problemset/problem/237/E",
-            "pid": "237E"
-        },
-        {
-            "title": "Complete The Graph",
-            "link": "http://codeforces.com/problemset/problem/715/B",
-            "pid": "715B"
-        },
-        {
-            "title": "Bear and Square Grid",
-            "link": "http://codeforces.com/problemset/problem/679/C",
-            "pid": "679C"
-        },
-        {
-            "title": "Weak Memory",
-            "link": "http://codeforces.com/problemset/problem/187/C",
-            "pid": "187C"
-        },
-        {
-            "title": "Sonya and Problem Wihtout a Legend",
-            "link": "http://codeforces.com/problemset/problem/713/C",
-            "pid": "713C"
-        },
-        {
-            "title": "Bear and Tower of Cubes",
-            "link": "http://codeforces.com/problemset/problem/679/B",
-            "pid": "679B"
-        },
-        {
-            "title": "Table Compression",
-            "link": "http://codeforces.com/problemset/problem/650/C",
-            "pid": "650C"
-        },
-        {
-            "title": "Mishka and Interesting sum",
-            "link": "http://codeforces.com/problemset/problem/703/D",
-            "pid": "703D"
-        },
-        {
-            "title": "Marbles",
-            "link": "http://codeforces.com/problemset/problem/607/C",
-            "pid": "607C"
-        },
-        {
-            "title": "Divisor Tree",
-            "link": "http://codeforces.com/problemset/problem/337/E",
-            "pid": "337E"
-        },
-        {
-            "title": "Quarrel",
-            "link": "http://codeforces.com/problemset/problem/29/E",
-            "pid": "29E"
-        },
-        {
-            "title": "Bear in the Field",
-            "link": "http://codeforces.com/problemset/problem/385/E",
-            "pid": "385E"
-        },
-        {
-            "title": "Edges in MST",
-            "link": "http://codeforces.com/problemset/problem/160/D",
-            "pid": "160D"
-        },
-        {
-            "title": "Anya and Cubes",
-            "link": "http://codeforces.com/problemset/problem/525/E",
-            "pid": "525E"
-        },
-        {
-            "title": "Trains and Statistic",
-            "link": "http://codeforces.com/problemset/problem/675/E",
-            "pid": "675E"
-        },
-        {
-            "title": "Bear and Drawing",
-            "link": "http://codeforces.com/problemset/problem/573/C",
-            "pid": "573C"
-        },
-        {
-            "title": "Binary Tree on Plane",
-            "link": "http://codeforces.com/problemset/problem/277/E",
-            "pid": "277E"
-        },
-        {
-            "title": "Change-free",
-            "link": "http://codeforces.com/problemset/problem/767/E",
-            "pid": "767E"
-        },
-        {
-            "title": "Game with Powers",
-            "link": "http://codeforces.com/problemset/problem/317/D",
-            "pid": "317D"
-        },
-        {
-            "title": "Sereja and Tree",
-            "link": "http://codeforces.com/problemset/problem/380/B",
-            "pid": "380B"
-        },
-        {
-            "title": "Break Up",
-            "link": "http://codeforces.com/problemset/problem/700/C",
-            "pid": "700C"
-        },
-        {
-            "title": "George and Cards",
-            "link": "http://codeforces.com/problemset/problem/387/E",
-            "pid": "387E"
-        },
-        {
-            "title": "Codeword",
-            "link": "http://codeforces.com/problemset/problem/666/C",
-            "pid": "666C"
-        },
-        {
-            "title": "Bear and Floodlight",
-            "link": "http://codeforces.com/problemset/problem/385/D",
-            "pid": "385D"
-        },
-        {
-            "title": "The Last Fight Between Human and AI",
-            "link": "http://codeforces.com/problemset/problem/676/E",
-            "pid": "676E"
-        },
-        {
-            "title": "Lovely Matrix",
-            "link": "http://codeforces.com/problemset/problem/274/D",
-            "pid": "274D"
-        },
-        {
-            "title": "Infinite Inversions",
-            "link": "http://codeforces.com/problemset/problem/540/E",
-            "pid": "540E"
-        },
-        {
-            "title": "Beautiful Road",
-            "link": "http://codeforces.com/problemset/problem/87/D",
-            "pid": "87D"
-        },
-        {
-            "title": "Acyclic Organic Compounds",
-            "link": "http://codeforces.com/problemset/problem/601/D",
-            "pid": "601D"
-        },
-        {
-            "title": "Thwarting Demonstrations",
-            "link": "http://codeforces.com/problemset/problem/191/E",
-            "pid": "191E"
-        },
-        {
-            "title": "Arthur and Brackets",
-            "link": "http://codeforces.com/problemset/problem/508/E",
-            "pid": "508E"
-        },
-        {
-            "title": "Coin Troubles",
-            "link": "http://codeforces.com/problemset/problem/283/C",
-            "pid": "283C"
-        },
-        {
-            "title": "Garlands",
-            "link": "http://codeforces.com/problemset/problem/707/E",
-            "pid": "707E"
-        },
-        {
-            "title": "Ant Man",
-            "link": "http://codeforces.com/problemset/problem/704/B",
-            "pid": "704B"
-        },
-        {
-            "title": "ZS and The Birthday Paradox",
-            "link": "http://codeforces.com/problemset/problem/711/E",
-            "pid": "711E"
-        },
-        {
-            "title": "Game on Tree",
-            "link": "http://codeforces.com/problemset/problem/280/C",
-            "pid": "280C"
-        },
-        {
-            "title": "Axis Walking",
-            "link": "http://codeforces.com/problemset/problem/327/E",
-            "pid": "327E"
-        },
-        {
-            "title": "Sereja and Cinema",
-            "link": "http://codeforces.com/problemset/problem/380/D",
-            "pid": "380D"
-        },
-        {
-            "title": "Numbers",
-            "link": "http://codeforces.com/problemset/problem/83/D",
-            "pid": "83D"
-        },
-        {
-            "title": "Memory and Casinos",
-            "link": "http://codeforces.com/problemset/problem/712/E",
-            "pid": "712E"
-        },
-        {
-            "title": "Color the Carpet",
-            "link": "http://codeforces.com/problemset/problem/297/D",
-            "pid": "297D"
-        },
-        {
-            "title": "Travelling Through the Snow Queen's Kingdom",
-            "link": "http://codeforces.com/problemset/problem/685/E",
-            "pid": "685E"
-        },
-        {
-            "title": "Ultimate Weirdness of an Array",
-            "link": "http://codeforces.com/problemset/problem/671/C",
-            "pid": "671C"
-        },
-        {
-            "title": "The Child and Polygon",
-            "link": "http://codeforces.com/problemset/problem/437/E",
-            "pid": "437E"
-        },
-        {
-            "title": "Iahub and Xors",
-            "link": "http://codeforces.com/problemset/problem/341/D",
-            "pid": "341D"
-        },
-        {
-            "title": "Petya and Pipes",
-            "link": "http://codeforces.com/problemset/problem/362/E",
-            "pid": "362E"
-        },
-        {
-            "title": "Dividing Kingdom II",
-            "link": "http://codeforces.com/problemset/problem/687/D",
-            "pid": "687D"
-        },
-        {
-            "title": "Animals and Puzzle",
-            "link": "http://codeforces.com/problemset/problem/713/D",
-            "pid": "713D"
-        },
-        {
-            "title": "Alphabet Permutations",
-            "link": "http://codeforces.com/problemset/problem/610/E",
-            "pid": "610E"
-        },
-        {
-            "title": "Levko and Strings",
-            "link": "http://codeforces.com/problemset/problem/360/C",
-            "pid": "360C"
-        },
-        {
-            "title": "Linear Kingdom Races",
-            "link": "http://codeforces.com/problemset/problem/115/E",
-            "pid": "115E"
-        },
-        {
-            "title": "Little Victor and Set",
-            "link": "http://codeforces.com/problemset/problem/460/D",
-            "pid": "460D"
-        },
-        {
-            "title": "Minimum Modular",
-            "link": "http://codeforces.com/problemset/problem/303/C",
-            "pid": "303C"
-        },
-        {
-            "title": "Summer Earnings",
-            "link": "http://codeforces.com/problemset/problem/333/E",
-            "pid": "333E"
-        },
-        {
-            "title": "Counter Attack",
-            "link": "http://codeforces.com/problemset/problem/190/E",
-            "pid": "190E"
-        },
-        {
-            "title": "Digit Tree",
-            "link": "http://codeforces.com/problemset/problem/715/C",
-            "pid": "715C"
-        },
-        {
-            "title": "Kay and Eternity",
-            "link": "http://codeforces.com/problemset/problem/685/D",
-            "pid": "685D"
-        },
-        {
-            "title": "President's Path",
-            "link": "http://codeforces.com/problemset/problem/416/E",
-            "pid": "416E"
-        },
-        {
-            "title": "String",
-            "link": "http://codeforces.com/problemset/problem/123/D",
-            "pid": "123D"
-        },
-        {
-            "title": "Arpa\u2019s overnight party and Mehrdad\u2019s silent entering",
-            "link": "http://codeforces.com/problemset/problem/741/C",
-            "pid": "741C"
-        },
-        {
-            "title": "Sereja and Sets",
-            "link": "http://codeforces.com/problemset/problem/367/D",
-            "pid": "367D"
-        },
-        {
-            "title": "Working routine",
-            "link": "http://codeforces.com/problemset/problem/706/E",
-            "pid": "706E"
-        },
-        {
-            "title": "Opening Portals",
-            "link": "http://codeforces.com/problemset/problem/196/E",
-            "pid": "196E"
-        },
-        {
-            "title": "Lucky Array",
-            "link": "http://codeforces.com/problemset/problem/121/E",
-            "pid": "121E"
-        },
-        {
-            "title": "Sereja and Sets",
-            "link": "http://codeforces.com/problemset/problem/425/E",
-            "pid": "425E"
-        },
-        {
-            "title": "Drazil and Morning Exercise",
-            "link": "http://codeforces.com/problemset/problem/516/D",
-            "pid": "516D"
-        },
-        {
-            "title": "Optimal Point",
-            "link": "http://codeforces.com/problemset/problem/685/C",
-            "pid": "685C"
-        },
-        {
-            "title": "Roads in Yusland",
-            "link": "http://codeforces.com/problemset/problem/671/D",
-            "pid": "671D"
-        },
-        {
-            "title": "Jeff and Removing Periods",
-            "link": "http://codeforces.com/problemset/problem/351/D",
-            "pid": "351D"
-        },
-        {
-            "title": "Parcels",
-            "link": "http://codeforces.com/problemset/problem/480/D",
-            "pid": "480D"
-        },
-        {
-            "title": "Mission Impassable",
-            "link": "http://codeforces.com/problemset/problem/150/D",
-            "pid": "150D"
-        },
-        {
-            "title": "Mishka and Divisors",
-            "link": "http://codeforces.com/problemset/problem/703/E",
-            "pid": "703E"
-        },
-        {
-            "title": "Random Function and Tree",
-            "link": "http://codeforces.com/problemset/problem/482/D",
-            "pid": "482D"
-        },
-        {
-            "title": "Choosing Subtree is Fun",
-            "link": "http://codeforces.com/problemset/problem/372/D",
-            "pid": "372D"
-        },
-        {
-            "title": "World of Darkraft - 2",
-            "link": "http://codeforces.com/problemset/problem/464/D",
-            "pid": "464D"
-        },
-        {
-            "title": "DZY Loves Games",
-            "link": "http://codeforces.com/problemset/problem/446/D",
-            "pid": "446D"
-        },
-        {
-            "title": "GCD Table",
-            "link": "http://codeforces.com/problemset/problem/338/D",
-            "pid": "338D"
-        },
-        {
-            "title": "Parking Lot",
-            "link": "http://codeforces.com/problemset/problem/480/E",
-            "pid": "480E"
-        },
-        {
-            "title": "Cookie Clicker",
-            "link": "http://codeforces.com/problemset/problem/377/E",
-            "pid": "377E"
-        },
-        {
-            "title": "Ladies' Shop",
-            "link": "http://codeforces.com/problemset/problem/286/E",
-            "pid": "286E"
-        }
-    ],
-    "Codeforces Rating >= 2200": [
-        {
-            "title": "Bus to Udayland",
-            "link": "http://codeforces.com/problemset/problem/711/A",
-            "pid": "711A"
-        },
-        {
-            "title": "LLPS",
-            "link": "http://codeforces.com/problemset/problem/202/A",
-            "pid": "202A"
-        },
-        {
-            "title": "Playing with Dice",
-            "link": "http://codeforces.com/problemset/problem/378/A",
-            "pid": "378A"
-        },
-        {
-            "title": "Taymyr is calling you",
-            "link": "http://codeforces.com/problemset/problem/764/A",
-            "pid": "764A"
-        },
-        {
-            "title": "Summer Camp",
-            "link": "http://codeforces.com/problemset/problem/672/A",
-            "pid": "672A"
-        },
-        {
-            "title": "Soldier and Bananas",
-            "link": "http://codeforces.com/problemset/problem/546/A",
-            "pid": "546A"
-        },
-        {
-            "title": "Wizards' Duel",
-            "link": "http://codeforces.com/problemset/problem/591/A",
-            "pid": "591A"
-        },
-        {
-            "title": "Opponents",
-            "link": "http://codeforces.com/problemset/problem/688/A",
-            "pid": "688A"
-        },
-        {
-            "title": "Free Ice Cream",
-            "link": "http://codeforces.com/problemset/problem/686/A",
-            "pid": "686A"
-        },
-        {
-            "title": "Drazil and Date",
-            "link": "http://codeforces.com/problemset/problem/515/A",
-            "pid": "515A"
-        },
-        {
-            "title": "Arpa\u2019s hard exam and Mehrdad\u2019s naive cheat",
-            "link": "http://codeforces.com/problemset/problem/742/A",
-            "pid": "742A"
-        },
-        {
-            "title": "Multiplication Table",
-            "link": "http://codeforces.com/problemset/problem/577/A",
-            "pid": "577A"
-        },
-        {
-            "title": "Kefa and First Steps",
-            "link": "http://codeforces.com/problemset/problem/580/A",
-            "pid": "580A"
-        },
-        {
-            "title": "Lecture",
-            "link": "http://codeforces.com/problemset/problem/499/B",
-            "pid": "499B"
-        },
-        {
-            "title": "Nicholas and Permutation",
-            "link": "http://codeforces.com/problemset/problem/676/A",
-            "pid": "676A"
-        },
-        {
-            "title": "Pasha and Stick",
-            "link": "http://codeforces.com/problemset/problem/610/A",
-            "pid": "610A"
-        },
-        {
-            "title": "Different is Good",
-            "link": "http://codeforces.com/problemset/problem/672/B",
-            "pid": "672B"
-        },
-        {
-            "title": "Uncowed Forces",
-            "link": "http://codeforces.com/problemset/problem/604/A",
-            "pid": "604A"
-        },
-        {
-            "title": "Case of the Zeros and Ones",
-            "link": "http://codeforces.com/problemset/problem/556/A",
-            "pid": "556A"
-        },
-        {
-            "title": "Saitama Destroys Hotel",
-            "link": "http://codeforces.com/problemset/problem/608/A",
-            "pid": "608A"
-        },
-        {
-            "title": "Tavas and Nafas",
-            "link": "http://codeforces.com/problemset/problem/535/A",
-            "pid": "535A"
-        },
-        {
-            "title": "Bear and Five Cards",
-            "link": "http://codeforces.com/problemset/problem/680/A",
-            "pid": "680A"
-        },
-        {
-            "title": "Bear and Finding Criminals",
-            "link": "http://codeforces.com/problemset/problem/680/B",
-            "pid": "680B"
-        },
-        {
-            "title": "Calculating Function",
-            "link": "http://codeforces.com/problemset/problem/486/A",
-            "pid": "486A"
-        },
-        {
-            "title": "Lovely Palindromes",
-            "link": "http://codeforces.com/problemset/problem/688/B",
-            "pid": "688B"
-        },
-        {
-            "title": "Joysticks",
-            "link": "http://codeforces.com/problemset/problem/651/A",
-            "pid": "651A"
-        },
-        {
-            "title": "Timofey and cubes",
-            "link": "http://codeforces.com/problemset/problem/764/B",
-            "pid": "764B"
-        },
-        {
-            "title": "Complicated GCD",
-            "link": "http://codeforces.com/problemset/problem/664/A",
-            "pid": "664A"
-        },
-        {
-            "title": "Two Bases",
-            "link": "http://codeforces.com/problemset/problem/602/A",
-            "pid": "602A"
-        },
-        {
-            "title": "Rebranding",
-            "link": "http://codeforces.com/problemset/problem/591/B",
-            "pid": "591B"
-        },
-        {
-            "title": "Semifinals",
-            "link": "http://codeforces.com/problemset/problem/378/B",
-            "pid": "378B"
-        },
-        {
-            "title": "Median Smoothing",
-            "link": "http://codeforces.com/problemset/problem/590/A",
-            "pid": "590A"
-        },
-        {
-            "title": "Digital Counter",
-            "link": "http://codeforces.com/problemset/problem/495/A",
-            "pid": "495A"
-        },
-        {
-            "title": "Tavas and SaDDas",
-            "link": "http://codeforces.com/problemset/problem/535/B",
-            "pid": "535B"
-        },
-        {
-            "title": "Little Robber Girl's Zoo",
-            "link": "http://codeforces.com/problemset/problem/686/B",
-            "pid": "686B"
-        },
-        {
-            "title": "Alternative Thinking",
-            "link": "http://codeforces.com/problemset/problem/603/A",
-            "pid": "603A"
-        },
-        {
-            "title": "Misha and Changing Handles",
-            "link": "http://codeforces.com/problemset/problem/501/B",
-            "pid": "501B"
-        },
-        {
-            "title": "Valuable Resources",
-            "link": "http://codeforces.com/problemset/problem/485/B",
-            "pid": "485B"
-        },
-        {
-            "title": "Beautiful Paintings",
-            "link": "http://codeforces.com/problemset/problem/651/B",
-            "pid": "651B"
-        },
-        {
-            "title": "World Tour",
-            "link": "http://codeforces.com/problemset/problem/666/B",
-            "pid": "666B"
-        },
-        {
-            "title": "Arpa\u2019s obvious problem and Mehrdad\u2019s terrible solution",
-            "link": "http://codeforces.com/problemset/problem/742/B",
-            "pid": "742B"
+            "title": "Hanoi Factory",
+            "link": "http://codeforces.com/problemset/problem/777/E",
+            "pid": "777E"
         },
         {
             "title": "Berzerk",
@@ -13745,299 +6231,61 @@ A2OJ_LADDERS = {
             "pid": "786A"
         },
         {
-            "title": "Tennis Championship",
-            "link": "http://codeforces.com/problemset/problem/735/C",
-            "pid": "735C"
+            "title": "Interesting Game",
+            "link": "http://codeforces.com/problemset/problem/87/C",
+            "pid": "87C"
+        }
+    ],
+    "2100 <= Codeforces Rating <= 2199": [
+        {
+            "title": "Time to Raid Cowavans",
+            "link": "http://codeforces.com/problemset/problem/103/D",
+            "pid": "103D"
         },
         {
-            "title": "Watering Flowers",
-            "link": "http://codeforces.com/problemset/problem/617/C",
-            "pid": "617C"
+            "title": "Petya and Spiders",
+            "link": "http://codeforces.com/problemset/problem/111/C",
+            "pid": "111C"
         },
         {
-            "title": "Approximating a Constant Range",
-            "link": "http://codeforces.com/problemset/problem/602/B",
-            "pid": "602B"
+            "title": "Beard Graph",
+            "link": "http://codeforces.com/problemset/problem/165/D",
+            "pid": "165D"
         },
         {
-            "title": "OR in Matrix",
-            "link": "http://codeforces.com/problemset/problem/486/B",
-            "pid": "486B"
+            "title": "Counter Attack",
+            "link": "http://codeforces.com/problemset/problem/190/E",
+            "pid": "190E"
         },
         {
-            "title": "Game of Credit Cards",
-            "link": "http://codeforces.com/problemset/problem/777/B",
-            "pid": "777B"
+            "title": "Little Elephant and Shifts",
+            "link": "http://codeforces.com/problemset/problem/220/C",
+            "pid": "220C"
         },
         {
-            "title": "Day at the Beach",
-            "link": "http://codeforces.com/problemset/problem/599/C",
-            "pid": "599C"
+            "title": "The table",
+            "link": "http://codeforces.com/problemset/problem/226/D",
+            "pid": "226D"
         },
         {
-            "title": "Report",
-            "link": "http://codeforces.com/problemset/problem/631/C",
-            "pid": "631C"
+            "title": "Cactus",
+            "link": "http://codeforces.com/problemset/problem/231/E",
+            "pid": "231E"
         },
         {
-            "title": "Guest From the Past",
-            "link": "http://codeforces.com/problemset/problem/625/A",
-            "pid": "625A"
+            "title": "World Eater Brothers",
+            "link": "http://codeforces.com/problemset/problem/238/C",
+            "pid": "238C"
         },
         {
-            "title": "Modular Equations",
-            "link": "http://codeforces.com/problemset/problem/495/B",
-            "pid": "495B"
+            "title": "Dispute",
+            "link": "http://codeforces.com/problemset/problem/242/D",
+            "pid": "242D"
         },
         {
-            "title": "Tavas and Karafs",
-            "link": "http://codeforces.com/problemset/problem/535/C",
-            "pid": "535C"
-        },
-        {
-            "title": "Hamming Distance Sum",
-            "link": "http://codeforces.com/problemset/problem/608/B",
-            "pid": "608B"
-        },
-        {
-            "title": "Misha and Permutations Summation",
-            "link": "http://codeforces.com/problemset/problem/501/D",
-            "pid": "501D"
-        },
-        {
-            "title": "Mike and Fun",
-            "link": "http://codeforces.com/problemset/problem/548/B",
-            "pid": "548B"
-        },
-        {
-            "title": "Harmony Analysis",
-            "link": "http://codeforces.com/problemset/problem/610/C",
-            "pid": "610C"
-        },
-        {
-            "title": "Vasya and Wrestling",
-            "link": "http://codeforces.com/problemset/problem/493/B",
-            "pid": "493B"
-        },
-        {
-            "title": "Alyona and a tree",
-            "link": "http://codeforces.com/problemset/problem/739/B",
-            "pid": "739B"
-        },
-        {
-            "title": "More Cowbell",
-            "link": "http://codeforces.com/problemset/problem/604/B",
-            "pid": "604B"
-        },
-        {
-            "title": "Logo Turtle",
-            "link": "http://codeforces.com/problemset/problem/132/C",
-            "pid": "132C"
-        },
-        {
-            "title": "Moodular Arithmetic",
-            "link": "http://codeforces.com/problemset/problem/603/B",
-            "pid": "603B"
-        },
-        {
-            "title": "Taxes",
-            "link": "http://codeforces.com/problemset/problem/735/D",
-            "pid": "735D"
-        },
-        {
-            "title": "Recycling Bottles",
-            "link": "http://codeforces.com/problemset/problem/671/A",
-            "pid": "671A"
-        },
-        {
-            "title": "Gena's Code",
-            "link": "http://codeforces.com/problemset/problem/614/B",
-            "pid": "614B"
-        },
-        {
-            "title": "Image Preview",
-            "link": "http://codeforces.com/problemset/problem/650/B",
-            "pid": "650B"
-        },
-        {
-            "title": "Symmetric and Transitive",
-            "link": "http://codeforces.com/problemset/problem/568/B",
-            "pid": "568B"
-        },
-        {
-            "title": "Lipshitz Sequence",
-            "link": "http://codeforces.com/problemset/problem/601/B",
-            "pid": "601B"
-        },
-        {
-            "title": "Chip 'n Dale Rescue Rangers",
-            "link": "http://codeforces.com/problemset/problem/590/B",
-            "pid": "590B"
-        },
-        {
-            "title": "Candy Boxes",
-            "link": "http://codeforces.com/problemset/problem/488/B",
-            "pid": "488B"
-        },
-        {
-            "title": "Legacy",
-            "link": "http://codeforces.com/problemset/problem/786/B",
-            "pid": "786B"
-        },
-        {
-            "title": "Bamboo Partition",
-            "link": "http://codeforces.com/problemset/problem/830/C",
-            "pid": "830C"
-        },
-        {
-            "title": "Running Track",
-            "link": "http://codeforces.com/problemset/problem/615/C",
-            "pid": "615C"
-        },
-        {
-            "title": "Kleof\u00e1\u0161 and the n-thlon",
-            "link": "http://codeforces.com/problemset/problem/601/C",
-            "pid": "601C"
-        },
-        {
-            "title": "Mushroom Gnomes - 2",
-            "link": "http://codeforces.com/problemset/problem/138/C",
-            "pid": "138C"
-        },
-        {
-            "title": "Hanoi Factory",
-            "link": "http://codeforces.com/problemset/problem/777/E",
-            "pid": "777E"
-        },
-        {
-            "title": "Last Chance",
-            "link": "http://codeforces.com/problemset/problem/137/E",
-            "pid": "137E"
-        },
-        {
-            "title": "Anton and Ira",
-            "link": "http://codeforces.com/problemset/problem/584/E",
-            "pid": "584E"
-        },
-        {
-            "title": "Build String",
-            "link": "http://codeforces.com/problemset/problem/237/E",
-            "pid": "237E"
-        },
-        {
-            "title": "Vladik and cards",
-            "link": "http://codeforces.com/problemset/problem/743/E",
-            "pid": "743E"
-        },
-        {
-            "title": "Decoding Genome",
-            "link": "http://codeforces.com/problemset/problem/222/E",
-            "pid": "222E"
-        },
-        {
-            "title": "Inna and Binary Logic",
-            "link": "http://codeforces.com/problemset/problem/400/E",
-            "pid": "400E"
-        },
-        {
-            "title": "Happy Tree Party",
-            "link": "http://codeforces.com/problemset/problem/593/D",
-            "pid": "593D"
-        },
-        {
-            "title": "Anton and Permutation",
-            "link": "http://codeforces.com/problemset/problem/785/E",
-            "pid": "785E"
-        },
-        {
-            "title": "Little Elephant and LCM",
-            "link": "http://codeforces.com/problemset/problem/258/C",
-            "pid": "258C"
-        },
-        {
-            "title": "Spongebob and Squares",
-            "link": "http://codeforces.com/problemset/problem/599/D",
-            "pid": "599D"
-        },
-        {
-            "title": "Money Transfers",
-            "link": "http://codeforces.com/problemset/problem/675/C",
-            "pid": "675C"
-        },
-        {
-            "title": "Strictly Positive Matrix",
-            "link": "http://codeforces.com/problemset/problem/402/E",
-            "pid": "402E"
-        },
-        {
-            "title": "Minimization",
-            "link": "http://codeforces.com/problemset/problem/571/B",
-            "pid": "571B"
-        },
-        {
-            "title": "Random Task",
-            "link": "http://codeforces.com/problemset/problem/431/D",
-            "pid": "431D"
-        },
-        {
-            "title": "Let's Play Osu!",
-            "link": "http://codeforces.com/problemset/problem/235/B",
-            "pid": "235B"
-        },
-        {
-            "title": "Palindromes",
-            "link": "http://codeforces.com/problemset/problem/137/D",
-            "pid": "137D"
-        },
-        {
-            "title": "Messenger",
-            "link": "http://codeforces.com/problemset/problem/631/D",
-            "pid": "631D"
-        },
-        {
-            "title": "Hongcow Buys a Deck of Cards",
-            "link": "http://codeforces.com/problemset/problem/744/C",
-            "pid": "744C"
-        },
-        {
-            "title": "Love Triangles",
-            "link": "http://codeforces.com/problemset/problem/553/C",
-            "pid": "553C"
-        },
-        {
-            "title": "Pluses everywhere",
-            "link": "http://codeforces.com/problemset/problem/520/E",
-            "pid": "520E"
-        },
-        {
-            "title": "Paths and Trees",
-            "link": "http://codeforces.com/problemset/problem/545/E",
-            "pid": "545E"
-        },
-        {
-            "title": "Lengthening Sticks",
-            "link": "http://codeforces.com/problemset/problem/571/A",
-            "pid": "571A"
-        },
-        {
-            "title": "Sonya and Problem Wihtout a Legend",
-            "link": "http://codeforces.com/problemset/problem/713/C",
-            "pid": "713C"
-        },
-        {
-            "title": "Till I Collapse",
-            "link": "http://codeforces.com/problemset/problem/786/C",
-            "pid": "786C"
-        },
-        {
-            "title": "Cipher",
-            "link": "http://codeforces.com/problemset/problem/156/C",
-            "pid": "156C"
-        },
-        {
-            "title": "Apple Tree",
-            "link": "http://codeforces.com/problemset/problem/348/B",
-            "pid": "348B"
+            "title": "Black and White Tree",
+            "link": "http://codeforces.com/problemset/problem/260/D",
+            "pid": "260D"
         },
         {
             "title": "Flawed Flow",
@@ -14045,29 +6293,84 @@ A2OJ_LADDERS = {
             "pid": "269C"
         },
         {
-            "title": "Complete The Graph",
-            "link": "http://codeforces.com/problemset/problem/715/B",
-            "pid": "715B"
+            "title": "Yet Another Number Game",
+            "link": "http://codeforces.com/problemset/problem/282/D",
+            "pid": "282D"
         },
         {
-            "title": "Superior Periodic Subarrays",
-            "link": "http://codeforces.com/problemset/problem/582/C",
-            "pid": "582C"
+            "title": "Coin Troubles",
+            "link": "http://codeforces.com/problemset/problem/283/C",
+            "pid": "283C"
         },
         {
-            "title": "Lieges of Legendre",
-            "link": "http://codeforces.com/problemset/problem/603/C",
-            "pid": "603C"
+            "title": "Yaroslav and Time",
+            "link": "http://codeforces.com/problemset/problem/301/B",
+            "pid": "301B"
         },
         {
-            "title": "Bear and Square Grid",
-            "link": "http://codeforces.com/problemset/problem/679/C",
-            "pid": "679C"
+            "title": "Ilya and Roads",
+            "link": "http://codeforces.com/problemset/problem/313/D",
+            "pid": "313D"
         },
         {
-            "title": "Bear and Tower of Cubes",
-            "link": "http://codeforces.com/problemset/problem/679/B",
-            "pid": "679B"
+            "title": "Vasily the Bear and Beautiful Strings",
+            "link": "http://codeforces.com/problemset/problem/336/D",
+            "pid": "336D"
+        },
+        {
+            "title": "Maximal Area Quadrilateral",
+            "link": "http://codeforces.com/problemset/problem/340/B",
+            "pid": "340B"
+        },
+        {
+            "title": "Apple Tree",
+            "link": "http://codeforces.com/problemset/problem/348/B",
+            "pid": "348B"
+        },
+        {
+            "title": "Compartments",
+            "link": "http://codeforces.com/problemset/problem/356/C",
+            "pid": "356C"
+        },
+        {
+            "title": "Broken Monitor",
+            "link": "http://codeforces.com/problemset/problem/370/D",
+            "pid": "370D"
+        },
+        {
+            "title": "Inna and Binary Logic",
+            "link": "http://codeforces.com/problemset/problem/400/E",
+            "pid": "400E"
+        },
+        {
+            "title": "Random Task",
+            "link": "http://codeforces.com/problemset/problem/431/D",
+            "pid": "431D"
+        },
+        {
+            "title": "Cubes",
+            "link": "http://codeforces.com/problemset/problem/520/D",
+            "pid": "520D"
+        },
+        {
+            "title": "Anya and Cubes",
+            "link": "http://codeforces.com/problemset/problem/525/E",
+            "pid": "525E"
+        },
+        {
+            "title": "Infinite Inversions",
+            "link": "http://codeforces.com/problemset/problem/540/E",
+            "pid": "540E"
+        },
+        {
+            "title": "Vanya and Brackets",
+            "link": "http://codeforces.com/problemset/problem/552/E",
+            "pid": "552E"
+        },
+        {
+            "title": "Lengthening Sticks",
+            "link": "http://codeforces.com/problemset/problem/571/A",
+            "pid": "571A"
         },
         {
             "title": "Invariance of Tree",
@@ -14080,74 +6383,76 @@ A2OJ_LADDERS = {
             "pid": "576C"
         },
         {
-            "title": "ZS and The Birthday Paradox",
-            "link": "http://codeforces.com/problemset/problem/711/E",
-            "pid": "711E"
+            "title": "Chip 'n Dale Rescue Rangers",
+            "link": "http://codeforces.com/problemset/problem/590/B",
+            "pid": "590B"
         },
         {
-            "title": "Bear in the Field",
-            "link": "http://codeforces.com/problemset/problem/385/E",
-            "pid": "385E"
+            "title": "Lipshitz Sequence",
+            "link": "http://codeforces.com/problemset/problem/601/B",
+            "pid": "601B"
         },
         {
-            "title": "Famil Door and Roads",
-            "link": "http://codeforces.com/problemset/problem/629/E",
-            "pid": "629E"
+            "title": "Messenger",
+            "link": "http://codeforces.com/problemset/problem/631/D",
+            "pid": "631D"
         },
         {
-            "title": "Break Up",
-            "link": "http://codeforces.com/problemset/problem/700/C",
-            "pid": "700C"
+            "title": "Money Transfers",
+            "link": "http://codeforces.com/problemset/problem/675/C",
+            "pid": "675C"
         },
         {
-            "title": "Devu and Flowers",
-            "link": "http://codeforces.com/problemset/problem/451/E",
-            "pid": "451E"
+            "title": "Friends and Subsequences",
+            "link": "http://codeforces.com/problemset/problem/689/D",
+            "pid": "689D"
         },
         {
-            "title": "Alyona and towers",
-            "link": "http://codeforces.com/problemset/problem/739/C",
-            "pid": "739C"
+            "title": "Mishka and Interesting sum",
+            "link": "http://codeforces.com/problemset/problem/703/D",
+            "pid": "703D"
         },
         {
-            "title": "Find a car",
-            "link": "http://codeforces.com/problemset/problem/809/C",
-            "pid": "809C"
+            "title": "Timofey and rectangles",
+            "link": "http://codeforces.com/problemset/problem/763/B",
+            "pid": "763B"
         },
         {
-            "title": "Bear and Floodlight",
-            "link": "http://codeforces.com/problemset/problem/385/D",
-            "pid": "385D"
+            "title": "Beavermuncher-0xFF",
+            "link": "http://codeforces.com/problemset/problem/77/C",
+            "pid": "77C"
+        }
+    ],
+    "Codeforces Rating >= 2200": [
+        {
+            "title": "Double Happiness",
+            "link": "http://codeforces.com/problemset/problem/113/C",
+            "pid": "113C"
         },
         {
-            "title": "Ostap and Tree",
-            "link": "http://codeforces.com/problemset/problem/735/E",
-            "pid": "735E"
+            "title": "Mushroom Gnomes - 2",
+            "link": "http://codeforces.com/problemset/problem/138/C",
+            "pid": "138C"
         },
         {
-            "title": "Strange Calculation and Cats",
-            "link": "http://codeforces.com/problemset/problem/593/E",
-            "pid": "593E"
+            "title": "Compatible Numbers",
+            "link": "http://codeforces.com/problemset/problem/165/E",
+            "pid": "165E"
         },
         {
-            "title": "Change-free",
-            "link": "http://codeforces.com/problemset/problem/767/E",
-            "pid": "767E"
+            "title": "Thwarting Demonstrations",
+            "link": "http://codeforces.com/problemset/problem/191/E",
+            "pid": "191E"
         },
         {
-            "title": "Graph Cutting",
-            "link": "http://codeforces.com/problemset/problem/405/E",
-            "pid": "405E"
+            "title": "Lovely Matrix",
+            "link": "http://codeforces.com/problemset/problem/274/D",
+            "pid": "274D"
         },
         {
-            "title": "Vanya and Balloons",
-            "link": "http://codeforces.com/problemset/problem/677/E",
-            "pid": "677E"
-        },
-        {
-            "title": "Anya and Cubes",
-            "link": "http://codeforces.com/problemset/problem/525/E",
-            "pid": "525E"
+            "title": "Ring Road 2",
+            "link": "http://codeforces.com/problemset/problem/27/D",
+            "pid": "27D"
         },
         {
             "title": "Game on Tree",
@@ -14155,74 +6460,109 @@ A2OJ_LADDERS = {
             "pid": "280C"
         },
         {
-            "title": "Bear and Drawing",
-            "link": "http://codeforces.com/problemset/problem/573/C",
-            "pid": "573C"
+            "title": "Divisor Tree",
+            "link": "http://codeforces.com/problemset/problem/337/E",
+            "pid": "337E"
         },
         {
-            "title": "The Last Fight Between Human and AI",
-            "link": "http://codeforces.com/problemset/problem/676/E",
-            "pid": "676E"
+            "title": "Wrong Floyd",
+            "link": "http://codeforces.com/problemset/problem/350/E",
+            "pid": "350E"
         },
         {
-            "title": "Trains and Statistic",
-            "link": "http://codeforces.com/problemset/problem/675/E",
-            "pid": "675E"
+            "title": "Lucky Number Representation",
+            "link": "http://codeforces.com/problemset/problem/354/E",
+            "pid": "354E"
         },
         {
-            "title": "Inversions After Shuffle",
-            "link": "http://codeforces.com/problemset/problem/749/E",
-            "pid": "749E"
+            "title": "Free Market",
+            "link": "http://codeforces.com/problemset/problem/364/B",
+            "pid": "364B"
         },
         {
-            "title": "Marbles",
-            "link": "http://codeforces.com/problemset/problem/607/C",
-            "pid": "607C"
+            "title": "Dima and Magic Guitar",
+            "link": "http://codeforces.com/problemset/problem/366/E",
+            "pid": "366E"
         },
         {
-            "title": "Acyclic Organic Compounds",
-            "link": "http://codeforces.com/problemset/problem/601/D",
-            "pid": "601D"
+            "title": "Ksenia and Pawns",
+            "link": "http://codeforces.com/problemset/problem/382/D",
+            "pid": "382D"
         },
         {
-            "title": "Peterson Polyglot",
-            "link": "http://codeforces.com/problemset/problem/778/C",
-            "pid": "778C"
+            "title": "Bear and Floodlight",
+            "link": "http://codeforces.com/problemset/problem/385/D",
+            "pid": "385D"
         },
         {
-            "title": "Power Tree",
-            "link": "http://codeforces.com/problemset/problem/607/D",
-            "pid": "607D"
+            "title": "George and Cards",
+            "link": "http://codeforces.com/problemset/problem/387/E",
+            "pid": "387E"
         },
         {
-            "title": "Codeword",
-            "link": "http://codeforces.com/problemset/problem/666/C",
-            "pid": "666C"
+            "title": "Strictly Positive Matrix",
+            "link": "http://codeforces.com/problemset/problem/402/E",
+            "pid": "402E"
         },
         {
-            "title": "Wilbur and Strings",
-            "link": "http://codeforces.com/problemset/problem/596/E",
-            "pid": "596E"
+            "title": "Arthur and Brackets",
+            "link": "http://codeforces.com/problemset/problem/508/E",
+            "pid": "508E"
         },
         {
-            "title": "Iahub and Xors",
-            "link": "http://codeforces.com/problemset/problem/341/D",
-            "pid": "341D"
+            "title": "Pluses everywhere",
+            "link": "http://codeforces.com/problemset/problem/520/E",
+            "pid": "520E"
         },
         {
-            "title": "Sandy and Nuts",
-            "link": "http://codeforces.com/problemset/problem/599/E",
-            "pid": "599E"
+            "title": "Love Triangles",
+            "link": "http://codeforces.com/problemset/problem/553/C",
+            "pid": "553C"
         },
         {
-            "title": "Dima and Figure",
-            "link": "http://codeforces.com/problemset/problem/273/D",
-            "pid": "273D"
+            "title": "Domino Principle",
+            "link": "http://codeforces.com/problemset/problem/56/E",
+            "pid": "56E"
         },
         {
-            "title": "Maximum Waterfall",
-            "link": "http://codeforces.com/problemset/problem/269/D",
-            "pid": "269D"
+            "title": "Lieges of Legendre",
+            "link": "http://codeforces.com/problemset/problem/603/C",
+            "pid": "603C"
+        },
+        {
+            "title": "Table Compression",
+            "link": "http://codeforces.com/problemset/problem/650/C",
+            "pid": "650C"
+        },
+        {
+            "title": "Bear and Tower of Cubes",
+            "link": "http://codeforces.com/problemset/problem/679/B",
+            "pid": "679B"
+        },
+        {
+            "title": "Persistent Bookcase",
+            "link": "http://codeforces.com/problemset/problem/707/D",
+            "pid": "707D"
+        },
+        {
+            "title": "Memory and Scores",
+            "link": "http://codeforces.com/problemset/problem/712/D",
+            "pid": "712D"
+        },
+        {
+            "title": "Searching Rectangles",
+            "link": "http://codeforces.com/problemset/problem/713/B",
+            "pid": "713B"
+        },
+        {
+            "title": "Vladik and cards",
+            "link": "http://codeforces.com/problemset/problem/743/E",
+            "pid": "743E"
+        },
+        {
+            "title": "Anton and Permutation",
+            "link": "http://codeforces.com/problemset/problem/785/E",
+            "pid": "785E"
         },
         {
             "title": "String",
@@ -14230,29 +6570,159 @@ A2OJ_LADDERS = {
             "pid": "123D"
         },
         {
-            "title": "Animals and Puzzle",
-            "link": "http://codeforces.com/problemset/problem/713/D",
-            "pid": "713D"
+            "title": "Clearing Up",
+            "link": "http://codeforces.com/problemset/problem/141/E",
+            "pid": "141E"
         },
         {
-            "title": "Splitting the Uniqueness",
-            "link": "http://codeforces.com/problemset/problem/297/C",
-            "pid": "297C"
+            "title": "Edges in MST",
+            "link": "http://codeforces.com/problemset/problem/160/D",
+            "pid": "160D"
         },
         {
-            "title": "Levko and Strings",
-            "link": "http://codeforces.com/problemset/problem/360/C",
-            "pid": "360C"
+            "title": "Painting Square",
+            "link": "http://codeforces.com/problemset/problem/300/D",
+            "pid": "300D"
         },
         {
-            "title": "Max and Bike",
-            "link": "http://codeforces.com/problemset/problem/594/B",
-            "pid": "594B"
+            "title": "Empire Strikes Back",
+            "link": "http://codeforces.com/problemset/problem/300/E",
+            "pid": "300E"
         },
         {
-            "title": "Yaroslav and Points",
-            "link": "http://codeforces.com/problemset/problem/295/E",
-            "pid": "295E"
+            "title": "Ilya and Two Numbers",
+            "link": "http://codeforces.com/problemset/problem/313/E",
+            "pid": "313E"
+        },
+        {
+            "title": "Game with Powers",
+            "link": "http://codeforces.com/problemset/problem/317/D",
+            "pid": "317D"
+        },
+        {
+            "title": "Axis Walking",
+            "link": "http://codeforces.com/problemset/problem/327/E",
+            "pid": "327E"
+        },
+        {
+            "title": "Petya and Pipes",
+            "link": "http://codeforces.com/problemset/problem/362/E",
+            "pid": "362E"
+        },
+        {
+            "title": "Bear in the Field",
+            "link": "http://codeforces.com/problemset/problem/385/E",
+            "pid": "385E"
+        },
+        {
+            "title": "Graph Cutting",
+            "link": "http://codeforces.com/problemset/problem/405/E",
+            "pid": "405E"
+        },
+        {
+            "title": "Devu and Flowers",
+            "link": "http://codeforces.com/problemset/problem/451/E",
+            "pid": "451E"
+        },
+        {
+            "title": "Little Victor and Set",
+            "link": "http://codeforces.com/problemset/problem/460/D",
+            "pid": "460D"
+        },
+        {
+            "title": "Bear and Drawing",
+            "link": "http://codeforces.com/problemset/problem/573/C",
+            "pid": "573C"
+        },
+        {
+            "title": "Anton and Ira",
+            "link": "http://codeforces.com/problemset/problem/584/E",
+            "pid": "584E"
+        },
+        {
+            "title": "Wilbur and Trees",
+            "link": "http://codeforces.com/problemset/problem/596/D",
+            "pid": "596D"
+        },
+        {
+            "title": "Kleof\u00e1\u0161 and the n-thlon",
+            "link": "http://codeforces.com/problemset/problem/601/C",
+            "pid": "601C"
+        },
+        {
+            "title": "Vika and Segments",
+            "link": "http://codeforces.com/problemset/problem/610/D",
+            "pid": "610D"
+        },
+        {
+            "title": "Famil Door and Roads",
+            "link": "http://codeforces.com/problemset/problem/629/E",
+            "pid": "629E"
+        },
+        {
+            "title": "Trains and Statistic",
+            "link": "http://codeforces.com/problemset/problem/675/E",
+            "pid": "675E"
+        },
+        {
+            "title": "Vanya and Treasure",
+            "link": "http://codeforces.com/problemset/problem/677/D",
+            "pid": "677D"
+        },
+        {
+            "title": "Vanya and Balloons",
+            "link": "http://codeforces.com/problemset/problem/677/E",
+            "pid": "677E"
+        },
+        {
+            "title": "ZS and The Birthday Paradox",
+            "link": "http://codeforces.com/problemset/problem/711/E",
+            "pid": "711E"
+        },
+        {
+            "title": "Sonya and Problem Wihtout a Legend",
+            "link": "http://codeforces.com/problemset/problem/713/C",
+            "pid": "713C"
+        },
+        {
+            "title": "Complete The Graph",
+            "link": "http://codeforces.com/problemset/problem/715/B",
+            "pid": "715B"
+        },
+        {
+            "title": "Anton and School - 2",
+            "link": "http://codeforces.com/problemset/problem/785/D",
+            "pid": "785D"
+        },
+        {
+            "title": "Legacy",
+            "link": "http://codeforces.com/problemset/problem/786/B",
+            "pid": "786B"
+        },
+        {
+            "title": "Bamboo Partition",
+            "link": "http://codeforces.com/problemset/problem/830/C",
+            "pid": "830C"
+        },
+        {
+            "title": "Beautiful Road",
+            "link": "http://codeforces.com/problemset/problem/87/D",
+            "pid": "87D"
+        },
+        {
+            "title": "Ski Base",
+            "link": "http://codeforces.com/problemset/problem/91/C",
+            "pid": "91C"
+        },
+        {
+            "title": "Linear Kingdom Races",
+            "link": "http://codeforces.com/problemset/problem/115/E",
+            "pid": "115E"
+        },
+        {
+            "title": "Lucky Array",
+            "link": "http://codeforces.com/problemset/problem/121/E",
+            "pid": "121E"
         },
         {
             "title": "Anniversary",
@@ -14260,24 +6730,14 @@ A2OJ_LADDERS = {
             "pid": "226C"
         },
         {
-            "title": "Ultimate Weirdness of an Array",
-            "link": "http://codeforces.com/problemset/problem/671/C",
-            "pid": "671C"
+            "title": "Blood Cousins Return",
+            "link": "http://codeforces.com/problemset/problem/246/E",
+            "pid": "246E"
         },
         {
-            "title": "Sereja and Sets",
-            "link": "http://codeforces.com/problemset/problem/425/E",
-            "pid": "425E"
-        },
-        {
-            "title": "Permutations",
-            "link": "http://codeforces.com/problemset/problem/736/D",
-            "pid": "736D"
-        },
-        {
-            "title": "Curious Array",
-            "link": "http://codeforces.com/problemset/problem/407/C",
-            "pid": "407C"
+            "title": "Lucky Arrays",
+            "link": "http://codeforces.com/problemset/problem/256/E",
+            "pid": "256E"
         },
         {
             "title": "Little Elephant and Tree",
@@ -14285,14 +6745,184 @@ A2OJ_LADDERS = {
             "pid": "258E"
         },
         {
-            "title": "Parquet Re-laying",
-            "link": "http://codeforces.com/problemset/problem/778/D",
-            "pid": "778D"
+            "title": "Dima and Figure",
+            "link": "http://codeforces.com/problemset/problem/273/D",
+            "pid": "273D"
         },
         {
-            "title": "Timofey and remoduling",
-            "link": "http://codeforces.com/problemset/problem/763/C",
-            "pid": "763C"
+            "title": "Binary Tree on Plane",
+            "link": "http://codeforces.com/problemset/problem/277/E",
+            "pid": "277E"
+        },
+        {
+            "title": "Splitting the Uniqueness",
+            "link": "http://codeforces.com/problemset/problem/297/C",
+            "pid": "297C"
+        },
+        {
+            "title": "Quarrel",
+            "link": "http://codeforces.com/problemset/problem/29/E",
+            "pid": "29E"
+        },
+        {
+            "title": "Minimum Modular",
+            "link": "http://codeforces.com/problemset/problem/303/C",
+            "pid": "303C"
+        },
+        {
+            "title": "Game with Strings",
+            "link": "http://codeforces.com/problemset/problem/354/B",
+            "pid": "354B"
+        },
+        {
+            "title": "Sereja and Sets",
+            "link": "http://codeforces.com/problemset/problem/367/D",
+            "pid": "367D"
+        },
+        {
+            "title": "Sereja and Tree",
+            "link": "http://codeforces.com/problemset/problem/380/B",
+            "pid": "380B"
+        },
+        {
+            "title": "Superior Periodic Subarrays",
+            "link": "http://codeforces.com/problemset/problem/582/C",
+            "pid": "582C"
+        },
+        {
+            "title": "Happy Tree Party",
+            "link": "http://codeforces.com/problemset/problem/593/D",
+            "pid": "593D"
+        },
+        {
+            "title": "Strange Calculation and Cats",
+            "link": "http://codeforces.com/problemset/problem/593/E",
+            "pid": "593E"
+        },
+        {
+            "title": "Acyclic Organic Compounds",
+            "link": "http://codeforces.com/problemset/problem/601/D",
+            "pid": "601D"
+        },
+        {
+            "title": "Rat Kwesh and Cheese",
+            "link": "http://codeforces.com/problemset/problem/621/D",
+            "pid": "621D"
+        },
+        {
+            "title": "The Last Fight Between Human and AI",
+            "link": "http://codeforces.com/problemset/problem/676/E",
+            "pid": "676E"
+        },
+        {
+            "title": "Bear and Square Grid",
+            "link": "http://codeforces.com/problemset/problem/679/C",
+            "pid": "679C"
+        },
+        {
+            "title": "Garlands",
+            "link": "http://codeforces.com/problemset/problem/707/E",
+            "pid": "707E"
+        },
+        {
+            "title": "Hongcow Buys a Deck of Cards",
+            "link": "http://codeforces.com/problemset/problem/744/C",
+            "pid": "744C"
+        },
+        {
+            "title": "Inversions After Shuffle",
+            "link": "http://codeforces.com/problemset/problem/749/E",
+            "pid": "749E"
+        },
+        {
+            "title": "Change-free",
+            "link": "http://codeforces.com/problemset/problem/767/E",
+            "pid": "767E"
+        },
+        {
+            "title": "Till I Collapse",
+            "link": "http://codeforces.com/problemset/problem/786/C",
+            "pid": "786C"
+        },
+        {
+            "title": "Karen and Supermarket",
+            "link": "http://codeforces.com/problemset/problem/815/C",
+            "pid": "815C"
+        },
+        {
+            "title": "Numbers",
+            "link": "http://codeforces.com/problemset/problem/83/D",
+            "pid": "83D"
+        },
+        {
+            "title": "Maze",
+            "link": "http://codeforces.com/problemset/problem/123/E",
+            "pid": "123E"
+        },
+        {
+            "title": "Clues",
+            "link": "http://codeforces.com/problemset/problem/156/D",
+            "pid": "156D"
+        },
+        {
+            "title": "Yaroslav and Points",
+            "link": "http://codeforces.com/problemset/problem/295/E",
+            "pid": "295E"
+        },
+        {
+            "title": "Color the Carpet",
+            "link": "http://codeforces.com/problemset/problem/297/D",
+            "pid": "297D"
+        },
+        {
+            "title": "Fetch the Treasure",
+            "link": "http://codeforces.com/problemset/problem/311/C",
+            "pid": "311C"
+        },
+        {
+            "title": "Sereja and Straight Lines",
+            "link": "http://codeforces.com/problemset/problem/314/D",
+            "pid": "314D"
+        },
+        {
+            "title": "Summer Earnings",
+            "link": "http://codeforces.com/problemset/problem/333/E",
+            "pid": "333E"
+        },
+        {
+            "title": "Iahub and Xors",
+            "link": "http://codeforces.com/problemset/problem/341/D",
+            "pid": "341D"
+        },
+        {
+            "title": "Levko and Strings",
+            "link": "http://codeforces.com/problemset/problem/360/C",
+            "pid": "360C"
+        },
+        {
+            "title": "Sereja and Cinema",
+            "link": "http://codeforces.com/problemset/problem/380/D",
+            "pid": "380D"
+        },
+        {
+            "title": "Curious Array",
+            "link": "http://codeforces.com/problemset/problem/407/C",
+            "pid": "407C"
+        },
+        {
+            "title": "President's Path",
+            "link": "http://codeforces.com/problemset/problem/416/E",
+            "pid": "416E"
+        },
+        {
+            "title": "Sereja and Sets",
+            "link": "http://codeforces.com/problemset/problem/425/E",
+            "pid": "425E"
+        },
+        {
+            "title": "The Child and Polygon",
+            "link": "http://codeforces.com/problemset/problem/437/E",
+            "pid": "437E"
         },
         {
             "title": "Misha and Palindrome Degree",
@@ -14305,54 +6935,84 @@ A2OJ_LADDERS = {
             "pid": "580E"
         },
         {
-            "title": "Arpa\u2019s overnight party and Mehrdad\u2019s silent entering",
-            "link": "http://codeforces.com/problemset/problem/741/C",
-            "pid": "741C"
+            "title": "Max and Bike",
+            "link": "http://codeforces.com/problemset/problem/594/B",
+            "pid": "594B"
         },
         {
-            "title": "Timofey and our friends animals",
-            "link": "http://codeforces.com/problemset/problem/763/E",
-            "pid": "763E"
+            "title": "Wilbur and Strings",
+            "link": "http://codeforces.com/problemset/problem/596/E",
+            "pid": "596E"
         },
         {
-            "title": "Digit Tree",
-            "link": "http://codeforces.com/problemset/problem/715/C",
-            "pid": "715C"
+            "title": "Marbles",
+            "link": "http://codeforces.com/problemset/problem/607/C",
+            "pid": "607C"
         },
         {
-            "title": "Product Sum",
-            "link": "http://codeforces.com/problemset/problem/631/E",
-            "pid": "631E"
+            "title": "Alphabet Permutations",
+            "link": "http://codeforces.com/problemset/problem/610/E",
+            "pid": "610E"
         },
         {
-            "title": "Choosing Subtree is Fun",
-            "link": "http://codeforces.com/problemset/problem/372/D",
-            "pid": "372D"
+            "title": "Codeword",
+            "link": "http://codeforces.com/problemset/problem/666/C",
+            "pid": "666C"
         },
         {
-            "title": "Cyclical Quest",
-            "link": "http://codeforces.com/problemset/problem/235/C",
-            "pid": "235C"
+            "title": "Dividing Kingdom II",
+            "link": "http://codeforces.com/problemset/problem/687/D",
+            "pid": "687D"
         },
         {
-            "title": "Sereja and Intervals",
-            "link": "http://codeforces.com/problemset/problem/367/E",
-            "pid": "367E"
+            "title": "Ant Man",
+            "link": "http://codeforces.com/problemset/problem/704/B",
+            "pid": "704B"
         },
         {
-            "title": "Hamming Triples",
-            "link": "http://codeforces.com/problemset/problem/406/E",
-            "pid": "406E"
+            "title": "Working routine",
+            "link": "http://codeforces.com/problemset/problem/706/E",
+            "pid": "706E"
         },
         {
-            "title": "Fox And Polygon",
-            "link": "http://codeforces.com/problemset/problem/512/E",
-            "pid": "512E"
+            "title": "Memory and Casinos",
+            "link": "http://codeforces.com/problemset/problem/712/E",
+            "pid": "712E"
         },
         {
-            "title": "Black Widow",
-            "link": "http://codeforces.com/problemset/problem/704/C",
-            "pid": "704C"
+            "title": "Ostap and Tree",
+            "link": "http://codeforces.com/problemset/problem/735/E",
+            "pid": "735E"
+        },
+        {
+            "title": "Alyona and towers",
+            "link": "http://codeforces.com/problemset/problem/739/C",
+            "pid": "739C"
+        },
+        {
+            "title": "Peterson Polyglot",
+            "link": "http://codeforces.com/problemset/problem/778/C",
+            "pid": "778C"
+        },
+        {
+            "title": "Igloo Skyscraper",
+            "link": "http://codeforces.com/problemset/problem/91/E",
+            "pid": "91E"
+        },
+        {
+            "title": "Lucky Country",
+            "link": "http://codeforces.com/problemset/problem/95/E",
+            "pid": "95E"
+        },
+        {
+            "title": "Mission Impassable",
+            "link": "http://codeforces.com/problemset/problem/150/D",
+            "pid": "150D"
+        },
+        {
+            "title": "Opening Portals",
+            "link": "http://codeforces.com/problemset/problem/196/E",
+            "pid": "196E"
         },
         {
             "title": "Maxim and Increasing Subsequence",
@@ -14360,74 +7020,29 @@ A2OJ_LADDERS = {
             "pid": "261D"
         },
         {
-            "title": "Vasya and Polynomial",
-            "link": "http://codeforces.com/problemset/problem/493/E",
-            "pid": "493E"
+            "title": "Maximum Waterfall",
+            "link": "http://codeforces.com/problemset/problem/269/D",
+            "pid": "269D"
         },
         {
-            "title": "Gosha is hunting",
-            "link": "http://codeforces.com/problemset/problem/739/E",
-            "pid": "739E"
+            "title": "Interval Cubing",
+            "link": "http://codeforces.com/problemset/problem/311/D",
+            "pid": "311D"
         },
         {
-            "title": "Bear and Chase",
-            "link": "http://codeforces.com/problemset/problem/679/D",
-            "pid": "679D"
+            "title": "Optimize!",
+            "link": "http://codeforces.com/problemset/problem/338/E",
+            "pid": "338E"
         },
         {
-            "title": "Fetch the Treasure",
-            "link": "http://codeforces.com/problemset/problem/311/C",
-            "pid": "311C"
+            "title": "Choosing Subtree is Fun",
+            "link": "http://codeforces.com/problemset/problem/372/D",
+            "pid": "372D"
         },
         {
-            "title": "Jeff and Removing Periods",
-            "link": "http://codeforces.com/problemset/problem/351/D",
-            "pid": "351D"
-        },
-        {
-            "title": "Random Function and Tree",
-            "link": "http://codeforces.com/problemset/problem/482/D",
-            "pid": "482D"
-        },
-        {
-            "title": "Timofey and a flat tree",
-            "link": "http://codeforces.com/problemset/problem/763/D",
-            "pid": "763D"
-        },
-        {
-            "title": "World of Darkraft - 2",
-            "link": "http://codeforces.com/problemset/problem/464/D",
-            "pid": "464D"
-        },
-        {
-            "title": "Drazil and Morning Exercise",
-            "link": "http://codeforces.com/problemset/problem/516/D",
-            "pid": "516D"
-        },
-        {
-            "title": "Boolean Function",
-            "link": "http://codeforces.com/problemset/problem/582/E",
-            "pid": "582E"
-        },
-        {
-            "title": "Misha and XOR",
-            "link": "http://codeforces.com/problemset/problem/504/D",
-            "pid": "504D"
-        },
-        {
-            "title": "Randomizer",
-            "link": "http://codeforces.com/problemset/problem/559/D",
-            "pid": "559D"
-        },
-        {
-            "title": "Roads in Yusland",
-            "link": "http://codeforces.com/problemset/problem/671/D",
-            "pid": "671D"
-        },
-        {
-            "title": "Arpa\u2019s letter-marked tree and Mehrdad\u2019s Dokhtar-kosh paths",
-            "link": "http://codeforces.com/problemset/problem/741/D",
-            "pid": "741D"
+            "title": "Parcels",
+            "link": "http://codeforces.com/problemset/problem/480/D",
+            "pid": "480D"
         },
         {
             "title": "New Language",
@@ -14435,19 +7050,109 @@ A2OJ_LADDERS = {
             "pid": "568C"
         },
         {
+            "title": "Sandy and Nuts",
+            "link": "http://codeforces.com/problemset/problem/599/E",
+            "pid": "599E"
+        },
+        {
+            "title": "Power Tree",
+            "link": "http://codeforces.com/problemset/problem/607/D",
+            "pid": "607D"
+        },
+        {
+            "title": "Product Sum",
+            "link": "http://codeforces.com/problemset/problem/631/E",
+            "pid": "631E"
+        },
+        {
+            "title": "Kay and Eternity",
+            "link": "http://codeforces.com/problemset/problem/685/D",
+            "pid": "685D"
+        },
+        {
+            "title": "Break Up",
+            "link": "http://codeforces.com/problemset/problem/700/C",
+            "pid": "700C"
+        },
+        {
+            "title": "Mishka and Divisors",
+            "link": "http://codeforces.com/problemset/problem/703/E",
+            "pid": "703E"
+        },
+        {
+            "title": "Arpa\u2019s overnight party and Mehrdad\u2019s silent entering",
+            "link": "http://codeforces.com/problemset/problem/741/C",
+            "pid": "741C"
+        },
+        {
+            "title": "Timofey and remoduling",
+            "link": "http://codeforces.com/problemset/problem/763/C",
+            "pid": "763C"
+        },
+        {
+            "title": "Find a car",
+            "link": "http://codeforces.com/problemset/problem/809/C",
+            "pid": "809C"
+        },
+        {
+            "title": "Cyclical Quest",
+            "link": "http://codeforces.com/problemset/problem/235/C",
+            "pid": "235C"
+        },
+        {
+            "title": "Jeff and Removing Periods",
+            "link": "http://codeforces.com/problemset/problem/351/D",
+            "pid": "351D"
+        },
+        {
+            "title": "Bags and Coins",
+            "link": "http://codeforces.com/problemset/problem/356/D",
+            "pid": "356D"
+        },
+        {
+            "title": "Sereja and Intervals",
+            "link": "http://codeforces.com/problemset/problem/367/E",
+            "pid": "367E"
+        },
+        {
+            "title": "World of Darkraft - 2",
+            "link": "http://codeforces.com/problemset/problem/464/D",
+            "pid": "464D"
+        },
+        {
+            "title": "Random Function and Tree",
+            "link": "http://codeforces.com/problemset/problem/482/D",
+            "pid": "482D"
+        },
+        {
+            "title": "Misha and XOR",
+            "link": "http://codeforces.com/problemset/problem/504/D",
+            "pid": "504D"
+        },
+        {
             "title": "Flights for Regular Customers",
             "link": "http://codeforces.com/problemset/problem/576/D",
             "pid": "576D"
         },
         {
-            "title": "Cow Tennis Tournament",
-            "link": "http://codeforces.com/problemset/problem/283/E",
-            "pid": "283E"
+            "title": "Animals and Puzzle",
+            "link": "http://codeforces.com/problemset/problem/713/D",
+            "pid": "713D"
         },
         {
-            "title": "Fence",
-            "link": "http://codeforces.com/problemset/problem/232/D",
-            "pid": "232D"
+            "title": "Digit Tree",
+            "link": "http://codeforces.com/problemset/problem/715/C",
+            "pid": "715C"
+        },
+        {
+            "title": "Parquet Re-laying",
+            "link": "http://codeforces.com/problemset/problem/778/D",
+            "pid": "778D"
+        },
+        {
+            "title": "Little Elephant and Strings",
+            "link": "http://codeforces.com/problemset/problem/204/E",
+            "pid": "204E"
         },
         {
             "title": "Maxim and Calculator",
@@ -14455,44 +7160,14 @@ A2OJ_LADDERS = {
             "pid": "261E"
         },
         {
-            "title": "Bear and Bowling",
-            "link": "http://codeforces.com/problemset/problem/573/E",
-            "pid": "573E"
-        },
-        {
-            "title": "Bear and Cavalry",
-            "link": "http://codeforces.com/problemset/problem/573/D",
-            "pid": "573D"
-        },
-        {
-            "title": "Pastoral Oddities",
-            "link": "http://codeforces.com/problemset/problem/603/E",
-            "pid": "603E"
-        },
-        {
             "title": "k-Maximum Subsequence Sum",
             "link": "http://codeforces.com/problemset/problem/280/D",
             "pid": "280D"
         },
         {
-            "title": "Little Pony and Elements of Harmony",
-            "link": "http://codeforces.com/problemset/problem/453/D",
-            "pid": "453D"
-        },
-        {
-            "title": "Parking Lot",
-            "link": "http://codeforces.com/problemset/problem/480/E",
-            "pid": "480E"
-        },
-        {
-            "title": "Quick Tortoise",
-            "link": "http://codeforces.com/problemset/problem/232/E",
-            "pid": "232E"
-        },
-        {
-            "title": "Little Pony and Lord Tirek",
-            "link": "http://codeforces.com/problemset/problem/453/E",
-            "pid": "453E"
+            "title": "Cow Tennis Tournament",
+            "link": "http://codeforces.com/problemset/problem/283/E",
+            "pid": "283E"
         },
         {
             "title": "Ladies' Shop",
@@ -14500,29 +7175,64 @@ A2OJ_LADDERS = {
             "pid": "286E"
         },
         {
-            "title": "Clockwork Bomb",
-            "link": "http://codeforces.com/problemset/problem/650/E",
-            "pid": "650E"
+            "title": "Cookie Clicker",
+            "link": "http://codeforces.com/problemset/problem/377/E",
+            "pid": "377E"
         },
         {
-            "title": "Campus",
-            "link": "http://codeforces.com/problemset/problem/571/D",
-            "pid": "571D"
+            "title": "Hamming Triples",
+            "link": "http://codeforces.com/problemset/problem/406/E",
+            "pid": "406E"
         },
         {
-            "title": "Points and Segments",
-            "link": "http://codeforces.com/problemset/problem/429/E",
-            "pid": "429E"
+            "title": "DZY Loves Games",
+            "link": "http://codeforces.com/problemset/problem/446/D",
+            "pid": "446D"
         },
         {
-            "title": "Mirror Room",
-            "link": "http://codeforces.com/problemset/problem/274/E",
-            "pid": "274E"
+            "title": "Parking Lot",
+            "link": "http://codeforces.com/problemset/problem/480/E",
+            "pid": "480E"
         },
         {
-            "title": "Listening to Music",
-            "link": "http://codeforces.com/problemset/problem/543/E",
-            "pid": "543E"
+            "title": "Vasya and Polynomial",
+            "link": "http://codeforces.com/problemset/problem/493/E",
+            "pid": "493E"
+        },
+        {
+            "title": "Drazil and Morning Exercise",
+            "link": "http://codeforces.com/problemset/problem/516/D",
+            "pid": "516D"
+        },
+        {
+            "title": "Randomizer",
+            "link": "http://codeforces.com/problemset/problem/559/D",
+            "pid": "559D"
+        },
+        {
+            "title": "Ultimate Weirdness of an Array",
+            "link": "http://codeforces.com/problemset/problem/671/C",
+            "pid": "671C"
+        },
+        {
+            "title": "Travelling Through the Snow Queen's Kingdom",
+            "link": "http://codeforces.com/problemset/problem/685/E",
+            "pid": "685E"
+        },
+        {
+            "title": "Permutations",
+            "link": "http://codeforces.com/problemset/problem/736/D",
+            "pid": "736D"
+        },
+        {
+            "title": "Fence",
+            "link": "http://codeforces.com/problemset/problem/232/D",
+            "pid": "232D"
+        },
+        {
+            "title": "GCD Table",
+            "link": "http://codeforces.com/problemset/problem/338/D",
+            "pid": "338D"
         },
         {
             "title": "Pumping Stations",
@@ -14530,9 +7240,114 @@ A2OJ_LADDERS = {
             "pid": "343E"
         },
         {
+            "title": "Fox And Polygon",
+            "link": "http://codeforces.com/problemset/problem/512/E",
+            "pid": "512E"
+        },
+        {
+            "title": "Roads in Yusland",
+            "link": "http://codeforces.com/problemset/problem/671/D",
+            "pid": "671D"
+        },
+        {
+            "title": "Bear and Chase",
+            "link": "http://codeforces.com/problemset/problem/679/D",
+            "pid": "679D"
+        },
+        {
+            "title": "Optimal Point",
+            "link": "http://codeforces.com/problemset/problem/685/C",
+            "pid": "685C"
+        },
+        {
+            "title": "Black Widow",
+            "link": "http://codeforces.com/problemset/problem/704/C",
+            "pid": "704C"
+        },
+        {
+            "title": "Arpa\u2019s letter-marked tree and Mehrdad\u2019s Dokhtar-kosh paths",
+            "link": "http://codeforces.com/problemset/problem/741/D",
+            "pid": "741D"
+        },
+        {
+            "title": "Timofey and a flat tree",
+            "link": "http://codeforces.com/problemset/problem/763/D",
+            "pid": "763D"
+        },
+        {
+            "title": "Timofey and our friends animals",
+            "link": "http://codeforces.com/problemset/problem/763/E",
+            "pid": "763E"
+        },
+        {
+            "title": "Quick Tortoise",
+            "link": "http://codeforces.com/problemset/problem/232/E",
+            "pid": "232E"
+        },
+        {
+            "title": "Mirror Room",
+            "link": "http://codeforces.com/problemset/problem/274/E",
+            "pid": "274E"
+        },
+        {
+            "title": "Points and Segments",
+            "link": "http://codeforces.com/problemset/problem/429/E",
+            "pid": "429E"
+        },
+        {
+            "title": "Little Pony and Elements of Harmony",
+            "link": "http://codeforces.com/problemset/problem/453/D",
+            "pid": "453D"
+        },
+        {
+            "title": "Bear and Cavalry",
+            "link": "http://codeforces.com/problemset/problem/573/D",
+            "pid": "573D"
+        },
+        {
+            "title": "Boolean Function",
+            "link": "http://codeforces.com/problemset/problem/582/E",
+            "pid": "582E"
+        },
+        {
+            "title": "Pastoral Oddities",
+            "link": "http://codeforces.com/problemset/problem/603/E",
+            "pid": "603E"
+        },
+        {
+            "title": "Gosha is hunting",
+            "link": "http://codeforces.com/problemset/problem/739/E",
+            "pid": "739E"
+        },
+        {
             "title": "k-d-sequence",
             "link": "http://codeforces.com/problemset/problem/407/E",
             "pid": "407E"
+        },
+        {
+            "title": "Little Pony and Lord Tirek",
+            "link": "http://codeforces.com/problemset/problem/453/E",
+            "pid": "453E"
+        },
+        {
+            "title": "Campus",
+            "link": "http://codeforces.com/problemset/problem/571/D",
+            "pid": "571D"
+        },
+        {
+            "title": "Listening to Music",
+            "link": "http://codeforces.com/problemset/problem/543/E",
+            "pid": "543E"
+        },
+        {
+            "title": "Bear and Bowling",
+            "link": "http://codeforces.com/problemset/problem/573/E",
+            "pid": "573E"
+        },
+        {
+            "title": "Clockwork Bomb",
+            "link": "http://codeforces.com/problemset/problem/650/E",
+            "pid": "650E"
         }
     ],
     "Dynamic_Programming": [
