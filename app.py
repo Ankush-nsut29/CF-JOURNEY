@@ -349,8 +349,8 @@ def get_cf_candidate_problems(user_rating):
         return []
 
 
-def get_birch_advice(force_refresh=False):
-    if not force_refresh and _cf_cache.get("advice"):
+def get_birch_advice(force_refresh=False, code=None, action="recommend"):
+    if not force_refresh and action == "recommend" and _cf_cache.get("advice"):
         return _cf_cache["advice"]
 
     # Force reload of .env so we don't need to restart the server when adding the key
@@ -359,28 +359,43 @@ def get_birch_advice(force_refresh=False):
     if not api_key or api_key == "your_api_key_here":
         return "<p>Ah! I seem to have misplaced my <b>Gemini API Key</b>! Please add it to your <code>.env</code> file (or host environment variables) so we can begin your training!</p>"
     
-    stats = get_cf_stats()
-    urating = stats.get("rating")
-    rating_val = urating if isinstance(urating, int) else 800
-    candidates = get_cf_candidate_problems(rating_val)
-    
-    if not candidates:
-        return "<p>Oh my! The Codeforces Pokédex seems to be offline. Try again later!</p>"
-        
     client = genai.Client(api_key=api_key)
     
-    prompt = f"""
-    You are Professor Birch from Pokémon Ruby/Sapphire/Emerald.
-    You are an enthusiastic researcher, but instead of Pokémon, you research competitive programming!
-    Analyze this user's Codeforces stats: Rating {stats['rating']}, Total Solved: {stats['total_solved']}.
-    Here is a list of candidate unsolved problems for them:
-    {candidates}
-    
-    Select exactly 3 problems from the list that they should solve next to improve.
-    Speak directly to the user in Professor Birch's enthusiastic, slightly absent-minded but encouraging tone.
-    Explain why each problem is a good fit for their training.
-    Format your response in Markdown (bolding problem titles and ratings). Keep it relatively brief, around 3 paragraphs. Do not use asterisks for actions.
-    """
+    if action == "recommend":
+        stats = get_cf_stats()
+        urating = stats.get("rating")
+        rating_val = urating if isinstance(urating, int) else 800
+        candidates = get_cf_candidate_problems(rating_val)
+        
+        if not candidates:
+            return "<p>Oh my! The Codeforces Pokédex seems to be offline. Try again later!</p>"
+            
+        prompt = f"""
+        You are Professor Birch from Pokémon Ruby/Sapphire/Emerald.
+        You are an enthusiastic researcher, but instead of Pokémon, you research competitive programming!
+        Analyze this user's Codeforces stats: Rating {stats['rating']}, Total Solved: {stats['total_solved']}.
+        Here is a list of candidate unsolved problems for them:
+        {candidates}
+        
+        Select exactly 3 problems from the list that they should solve next to improve.
+        Speak directly to the user in Professor Birch's enthusiastic, slightly absent-minded but encouraging tone.
+        Explain why each problem is a good fit for their training.
+        Format your response in Markdown (bolding problem titles and ratings). Keep it relatively brief, around 3 paragraphs. Do not use asterisks for actions.
+        """
+    else:
+        prompt = f"""
+        You are Professor Birch from Pokémon Ruby/Sapphire/Emerald.
+        You are an enthusiastic researcher, but instead of Pokémon, you research competitive programming!
+        Please review the following Python solution the user submitted for a competitive programming problem.
+        
+        Code:
+        ```python
+        {code}
+        ```
+        
+        Give a brief review on its Time & Space complexity, any edge cases missed, and how it could be written more efficiently.
+        Format your response in markdown. Be encouraging! Do not use asterisks for actions.
+        """
     
     try:
         response = client.models.generate_content(
@@ -398,9 +413,10 @@ def get_birch_advice(force_refresh=False):
             print(f"Gemini API Error: {fallback_e}")
             return "<p>Oh no, a wild Error appeared! Both Gemini models failed to respond. Check your API key and try again.</p>"
 
-    # Convert markdown to html and cache it
+    # Convert markdown to html and cache it if recommendation
     html_advice = markdown.markdown(response.text)
-    _cf_cache["advice"] = html_advice
+    if action == "recommend":
+        _cf_cache["advice"] = html_advice
     return html_advice
 
 
@@ -436,10 +452,13 @@ def sort():
     return render_template("sort.html", problems=problems, rating=rating)
 
 
-@app.route("/coach")
+@app.route("/coach", methods=["GET", "POST"])
 def coach():
-    force = request.args.get("refresh", False)
-    advice_html = get_birch_advice(force_refresh=force)
+    advice_html = None
+    if request.method == "POST":
+        action = request.form.get("action_type")
+        code = request.form.get("code")
+        advice_html = get_birch_advice(code=code, action=action)
     return render_template("coach.html", advice=advice_html)
 
 
@@ -508,7 +527,7 @@ def get_elm_advice(solved_dict, code=None, action="recommend"):
         {code}
         ```
         
-        Give a brief review on its Time & Space complexity, any edge cases missed, and how it could be written more 'Pythonically'.
+        Give a brief review on its Time & Space complexity, any edge cases missed, and how it could be written more efficiently.
         Format your response in markdown. Be encouraging!
         """
         
