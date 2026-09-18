@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="view-header">
+    <h1>STEVEN'S LAB</h1>
+</div>
+
+<div class="coach-container">
+    <div class="coach-scene">
+        <div class="coach-sprites">
+            <div class="coach-sprite">
+                <img src="https://play.pokemonshowdown.com/sprites/trainers/steven.png" alt="Steven Stone">
+            </div>
+            <div class="pokemon-sprite">
+                <img src="https://play.pokemonshowdown.com/sprites/gen5ani/lotad.gif" alt="Lotad">
+            </div>
+        </div>
+        <div class="coach-platform"></div>
+    </div>
+    <div class="coach-dialogue pokemon-box" style="width: 100%; max-width: 800px;">
+        <div class="dialogue-text" style="margin-bottom: 20px;">
+            <p><strong>Steven Stone:</strong> Hello! I travel the world looking for rare stones, but today I'm helping you mine for Open Source gems. Let's find a project that matches your skills!</p>
+        </div>
+
+        <div class="coach-actions" style="text-align: center;">
+            <form method="POST" action="/gh/coach" id="coach-form" onsubmit="showLoading()">
+                <button type="submit" class="btn-submit" id="submit-btn">Find Open Source Issues</button>
+            </form>
+            <div id="loading-msg" style="display: none; margin-top: 15px; color: var(--emerald-dark); font-family: 'Press Start 2P', cursive; font-size: 0.8rem;">
+                Steven is searching GitHub...
+            </div>
+        </div>
+    </div>
+    
+    {% if advice %}
+    <div class="coach-response pokemon-box" style="width: 100%; max-width: 800px; margin-top: 20px;">
+        <h3>Steven says:</h3>
+        <div class="advice-content">
+            {{ advice | safe }}
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<style>
+.btn-submit {
+    background-color: var(--pokemon-blue);
+    color: white;
+    border: 2px solid white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.8rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px var(--box-border);
+    transition: transform 0.1s;
+}
+.btn-submit:active {
+    transform: translate(2px, 2px);
+    box-shadow: 0px 0px 0px var(--box-border);
+}
+.btn-submit:hover {
+    filter: brightness(1.2);
+}
+.advice-content {
+    margin-top: 15px;
+    line-height: 1.6;
+}
+.advice-content a {
+    color: var(--pokemon-blue);
+    font-weight: bold;
+}
+</style>
+
+<script>
+function showLoading() {
+    document.getElementById('submit-btn').style.display = 'none';
+    document.getElementById('loading-msg').style.display = 'block';
+}
+</script>
+{% endblock %}

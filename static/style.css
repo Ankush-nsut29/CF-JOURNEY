@@ -6,6 +6,8 @@
     --box-border: #1a3c34;
     --box-bg: #fdfbf7;
     --box-inner-border: #498877;
+    --platform-bg: #609670;
+    --platform-border: #3c6549;
     --text-main: #2b2b2b;
     --pokemon-red: #e74c3c;
     --pokemon-blue: #3498db;
@@ -26,14 +28,22 @@ html {
     background-position: 0 0;
     min-height: 100vh;
     font-family: 'VT323', monospace;
-    font-size: 18px; /* VT323 needs to be a bit larger to be readable */
+    font-size: 18px;
+    /* VT323 needs to be a bit larger to be readable */
     color: var(--text-main);
     animation: scrollBg 40s linear infinite;
 }
 
 @keyframes scrollBg {
-    0% { background-position: 0 0; }
-    100% { background-position: 48px 48px; } /* Multiple of 12px for seamless loop */
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 48px 48px;
+    }
+
+    /* Multiple of 12px for seamless loop */
 }
 
 body {
@@ -47,13 +57,21 @@ body {
     margin: 0 auto;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Press Start 2P', cursive;
     line-height: 1.4;
 }
 
-h1 { font-size: 1.2rem; text-shadow: 2px 2px 0px rgba(0,0,0,0.1); }
-h2 { font-size: 1rem; }
+h1 {
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1rem;
+}
 
 /* ── Pokémon Dialog Box Style ── */
 .pokemon-box {
@@ -61,7 +79,7 @@ h2 { font-size: 1rem; }
     border: 4px solid var(--box-border);
     border-radius: 8px;
     padding: 16px;
-    box-shadow: inset 0 0 0 2px var(--box-inner-border), 4px 4px 0px rgba(0,0,0,0.15);
+    box-shadow: inset 0 0 0 2px var(--box-inner-border), 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 /* ── Layout Areas ── */
@@ -73,7 +91,7 @@ header {
     background: var(--box-bg);
     border: 4px solid var(--box-border);
     border-radius: 8px;
-    box-shadow: inset 0 0 0 4px var(--box-inner-border), 4px 4px 0px rgba(0,0,0,0.2);
+    box-shadow: inset 0 0 0 4px var(--box-inner-border), 4px 4px 0px rgba(0, 0, 0, 0.2);
     padding: 0 20px;
 }
 
@@ -100,7 +118,7 @@ footer {
     background: var(--box-bg);
     border: 4px solid var(--box-border);
     border-radius: 8px;
-    box-shadow: inset 0 0 0 4px var(--box-inner-border), 4px 4px 0px rgba(0,0,0,0.2);
+    box-shadow: inset 0 0 0 4px var(--box-inner-border), 4px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
 /* ── Navigation (Game Menu) ── */
@@ -133,6 +151,7 @@ nav a::before {
     content: "▶ ";
     opacity: 0;
 }
+
 nav a:hover::before {
     opacity: 1;
 }
@@ -225,12 +244,12 @@ aside h2 {
     border: 4px solid var(--box-border);
     border-radius: 8px;
     cursor: pointer;
-    box-shadow: inset -4px -4px 0px rgba(0,0,0,0.2);
+    box-shadow: inset -4px -4px 0px rgba(0, 0, 0, 0.2);
     width: 100%;
 }
 
 .btn-submit:active {
-    box-shadow: inset 4px 4px 0px rgba(0,0,0,0.2);
+    box-shadow: inset 4px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
 /* ── Tables (PC Box / Item Bag) ── */
@@ -271,6 +290,55 @@ aside h2 {
 .btn-add:active {
     transform: translate(2px, 2px);
     box-shadow: 0px 0px 0px var(--box-border);
+}
+
+.active-mode {
+    background: var(--pokemon-blue) !important;
+    color: white !important;
+}
+
+.retro-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+}
+
+.dropdown-trigger {
+    cursor: pointer;
+    min-width: 140px;
+    text-align: center;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: var(--box-bg);
+    border: 4px solid var(--box-border);
+    padding: 8px;
+    border-radius: 8px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.2s ease;
+    z-index: 100;
+    box-shadow: inset 0 0 0 2px var(--box-inner-border), 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.retro-dropdown:hover .dropdown-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-content .mode-btn {
+    width: 100%;
+    text-align: left;
+    min-width: 120px;
 }
 
 .table-wrap {
@@ -337,16 +405,38 @@ aside h2 {
     font-family: 'Press Start 2P', cursive;
     font-size: 0.6rem;
     color: white;
-    border: 2px solid rgba(0,0,0,0.2);
+    border: 2px solid rgba(0, 0, 0, 0.2);
     display: inline-block;
 }
-.r-gray   { background: #888; }
-.r-green  { background: #4caf50; }
-.r-cyan   { background: #00bcd4; }
-.r-blue   { background: #2196f3; color: white; }
-.r-violet { background: #9c27b0; }
-.r-orange { background: #ff9800; }
-.r-red    { background: #f44336; }
+
+.r-gray {
+    background: #888;
+}
+
+.r-green {
+    background: #4caf50;
+}
+
+.r-cyan {
+    background: #00bcd4;
+}
+
+.r-blue {
+    background: #2196f3;
+    color: white;
+}
+
+.r-violet {
+    background: #9c27b0;
+}
+
+.r-orange {
+    background: #ff9800;
+}
+
+.r-red {
+    background: #f44336;
+}
 
 .open-btn {
     color: var(--pokemon-blue);
@@ -355,7 +445,10 @@ aside h2 {
     font-family: 'Press Start 2P', cursive;
     font-size: 0.6rem;
 }
-.open-btn:hover { text-decoration: underline; }
+
+.open-btn:hover {
+    text-decoration: underline;
+}
 
 .delete-btn {
     font-size: 1.4rem;
@@ -363,6 +456,7 @@ aside h2 {
     display: inline-block;
     filter: grayscale(100%);
 }
+
 .delete-btn:hover {
     filter: grayscale(0%);
     transform: scale(1.1);
@@ -373,7 +467,11 @@ aside h2 {
     text-align: center;
     padding: 60px 20px;
 }
-.empty-state p { font-size: 1.6rem; margin-bottom: 24px; }
+
+.empty-state p {
+    font-size: 1.6rem;
+    margin-bottom: 24px;
+}
 
 
 /* ── Heatmap ── */
@@ -407,15 +505,30 @@ aside h2 {
     width: 16px;
     height: 16px;
     border-radius: 2px;
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* Color levels (Retro Emerald adjusted) */
-.level-0 { background-color: #ebedf0; border-color: transparent; }
-.level-1 { background-color: #a7f3d0; }
-.level-2 { background-color: #34d399; }
-.level-3 { background-color: #10b981; }
-.level-4 { background-color: #047857; }
+.level-0 {
+    background-color: #ebedf0;
+    border-color: transparent;
+}
+
+.level-1 {
+    background-color: #a7f3d0;
+}
+
+.level-2 {
+    background-color: #34d399;
+}
+
+.level-3 {
+    background-color: #10b981;
+}
+
+.level-4 {
+    background-color: #047857;
+}
 
 .heatmap-legend {
     display: flex;
@@ -474,19 +587,19 @@ aside h2 {
 .coach-platform {
     width: 280px;
     height: 64px;
-    background: #609670;
-    border: 4px solid #3c6549;
+    background: var(--platform-bg);
+    border: 4px solid var(--platform-border);
     border-radius: 50%;
     margin-top: -30px;
     z-index: 1;
-    box-shadow: inset 0px -8px 0px rgba(0,0,0,0.15);
+    box-shadow: inset 0px -8px 0px rgba(0, 0, 0, 0.15);
 }
 
 .coach-sprite img {
     image-rendering: pixelated;
     width: 128px;
     height: 128px;
-    filter: drop-shadow(4px 4px 0px rgba(0,0,0,0.2));
+    filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.2));
     animation: breathe 3s ease-in-out infinite;
 }
 
@@ -494,12 +607,19 @@ aside h2 {
     image-rendering: pixelated;
     width: 64px;
     height: auto;
-    filter: drop-shadow(2px 2px 0px rgba(0,0,0,0.2));
+    filter: drop-shadow(2px 2px 0px rgba(0, 0, 0, 0.2));
 }
 
 @keyframes breathe {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-6px); }
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-6px);
+    }
 }
 
 .header-with-sprite {
@@ -518,19 +638,27 @@ aside h2 {
 .cute-sprite {
     width: 56px;
     image-rendering: pixelated;
-    filter: drop-shadow(2px 2px 0px rgba(0,0,0,0.2));
+    filter: drop-shadow(2px 2px 0px rgba(0, 0, 0, 0.2));
 }
 
 @keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
 }
 
 .coach-dialogue {
     width: 100%;
     max-width: 800px;
     position: relative;
-    padding-bottom: 60px; /* Space for button */
+    padding-bottom: 60px;
+    /* Space for button */
 }
 
 .dialogue-text {
@@ -557,10 +685,12 @@ aside h2 {
     width: 12px;
     height: 12px;
 }
+
 ::-webkit-scrollbar-track {
     background: var(--box-bg);
     border-left: 2px solid var(--box-border);
 }
+
 ::-webkit-scrollbar-thumb {
     background: var(--box-inner-border);
     border: 2px solid var(--box-bg);
@@ -570,18 +700,32 @@ aside h2 {
 /* ── Dark Mode (Night Time / Cave Theme) ── */
 @media (prefers-color-scheme: dark) {
     :root {
-        --emerald-bg: #14281e;          /* Dark forest green background */
-        --emerald-dark: #87e0a5;        /* Light green for accents like stat labels */
-        --box-border: #609c80;          /* Lighter greenish border */
-        --box-bg: #1a2521;              /* Very dark teal for dialog boxes */
-        --box-inner-border: #2b4a3c;    /* Inner border shadow */
-        --text-main: #ffffff;           /* Pure white text */
-        --highlight: #22382f;           /* Darker highlight for table rows and nav */
-        --bg-pattern-color: rgba(255, 255, 255, 0.05); /* Very faint dots for cave theme */
+        --emerald-bg: #14281e;
+        /* Dark forest green background */
+        --emerald-dark: #87e0a5;
+        /* Light green for accents like stat labels */
+        --box-border: #609c80;
+        /* Lighter greenish border */
+        --box-bg: #1a2521;
+        /* Very dark teal for dialog boxes */
+        --box-inner-border: #2b4a3c;
+        /* Inner border shadow */
+        --text-main: #ffffff;
+        /* Pure white text */
+        --highlight: #22382f;
+        /* Darker highlight for table rows and nav */
+        --bg-pattern-color: rgba(255, 255, 255, 0.05);
+        /* Very faint dots for cave theme */
     }
 
     /* Force specific elements to use box background and text colors */
-    nav a, .stat-item, .add input, .btn-add, .problems-table, .heatmap, .chart-container {
+    nav a,
+    .stat-item,
+    .add input,
+    .btn-add,
+    .problems-table,
+    .heatmap,
+    .chart-container {
         background-color: var(--box-bg);
         color: var(--text-main);
     }
@@ -595,38 +739,65 @@ aside h2 {
     .problems-table tbody tr:nth-child(even) {
         background-color: #1b2a25;
     }
+
     .problems-table tbody tr:hover {
         background-color: var(--highlight);
     }
 
     /* Dark mode heatmap colors (White heat) */
-    .level-0 { background-color: #22352b; }
-    .level-1 { background-color: rgba(255, 255, 255, 0.3); }
-    .level-2 { background-color: rgba(255, 255, 255, 0.6); }
-    .level-3 { background-color: rgba(255, 255, 255, 0.85); }
-    .level-4 { background-color: #ffffff; box-shadow: 0 0 4px #ffffff; }
+    .level-0 {
+        background-color: #22352b;
+    }
+
+    .level-1 {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .level-2 {
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    .level-3 {
+        background-color: rgba(255, 255, 255, 0.85);
+    }
+
+    .level-4 {
+        background-color: #ffffff;
+        box-shadow: 0 0 4px #ffffff;
+    }
 }
 
 /* ── LC Mode (Groudon/Ruby Theme) ── */
 html.lc-mode {
-    --emerald-bg: #1a0a0a;          /* Deep dark red/black */
-    --emerald-dark: #FFD700;        /* Gold accent */
-    --box-border: #c0392b;          /* Magma red border */
-    --box-bg: #2c0e0e;              /* Dark red-black box */
-    --box-inner-border: #e74c3c;    /* Brighter red inner */
-    --text-main: #ffffff;           /* White text on dark bg */
+    --emerald-bg: #1a0a0a;
+    /* Deep dark red/black */
+    --emerald-dark: #FFD700;
+    /* Gold accent */
+    --box-border: #c0392b;
+    /* Magma red border */
+    --box-bg: #2c0e0e;
+    /* Dark red-black box */
+    --box-inner-border: #e74c3c;
+    /* Brighter red inner */
+    --platform-bg: #a33c3c;
+    --platform-border: #6d2424;
+    --text-main: #ffffff;
+    /* White text on dark bg */
     --pokemon-red: #c0392b;
-    --pokemon-blue: #229954;        /* Forest green highlight/buttons */
-    --highlight: #3a1c1c;           /* Highlight row color */
-    --bg-pattern-color: rgba(231, 76, 60, 0.1); /* Reddish dots */
+    --pokemon-blue: #229954;
+    /* Forest green highlight/buttons */
+    --highlight: #3a1c1c;
+    /* Highlight row color */
+    --bg-pattern-color: rgba(231, 76, 60, 0.1);
+    /* Reddish dots */
 }
 
-html.lc-mode nav a, 
-html.lc-mode .stat-item, 
-html.lc-mode .add input, 
-html.lc-mode .btn-add, 
-html.lc-mode .problems-table, 
-html.lc-mode .heatmap, 
+html.lc-mode nav a,
+html.lc-mode .stat-item,
+html.lc-mode .add input,
+html.lc-mode .btn-add,
+html.lc-mode .problems-table,
+html.lc-mode .heatmap,
 html.lc-mode .chart-container {
     background-color: var(--box-bg);
     color: var(--text-main);
@@ -647,19 +818,43 @@ html.lc-mode .problems-table tbody tr:hover {
 /* Groudon shouldn't float! */
 html.lc-mode .floating-rayquaza {
     animation: none;
-    margin-bottom: -10px; /* Adjust alignment since it's not floating */
+    margin-bottom: -10px;
+    /* Adjust alignment since it's not floating */
 }
 
 /* Heatmap colors for LC mode */
-html.lc-mode .level-0 { background-color: #2a1111; border-color: transparent; }
-html.lc-mode .level-1 { background-color: #e67e22; }
-html.lc-mode .level-2 { background-color: #d35400; }
-html.lc-mode .level-3 { background-color: #c0392b; }
-html.lc-mode .level-4 { background-color: #FFD700; box-shadow: 0 0 4px #FFD700; }
+html.lc-mode .level-0 {
+    background-color: #2a1111;
+    border-color: transparent;
+}
+
+html.lc-mode .level-1 {
+    background-color: #e67e22;
+}
+
+html.lc-mode .level-2 {
+    background-color: #d35400;
+}
+
+html.lc-mode .level-3 {
+    background-color: #c0392b;
+}
+
+html.lc-mode .level-4 {
+    background-color: #FFD700;
+    box-shadow: 0 0 4px #FFD700;
+}
 
 /* Stats container toggling */
-html.lc-mode .cf-stats-container { display: none; }
-html.lc-mode .lc-stats-container { display: flex !important; flex-direction: column; gap: 16px; }
+html.lc-mode .cf-stats-container {
+    display: none;
+}
+
+html.lc-mode .lc-stats-container {
+    display: flex !important;
+    flex-direction: column;
+    gap: 16px;
+}
 
 /* Decorative Side Sprites */
 .deco-sprite {
@@ -668,13 +863,18 @@ html.lc-mode .lc-stats-container { display: flex !important; flex-direction: col
     image-rendering: pixelated;
     width: 100px;
     z-index: 0;
-    filter: drop-shadow(4px 4px 0px rgba(0,0,0,0.2));
+    filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.2));
     animation: bounce-idle 2s infinite alternate;
 }
 
 @keyframes bounce-idle {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
 }
 
 .deco-left {
@@ -685,8 +885,13 @@ html.lc-mode .lc-stats-container { display: flex !important; flex-direction: col
 }
 
 @keyframes bounce-idle-flip {
-    0% { transform: scaleX(-1) translateY(0); }
-    100% { transform: scaleX(-1) translateY(-10px); }
+    0% {
+        transform: scaleX(-1) translateY(0);
+    }
+
+    100% {
+        transform: scaleX(-1) translateY(-10px);
+    }
 }
 
 .deco-right {
@@ -701,7 +906,9 @@ html.lc-mode .lc-stats-container { display: flex !important; flex-direction: col
 }
 
 /* LeetCode Difficulty Tags */
-.difficulty-easy, .difficulty-medium, .difficulty-hard {
+.difficulty-easy,
+.difficulty-medium,
+.difficulty-hard {
     display: inline-block;
     padding: 2px 6px;
     border-radius: 4px;
@@ -709,20 +916,117 @@ html.lc-mode .lc-stats-container { display: flex !important; flex-direction: col
     font-weight: bold;
     margin-bottom: 4px;
     text-transform: uppercase;
-    box-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
 }
+
 .difficulty-easy {
     background-color: #e0f2f1;
     color: #00897b;
     border: 1px solid #00897b;
 }
+
 .difficulty-medium {
     background-color: #fff3e0;
     color: #f57c00;
     border: 1px solid #f57c00;
 }
+
 .difficulty-hard {
     background-color: #ffebee;
     color: #e53935;
     border: 1px solid #e53935;
+}
+
+/* ── GH Mode (Kyogre/Sapphire Theme) ── */
+html.gh-mode {
+    --emerald-bg: #05121e;          /* Very deep abyssal blue */
+    --emerald-dark: #38bdf8;        /* Sky blue accent */
+    --box-border: #38bdf8;          /* Bright sky blue outer border */
+    --box-bg: #0a1f33;              /* Dark navy box bg */
+    --box-inner-border: #0284c7;    /* Medium blue inner border */
+    --platform-bg: #1c5b8a;
+    --platform-border: #0a3052;
+    --text-main: #ffffff;           /* White text */
+    --pokemon-red: #133a5a;         /* Overriding red buttons to deep blue */
+    --pokemon-blue: #0ea5e9;        /* Bright blue highlight/buttons */
+    --highlight: #0f2c47;           /* Highlight row color */
+    --bg-pattern-color: rgba(14, 165, 233, 0.05); /* Faint blue dots */
+}
+
+html.gh-mode nav a,
+html.gh-mode .stat-item,
+html.gh-mode .add input,
+html.gh-mode .btn-add,
+html.gh-mode .problems-table,
+html.gh-mode .heatmap,
+html.gh-mode .chart-container {
+    background-color: var(--box-bg);
+    color: var(--text-main);
+}
+
+html.gh-mode .add input:focus {
+    background-color: #003366;
+}
+
+html.gh-mode .problems-table tbody tr:nth-child(even) {
+    background-color: #001a33;
+}
+
+html.gh-mode .problems-table tbody tr:hover {
+    background-color: var(--highlight);
+}
+
+/* Kyogre floats slowly! */
+html.gh-mode .floating-rayquaza {
+    animation: float-slow 6s ease-in-out infinite;
+}
+
+@keyframes float-slow {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+/* Heatmap colors for GH mode (Sapphire/Ocean hues) */
+html.gh-mode .level-0 {
+    background-color: #06111b;
+    border-color: transparent;
+}
+
+html.gh-mode .level-1 {
+    background-color: #0c4a6e;
+}
+
+html.gh-mode .level-2 {
+    background-color: #0284c7;
+}
+
+html.gh-mode .level-3 {
+    background-color: #38bdf8;
+}
+
+html.gh-mode .level-4 {
+    background-color: #ffffff;
+    box-shadow: 0 0 4px #38bdf8;
+}
+
+/* Stats container toggling */
+html.gh-mode .cf-stats-container {
+    display: none;
+}
+
+html.gh-mode .lc-stats-container {
+    display: none;
+}
+
+html.gh-mode .gh-stats-container {
+    display: flex !important;
+    flex-direction: column;
+    gap: 16px;
 }

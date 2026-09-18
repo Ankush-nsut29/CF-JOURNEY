@@ -17,7 +17,14 @@
             <a href="/lc/roadmap" class="roadmap-link" style="display: none;">Roadmap</a>
             <a href="/coach" class="coach-link">Coach</a>
         </nav>
-        <button id="mode-toggle" class="btn-add" style="margin-left: auto; cursor: pointer;">Switch Mode</button>
+        <div class="retro-dropdown" style="margin-left: auto;">
+            <button class="btn-add dropdown-trigger">MODE: CF ▼</button>
+            <div class="dropdown-content">
+                <button class="mode-btn btn-add" data-mode="cf">Codeforces</button>
+                <button class="mode-btn btn-add" data-mode="lc">LeetCode</button>
+                <button class="mode-btn btn-add" data-mode="gh">GitHub</button>
+            </div>
+        </div>
     </header>
 
     <main>
@@ -63,81 +70,164 @@
                 <span class="stat-value" style="color: #f44336;">{{ lc_stats.Hard }}</span>
             </div>
         </div>
+        <div class="gh-stats-container" style="display: none;">
+            <div class="stat-item">
+                <span class="stat-label">Followers</span>
+                <span class="stat-value">{{ gh_stats.followers }}</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Public Repos</span>
+                <span class="stat-value">{{ gh_stats.public_repos }}</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Following</span>
+                <span class="stat-value">{{ gh_stats.following }}</span>
+            </div>
+        </div>
     </aside>
 
     <footer>
         <a href="https://codeforces.com/profile/akcodesalot" target="_blank">MY CODEFORCES PROFILE</a>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const modeToggle = document.getElementById('mode-toggle');
-            const root = document.documentElement;
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const modeBtns = document.querySelectorAll('.mode-btn');
+                const root = document.documentElement;
 
-            // Apply saved mode on load
-            const savedMode = localStorage.getItem('appMode') || 'cf';
-            if (savedMode === 'lc') {
-                root.classList.add('lc-mode');
-            }
+                // Apply saved mode on load
+                const savedMode = localStorage.getItem('appMode') || 'cf';
+                if (savedMode === 'lc') {
+                    root.classList.add('lc-mode');
+                } else if (savedMode === 'gh') {
+                    root.classList.add('gh-mode');
+                }
 
-            // Also check if URL is /lc and sync mode just in case
-            if (window.location.pathname.startsWith('/lc')) {
-                root.classList.add('lc-mode');
-                localStorage.setItem('appMode', 'lc');
-            }
-
-            modeToggle.addEventListener('click', () => {
-                const currentPath = window.location.pathname;
-                let newPath = '/';
-                
-                if (root.classList.contains('lc-mode')) {
-                    // Switching to CF Mode
-                    localStorage.setItem('appMode', 'cf');
-                    if (currentPath === '/lc') newPath = '/';
-                    else if (currentPath === '/lc/view') newPath = '/view';
-                    else if (currentPath === '/lc/coach') newPath = '/coach';
-                    else if (currentPath === '/lc/roadmap') newPath = '/sort';
-                    else newPath = '/';
-                } else {
-                    // Switching to LC Mode
+                // Also check if URL starts with /lc or /gh and sync mode just in case
+                if (window.location.pathname.startsWith('/lc')) {
+                    root.classList.remove('gh-mode');
+                    root.classList.add('lc-mode');
                     localStorage.setItem('appMode', 'lc');
-                    if (currentPath === '/') newPath = '/lc';
-                    else if (currentPath === '/view') newPath = '/lc/view';
-                    else if (currentPath === '/coach') newPath = '/lc/coach';
-                    else if (currentPath === '/sort') newPath = '/lc/roadmap';
-                    else newPath = '/lc';
+                } else if (window.location.pathname.startsWith('/gh')) {
+                    root.classList.remove('lc-mode');
+                    root.classList.add('gh-mode');
+                    localStorage.setItem('appMode', 'gh');
                 }
-                window.location.href = newPath;
-            });
 
-            function updateSprites() {
-                const mode = root.classList.contains('lc-mode') ? 'lc' : 'cf';
-                
-                // For home.html main sprite
-                const homeSprite = document.querySelector('.floating-rayquaza');
-                if (homeSprite) {
-                    homeSprite.src = mode === 'lc' 
-                        ? 'https://play.pokemonshowdown.com/sprites/gen5ani/groudon.gif' 
-                        : 'https://play.pokemonshowdown.com/sprites/gen5ani/rayquaza.gif';
-                    homeSprite.alt = mode === 'lc' ? 'Groudon' : 'Rayquaza';
+                function updateActiveButton() {
+                    let currentMode = 'cf';
+                    if (root.classList.contains('lc-mode')) currentMode = 'lc';
+                    if (root.classList.contains('gh-mode')) currentMode = 'gh';
+
+                    const triggerBtn = document.querySelector('.dropdown-trigger');
+                    if (triggerBtn) {
+                        triggerBtn.textContent = `MODE: ${currentMode.toUpperCase()} ▼`;
+                    }
+
+                    modeBtns.forEach(btn => {
+                        if (btn.dataset.mode === currentMode) {
+                            btn.classList.add('active-mode');
+                        } else {
+                            btn.classList.remove('active-mode');
+                        }
+                    });
                 }
-                
-                // For home.html secondary sprite
-                const cuteSprite = document.querySelector('.cute-sprite');
-                if (cuteSprite) {
-                    cuteSprite.src = mode === 'lc'
-                        ? 'https://play.pokemonshowdown.com/sprites/gen5ani/pichu.gif'
-                        : 'https://play.pokemonshowdown.com/sprites/gen5ani/eevee.gif';
-                    cuteSprite.alt = mode === 'lc' ? 'Pichu' : 'Eevee';
+
+                modeBtns.forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        const targetMode = btn.dataset.mode;
+                        const currentPath = window.location.pathname;
+                        
+                        let currentMode = 'cf';
+                        if (root.classList.contains('lc-mode')) currentMode = 'lc';
+                        if (root.classList.contains('gh-mode')) currentMode = 'gh';
+
+                        if (targetMode === currentMode) {
+                            return; // Do nothing if already in this mode
+                        }
+
+                        let newPath = '/';
+                        if (targetMode === 'cf') {
+                            localStorage.setItem('appMode', 'cf');
+                            if (currentPath.startsWith('/lc') || currentPath.startsWith('/gh')) {
+                                if (currentPath.endsWith('/view')) newPath = '/view';
+                                else if (currentPath.endsWith('/coach')) newPath = '/coach';
+                                else if (currentPath.endsWith('/roadmap') || currentPath.endsWith('/tools')) newPath = '/sort';
+                                else newPath = '/';
+                            } else {
+                                newPath = currentPath;
+                            }
+                        } else if (targetMode === 'lc') {
+                            localStorage.setItem('appMode', 'lc');
+                            if (!currentPath.startsWith('/lc')) {
+                                if (currentPath.endsWith('/view')) newPath = '/lc/view';
+                                else if (currentPath.endsWith('/coach')) newPath = '/lc/coach';
+                                else if (currentPath === '/sort' || currentPath.endsWith('/roadmap') || currentPath.endsWith('/tools')) newPath = '/lc/roadmap';
+                                else newPath = '/lc';
+                            } else {
+                                newPath = currentPath;
+                            }
+                        } else if (targetMode === 'gh') {
+                            localStorage.setItem('appMode', 'gh');
+                            if (!currentPath.startsWith('/gh')) {
+                                if (currentPath.endsWith('/view')) newPath = '/gh/view';
+                                else if (currentPath.endsWith('/coach')) newPath = '/gh/coach';
+                                else if (currentPath === '/sort' || currentPath.endsWith('/roadmap') || currentPath.endsWith('/tools')) newPath = '/gh/tools';
+                                else newPath = '/gh';
+                            } else {
+                                newPath = currentPath;
+                            }
+                        }
+
+                        window.location.href = newPath;
+                    });
+                });
+
+                function updateSprites() {
+                    let mode = 'cf';
+                    if (root.classList.contains('lc-mode')) mode = 'lc';
+                    if (root.classList.contains('gh-mode')) mode = 'gh';
+
+                    // For home.html main sprite
+                    const homeSprite = document.querySelector('.floating-rayquaza');
+                    if (homeSprite) {
+                        if (mode === 'lc') {
+                            homeSprite.src = 'https://play.pokemonshowdown.com/sprites/gen5ani/groudon.gif';
+                            homeSprite.alt = 'Groudon';
+                        } else if (mode === 'gh') {
+                            homeSprite.src = 'https://play.pokemonshowdown.com/sprites/gen5ani/kyogre.gif';
+                            homeSprite.alt = 'Kyogre';
+                        } else {
+                            homeSprite.src = 'https://play.pokemonshowdown.com/sprites/gen5ani/rayquaza.gif';
+                            homeSprite.alt = 'Rayquaza';
+                        }
+                    }
+
+                    // For home.html secondary sprite
+                    const cuteSprite = document.querySelector('.cute-sprite');
+                    if (cuteSprite) {
+                        if (mode === 'lc') {
+                            cuteSprite.src = 'https://play.pokemonshowdown.com/sprites/gen5ani/pichu.gif';
+                            cuteSprite.alt = 'Pichu';
+                        } else if (mode === 'gh') {
+                            cuteSprite.src = 'https://play.pokemonshowdown.com/sprites/gen5ani/lotad.gif';
+                            cuteSprite.alt = 'Lotad';
+                        } else {
+                            cuteSprite.src = 'https://play.pokemonshowdown.com/sprites/gen5ani/eevee.gif';
+                            cuteSprite.alt = 'Eevee';
+                        }
+                    }
                 }
-            }
 
                 function updateLinks() {
-                    const mode = root.classList.contains('lc-mode') ? 'lc' : 'cf';
+                    let mode = 'cf';
+                    if (root.classList.contains('lc-mode')) mode = 'lc';
+                    if (root.classList.contains('gh-mode')) mode = 'gh';
+
                     const navLinks = document.querySelectorAll('nav a');
                     const sortLink = document.querySelector('.sort-link');
                     const roadmapLink = document.querySelector('.roadmap-link');
                     const coachLink = document.querySelector('.coach-link');
                     const footerLink = document.querySelector('footer a');
-                    
+
                     if (mode === 'lc') {
                         if (navLinks[0]) { navLinks[0].href = '/lc'; navLinks[0].textContent = 'Home'; }
                         if (navLinks[1]) { navLinks[1].href = '/lc/view'; navLinks[1].textContent = 'View'; }
@@ -148,12 +238,22 @@
                             footerLink.href = 'https://leetcode.com/u/isaidduh/';
                             footerLink.textContent = 'MY LEETCODE PROFILE';
                         }
+                    } else if (mode === 'gh') {
+                        if (navLinks[0]) { navLinks[0].href = '/gh'; navLinks[0].textContent = 'Home'; }
+                        if (navLinks[1]) { navLinks[1].href = '/gh/view'; navLinks[1].textContent = 'View'; }
+                        if (sortLink) { sortLink.style.display = 'none'; }
+                        if (roadmapLink) { roadmapLink.style.display = 'inline-block'; roadmapLink.href = '/gh/tools'; roadmapLink.textContent = 'Tools'; }
+                        if (coachLink) { coachLink.style.display = 'inline-block'; coachLink.href = '/gh/coach'; coachLink.textContent = 'Coach'; }
+                        if (footerLink) {
+                            footerLink.href = 'https://github.com/Ankush-nsut29';
+                            footerLink.textContent = 'MY GITHUB PROFILE';
+                        }
                     } else {
                         if (navLinks[0]) { navLinks[0].href = '/'; navLinks[0].textContent = 'Home'; }
                         if (navLinks[1]) { navLinks[1].href = '/view'; navLinks[1].textContent = 'View'; }
                         if (sortLink) { sortLink.style.display = 'inline-block'; }
                         if (roadmapLink) { roadmapLink.style.display = 'inline-block'; roadmapLink.href = '/cf/roadmap'; roadmapLink.textContent = 'A2OJ'; }
-                        if (coachLink) { coachLink.href = '/coach'; coachLink.textContent = 'Coach'; }
+                        if (coachLink) { coachLink.style.display = 'inline-block'; coachLink.href = '/coach'; coachLink.textContent = 'Coach'; }
                         if (footerLink) {
                             footerLink.href = 'https://codeforces.com/profile/akcodesalot';
                             footerLink.textContent = 'MY CODEFORCES PROFILE';
@@ -162,9 +262,10 @@
                 }
 
                 updateSprites();
-            updateLinks();
-        });
-    </script>
+                updateLinks();
+                updateActiveButton();
+            });
+        </script>
 </body>
 
 </html>

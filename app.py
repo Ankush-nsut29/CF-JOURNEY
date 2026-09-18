@@ -4,6 +4,7 @@ from datetime import datetime, timedelta, date
 import random
 import os
 import json
+import re
 import markdown
 from dotenv import load_dotenv
 from google import genai
@@ -21,6 +22,116 @@ _cf_cache = {"stats": None, "stats_time": None, "advice": None, "heatmap": None,
 
 LC_HANDLE = os.environ.get("LC_USERNAME", "isaidduh")
 _lc_cache = {"stats": None, "time": None, "advice": None, "recent": None, "recent_time": None, "heatmap": None, "heatmap_time": None}
+
+GH_USERNAME = os.environ.get("GH_USERNAME", "Ankush-nsut29")
+_gh_cache = {"stats": None, "stats_time": None, "heatmap": None, "heatmap_time": None, "recent": None, "recent_time": None, "repos": None, "repos_time": None}
+
+GH_TOOLS_DATA = {
+    "Languages": {
+        "Python": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+            "concepts": ["Variables & Data Types", "Conditionals (if/else)", "Loops (for/while)", "Functions & Lambdas", "Lists, Dicts, Sets", "OOP (Classes, Objects, Inheritance)", "Decorators & Generators", "File I/O"]
+        },
+        "C++": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
+            "concepts": ["Variables & Data Types", "Conditionals", "Loops", "Pointers & References", "Arrays & Vectors", "Functions", "OOP", "STL (Standard Template Library)", "Memory Management"]
+        },
+        "JavaScript": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+            "concepts": ["Let/Const/Var", "Conditionals", "Loops", "Functions & Arrow Functions", "Arrays & Objects", "Promises & Async/Await", "Event Loop", "Closures", "DOM Manipulation"]
+        },
+        "Java": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+            "concepts": ["Variables", "Conditionals", "Loops", "Classes & Objects", "Inheritance & Polymorphism", "Interfaces & Abstract Classes", "Collections Framework", "Exception Handling"]
+        }
+    },
+    "Frontend": {
+        "HTML/CSS": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+            "concepts": ["Semantic HTML", "Forms & Inputs", "CSS Selectors", "Box Model", "Flexbox", "CSS Grid", "Responsive Design", "Animations"]
+        },
+        "Tailwind CSS": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+            "concepts": ["Utility Classes", "Responsive Modifiers", "Hover & Focus States", "Custom Configuration", "Dark Mode"]
+        },
+        "Bootstrap": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
+            "concepts": ["Grid System", "Components (Buttons, Cards, Modals)", "Forms", "Utility Classes"]
+        },
+        "React": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+            "concepts": ["JSX", "Components & Props", "State (useState)", "Effects (useEffect)", "Context API", "React Router", "Component Lifecycle"]
+        },
+        "Angular": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg",
+            "concepts": ["Components", "Directives", "Services & Dependency Injection", "Routing", "RxJS / Observables", "Forms (Reactive/Template)"]
+        },
+        "Next.js": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+            "concepts": ["App Router / Pages Router", "Server Components", "Client Components", "Data Fetching", "API Routes"]
+        }
+    },
+    "Backend": {
+        "Node.js & Express": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+            "concepts": ["Event Loop Basics", "NPM & package.json", "Routing", "Middleware", "Error Handling", "REST API Design"]
+        },
+        "Flask": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg",
+            "concepts": ["Routing", "Jinja2 Templates", "Blueprints", "Sessions & Cookies", "Request/Response Objects", "Application Factory"]
+        },
+        "FastAPI": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg",
+            "concepts": ["Path & Query Parameters", "Pydantic Models", "Dependency Injection", "Background Tasks", "Automatic Docs (Swagger)"]
+        },
+        "Django": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg",
+            "concepts": ["Models & ORM", "Views & URLs", "Templates", "Admin Interface", "Forms", "Django REST Framework"]
+        }
+    },
+    "Databases": {
+        "SQL (PostgreSQL)": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+            "concepts": ["CRUD Operations", "Joins", "Indexes", "Foreign Keys", "Aggregations & Group By", "Transactions"]
+        },
+        "MongoDB (NoSQL)": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+            "concepts": ["Collections & Documents", "CRUD Operations", "Aggregation Pipeline", "Indexing", "Mongoose/ODMs"]
+        },
+        "Redis": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg",
+            "concepts": ["Key-Value Store", "Caching Strategies", "Pub/Sub", "Data Expiration"]
+        }
+    },
+    "Popular Libraries & Tools": {
+        "Pandas": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg",
+            "concepts": ["DataFrames", "Series", "Filtering Data", "Grouping", "Merging/Joining"]
+        },
+        "NumPy": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg",
+            "concepts": ["Arrays", "Vectorized Operations", "Broadcasting", "Linear Algebra basics"]
+        },
+        "SQLAlchemy": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlalchemy/sqlalchemy-original.svg",
+            "concepts": ["Engine & Connections", "Models", "Sessions", "Queries (Filter, Join)"]
+        }
+    },
+    "Other Important Skills": {
+        "Git & GitHub": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+            "concepts": ["Commits & History", "Branching & Merging", "Resolving Conflicts", "Pull Requests", "Rebasing", "Stashing"]
+        },
+        "Docker": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+            "concepts": ["Images & Containers", "Dockerfile", "Docker Compose", "Volumes", "Networking"]
+        },
+        "Linux/Bash": {
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg",
+            "concepts": ["File Navigation", "Permissions", "Piping & Grep", "Environment Variables", "SSH"]
+        }
+    }
+}
 
 
 def _get_cf_submissions():
@@ -98,7 +209,7 @@ def get_heatmap():
         return _cf_cache["heatmap"]
 
     today = date.today()
-    start = today - timedelta(weeks=52)
+    start = today - timedelta(weeks=40)
     # Shift start back to the nearest Sunday (weekday() is 0 for Mon, 6 for Sun)
     days_to_sunday = (start.weekday() + 1) % 7
     start = start - timedelta(days=days_to_sunday)
@@ -229,7 +340,7 @@ def get_lc_heatmap():
     }
     '''
     today = date.today()
-    start = today - timedelta(weeks=52)
+    start = today - timedelta(weeks=40)
     days_to_sunday = (start.weekday() + 1) % 7
     start = start - timedelta(days=days_to_sunday)
 
@@ -266,6 +377,130 @@ def get_lc_heatmap():
 def inject_lc_stats():
     """Make lc_stats available in every template (for aside)."""
     return {"lc_stats": get_lc_stats()}
+
+def get_gh_stats():
+    now = datetime.now()
+    if _gh_cache.get("stats") and _gh_cache.get("stats_time") and (now - _gh_cache.get("stats_time")).total_seconds() < 3600:
+        return _gh_cache["stats"]
+        
+    stats = {"followers": 0, "following": 0, "public_repos": 0}
+    try:
+        r = req.get(f"https://api.github.com/users/{GH_USERNAME}", timeout=5)
+        if r.status_code == 200:
+            d = r.json()
+            stats["followers"] = d.get("followers", 0)
+            stats["following"] = d.get("following", 0)
+            stats["public_repos"] = d.get("public_repos", 0)
+            _gh_cache["stats"] = stats
+            _gh_cache["stats_time"] = now
+    except Exception as e:
+        print(f"GH stats error: {e}")
+        
+    return _gh_cache.get("stats") or stats
+
+def get_gh_recent():
+    now = datetime.now()
+    if _gh_cache.get("recent") and _gh_cache.get("recent_time") and (now - _gh_cache.get("recent_time")).total_seconds() < 3600:
+        return _gh_cache["recent"]
+        
+    recent = []
+    try:
+        r = req.get(f"https://api.github.com/users/{GH_USERNAME}/events/public", timeout=5)
+        if r.status_code == 200:
+            events = r.json()
+            for event in events:
+                if event.get("type") == "PushEvent":
+                    repo_name = event.get("repo", {}).get("name", "Unknown Repo")
+                    commits = event.get("payload", {}).get("commits", [])
+                    for commit in commits:
+                        recent.append({
+                            "title": commit.get("message", "").split("\n")[0],
+                            "repo": repo_name,
+                            "timestamp": datetime.strptime(event.get("created_at"), "%Y-%m-%dT%H:%M:%SZ").timestamp(),
+                            "link": f"https://github.com/{repo_name}/commit/{commit.get('sha')}"
+                        })
+                    if len(recent) >= 20:
+                        break
+            if len(recent) > 0:
+                _gh_cache["recent"] = recent[:20]
+                _gh_cache["recent_time"] = now
+    except Exception as e:
+        print(f"GH recent error: {e}")
+        
+    return _gh_cache.get("recent") or recent
+
+def get_gh_repos():
+    now = datetime.now()
+    if _gh_cache.get("repos") and _gh_cache.get("repos_time") and (now - _gh_cache.get("repos_time")).total_seconds() < 3600:
+        return _gh_cache["repos"]
+
+    repos = []
+    try:
+        # Fetch up to 20 most recently pushed/updated repos
+        r = req.get(f"https://api.github.com/users/{GH_USERNAME}/repos?sort=updated&per_page=20", timeout=5)
+        if r.status_code == 200:
+            data = r.json()
+            for repo in data:
+                repos.append({
+                    "name": repo.get("name"),
+                    "description": repo.get("description") or "No description",
+                    "language": repo.get("language") or "Unknown",
+                    "stars": repo.get("stargazers_count", 0),
+                    "url": repo.get("html_url"),
+                    "updated_at": datetime.strptime(repo.get("updated_at"), "%Y-%m-%dT%H:%M:%SZ").timestamp()
+                })
+            if len(repos) > 0:
+                _gh_cache["repos"] = repos
+                _gh_cache["repos_time"] = now
+    except Exception as e:
+        print(f"GH repos error: {e}")
+        
+    return _gh_cache.get("repos") or repos
+
+def get_gh_heatmap():
+    # Scrape GitHub contributions directly since proxy APIs are unreliable
+    now = datetime.now()
+    if _gh_cache.get("heatmap") and _gh_cache.get("heatmap_time") and (now - _gh_cache.get("heatmap_time")).total_seconds() < 3600:
+        return _gh_cache["heatmap"]
+
+    today = date.today()
+    start = today - timedelta(weeks=40)
+    days_to_sunday = (start.weekday() + 1) % 7
+    start = start - timedelta(days=days_to_sunday)
+
+    day_counts = {}
+    cur = start
+    while cur <= today:
+        day_counts[cur.strftime("%Y-%m-%d")] = {"count": 0, "level": 0}
+        cur += timedelta(days=1)
+
+    try:
+        r = req.get(f"https://github.com/users/{GH_USERNAME}/contributions", timeout=5)
+        if r.status_code == 200:
+            # Parse data-date and data-level from the SVG/HTML grid
+            matches = re.findall(r'data-date="(\d{4}-\d{2}-\d{2})".*?data-level="(\d)"', r.text)
+            has_data = False
+            for date_str, level_str in matches:
+                if date_str in day_counts:
+                    level = int(level_str)
+                    day_counts[date_str]["level"] = level
+                    day_counts[date_str]["count"] = level * 3 # Estimate count for tooltip if needed
+                    if level > 0: has_data = True
+                    
+            if has_data:
+                result = sorted(day_counts.items())
+                _gh_cache["heatmap"] = result
+                _gh_cache["heatmap_time"] = now
+                return result
+    except Exception as e:
+        print(f"GH heatmap error: {e}")
+
+    result = sorted(day_counts.items())
+    return _gh_cache.get("heatmap") or result
+
+@app.context_processor
+def inject_gh_stats():
+    return {"gh_stats": get_gh_stats()}
 
 @app.template_filter('datetimeformat')
 def datetimeformat(value, format='%Y-%m-%d %H:%M'):
@@ -569,6 +804,188 @@ def lc_coach():
 @app.route("/lc/roadmap")
 def lc_roadmap():
     return render_template("lc_roadmap.html", levels=ROADMAP_LEVELS, neetcode=NEETCODE_150)
+
+
+@app.route("/gh")
+def gh_home():
+    heatmap = get_gh_heatmap()
+    return render_template("gh_home.html", heatmap=heatmap)
+
+
+@app.route("/gh/view")
+def gh_view():
+    repos = get_gh_repos()
+    return render_template("gh_view.html", repos=repos)
+
+def load_gh_progress():
+    try:
+        if os.path.exists("gh_progress.json"):
+            with open("gh_progress.json", "r") as f:
+                return json.load(f)
+    except Exception:
+        pass
+    return {}
+
+def save_gh_progress(data):
+    with open("gh_progress.json", "w") as f:
+        json.dump(data, f)
+
+@app.route("/gh/tools", methods=["GET", "POST"])
+def gh_tools():
+    progress = load_gh_progress()
+    
+    if request.method == "POST":
+        # Using AJAX to update progress
+        data = request.json
+        if data and "tool_id" in data and "concept" in data and "checked" in data:
+            tool_id = data["tool_id"]
+            concept = data["concept"]
+            if tool_id not in progress:
+                progress[tool_id] = []
+            
+            if data["checked"] and concept not in progress[tool_id]:
+                progress[tool_id].append(concept)
+            elif not data["checked"] and concept in progress[tool_id]:
+                progress[tool_id].remove(concept)
+                
+            save_gh_progress(progress)
+            return {"status": "ok"}
+    
+    # Calculate completion percentages for sorting
+    # Structure for template: 
+    # portions = [
+    #   {"name": "Languages", "tools": [
+    #       {"name": "Python", "concepts": [...], "completed": [...], "pct": 80}, ...
+    #   ]}
+    # ]
+    
+    portions = []
+    for portion_name, tools_dict in GH_TOOLS_DATA.items():
+        tools_list = []
+        for tool_name, tool_data in tools_dict.items():
+            concepts = tool_data["concepts"]
+            logo = tool_data["logo"]
+            completed_concepts = progress.get(tool_name, [])
+            # Filter out any old saved concepts that no longer exist
+            completed_concepts = [c for c in completed_concepts if c in concepts]
+            
+            pct = 0
+            if len(concepts) > 0:
+                pct = int((len(completed_concepts) / len(concepts)) * 100)
+                
+            tools_list.append({
+                "name": tool_name,
+                "logo": logo,
+                "concepts": concepts,
+                "completed": completed_concepts,
+                "pct": pct
+            })
+            
+        # Sort tools inside the portion by completion percentage descending
+        tools_list.sort(key=lambda x: x["pct"], reverse=True)
+        
+        portions.append({
+            "name": portion_name,
+            "tools": tools_list
+        })
+        
+    return render_template("gh_tools.html", portions=portions)
+
+
+
+def get_gh_coach_advice(force_refresh=False):
+    if not force_refresh and _gh_cache.get("advice"):
+        return _gh_cache["advice"]
+
+    # Force reload of .env so we don't need to restart the server when adding the key
+    load_dotenv(override=True)
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key or api_key == "your_api_key_here":
+        return "<p>Ah! I seem to have misplaced my <b>Gemini API Key</b>! Please add it to your <code>.env</code> file (or host environment variables) so we can begin your training!</p>"
+    
+    # 1. Figure out top language from gh_progress.json
+    progress = load_gh_progress()
+    languages_dict = GH_TOOLS_DATA.get("Languages", {})
+    
+    top_language = "Python" # default
+    best_pct = -1
+    
+    for lang, tool_data in languages_dict.items():
+        concepts = tool_data["concepts"]
+        completed = [c for c in progress.get(lang, []) if c in concepts]
+        pct = len(completed) / len(concepts) if concepts else 0
+        if pct > best_pct:
+            best_pct = pct
+            top_language = lang
+            
+    if best_pct == 0:
+        top_language = "Python"
+        
+    gh_lang = top_language.lower()
+    if gh_lang == "c++":
+        gh_lang = "cpp"
+        
+    # 2. Fetch issues from GitHub API
+    issues_list = []
+    try:
+        # Add '+web' to the query to ensure we find web-dev related issues
+        url = f'https://api.github.com/search/issues?q=state:open+label:"good first issue"+language:{gh_lang}+no:assignee+web&sort=created&order=desc&per_page=10'
+        headers = {'Accept': 'application/vnd.github.v3+json', 'User-Agent': 'CP-Tracker-App'}
+        r = req.get(url, headers=headers, timeout=10)
+        if r.status_code == 200:
+            data = r.json()
+            for item in data.get('items', []):
+                issues_list.append({
+                    "title": item["title"],
+                    "url": item["html_url"],
+                    "repo": item["repository_url"].split("repos/")[-1]
+                })
+    except Exception as e:
+        print(f"GH API Error: {e}")
+        
+    if not issues_list:
+        return f"<p>Oh my! I couldn't find any beginner open source issues for {top_language} right now. The GitHub Pokédex must be acting up!</p>"
+
+    # 3. Ask Gemini
+    client = genai.Client(api_key=api_key)
+    
+    prompt = f"""
+    You are Steven Stone from Pokémon Ruby/Sapphire/Emerald.
+    You are the charismatic Champion of the Hoenn region, known for your obsession with collecting rare stones and gems.
+    However, instead of geological gems, you are helping this developer find rare "Open Source Gems" (GitHub issues) specifically related to **Web Development**!
+    Your student is currently focusing on {top_language}.
+    
+    Here is a list of real, open "good first issue" tickets currently available on GitHub for {top_language}:
+    {issues_list}
+    
+    Select exactly 2 or 3 of these issues that look the most interesting for a beginner web developer.
+    Speak directly to the student in Steven Stone's elegant, passionate, and slightly rock-obsessed tone. 
+    Compare the issues to rare gems or stones.
+    Provide the exact URL link for each issue you recommend, and briefly explain why it's a good starting point for a web developer or what concept it might involve.
+    Format your response in Markdown, using standard markdown links [like this](url). Do not use asterisks for actions.
+    """
+    
+    try:
+        response = client.models.generate_content(
+            model='gemini-2.5-flash',
+            contents=prompt,
+        )
+        html_advice = markdown.markdown(response.text)
+        _gh_cache["advice"] = html_advice
+        return html_advice
+    except Exception as e:
+        print(f"Gemini API Error: {e}")
+        return "<p>Oh no, a wild Error appeared! The Gemini API failed to respond. Check your API key and try again.</p>"
+
+
+@app.route("/gh/coach", methods=["GET", "POST"])
+def gh_coach():
+    advice_html = None
+    if request.method == "POST":
+        advice_html = get_gh_coach_advice(force_refresh=True)
+    elif _gh_cache.get("advice"):
+        advice_html = _gh_cache["advice"]
+    return render_template("gh_coach.html", advice=advice_html)
 
 if __name__ == "__main__":
     app.run(debug=True)

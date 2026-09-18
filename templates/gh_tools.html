@@ -1,0 +1,267 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="view-header header-with-sprite">
+    <div>
+        <h1>MY TOOLBOX</h1>
+        <p>Track your tech stack proficiency</p>
+    </div>
+    <img src="https://play.pokemonshowdown.com/sprites/gen5ani/kyogre.gif" alt="Kyogre" class="floating-rayquaza">
+</div>
+
+<div class="tools-container">
+    {% for portion in portions %}
+    <h2 class="portion-title">{{ portion.name }}</h2>
+    
+    <div class="tools-grid">
+        {% for tool in portion.tools %}
+        <div class="tool-card {% if tool.pct == 100 %}completed{% endif %}" id="card-{{ tool.name | replace(' ', '-') | lower }}">
+            <div class="tool-header" onclick="toggleConcepts(this)">
+                <div class="tool-title-group">
+                    <img src="{{ tool.logo }}" alt="{{ tool.name }} logo" class="tool-logo">
+                    <h3>{{ tool.name }}</h3>
+                </div>
+                <div class="tool-status">
+                    <span class="tool-pct">{{ tool.pct }}%</span>
+                    <span class="dropdown-arrow">▼</span>
+                </div>
+            </div>
+            
+            <div class="node-progress" style="margin-bottom: 15px;">
+                <div class="progress-bar" style="width: {{ tool.pct }}%;"></div>
+            </div>
+            
+            <div class="concept-list" style="display: none;">
+                {% for concept in tool.concepts %}
+                <label class="concept-item">
+                    <input type="checkbox" class="concept-checkbox" 
+                           data-tool="{{ tool.name }}" 
+                           data-concept="{{ concept }}"
+                           {% if concept in tool.completed %}checked{% endif %}
+                           onclick="event.stopPropagation()">
+                    <span class="concept-name">{{ concept }}</span>
+                </label>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
+
+<style>
+    .tools-container {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .portion-title {
+        font-family: 'Press Start 2P', cursive;
+        color: var(--emerald-dark);
+        margin-top: 40px;
+        margin-bottom: 20px;
+        border-bottom: 2px solid var(--box-border);
+        padding-bottom: 10px;
+        font-size: 1rem;
+    }
+    .tools-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+    }
+    .tool-card {
+        background-color: var(--box-bg);
+        border: 4px solid var(--box-border);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: inset 0 0 0 2px var(--box-inner-border), 4px 4px 0px rgba(0,0,0,0.3);
+        display: flex;
+        flex-direction: column;
+        transition: transform 0.2s;
+    }
+    .tool-card:hover {
+        transform: translateY(-2px);
+    }
+    .tool-card.completed {
+        border-color: var(--emerald-dark);
+        box-shadow: inset 0 0 0 2px var(--emerald-dark), 0 0 10px rgba(56, 189, 248, 0.2), 4px 4px 0px rgba(0,0,0,0.3);
+    }
+    .tool-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        cursor: pointer;
+        padding: 5px;
+        border-radius: 4px;
+        transition: background-color 0.2s;
+    }
+    .tool-header:hover {
+        background-color: var(--highlight);
+    }
+    .tool-title-group {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    .tool-logo {
+        width: 32px;
+        height: 32px;
+        object-fit: contain;
+    }
+    .tool-header h3 {
+        margin: 0;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 0.8rem;
+        line-height: 1.4;
+    }
+    .tool-status {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .tool-pct {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 0.7rem;
+        color: var(--emerald-dark);
+    }
+    .dropdown-arrow {
+        font-size: 0.8rem;
+        color: var(--text-main);
+        transition: transform 0.3s;
+    }
+    .expanded .dropdown-arrow {
+        transform: rotate(180deg);
+    }
+    .node-progress {
+        width: 100%;
+        height: 8px;
+        background-color: rgba(0,0,0,0.5);
+        border: 1px solid rgba(255,255,255,0.1);
+        border-radius: 4px;
+        overflow: hidden;
+    }
+    .progress-bar {
+        height: 100%;
+        background-color: var(--pokemon-blue);
+        transition: width 0.3s ease;
+    }
+    .tool-card.completed .progress-bar {
+        background-color: var(--emerald-dark);
+    }
+    .concept-list {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        max-height: 200px;
+        overflow-y: auto;
+        padding-right: 5px;
+    }
+    .concept-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        cursor: pointer;
+        padding: 4px;
+        border-radius: 4px;
+    }
+    .concept-item:hover {
+        background-color: var(--highlight);
+    }
+    .concept-checkbox {
+        margin-top: 4px;
+        accent-color: var(--emerald-dark);
+        cursor: pointer;
+        width: 16px;
+        height: 16px;
+    }
+    .concept-name {
+        font-size: 0.95rem;
+        line-height: 1.4;
+        opacity: 0.9;
+    }
+    
+    /* Custom scrollbar for concept list */
+    .concept-list::-webkit-scrollbar {
+        width: 6px;
+    }
+    .concept-list::-webkit-scrollbar-track {
+        background: var(--box-border);
+        border-radius: 4px;
+    }
+    .concept-list::-webkit-scrollbar-thumb {
+        background: var(--box-inner-border);
+        border-radius: 4px;
+    }
+    .concept-list::-webkit-scrollbar-thumb:hover {
+        background: var(--pokemon-blue);
+    }
+</style>
+
+<script>
+function toggleConcepts(headerElement) {
+    const card = headerElement.closest('.tool-card');
+    const conceptList = card.querySelector('.concept-list');
+    
+    if (conceptList.style.display === 'none') {
+        conceptList.style.display = 'flex';
+        card.classList.add('expanded');
+    } else {
+        conceptList.style.display = 'none';
+        card.classList.remove('expanded');
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const checkboxes = document.querySelectorAll('.concept-checkbox');
+    
+    checkboxes.forEach(cb => {
+        cb.addEventListener('change', async (e) => {
+            const toolName = e.target.dataset.tool;
+            const conceptName = e.target.dataset.concept;
+            const isChecked = e.target.checked;
+            
+            // Optimistic UI Update
+            const card = e.target.closest('.tool-card');
+            const allBoxes = card.querySelectorAll('.concept-checkbox');
+            let checkedCount = 0;
+            allBoxes.forEach(box => { if(box.checked) checkedCount++; });
+            
+            const newPct = Math.round((checkedCount / allBoxes.length) * 100);
+            
+            card.querySelector('.tool-pct').textContent = newPct + '%';
+            card.querySelector('.progress-bar').style.width = newPct + '%';
+            
+            if (newPct === 100) {
+                card.classList.add('completed');
+            } else {
+                card.classList.remove('completed');
+            }
+            
+            try {
+                const response = await fetch('/gh/tools', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        tool_id: toolName,
+                        concept: conceptName,
+                        checked: isChecked
+                    })
+                });
+                
+                if (!response.ok) {
+                    console.error("Failed to save progress");
+                    e.target.checked = !isChecked; // revert
+                    // Could also revert percentage here
+                }
+            } catch (err) {
+                console.error("Error saving progress:", err);
+                e.target.checked = !isChecked; // revert
+            }
+        });
+    });
+});
+</script>
+{% endblock %}

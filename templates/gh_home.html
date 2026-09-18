@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="home-content">
+    <div class="header-with-sprite">
+        <div>
+            <h1>MY GITHUB JOURNEY</h1>
+            <p>Current Rank: Deep Builder</p>
+        </div>
+        <img src="https://play.pokemonshowdown.com/sprites/gen5ani/kyogre.gif" alt="Kyogre" class="floating-rayquaza">
+    </div>
+
+    <!-- Heatmap -->
+    <section class="heatmap-section">
+        <div class="header-with-sprite" style="margin-bottom: 8px;">
+            <h2 style="margin: 0;">Contribution Heatmap — Last 52 Weeks</h2>
+            <img src="https://play.pokemonshowdown.com/sprites/gen5ani/lotad.gif" alt="Lotad" class="cute-sprite" style="width: 48px;">
+        </div>
+        <div class="heatmap-wrap">
+            <div class="heatmap">
+                {% for date, data in heatmap %}
+                    <div class="heatmap-cell level-{{ data.level }}" title="{{ date }}"></div>
+                {% endfor %}
+            </div>
+            
+            <div class="heatmap-legend">
+                <span>Less</span>
+                <div class="heatmap-cell level-0"></div>
+                <div class="heatmap-cell level-1"></div>
+                <div class="heatmap-cell level-2"></div>
+                <div class="heatmap-cell level-3"></div>
+                <div class="heatmap-cell level-4"></div>
+                <span>More</span>
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}

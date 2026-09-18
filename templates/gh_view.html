@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="view-header">
+    <div class="view-meta">
+        <h1>PUBLIC REPOSITORIES</h1>
+        <span class="badge">Recently Updated</span>
+    </div>
+</div>
+
+<div class="table-wrap">
+    <table class="problems-table">
+        <thead>
+            <tr>
+                <th style="width: 60px;">#</th>
+                <th>Repository</th>
+                <th>Description</th>
+                <th style="width: 100px;">Language</th>
+                <th style="width: 80px;">Stars</th>
+                <th style="width: 160px;">Last Updated</th>
+                <th style="width: 100px;">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for repo in repos %}
+            <tr>
+                <td class="col-number"><code>{{ loop.index }}</code></td>
+                <td>
+                    <strong>{{ repo.name }}</strong>
+                </td>
+                <td class="col-tags">{{ repo.description }}</td>
+                <td>{{ repo.language }}</td>
+                <td>{{ repo.stars }} ★</td>
+                <td>{{ repo.updated_at | datetimeformat('%Y-%m-%d') }}</td>
+                <td>
+                    <a href="{{ repo.url }}" target="_blank" class="open-btn">VIEW</a>
+                </td>
+            </tr>
+            {% else %}
+            <tr>
+                <td colspan="7" class="empty-state">
+                    <p>No public repositories found!</p>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
