@@ -809,7 +809,25 @@ def lc_roadmap():
 @app.route("/gh")
 def gh_home():
     heatmap = get_gh_heatmap()
-    return render_template("gh_home.html", heatmap=heatmap)
+    repos = get_gh_repos()
+    
+    lang_counts = {}
+    total = 0
+    for r in repos:
+        lang = r.get("language")
+        if lang and lang != "Unknown":
+            lang_counts[lang] = lang_counts.get(lang, 0) + 1
+            total += 1
+            
+    lang_dist = {}
+    if total > 0:
+        for lang, count in lang_counts.items():
+            lang_dist[lang] = round((count / total) * 100, 1)
+            
+    # sort by percentage descending
+    lang_dist = dict(sorted(lang_dist.items(), key=lambda item: item[1], reverse=True))
+    
+    return render_template("gh_home.html", heatmap=heatmap, lang_dist=lang_dist)
 
 
 @app.route("/gh/view")

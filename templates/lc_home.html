@@ -4,14 +4,16 @@
 <div class="home-content">
     <div class="header-with-sprite">
         <h1>MY LEETCODE TRACKER</h1>
-        <img src="https://play.pokemonshowdown.com/sprites/gen5ani/groudon.gif" alt="Groudon" class="floating-rayquaza" style="animation: none;">
+        <img src="https://play.pokemonshowdown.com/sprites/gen5ani/groudon.gif" alt="Groudon" class="floating-rayquaza"
+            style="animation: none;">
     </div>
 
     <!-- Heatmap -->
     <section class="heatmap-section">
         <div class="header-with-sprite" style="margin-bottom: 8px;">
             <h2 style="margin: 0;">Submission Heatmap — Last 52 Weeks</h2>
-            <img src="https://play.pokemonshowdown.com/sprites/gen5ani/pichu.gif" alt="Pichu" class="cute-sprite" style="width: 48px;">
+            <img src="https://play.pokemonshowdown.com/sprites/gen5ani/pichu.gif" alt="Pichu" class="cute-sprite"
+                style="width: 48px;">
         </div>
         <div class="heatmap-wrap">
             <div class="heatmap">
@@ -21,8 +23,7 @@
                     {% elif count <= 2 %}level-1
                     {% elif count <= 4 %}level-2
                     {% elif count <= 7 %}level-3
-                    {% else %}level-4{% endif %}"
-                    title="{{ date_str }}: {{ count }} submissions">
+                    {% else %}level-4{% endif %}" title="{{ date_str }}: {{ count }} submissions">
                 </div>
                 {% endfor %}
             </div>
@@ -48,7 +49,7 @@
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script>
             const labels = {{ rating_dist.keys() | list | tojson }};
-            const data   = {{ rating_dist.values() | list | tojson }};
+            const data = {{ rating_dist.values() | list | tojson }};
 
             // Detect Dark Mode
             const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -88,7 +89,7 @@
                         tooltip: {
                             callbacks: {
                                 title: (items) => `Difficulty: ${items[0].label}`,
-                                label:  (item)  => ` ${item.raw} problems solved`
+                                label: (item) => ` ${item.raw} problems solved`
                             }
                         }
                     },

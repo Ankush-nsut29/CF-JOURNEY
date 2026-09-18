@@ -14,15 +14,16 @@
     <section class="heatmap-section">
         <div class="header-with-sprite" style="margin-bottom: 8px;">
             <h2 style="margin: 0;">Contribution Heatmap — Last 52 Weeks</h2>
-            <img src="https://play.pokemonshowdown.com/sprites/gen5ani/lotad.gif" alt="Lotad" class="cute-sprite" style="width: 48px;">
+            <img src="https://play.pokemonshowdown.com/sprites/gen5ani/lotad.gif" alt="Lotad" class="cute-sprite"
+                style="width: 48px;">
         </div>
         <div class="heatmap-wrap">
             <div class="heatmap">
                 {% for date, data in heatmap %}
-                    <div class="heatmap-cell level-{{ data.level }}" title="{{ date }}"></div>
+                <div class="heatmap-cell level-{{ data.level }}" title="{{ date }}"></div>
                 {% endfor %}
             </div>
-            
+
             <div class="heatmap-legend">
                 <span>Less</span>
                 <div class="heatmap-cell level-0"></div>
@@ -33,6 +34,85 @@
                 <span>More</span>
             </div>
         </div>
+    </section>
+
+    <!-- Language distribution chart -->
+    <section class="chart-section">
+        <h2>Language Distribution (Recent Repos)</h2>
+        {% if lang_dist %}
+        <div class="chart-container" style="max-height: 400px; display: flex; justify-content: center;">
+            <canvas id="langChart"></canvas>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+            const labels = {{ lang_dist.keys() | list | tojson }};
+            const data = {{ lang_dist.values() | list | tojson }};
+
+            // Detect Dark Mode
+            const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+            // Retro Chart.js Settings
+            Chart.defaults.font.family = "'VT323', monospace";
+            Chart.defaults.font.size = 16;
+            Chart.defaults.color = "#ffffff";
+
+            // GitHub Language Colors
+            const ghColors = {
+                "Python": "#3572A5",
+                "JavaScript": "#f1e05a",
+                "TypeScript": "#3178c6",
+                "HTML": "#e34c26",
+                "CSS": "#563d7c",
+                "Java": "#b07219",
+                "C++": "#f34b7d",
+                "C": "#555555",
+                "C#": "#178600",
+                "PHP": "#4F5D95",
+                "Go": "#00ADD8",
+                "Ruby": "#701516",
+                "Rust": "#dea584",
+                "Swift": "#F05138",
+                "Kotlin": "#A97BFF",
+                "Dart": "#00B4AB",
+                "Jupyter Notebook": "#DA5B0B",
+                "Vue": "#41b883",
+                "Shell": "#89e051"
+            };
+
+            const colors = labels.map(l => ghColors[l] || "#888");
+
+            new Chart(document.getElementById("langChart"), {
+                type: "doughnut",
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: "Language %",
+                        data: data,
+                        backgroundColor: colors,
+                        borderColor: isDarkMode ? "#1e1e1e" : "#ffffff",
+                        borderWidth: 2,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'right',
+                            labels: { color: isDarkMode ? '#ffffff' : '#2b2b2b' }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: (item) => ` ${item.label}: ${item.raw}%`
+                            }
+                        }
+                    }
+                }
+            });
+        </script>
+        {% else %}
+        <p>No language data found in recent repositories.</p>
+        {% endif %}
     </section>
 </div>
 {% endblock %}
