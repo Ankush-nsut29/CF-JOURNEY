@@ -16,16 +16,8 @@
                 style="width: 48px;">
         </div>
         <div class="heatmap-wrap">
-            <div class="heatmap">
-                {% for date_str, count in heatmap %}
-                <div class="heatmap-cell
-                    {% if count == 0 %}level-0
-                    {% elif count <= 2 %}level-1
-                    {% elif count <= 4 %}level-2
-                    {% elif count <= 7 %}level-3
-                    {% else %}level-4{% endif %}" title="{{ date_str }}: {{ count }} submissions">
-                </div>
-                {% endfor %}
+            <div class="heatmap" id="lc-heatmap-container">
+                <div class="skeleton-heatmap-block"></div>
             </div>
             <div class="heatmap-legend">
                 <span>Less</span>
@@ -42,74 +34,102 @@
     <!-- Rating distribution bar chart -->
     <section class="chart-section">
         <h2>Problems Solved by Difficulty</h2>
-        {% if rating_dist %}
-        <div class="chart-container">
-            <canvas id="ratingChart"></canvas>
+        <div class="chart-container" id="lc-chart-wrapper">
+            <div class="skeleton-chart-block"></div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script>
-            const labels = {{ rating_dist.keys() | list | tojson }};
-            const data = {{ rating_dist.values() | list | tojson }};
+            document.addEventListener('DOMContentLoaded', () => {
+                fetch('/api/heatmap/lc')
+                    .then(res => res.json())
+                    .then(data => {
+                        // Render Heatmap
+                        const heatmapContainer = document.getElementById('lc-heatmap-container');
+                        heatmapContainer.innerHTML = '';
+                        if (data.heatmap && data.heatmap.length > 0) {
+                            data.heatmap.forEach(([date_str, count]) => {
+                                const cell = document.createElement('div');
+                                let level = 0;
+                                if (count > 0 && count <= 2) level = 1;
+                                else if (count > 2 && count <= 4) level = 2;
+                                else if (count > 4 && count <= 7) level = 3;
+                                else if (count > 7) level = 4;
+                                
+                                cell.className = `heatmap-cell level-${level}`;
+                                cell.title = `${date_str}: ${count} submissions`;
+                                heatmapContainer.appendChild(cell);
+                            });
+                        } else {
+                            heatmapContainer.innerHTML = '<div>No data available</div>';
+                        }
 
-            // Detect Dark Mode
-            const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                        // Render Chart
+                        const wrapper = document.getElementById('lc-chart-wrapper');
+                        const ratingDist = data.rating_dist || {};
+                        const labels = Object.keys(ratingDist);
+                        const chartData = Object.values(ratingDist);
 
-            // Retro Chart.js Settings
-            Chart.defaults.font.family = "'VT323', monospace";
-            Chart.defaults.font.size = 16;
-            Chart.defaults.color = "#ffffff";
+                        if (labels.length > 0 && chartData.some(d => d > 0)) {
+                            wrapper.innerHTML = '<canvas id="ratingChart"></canvas>';
+                            
+                            const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                            Chart.defaults.font.family = "'VT323', monospace";
+                            Chart.defaults.font.size = 16;
+                            Chart.defaults.color = "#ffffff";
 
-            // Color each bar by difficulty
-            function difficultyColor(label) {
-                if (label === "Easy") return "#4caf50";
-                if (label === "Medium") return "#ff9800";
-                if (label === "Hard") return "#f44336";
-                return "#888";
-            }
-
-            const colors = labels.map(l => difficultyColor(l));
-
-            new Chart(document.getElementById("ratingChart"), {
-                type: "bar",
-                data: {
-                    labels: labels,
-                    datasets: [{
-                        label: "Problems Solved",
-                        data: data,
-                        backgroundColor: colors,
-                        borderColor: colors,
-                        borderWidth: 1,
-                        borderRadius: 4,
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    plugins: {
-                        legend: { display: false },
-                        tooltip: {
-                            callbacks: {
-                                title: (items) => `Difficulty: ${items[0].label}`,
-                                label: (item) => ` ${item.raw} problems solved`
+                            function difficultyColor(label) {
+                                if (label === "Easy") return "#4caf50";
+                                if (label === "Medium") return "#ff9800";
+                                if (label === "Hard") return "#f44336";
+                                return "#888";
                             }
+
+                            const colors = labels.map(l => difficultyColor(l));
+
+                            new Chart(document.getElementById("ratingChart"), {
+                                type: "bar",
+                                data: {
+                                    labels: labels,
+                                    datasets: [{
+                                        label: "Problems Solved",
+                                        data: chartData,
+                                        backgroundColor: colors,
+                                        borderColor: colors,
+                                        borderWidth: 1,
+                                        borderRadius: 4,
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    plugins: {
+                                        legend: { display: false },
+                                        tooltip: {
+                                            callbacks: {
+                                                title: (items) => `Difficulty: ${items[0].label}`,
+                                                label: (item) => ` ${item.raw} problems solved`
+                                            }
+                                        }
+                                    },
+                                    scales: {
+                                        x: {
+                                            title: { display: true, text: "Difficulty" },
+                                            grid: { display: false }
+                                        },
+                                        y: {
+                                            title: { display: true, text: "Problems Solved" },
+                                            beginAtZero: true,
+                                            ticks: { stepSize: 10 }
+                                        }
+                                    }
+                                }
+                            });
+                        } else {
+                            wrapper.innerHTML = '<p>No data yet — add some solved problems!</p>';
                         }
-                    },
-                    scales: {
-                        x: {
-                            title: { display: true, text: "Difficulty" },
-                            grid: { display: false }
-                        },
-                        y: {
-                            title: { display: true, text: "Problems Solved" },
-                            beginAtZero: true,
-                            ticks: { stepSize: 10 }
-                        }
-                    }
-                }
+                    })
+                    .catch(err => console.error("Error loading LC heatmap:", err));
             });
         </script>
-        {% else %}
-        <p>No data yet — add some solved problems!</p>
-        {% endif %}
     </section>
 </div>
 {% endblock %}

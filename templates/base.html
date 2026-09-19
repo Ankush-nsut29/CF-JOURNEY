@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
     <title>CP Tracker</title>
+    <style>
+        /* Initial state before animation to prevent flash */
+        body { opacity: 0; }
+    </style>
 </head>
 
 <body>
@@ -37,51 +41,51 @@
         <div class="cf-stats-container">
             <div class="stat-item">
                 <span class="stat-label">Rating</span>
-                <span class="stat-value">{{ cf_stats.rating }}</span>
+                <span class="stat-value" id="aside-cf-rating"><div class="skeleton skeleton-text short"></div></span>
             </div>
             <div class="stat-item">
                 <span class="stat-label">Max Rating</span>
-                <span class="stat-value">{{ cf_stats.maxRating }}</span>
+                <span class="stat-value" id="aside-cf-maxrating"><div class="skeleton skeleton-text short"></div></span>
             </div>
             <div class="stat-item">
                 <span class="stat-label">Rank</span>
-                <span class="stat-value">{{ cf_stats.rank }}</span>
+                <span class="stat-value" id="aside-cf-rank"><div class="skeleton skeleton-text short"></div></span>
             </div>
             <div class="stat-item">
                 <span class="stat-label">Solved</span>
-                <span class="stat-value">{{ cf_stats.total_solved }}</span>
+                <span class="stat-value" id="aside-cf-solved"><div class="skeleton skeleton-text short"></div></span>
             </div>
         </div>
         <div class="lc-stats-container" style="display: none;">
             <div class="stat-item">
                 <span class="stat-label">Total Solved</span>
-                <span class="stat-value">{{ lc_stats.All }}</span>
+                <span class="stat-value" id="aside-lc-all"><div class="skeleton skeleton-text short"></div></span>
             </div>
             <div class="stat-item">
                 <span class="stat-label">Easy</span>
-                <span class="stat-value" style="color: #4caf50;">{{ lc_stats.Easy }}</span>
+                <span class="stat-value" id="aside-lc-easy" style="color: #4caf50;"><div class="skeleton skeleton-text short"></div></span>
             </div>
             <div class="stat-item">
                 <span class="stat-label">Medium</span>
-                <span class="stat-value" style="color: #ff9800;">{{ lc_stats.Medium }}</span>
+                <span class="stat-value" id="aside-lc-medium" style="color: #ff9800;"><div class="skeleton skeleton-text short"></div></span>
             </div>
             <div class="stat-item">
                 <span class="stat-label">Hard</span>
-                <span class="stat-value" style="color: #f44336;">{{ lc_stats.Hard }}</span>
+                <span class="stat-value" id="aside-lc-hard" style="color: #f44336;"><div class="skeleton skeleton-text short"></div></span>
             </div>
         </div>
         <div class="gh-stats-container" style="display: none;">
             <div class="stat-item">
                 <span class="stat-label">Followers</span>
-                <span class="stat-value">{{ gh_stats.followers }}</span>
+                <span class="stat-value" id="aside-gh-followers"><div class="skeleton skeleton-text short"></div></span>
             </div>
             <div class="stat-item">
                 <span class="stat-label">Public Repos</span>
-                <span class="stat-value">{{ gh_stats.public_repos }}</span>
+                <span class="stat-value" id="aside-gh-repos"><div class="skeleton skeleton-text short"></div></span>
             </div>
             <div class="stat-item">
                 <span class="stat-label">Following</span>
-                <span class="stat-value">{{ gh_stats.following }}</span>
+                <span class="stat-value" id="aside-gh-following"><div class="skeleton skeleton-text short"></div></span>
             </div>
         </div>
     </aside>
@@ -177,7 +181,13 @@
                             }
                         }
 
-                        window.location.href = newPath;
+                        if (window.motionAnimate) {
+                            window.motionAnimate("body", { opacity: 0, filter: "blur(4px)", y: -10 }, { duration: 0.3 }).then(() => {
+                                window.location.href = newPath;
+                            });
+                        } else {
+                            window.location.href = newPath;
+                        }
                     });
                 });
 
@@ -264,6 +274,74 @@
                 updateSprites();
                 updateLinks();
                 updateActiveButton();
+
+                // Fetch Stats via AJAX based on current mode
+                function fetchStats() {
+                    let mode = 'cf';
+                    if (root.classList.contains('lc-mode')) mode = 'lc';
+                    if (root.classList.contains('gh-mode')) mode = 'gh';
+
+                    fetch(`/api/stats/${mode}`)
+                        .then(res => res.json())
+                        .then(data => {
+                            if (mode === 'cf') {
+                                document.getElementById('aside-cf-rating').textContent = data.rating || 'N/A';
+                                document.getElementById('aside-cf-maxrating').textContent = data.maxRating || 'N/A';
+                                document.getElementById('aside-cf-rank').textContent = data.rank || 'N/A';
+                                document.getElementById('aside-cf-solved').textContent = data.total_solved || 0;
+                            } else if (mode === 'lc') {
+                                document.getElementById('aside-lc-all').textContent = data.All || 0;
+                                document.getElementById('aside-lc-easy').textContent = data.Easy || 0;
+                                document.getElementById('aside-lc-medium').textContent = data.Medium || 0;
+                                document.getElementById('aside-lc-hard').textContent = data.Hard || 0;
+                            } else if (mode === 'gh') {
+                                document.getElementById('aside-gh-followers').textContent = data.followers || 0;
+                                document.getElementById('aside-gh-repos').textContent = data.public_repos || 0;
+                                document.getElementById('aside-gh-following').textContent = data.following || 0;
+                            }
+                        })
+                        .catch(err => console.error("Error fetching stats:", err));
+                }
+
+                // Call once on load
+                fetchStats();
+            });
+        </script>
+        
+        <script type="module">
+            import { animate } from "https://cdn.jsdelivr.net/npm/motion@11.11.13/+esm";
+            
+            // Expose animate globally so the mode switcher can use it
+            window.motionAnimate = animate;
+            
+            // 1. Enter Animation
+            // Fade in the body (overriding the opacity: 0 in <head>)
+            animate("body", { opacity: [0, 1] }, { duration: 0.4 });
+            // Slide up the main content and aside for a dynamic feel
+            animate("main", { opacity: [0, 1], y: [20, 0] }, { duration: 0.5, type: "spring", bounce: 0.3 });
+            animate("aside", { opacity: [0, 1], x: [20, 0] }, { duration: 0.5, delay: 0.1, type: "spring", bounce: 0.3 });
+
+            // 2. Exit Animation for navigation links
+            document.querySelectorAll('nav a').forEach(link => {
+                link.addEventListener('click', (e) => {
+                    // Don't intercept if opening in new tab or same page
+                    if (link.target === '_blank' || link.href === window.location.href) return;
+                    
+                    e.preventDefault();
+                    animate("body", { opacity: 0, filter: "blur(4px)", y: -10 }, { duration: 0.3 }).then(() => {
+                        window.location.href = link.href;
+                    });
+                });
+            });
+
+            // 3. Handle bfcache (browser back button)
+            window.addEventListener('pageshow', (event) => {
+                if (event.persisted) {
+                    document.body.style.opacity = 1;
+                    document.body.style.filter = "none";
+                    document.body.style.transform = "none";
+                    animate("body", { opacity: [0, 1] }, { duration: 0.4 });
+                }
             });
         </script>
 </body>

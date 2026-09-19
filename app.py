@@ -242,10 +242,9 @@ def get_heatmap():
     return result
 
 
-@app.context_processor
-def inject_cf_stats():
-    """Make cf_stats available in every template (for aside)."""
-    return {"cf_stats": get_cf_stats()}
+@app.route("/api/stats/cf")
+def api_cf_stats():
+    return get_cf_stats()
 
 def get_lc_stats():
     now = datetime.now()
@@ -373,10 +372,9 @@ def get_lc_heatmap():
         return _lc_cache["heatmap"]
     return result
 
-@app.context_processor
-def inject_lc_stats():
-    """Make lc_stats available in every template (for aside)."""
-    return {"lc_stats": get_lc_stats()}
+@app.route("/api/stats/lc")
+def api_lc_stats():
+    return get_lc_stats()
 
 def get_gh_stats():
     now = datetime.now()
@@ -498,9 +496,44 @@ def get_gh_heatmap():
     result = sorted(day_counts.items())
     return _gh_cache.get("heatmap") or result
 
-@app.context_processor
-def inject_gh_stats():
-    return {"gh_stats": get_gh_stats()}
+@app.route("/api/stats/gh")
+def api_gh_stats():
+    return get_gh_stats()
+
+@app.route("/api/heatmap/cf")
+def api_heatmap_cf():
+    heatmap = get_heatmap()
+    stats = get_cf_stats()
+    return {"heatmap": heatmap, "rating_dist": stats.get("rating_dist", {})}
+
+@app.route("/api/heatmap/lc")
+def api_heatmap_lc():
+    heatmap = get_lc_heatmap()
+    stats = get_lc_stats()
+    rating_dist = {
+        "Easy": stats.get("Easy", 0),
+        "Medium": stats.get("Medium", 0),
+        "Hard": stats.get("Hard", 0)
+    }
+    return {"heatmap": heatmap, "rating_dist": rating_dist}
+
+@app.route("/api/heatmap/gh")
+def api_heatmap_gh():
+    heatmap = get_gh_heatmap()
+    repos = get_gh_repos()
+    lang_counts = {}
+    total = 0
+    for r in repos:
+        lang = r.get("language")
+        if lang and lang != "Unknown":
+            lang_counts[lang] = lang_counts.get(lang, 0) + 1
+            total += 1
+    lang_dist = {}
+    if total > 0:
+        for lang, count in lang_counts.items():
+            lang_dist[lang] = round((count / total) * 100, 1)
+    lang_dist = dict(sorted(lang_dist.items(), key=lambda item: item[1], reverse=True))
+    return {"heatmap": heatmap, "lang_dist": lang_dist}
 
 @app.template_filter('datetimeformat')
 def datetimeformat(value, format='%Y-%m-%d %H:%M'):
@@ -657,10 +690,7 @@ def get_birch_advice(force_refresh=False, code=None, action="recommend"):
 
 @app.route("/")
 def home():
-    heatmap = get_heatmap()
-    stats = get_cf_stats()
-    rating_dist = stats.get("rating_dist", {})
-    return render_template("home.html", heatmap=heatmap, rating_dist=rating_dist)
+    return render_template("home.html")
 
 
 @app.route("/view")
@@ -706,14 +736,7 @@ def cf_roadmap():
 
 @app.route("/lc")
 def lc_home():
-    heatmap = get_lc_heatmap()
-    stats = get_lc_stats()
-    rating_dist = {
-        "Easy": stats.get("Easy", 0),
-        "Medium": stats.get("Medium", 0),
-        "Hard": stats.get("Hard", 0)
-    }
-    return render_template("lc_home.html", heatmap=heatmap, rating_dist=rating_dist)
+    return render_template("lc_home.html")
 
 @app.route("/lc/view")
 def lc_view():
@@ -808,26 +831,7 @@ def lc_roadmap():
 
 @app.route("/gh")
 def gh_home():
-    heatmap = get_gh_heatmap()
-    repos = get_gh_repos()
-    
-    lang_counts = {}
-    total = 0
-    for r in repos:
-        lang = r.get("language")
-        if lang and lang != "Unknown":
-            lang_counts[lang] = lang_counts.get(lang, 0) + 1
-            total += 1
-            
-    lang_dist = {}
-    if total > 0:
-        for lang, count in lang_counts.items():
-            lang_dist[lang] = round((count / total) * 100, 1)
-            
-    # sort by percentage descending
-    lang_dist = dict(sorted(lang_dist.items(), key=lambda item: item[1], reverse=True))
-    
-    return render_template("gh_home.html", heatmap=heatmap, lang_dist=lang_dist)
+    return render_template("gh_home.html")
 
 
 @app.route("/gh/view")

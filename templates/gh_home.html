@@ -18,10 +18,8 @@
                 style="width: 48px;">
         </div>
         <div class="heatmap-wrap">
-            <div class="heatmap">
-                {% for date, data in heatmap %}
-                <div class="heatmap-cell level-{{ data.level }}" title="{{ date }}"></div>
-                {% endfor %}
+            <div class="heatmap" id="gh-heatmap-container">
+                <div class="skeleton-heatmap-block"></div>
             </div>
 
             <div class="heatmap-legend">
@@ -39,80 +37,102 @@
     <!-- Language distribution chart -->
     <section class="chart-section">
         <h2>Language Distribution (Recent Repos)</h2>
-        {% if lang_dist %}
-        <div class="chart-container" style="max-height: 400px; display: flex; justify-content: center;">
-            <canvas id="langChart"></canvas>
+        <div class="chart-container" id="gh-chart-wrapper" style="max-height: 400px; display: flex; justify-content: center;">
+            <div class="skeleton-chart-block"></div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script>
-            const labels = {{ lang_dist.keys() | list | tojson }};
-            const data = {{ lang_dist.values() | list | tojson }};
-
-            // Detect Dark Mode
-            const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-            // Retro Chart.js Settings
-            Chart.defaults.font.family = "'VT323', monospace";
-            Chart.defaults.font.size = 16;
-            Chart.defaults.color = "#ffffff";
-
-            // GitHub Language Colors
-            const ghColors = {
-                "Python": "#3572A5",
-                "JavaScript": "#f1e05a",
-                "TypeScript": "#3178c6",
-                "HTML": "#e34c26",
-                "CSS": "#563d7c",
-                "Java": "#b07219",
-                "C++": "#f34b7d",
-                "C": "#555555",
-                "C#": "#178600",
-                "PHP": "#4F5D95",
-                "Go": "#00ADD8",
-                "Ruby": "#701516",
-                "Rust": "#dea584",
-                "Swift": "#F05138",
-                "Kotlin": "#A97BFF",
-                "Dart": "#00B4AB",
-                "Jupyter Notebook": "#DA5B0B",
-                "Vue": "#41b883",
-                "Shell": "#89e051"
-            };
-
-            const colors = labels.map(l => ghColors[l] || "#888");
-
-            new Chart(document.getElementById("langChart"), {
-                type: "doughnut",
-                data: {
-                    labels: labels,
-                    datasets: [{
-                        label: "Language %",
-                        data: data,
-                        backgroundColor: colors,
-                        borderColor: isDarkMode ? "#1e1e1e" : "#ffffff",
-                        borderWidth: 2,
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: {
-                            position: 'right',
-                            labels: { color: isDarkMode ? '#ffffff' : '#2b2b2b' }
-                        },
-                        tooltip: {
-                            callbacks: {
-                                label: (item) => ` ${item.label}: ${item.raw}%`
-                            }
+            document.addEventListener('DOMContentLoaded', () => {
+                fetch('/api/heatmap/gh')
+                    .then(res => res.json())
+                    .then(data => {
+                        // Render Heatmap
+                        const heatmapContainer = document.getElementById('gh-heatmap-container');
+                        heatmapContainer.innerHTML = '';
+                        if (data.heatmap && data.heatmap.length > 0) {
+                            data.heatmap.forEach(([date_str, item]) => {
+                                const cell = document.createElement('div');
+                                cell.className = `heatmap-cell level-${item.level}`;
+                                cell.title = `${date_str}`;
+                                heatmapContainer.appendChild(cell);
+                            });
+                        } else {
+                            heatmapContainer.innerHTML = '<div>No data available</div>';
                         }
-                    }
-                }
+
+                        // Render Chart
+                        const wrapper = document.getElementById('gh-chart-wrapper');
+                        const langDist = data.lang_dist || {};
+                        const labels = Object.keys(langDist);
+                        const chartData = Object.values(langDist);
+
+                        if (labels.length > 0) {
+                            wrapper.innerHTML = '<canvas id="langChart"></canvas>';
+                            
+                            const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                            Chart.defaults.font.family = "'VT323', monospace";
+                            Chart.defaults.font.size = 16;
+                            Chart.defaults.color = "#ffffff";
+
+                            const ghColors = {
+                                "Python": "#3572A5",
+                                "JavaScript": "#f1e05a",
+                                "TypeScript": "#3178c6",
+                                "HTML": "#e34c26",
+                                "CSS": "#563d7c",
+                                "Java": "#b07219",
+                                "C++": "#f34b7d",
+                                "C": "#555555",
+                                "C#": "#178600",
+                                "PHP": "#4F5D95",
+                                "Go": "#00ADD8",
+                                "Ruby": "#701516",
+                                "Rust": "#dea584",
+                                "Swift": "#F05138",
+                                "Kotlin": "#A97BFF",
+                                "Dart": "#00B4AB",
+                                "Jupyter Notebook": "#DA5B0B",
+                                "Vue": "#41b883",
+                                "Shell": "#89e051"
+                            };
+
+                            const colors = labels.map(l => ghColors[l] || "#888");
+
+                            new Chart(document.getElementById("langChart"), {
+                                type: "doughnut",
+                                data: {
+                                    labels: labels,
+                                    datasets: [{
+                                        label: "Language %",
+                                        data: chartData,
+                                        backgroundColor: colors,
+                                        borderColor: isDarkMode ? "#1e1e1e" : "#ffffff",
+                                        borderWidth: 2,
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        legend: {
+                                            position: 'right',
+                                            labels: { color: isDarkMode ? '#ffffff' : '#2b2b2b' }
+                                        },
+                                        tooltip: {
+                                            callbacks: {
+                                                label: (item) => ` ${item.label}: ${item.raw}%`
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        } else {
+                            wrapper.innerHTML = '<p>No language data found in recent repositories.</p>';
+                        }
+                    })
+                    .catch(err => console.error("Error loading GH heatmap:", err));
             });
         </script>
-        {% else %}
-        <p>No language data found in recent repositories.</p>
-        {% endif %}
     </section>
 </div>
 {% endblock %}
